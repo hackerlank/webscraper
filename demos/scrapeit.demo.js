@@ -37,6 +37,8 @@ var fs= require('fs');
 //     console.log(page);
 // });
 
+ 
+
 ScrapeIt(url, {
         content : 'html'
     }).then(function(page) {

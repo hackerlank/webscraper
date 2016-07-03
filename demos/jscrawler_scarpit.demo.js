@@ -7,7 +7,7 @@ var fs = require("fs");
 var ScrapeIt = require("scrape-it");
 var stringTool = require('../toolkits/stringtool');
 
-fs.writeFileSync('email_abof.csv', 'Begin \r\n', { encoding: 'utf-8' });
+fs.writeFileSync('email_google.csv', 'Begin \r\n', { encoding: 'utf-8' });
 
 /**
  * Simple crawler. Callback to process data
@@ -15,11 +15,11 @@ fs.writeFileSync('email_abof.csv', 'Begin \r\n', { encoding: 'utf-8' });
 var options = {
     maxRequestsPerSecond: 10,
     maxConcurrentRequests: 5,
-    depth: 3
+    depth: 5
 }
 
 // crawl
-new Crawler().configure(options).crawl("http://www.abof.com/", function onSuccess(page) {
+new Crawler().configure(options).crawl("http://www.milanoo.com/", function onSuccess(page) {
     console.log('Start processing ' + page.url);
     var url = page.url;
 
@@ -31,7 +31,7 @@ new Crawler().configure(options).crawl("http://www.abof.com/", function onSucces
         if (r) {
             console.log('Email fetched ... ');
             for(var em in r) {
-                fs.appendFileSync('email_abof.csv', '"' + r[em] + '","' + url + '"\r\n', { encoding: 'utf-8' });
+                fs.appendFileSync('email_google.csv', '"' + r[em] + '","' + url + '"\r\n', { encoding: 'utf-8' });
             }
             
         }
