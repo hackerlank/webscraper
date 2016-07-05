@@ -7,6 +7,17 @@ module.exports.fetchAllMailAddress = function (str) {
 }
 
 /**
+ * @param size count of numbers
+ * @return fetched number
+ * fetch number from string
+ */
+module.exports.fetchNumbersFromString = function(str, size) {
+    var regexp = '\\d{' + size + '}';
+    return str.match(regexp) ? str.match(regexp)[0] : null;
+}   
+
+
+/**
  * Get a random string via length provided
  */
 module.exports.randomStr = function (len) {
