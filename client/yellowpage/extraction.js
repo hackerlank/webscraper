@@ -1,4 +1,4 @@
-/// <reference path="../include.d.ts" />
+/// <reference path="../../include.d.ts" />
 
 var request = require('request');
 var fs = require('fs');

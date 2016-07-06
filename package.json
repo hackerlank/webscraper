@@ -6,6 +6,7 @@
   "dependencies": {
     "async": "^2.0.0-rc.6",
     "cheerio": "^0.20.0",
+    "colissimo-ocr": "^1.0.2",
     "crawler": "^0.4.3",
     "easyimage": "^2.1.0",
     "js-crawler": "^0.3.9",

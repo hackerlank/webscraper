@@ -8,6 +8,8 @@ var async = require('async');
 var tesseract = require('node-tesseract');
 var easyimg = require('easyimage');
 
+var request = require('request');
+
 // var options = { l: 'eng', psm: 3 };
 var options = {};
 
