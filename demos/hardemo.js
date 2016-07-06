@@ -3,10 +3,10 @@ var fs = require('fs');
 var sTool = require('../toolkits/stringtool.js')
 
 register();
-setInterval(register, 1000 * 10);
+setInterval(register, 1000 * 15);
 
 function register() {
-
+try {
 var email = sTool.randomStr(8) + '@gmail.com';
 var name = sTool.randomStr(4);
 
@@ -142,5 +142,7 @@ request({
 });
 
 fs.appendFileSync('emails.txt', email + '\r\n');
-
+} catch(error) {
+    console.log(error);
+}
 }
