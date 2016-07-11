@@ -5,6 +5,7 @@
   "main": "index.js",
   "dependencies": {
     "async": "^2.0.0-rc.6",
+    "bluebird": "^3.4.1",
     "cheerio": "^0.20.0",
     "colissimo-ocr": "^1.0.2",
     "crawler": "^0.4.3",
