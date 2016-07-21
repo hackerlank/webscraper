@@ -46,6 +46,13 @@ module.exports.fetchAllMailAddress = function (str) {
 }
 
 /**
+ * Fetch all .com email dress from a string. Return an array
+ */
+module.exports.fetchAllComMailAddress = function (str) {
+    return str.match(/(([^<>()\[\]\.,;:\s@\"]+(\.[^<>()\[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+com)/ig);
+}
+
+/**
  * @param size count of numbers
  * @return fetched number
  * fetch number from string
