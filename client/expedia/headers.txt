@@ -1,0 +1,120 @@
+content-encoding : gzip
+activity-id : <!--tlactivity-id: 99eba0d9-776f-4bb1-aa07-dba47c5e7ac3-->
+content-type : text/html;charset=UTF-8
+k3s : <!--tlK3s:2-->
+p3p : policyref="/w3c/p3p.xml", CP="CAO DSP IND COR ADM CONo CUR CUSi DEV PSA PSD DELi OUR COM NAV PHY ONL PUR UNI"
+rtss : 1
+vary : Accept-Encoding
+x-page-id : page.Hotels.Search,H,20
+server : nginx/1.9.13
+content-length : 20
+connection : close
+date : Thu, 28 Jul 2016 14:52:44 GMT
+set-cookie : MC1=GUID=17f3e7b11b2f4ba8b5e31b8479116a31; Domain=.expedia.com; Expires=Sat, 31-Jul-21 07:46:04 GMT; Path=/,HMS=95DBB6CB-B49C-466B-B778-FF1C513FE505; Domain=.expedia.com; Expires=Thu, 28-Jul-16 15:22:44 GMT; Path=/,HSEWC=0; Domain=.expedia.com; Expires=Thu, 28-Jul-16 15:22:44 GMT; Path=/,abucket=CgMk/VeaHDwba0i/DBVLAg==; expires=Fri, 28-Jul-17 14:52:44 GMT; path=/
+x-edgeconnect-cache-status : 0
+x-ua-compatible : IE=Edge
+content-encoding : gzip
+activity-id : <!--tlactivity-id: 9363aacc-3440-4f91-9992-4a31a661d52f-->
+content-type : text/html;charset=UTF-8
+p3p : policyref="/w3c/p3p.xml", CP="CAO DSP IND COR ADM CONo CUR CUSi DEV PSA PSD DELi OUR COM NAV PHY ONL PUR UNI"
+server : nginx/1.9.13
+vary : Accept-Encoding
+x-page-id : page.Hotels.Search,H,20
+x-ua-compatible : IE=Edge
+content-length : 20
+date : Thu, 28 Jul 2016 14:53:35 GMT
+connection : close
+rtss : 1
+k3s : <!--tlK3s:21-->
+set-cookie : MC1=GUID=bc45a060b6e24637b0f957aad4148362; Domain=.expedia.com; Expires=Sat, 31-Jul-21 07:46:55 GMT; Path=/,HMS=C5C7C4FE-3C2A-417D-B3AF-8593D5E700E4; Domain=.expedia.com; Expires=Thu, 28-Jul-16 15:23:35 GMT; Path=/,HSEWC=0; Domain=.expedia.com; Expires=Thu, 28-Jul-16 15:23:35 GMT; Path=/,abucket=CgMkS1eaHG8nC0PFDBD1Ag==; expires=Fri, 28-Jul-17 14:53:35 GMT; path=/
+x-edgeconnect-cache-status : 0
+content-type : text/html;charset=UTF-8
+activity-id : <!--tlactivity-id: 20e665eb-0f76-4e9d-8229-2ef919eaa72e-->
+k3s : <!--tlK3s:19-->
+rtss : 1
+p3p : policyref="/w3c/p3p.xml", CP="CAO DSP IND COR ADM CONo CUR CUSi DEV PSA PSD DELi OUR COM NAV PHY ONL PUR UNI"
+server : nginx/1.9.13
+vary : Accept-Encoding
+x-page-id : page.Hotels.Search,H,20
+x-ua-compatible : IE=Edge
+content-length : 20
+date : Thu, 28 Jul 2016 14:56:02 GMT
+connection : close
+set-cookie : MC1=GUID=a2877edb8e534ea6a902fca0871d03da; Domain=.expedia.com; Expires=Sat, 31-Jul-21 07:49:22 GMT; Path=/,HMS=5F43D5E0-6301-4A35-BD8D-F9C865A4C55A; Domain=.expedia.com; Expires=Thu, 28-Jul-16 15:26:02 GMT; Path=/,HSEWC=0; Domain=.expedia.com; Expires=Thu, 28-Jul-16 15:26:02 GMT; Path=/,abucket=CgcVxleaHQKxpyJhGuFoAg==; expires=Fri, 28-Jul-17 14:56:02 GMT; path=/
+x-edgeconnect-cache-status : 0
+content-encoding : gzip
+content-type : text/html;charset=UTF-8
+content-encoding : gzip
+activity-id : <!--tlactivity-id: b9e076a2-619c-4785-8247-3ce1c5ed7e49-->
+k3s : <!--tlK3s:20-->
+p3p : policyref="/w3c/p3p.xml", CP="CAO DSP IND COR ADM CONo CUR CUSi DEV PSA PSD DELi OUR COM NAV PHY ONL PUR UNI"
+rtss : 1
+server : nginx/1.9.13
+vary : Accept-Encoding
+x-page-id : page.Hotels.Search,H,20
+x-ua-compatible : IE=Edge
+content-length : 20
+date : Thu, 28 Jul 2016 14:59:14 GMT
+set-cookie : HMS=2EEABBC6-081B-47C0-B7AA-7F43B0DB93DA; Domain=.expedia.com; Expires=Thu, 28-Jul-16 15:29:14 GMT; Path=/,HSEWC=0; Domain=.expedia.com; Expires=Thu, 28-Jul-16 15:29:14 GMT; Path=/
+connection : close
+x-edgeconnect-cache-status : 0
+activity-id : <!--tlactivity-id: c5012562-7d28-4b6b-9e23-77d19b1826a1-->
+content-type : text/html;charset=UTF-8
+k3s : <!--tlK3s:21-->
+content-encoding : gzip
+p3p : policyref="/w3c/p3p.xml", CP="CAO DSP IND COR ADM CONo CUR CUSi DEV PSA PSD DELi OUR COM NAV PHY ONL PUR UNI"
+rtss : 1
+server : nginx/1.9.13
+vary : Accept-Encoding
+x-page-id : page.Hotels.Search,H,20
+x-ua-compatible : IE=Edge
+content-length : 20
+date : Thu, 28 Jul 2016 15:00:54 GMT
+connection : close
+x-edgeconnect-cache-status : 0
+set-cookie : HMS=2EEABBC6-081B-47C0-B7AA-7F43B0DB93DA; Domain=.expedia.com; Expires=Thu, 28-Jul-16 15:30:54 GMT; Path=/,HSEWC=0; Domain=.expedia.com; Expires=Thu, 28-Jul-16 15:30:54 GMT; Path=/
+content-type : text/html;charset=UTF-8
+k3s : <!--tlK3s:29-->
+activity-id : <!--tlactivity-id: 59f3fb12-c8c0-4733-a442-605525cc7d31-->
+content-encoding : gzip
+p3p : policyref="/w3c/p3p.xml", CP="CAO DSP IND COR ADM CONo CUR CUSi DEV PSA PSD DELi OUR COM NAV PHY ONL PUR UNI"
+rtss : 1
+server : nginx/1.9.13
+vary : Accept-Encoding
+x-ua-compatible : IE=Edge
+date : Thu, 28 Jul 2016 15:02:43 GMT
+content-length : 20
+connection : close
+set-cookie : HMS=2EEABBC6-081B-47C0-B7AA-7F43B0DB93DA; Domain=.expedia.com; Expires=Thu, 28-Jul-16 15:32:43 GMT; Path=/,HSEWC=0; Domain=.expedia.com; Expires=Thu, 28-Jul-16 15:32:43 GMT; Path=/
+x-page-id : page.Hotels.Search,H,20
+x-edgeconnect-cache-status : 0
+activity-id : <!--tlactivity-id: 8e0f7b55-081c-4217-961c-187a244b8e9a-->
+content-encoding : gzip
+content-type : text/html;charset=UTF-8
+k3s : <!--tlK3s:20-->
+rtss : 1
+server : nginx/1.9.13
+vary : Accept-Encoding
+x-page-id : page.Hotels.Search,H,20
+p3p : policyref="/w3c/p3p.xml", CP="CAO DSP IND COR ADM CONo CUR CUSi DEV PSA PSD DELi OUR COM NAV PHY ONL PUR UNI"
+x-ua-compatible : IE=Edge
+content-length : 20
+connection : close
+date : Thu, 28 Jul 2016 15:03:03 GMT
+x-edgeconnect-cache-status : 0
+set-cookie : HMS=2EEABBC6-081B-47C0-B7AA-7F43B0DB93DA; Domain=.expedia.com; Expires=Thu, 28-Jul-16 15:33:03 GMT; Path=/,HSEWC=0; Domain=.expedia.com; Expires=Thu, 28-Jul-16 15:33:03 GMT; Path=/
+activity-id : <!--tlactivity-id: fb44ff17-1c81-4138-9dcb-c4e61ab40965-->
+k3s : <!--tlK3s:38-->
+content-type : text/html;charset=UTF-8
+content-encoding : gzip
+p3p : policyref="/w3c/p3p.xml", CP="CAO DSP IND COR ADM CONo CUR CUSi DEV PSA PSD DELi OUR COM NAV PHY ONL PUR UNI"
+rtss : 1
+server : nginx/1.9.13
+vary : Accept-Encoding
+x-page-id : page.Hotels.Search,H,20
+date : Thu, 28 Jul 2016 15:03:24 GMT
+content-length : 20
+connection : close
+x-ua-compatible : IE=Edge
+set-cookie : HMS=2EEABBC6-081B-47C0-B7AA-7F43B0DB93DA; Domain=.expedia.com; Expires=Thu, 28-Jul-16 15:33:24 GMT; Path=/,HSEWC=0; Domain=.expedia.com; Expires=Thu, 28-Jul-16 15:33:24 GMT; Path=/
+x-edgeconnect-cache-status : 0
