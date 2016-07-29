@@ -4,11 +4,11 @@ var fs = require("fs");
 var xlsx = require('node-xlsx');
 
 /**
- * @param type 'read' or 'write'
+ * 
  * @param file  Path of the processing file
  * 
  */
-var ExcelReader = function (type, file) {
+var ExcelReader = function (file) {
     this._file = file;
     this._column = [];
 }
