@@ -377,7 +377,7 @@ module.exports = {
     har_getOffers: {
 
         "method": "GET",
-        "url": "https://www.expedia.cn/api/infosite/1201457/getOffers?token=9791223f763b9c40616ddd568410fe4a0f6c9e48&brandId=0&isVip=false&chid=&chkin=2016%2F08%2F03&chkout=2016%2F08%2F04&adults=2&children=0&ts=1470205091371",
+        "url": "https://www.expedia.com.hk/api/infosite/1201457/getOffers?token=9791223f763b9c40616ddd568410fe4a0f6c9e48&brandId=0&isVip=false&chid=&chkin=2016%2F08%2F03&chkout=2016%2F08%2F04&adults=2&children=0&ts=1470205091371",
         "httpVersion": "HTTP/1.1",
         "cookies": [
             {
@@ -494,7 +494,7 @@ module.exports = {
         "queryString": [
             {
                 "name": "adults",
-                "value": "2"
+                "value": "1"
             },
             {
                 "name": "brandId",
@@ -532,6 +532,218 @@ module.exports = {
         // "headersSize": 1591,
         // "bodySize": -1
 
-    }
+    },
+    har_searchByName : {
 
+          "method": "POST",
+          "url": "https://www.expedia.com.hk/Hotel-Search-Data?responsive=true",
+          "httpVersion": "HTTP/1.1",
+          "cookies": [
+            {
+              "name": "MC1",
+              "value": "GUID=db70b5fc2f1e4da998fccd38e5d3c4a8"
+            },
+            {
+              "name": "abucket",
+              "value": "CgAUZFen3qxfcjhjiUYQAg=="
+            },
+            {
+              "name": "tpid",
+              "value": "v.1,18"
+            },
+            {
+              "name": "iEAPID",
+              "value": "0,"
+            },
+            {
+              "name": "linfo",
+              "value": "v.4,|0|0|255|1|0||||||||2057|0|0||0|0|0|-1|-1"
+            },
+            {
+              "name": "JSESSION",
+              "value": "9d993ed6-75a7-4d6c-abfd-1d187ac54fb0"
+            },
+            {
+              "name": "utagdb",
+              "value": "true"
+            },
+            {
+              "name": "qualtrics_sample",
+              "value": "[object Object]"
+            },
+            {
+              "name": "AB_Test_TripAdvisor",
+              "value": "B"
+            },
+            {
+              "name": "utag_main",
+              "value": "v_id:015667be7099000beb916a48bec910048001b00d00868$_sn:1$_ss:0$_pn:8%3Bexp-session$_st:1470622857600$ses_id:1470619349145%3Bexp-session$dc_visit:1$dc_event:5%3Bexp-session$dc_region:eu-central-1%3Bexp-session"
+            },
+            {
+              "name": "__qca",
+              "value": "P0-1784924338-1470619349494"
+            },
+            {
+              "name": "_ga",
+              "value": "GA1.3.963192964.1470619350"
+            },
+            {
+              "name": "_tq_id.TV-721872-1.d57e",
+              "value": "03236c97070c33cc.1470619350.0.1470620952.."
+            },
+            {
+              "name": "_cc",
+              "value": "ATASdLrm+BALNoP7TH7cf/2S"
+            },
+            {
+              "name": "aspp",
+              "value": "v.1,0|||||||||||||"
+            },
+            {
+              "name": "AMCV_C00802BE5330A8350A490D4C%40AdobeOrg",
+              "value": "-1248264605%7CMCIDTS%7C17022%7CMCMID%7C68719904712954196841514644106030669673%7CMCAAMLH-1471224155%7C11%7CMCAAMB-1471224155%7CNRX38WO0n5BH8Th-nqAG_A%7CMCOPTOUT-1470626556s%7CNONE%7CMCAID%7CNONE"
+            },
+            {
+              "name": "AMCVS_C00802BE5330A8350A490D4C%40AdobeOrg",
+              "value": "1"
+            },
+            {
+              "name": "cesc",
+              "value": "%7B%7D"
+            },
+            {
+              "name": "s_ppvl",
+              "value": "page.Hotel-Search%2C3%2C3%2C282%2C1360%2C282%2C1360%2C768%2C1%2CP"
+            },
+            {
+              "name": "s_ppv",
+              "value": "page.Hotel-Search%2C8%2C3%2C852%2C1360%2C282%2C1360%2C768%2C1%2CP"
+            },
+            {
+              "name": "s_cc",
+              "value": "true"
+            },
+            {
+              "name": "IAID",
+              "value": "d22b406b-d199-4560-a1ce-6bd98d224833"
+            },
+            {
+              "name": "s_sq",
+              "value": "%5B%5BB%5D%5D"
+            },
+            {
+              "name": "__gads",
+              "value": "ID=4146aa6975393b80:T=1470619384:S=ALNI_MYFPWT72IDgG_J12kYc--ZN5wdtWg"
+            },
+            {
+              "name": "MediaCookie",
+              "value": "0%7C2805%2C2775%2CPDEST%2CMFM"
+            },
+            {
+              "name": "s_ppn",
+              "value": "page.Hotel-Search"
+            },
+            {
+              "name": "HMS",
+              "value": "7A53E6DF-7B6F-4FAE-BCFC-C05C52D59282"
+            },
+            {
+              "name": "HSEWC",
+              "value": "0"
+            }
+          ],
+          "headers": [
+            {
+              "name": "Accept",
+              "value": "*/*"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate, br"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Content-Length",
+              "value": "189"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/x-www-form-urlencoded; charset=UTF-8"
+            },
+            {
+              "name": "Cookie",
+              "value": "MC1=GUID=db70b5fc2f1e4da998fccd38e5d3c4a8; abucket=CgAUZFen3qxfcjhjiUYQAg==; tpid=v.1,18; iEAPID=0,; linfo=v.4,|0|0|255|1|0||||||||2057|0|0||0|0|0|-1|-1; JSESSION=9d993ed6-75a7-4d6c-abfd-1d187ac54fb0; utagdb=true; qualtrics_sample=[object Object]; AB_Test_TripAdvisor=B; utag_main=v_id:015667be7099000beb916a48bec910048001b00d00868$_sn:1$_ss:0$_pn:8%3Bexp-session$_st:1470622857600$ses_id:1470619349145%3Bexp-session$dc_visit:1$dc_event:5%3Bexp-session$dc_region:eu-central-1%3Bexp-session; __qca=P0-1784924338-1470619349494; _ga=GA1.3.963192964.1470619350; _tq_id.TV-721872-1.d57e=03236c97070c33cc.1470619350.0.1470620952..; _cc=ATASdLrm+BALNoP7TH7cf/2S; aspp=v.1,0|||||||||||||; AMCV_C00802BE5330A8350A490D4C%40AdobeOrg=-1248264605%7CMCIDTS%7C17022%7CMCMID%7C68719904712954196841514644106030669673%7CMCAAMLH-1471224155%7C11%7CMCAAMB-1471224155%7CNRX38WO0n5BH8Th-nqAG_A%7CMCOPTOUT-1470626556s%7CNONE%7CMCAID%7CNONE; AMCVS_C00802BE5330A8350A490D4C%40AdobeOrg=1; cesc=%7B%7D; s_ppvl=page.Hotel-Search%2C3%2C3%2C282%2C1360%2C282%2C1360%2C768%2C1%2CP; s_ppv=page.Hotel-Search%2C8%2C3%2C852%2C1360%2C282%2C1360%2C768%2C1%2CP; s_cc=true; IAID=d22b406b-d199-4560-a1ce-6bd98d224833; s_sq=%5B%5BB%5D%5D; __gads=ID=4146aa6975393b80:T=1470619384:S=ALNI_MYFPWT72IDgG_J12kYc--ZN5wdtWg; MediaCookie=0%7C2805%2C2775%2CPDEST%2CMFM; s_ppn=page.Hotel-Search; HMS=7A53E6DF-7B6F-4FAE-BCFC-C05C52D59282; HSEWC=0"
+            },
+            {
+              "name": "Host",
+              "value": "www.expedia.com.hk"
+            },
+            {
+              "name": "Referer",
+              "value": "https://www.expedia.com.hk/Hotel-Search"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Windows NT 6.1; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0"
+            },
+            {
+              "name": "X-Requested-With",
+              "value": "XMLHttpRequest"
+            }
+          ],
+          "queryString": [
+            {
+              "name": "responsive",
+              "value": "true"
+            }
+          ],
+          "postData": {
+            "mimeType": "application/x-www-form-urlencoded",
+            "params": [
+              {
+                "name": "adults",
+                "value": "1"
+              },
+              {
+                "name": "destination",
+                "value": "Macau (all),Macau (all)"
+              },
+              {
+                "name": "endDate",
+                "value": "2016/08/09"
+              },
+              {
+                "name": "hashParam",
+                "value": "24cb08de53ff010a7bd67dc9152e25c08ddf7e6a"
+              },
+              {
+                "name": "hotelName",
+                "value": "Altira Macau"
+              },
+              {
+                "name": "regionId",
+                "value": "8724"
+              },
+              {
+                "name": "sort",
+                "value": "recommended"
+              },
+              {
+                "name": "startDate",
+                "value": "2016/08/08"
+              }
+            ],
+            "text": ""
+          },
+          "headersSize": 1861,
+          "bodySize": 189
+        
+    }
 }
