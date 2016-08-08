@@ -21,7 +21,7 @@ if (fs.exists(filePath)) {
     fs.createReadStream(filePath).pipe(fs.createWriteStream('backup.xlsx'));
     var sheet = ew.parse(fs.readFileSync(filePath))[0];
 } else {
-    var columns = ["DATE_EXTRACT","HOTEL_ID","HOTEL_NAME", "H_EXPRAT","H_CAT", "H_LOC", "ROOMTYPE_ID", "ROOMTYPE", "BEDTYPE", "ROOM_SIZE", "RATE_CAT", "RATE_NAME", "RATE_T0", "RATE_T7", "RATE_T14", "RATE_T28", "RATE_T56", "RATE_T102"];
+    var columns = ["DATE_EXTRACT", "HOTEL_ID", "HOTEL_NAME", "H_EXPRAT", "H_CAT", "H_LOC", "ROOMTYPE_ID", "ROOMTYPE", "BEDTYPE", "ROOM_SIZE", "RATE_CAT", "RATE_NAME", "RATE_T0", "RATE_T7", "RATE_T14", "RATE_T28", "RATE_T56", "RATE_T102"];
     var sheet = { name: 'result', data: [] };
     sheet.data.push(columns);
 }
@@ -68,7 +68,7 @@ var hotels = [
 ];
 
 /** date offset. 0 represents today */
-var dates = [0, 7, 28, 56, 102];
+var dates = [7, 14, 28, 56, 102];
 
 /** function to compose urls' parameters */
 function urlComposer(choosenOffset) {
@@ -86,7 +86,7 @@ function urlComposer(choosenOffset) {
 }
 
 
-function singleFetchNew(hotel, offset, callback) {
+function singleFetchNew(hotel, callback) {
     //Define the screenshot function
     webdriver.WebDriver.prototype.saveScreenshot = function (filename) {
         return driver.takeScreenshot().then(function (data) {
@@ -95,8 +95,8 @@ function singleFetchNew(hotel, offset, callback) {
             });
         })
     };
-    var p = urlComposer(offset);
-    var driver = new webdriver.Builder().forBrowser('phantomjs').usingServer('http://127.0.0.1:4444/wd/hub').build();
+    var p = urlComposer(0);
+    var driver = new webdriver.Builder().forBrowser('chrome').usingServer('http://127.0.0.1:4444/wd/hub').build();
     var extractDate = new Date(p.chkin);
     var hotelID = hotel.id;
     var hotelName = hotel.name;
@@ -104,7 +104,8 @@ function singleFetchNew(hotel, offset, callback) {
         driver.wait(function () {
             /** Waiting for form loaded */
             return driver.isElementPresent(by.id('availability-check-in-label')).then(function (present) {
-                driver.saveScreenshot('unabletoload.png');
+                // console.log('come here');
+                // driver.saveScreenshot('unabletoload.png');
                 return present;
             })
         }, 500000).then(function () {
@@ -114,7 +115,7 @@ function singleFetchNew(hotel, offset, callback) {
                 var exprat = $('span[itemprop="ratingValue"]').text();
                 var cat = $('#license-plate .visuallyhidden').text().slice(0, 1) + '-Stars';
                 var loc = $('.street-address').eq(0).text() + ', ' + $('.city').eq(0).text();
-                $('.rooms-and-rates-segment table tbody').each(function (index, element) {
+                $('.rooms-and-rates-segment table tbody tr').each(function (index, element) {
                     var roomTypeId = $(this).attr('data-room-code');
                     var roomType = $(this).find('.btn-label').eq(0).text().trim();
                     var bedType = $(this).find('.bed-types').text().trim();
@@ -129,62 +130,66 @@ function singleFetchNew(hotel, offset, callback) {
                     $(this).find('.rate-includes .room-amenity .free-text').each(function (index, element) {
                         rateName += $(this).text().trim() + ',';
                     });
-                    rateName.slice(0, rateName.length - 1);
-                    var price = $(this).find('.room-price').text() ? $(this).find('.room-price').text() : 'N/A';
-                    var already = false;
-                    var origin = extractDate;
-                    origin.setDate(origin.getDate() - offset);
-                    for (var index in rows) {
-                        if ((rows[index].indexOf(hotelID)) !== -1 && (rows[index].indexOf(origin) !== -1)) {
-                            already = true;
-                            rows[index][dates.indexOf(offset) + 12] = price;
-                        }
-                    }
-                    if (!already) {
-                        var row = [];
-                        row.push(extractDate);
-                        row.push(hotelID);
-                        row.push(hotelName);
-                        row.push(exprat);
-                        row.push(cat);
-                        row.push(loc);
-                        row.push(roomTypeId);
-                        row.push(roomType);
-                        row.push(bedType);
-                        row.push(roomSize);
-                        row.push(rateCat);
-                        row.push(rateName);
-                        row.push(price);
-                        rows.push(row);
-                    }
+                    rateName.slice(0, rateName.length - 2);
+
+                    var rate_t0 = $(this).find('.room-price').text() ? $(this).find('.room-price').text() : 'N/A';
+                    var row = [];
+                    row.push(extractDate);
+                    row.push(hotelID);
+                    row.push(hotelName);
+                    row.push(exprat);
+                    row.push(cat);
+                    row.push(loc);
+                    row.push(roomTypeId);
+                    row.push(roomType);
+                    row.push(bedType);
+                    row.push(roomSize);
+                    row.push(rateCat);
+                    row.push(rateName);
+                    row.push(rate_t0);
+
+                    dates.forEach(function (t, index, array) {
+                        var p = urlComposer(t);
+                        var params = p.params;
+                        driver.get(hotel.baseUrl + p.params).then(function () {
+                            driver.wait(function () {
+                                return driver.isElementPresent(by.id('availability-check-in-label')).then(function (present) {
+                                    return present;
+                                })
+                            }, 500000).then(function () {
+                                driver.getPageSource().then(function (html) {
+                                    var $ = cheerio.load(html);
+                                    var rate = $(this).find('.room-price').text() ? $(this).find('.room-price').text() : 'N/A';
+                                    row.push(rate);
+                                    if (index == array.length - 1) {
+                                        rows.push(row);
+
+                                    }
+                                });
+                            });
+                        });
+                    });
                     // console.log(exprat + '  ' + cat + '  ' + loc + '  ' + roomTypeId + '  ' + roomType + '  ' + bedType + '  ' + roomSize + '  ' + rateCat + '  ' + rateName + '  ' +  price ) ;
                 });
-                setTimeout(function() {
-                    console.log(hotel.name + ' - offset ' + offset + ' was done');
-                    driver.quit();
+                setTimeout(function () {
+                    console.log(hotel.name + ' - offset ' + t + ' was done');
+                    driver.close();
                     callback();
-                }, 500);
+                }, 2000);
             });
         });
     });
 }
 
-process.on('exit', function() {
+process.on('exit', function () {
     var buffer = ew.build([sheet]);
     fs.writeFileSync(filePath, buffer);
 });
 
 
-var entities = [];
-hotels.forEach(function (hotel, index, array) {
-    dates.forEach(function (offset, index, array) {
-        entities.push({ hotel: hotel, offset: offset });
-    });
-});
 
-
-async.mapLimit(entities, 3, function (entity, callback) {
-    singleFetchNew(entity.hotel, entity.offset, callback);
+async.mapLimit(hotels, 2, function (hotel, callback) {
+    singleFetchNew(hotel, callback);
 }, function (err) {
     if (err) console.log(err);
     var buffer = ew.build([sheet]);
