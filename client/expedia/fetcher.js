@@ -10,7 +10,7 @@ var har = require('./har.js');
 
 // var request = request.defaults({ proxy: 'http://127.0.0.1:8888' });
 
-var measurements = ["hotelID", ""];
+var measurements = ["hotelID", "hotelName", ""];
 
 singleFettch();
 

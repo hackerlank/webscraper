@@ -18,11 +18,11 @@ const filePath = "expedia.xlsx";
  * excel prepration
  */
 var sheet;
-if (fs.exists(filePath)) {
+if (fs.existsSync(filePath)) {
     fs.createReadStream(filePath).pipe(fs.createWriteStream('backup.xlsx'));
     var sheet = ew.parse(fs.readFileSync(filePath))[0];
 } else {
-    var columns = ["DATE_EXTRACT", "HOTEL_ID", "HOTEL_NAME", "H_EXPRAT", "H_CAT", "H_LOC", "ROOMTYPE_ID", "ROOMTYPE", "BEDTYPE", "ROOM_SIZE", "RATE_CAT", "RATE_NAME", "RATE_T0", "RATE_T7", "RATE_T14", "RATE_T28", "RATE_T56", "RATE_T102"];
+    var columns = ["DATE_EXTRACT", "HOTEL_ID", "HOTEL_NAME", "H_EXPRAT", "H_CAT", "H_LOC", "ROOMTYPE_ID", "ROOMTYPE", "RATEPLAN", "BEDTYPE", "ROOM_SIZE", "RATE_CAT", "RATE_NAME", "RATE_T0", "RATE_T7", "RATE_T14", "RATE_T28", "RATE_T56", "RATE_T102"];
     var sheet = { name: 'result', data: [] };
     sheet.data.push(columns);
 }
@@ -56,11 +56,11 @@ var hotels = [
         "id": "10091860",
         "baseUrl": "https://www.expedia.com.hk/en/Macau-Hotels-Altira-Macau.h10091860.Hotel-Information"
     },
-    // {
-    //     "name": "Banyan Tree Macau",
-    //     "id": "4282350",
-    //     "baseUrl": "https://www.expedia.com.hk/en/Macau-Hotels-Banyan-Tree-Macau.h4282350.Hotel-Information"
-    // },
+    {
+        "name": "Banyan Tree Macau",
+        "id": "4282350",
+        "baseUrl": "https://www.expedia.com.hk/en/Macau-Hotels-Banyan-Tree-Macau.h4282350.Hotel-Information"
+    },
     {
         "name": "Broadway Macau",
         "id": "10106413",
@@ -71,9 +71,22 @@ var hotels = [
 /** date offset. 0 represents today */
 var dates = [7, 14, 28, 56, 102];
 
+var harTemp = har.harTemp;
+
+/** process cookie */
+var __getSessions = function (resp) {
+    var cookies = [];
+    var fullArr = resp.headers['set-cookie'];
+    for (var i in fullArr) {
+        cookies.push(fullArr[i].split(';')[0]);
+    }
+
+    return cookies.join("; ");
+}
+
 /** function to compose urls' parameters */
 function urlComposer(choosenOffset) {
-    var params = '?rm1=a1';
+    var params = '#adults=1&children=0';
     var ckinDate = new Date();
     ckinDate.setDate(new Date().getDate() + choosenOffset);
     var ckin = ckinDate.Format('yyyy/MM/dd');
@@ -86,8 +99,8 @@ function urlComposer(choosenOffset) {
     return { params: params, chkin: ckin, chkout: ckout };
 }
 
-function composeHar(hotelId, chkin, chkout) {
-    var hkhar = har.har_getOffersHK;
+function composeHar(hotelId, chkin, chkout, cookie, token) {
+    var hkhar = harTemp;
 
     var start = {
         "name": "chkin",
@@ -99,27 +112,93 @@ function composeHar(hotelId, chkin, chkout) {
             "value": chkout
         };
 
+    var ck = {
+        "name": "Cookie",
+        "value": cookie
+    }
+
+    var tk = {
+        "name": "token",
+        "value": token
+    }
     hkhar.queryString.push(start);
     hkhar.queryString.push(end);
-    hkhar.url = "https://www.expedia.com.hk/api/infosite/" + hotelId + "/getOffers?token=697228cbdbfce224204d71f58ce2208f356f9d06&isVip=false&chid=&chkin=" + chkin + "&chkout=" + chkout + "&adults=1&children=0";
+    hkhar.queryString.push(token);
+    hkhar.url = "https://www.expedia.com.hk/api/infosite/" + hotelId + "/getOffers?token=" + token + "&chkin=" + chkin + "&chkout=" + chkout;
+    hkhar.headers.push(ck);
 
     return hkhar;
 }
 
+function fetchRate(ckin, ckout, hotelUrl, hotelId, roomId, ratePlanCode, row, callback) {
+    request({ url: hotelUrl, method: 'GET', gzip: true }, function (err, resp, body) {
+        var cookie = __getSessions(resp);
+        var token = body.match(/infosite\.token =.*/g)[0].match(/=.*/g)[0].replace(/[=\;']/g, '').trim();
+        var fetchHar = composeHar(hotelId, ckin, ckout, cookie, token);
 
+        request({ har: fetchHar, gzip: true }, function (err, resp, body) {
+            if (err) console.log(err);
+            if ((!body) || (body.length < 5)) {
+                setTimeout(function () {
+                    row.push('N/A');
+                    console.log(hotelUrl + ' - ' + ckin + ' - ' + roomId + ' was done, empty body');
+                    callback();
+                }, 2000);
+            } else {
+                // fs.appendFileSync('offer.json', body);
+                var offers = JSON.parse(body).offers;
+                console.log(ckin, ckout, hotelUrl, hotelId, roomId, ratePlanCode, offers.length);
+                offers.forEach(function (h, index, array) {
+                    console.log(h.roomTypeCode + '?=' + roomId + ' ### ' + h.ratePlanCode + '?=' + ratePlanCode);
+                    if ((h.roomTypeCode == roomId) && (h.ratePlanCode == ratePlanCode)) {
+                        console.log('yes, equal!');
+                        if (h.soldOut) {
+                            row.push('N/A');
+                            setTimeout(function () {
+                                console.log(roomId + '- ' + ratePlanCode + ' was done, N/A pushed');
+                                callback();
+                                return;
+                            }, 10000);
+                        } else {
+                            row.push(h.price.displayTotalPrice);
+                            setTimeout(function () {
+                                console.log(roomId + '- ' + ratePlanCode + ' was done, ' + h.price.displayTotalPrice + ' pushed');
+                                callback();
+                                return;
+                            }, 10000);
+                        }
+                    }
+                    // else {
+                    //     if (index === array.length - 1) {
+                    //         row.push('N/A');
+                    //         setTimeout(function () {
+                    //             console.log(roomId + '- ' + ratePlanCode + ' was done, N/A pushed');
+                    //             callback();
+                    //             return;
+                    //         }, 10000);
+                    //     }
+                    // }
+                });
+            }
+        });
+    });
+}
+
+
+//Define the screenshot function
+webdriver.WebDriver.prototype.saveScreenshot = function (filename) {
+    return driver.takeScreenshot().then(function (data) {
+        fs.writeFile(filename, data.replace(/^data:image\/png;base64,/, ''), 'base64', function (err) {
+            if (err) throw err;
+        });
+    })
+};
+var driver = new webdriver.Builder().forBrowser('chrome').usingServer('http://127.0.0.1:4444/wd/hub').build();
 
 function singleFetchNew(hotel, callback) {
-    //Define the screenshot function
-    webdriver.WebDriver.prototype.saveScreenshot = function (filename) {
-        return driver.takeScreenshot().then(function (data) {
-            fs.writeFile(filename, data.replace(/^data:image\/png;base64,/, ''), 'base64', function (err) {
-                if (err) throw err;
-            });
-        })
-    };
-    var driver = new webdriver.Builder().forBrowser('chrome').usingServer('http://127.0.0.1:4444/wd/hub').build();
     var p = urlComposer(0);
     var extractDate = new Date(p.chkin);
+    // extractDate.setHours(extractDate.getHours + 8);
     var hotelID = hotel.id;
     var hotelName = hotel.name;
     driver.get(hotel.baseUrl + p.params).then(function () {
@@ -129,18 +208,19 @@ function singleFetchNew(hotel, callback) {
                 return present;
             })
         }, 500000).then(function () {
-            driver.getPageSource().then(function (html) {
+            driver.getPageSource().then(function (html) {   
                 var $ = cheerio.load(html);
-                // fs.appendFileSync('body.html', html);
+                fs.appendFileSync('body.html', html);
                 var exprat = $('span[itemprop="ratingValue"]').text();
                 var cat = $('#license-plate .visuallyhidden').text().slice(0, 1) + '-Stars';
                 var loc = $('.street-address').eq(0).text() + ', ' + $('.city').eq(0).text();
                 $('.rooms-and-rates-segment table tbody tr').each(function (index, element) {
                     var roomTypeId = $(this).parent('tbody').attr('data-room-code');
                     var roomType = $(this).find('.btn-label').eq(0).text().trim();
+                    var ratePlanCode = $(this).find('input[name="ratePlanCode"]').attr('value');
                     var bedType = $(this).find('.bed-types').text().trim();
                     var roomSize = $(this).find('.square-area').text().trim();
-                    var rateCat = $(this).find('.rate-features .rate-policies a div').text().trim();
+                    var rateCat = $(this).find('.rate-features .rate-policies a div').text() ? $(this).find('.rate-features .rate-policies a div').text().trim() : 'Refundable';
                     var rateName = '';
                     if (rateCat === 'Non-Refundable') {
                         rateName += 'NONREF-';
@@ -161,73 +241,41 @@ function singleFetchNew(hotel, callback) {
                     row.push(loc);
                     row.push(roomTypeId);
                     row.push(roomType);
+                    row.push(ratePlanCode);
                     row.push(bedType);
                     row.push(roomSize);
                     row.push(rateCat);
                     row.push(rateName);
                     row.push(price);
 
-                    /** to fetch t + n */
-                    dates.forEach(function (offset, index, array) {
-
-                        var params = urlComposer(offset);
-                        driver.get(hotel.baseUrl + params.params).then(function () {
-                            driver.wait(function () {
-                                /** Waiting for form loaded */
-                                return driver.isElementPresent(by.id('availability-check-in-label')).then(function (present) {
-                                    return present;
-                                })
-                            }, 500000).then(function () {
-                                driver.getPageSource().then(function (html) {
-                                    var $ = cheerio.load(html);
-                                    var price = $('tbody[data-room-code="' + roomTypeId + '"] tr .room-price').text() ? $('tbody[data-room-code="' + roomTypeId + '"] tr .room-price').text() : 'N/A';
-                                    row.push(price);
-                                    if (index === array.length - 1) {
-                                        rows.push(row);
-                                    }
-                                });
-                            });
-                        });
-                        // var ckin = urlComposer(offset).chkin;
-                        // var ckout = urlComposer(offset).chkout;
-                        // var har = composeHar(hotelID, ckin, ckout);
-                        // console.log(har.url);
-                        // request({ har: har, gzip: true }, function (err, resp, body) {
-                        //     if (!body.offers) {
-                        //         // console.log('!body    ' + har.url + ' :  ' +  har.queryString);
-                        //         fs.appendFileSync('noneoffer.json', body);
-                        //     }
-                        //     body.offers.forEach(function (room, index, array) {
-                        //         if (room.roomTypeCode == roomTypeId) {
-                        //             if (room.soldOut == true) {
-                        //                 row.push('N/A');
-                        //             } else {
-                        //                 row.push(room.price.displayTotalPrice);
-                        //             }
-                        //         }
-
-                        //         setTimeout(function() {
-                        //             console.log('Waiting for next request');
-                        //         }, 5000);
-                        //         if (index === array.length - 1) {
-                        //             rows.push(row);
-                        //             setTimeout(function () {
-                        //                 console.log(hotel.name + ' was done');
-                        //                 driver.close();
-                        //                 callback();
-                        //             }, 500);
-                        //         }
-                        //     });
-                        // });
+                    var wrappers = []
+                    dates.forEach(function (offset, i, array) {
+                        var chkin = urlComposer(offset).chkin;
+                        var chkout = urlComposer(offset).chkout;
+                        var wrapper = {
+                            chkin: chkin,
+                            chkout: chkout,
+                            hotelId: hotelID,
+                            hotelUrl: hotel.baseUrl,
+                            roomId: roomTypeId,
+                            ratePlanCode: ratePlanCode
+                        }
+                        wrappers.push(wrapper);
+                    });
+                    async.mapLimit(wrappers, 1, function (wrapper, cb) {
+                        fetchRate(wrapper.chkin, wrapper.chkout, wrapper.hotelUrl, wrapper.hotelId, wrapper.roomId, wrapper.ratePlanCode, row, cb);
+                    }, function (err) {
+                        if (err) console.log(err);
+                        rows.push(row);
+                        if (index == $('.rooms-and-rates-segment table tbody tr').length - 1) {
+                            setTimeout(function () {
+                                console.log(hotel.name + ' was done');
+                                // driver.close();
+                                callback();
+                            }, 2000);
+                        }
                     });
                     // console.log(exprat + '  ' + cat + '  ' + loc + '  ' + roomTypeId + '  ' + roomType + '  ' + bedType + '  ' + roomSize + '  ' + rateCat + '  ' + rateName + '  ' +  price ) ;
-                    if (index == $('.rooms-and-rates-segment table tbody tr').length - 1) {
-                        setTimeout(function () {
-                            console.log(hotel.name + ' was done');
-                            // driver.close();
-                            callback();
-                        }, 2000);
-                    }
                 });
             });
         });
@@ -239,18 +287,7 @@ process.on('exit', function () {
     fs.writeFileSync(filePath, buffer);
 });
 
-
-
-
-// var entities = [];
-// hotels.forEach(function (hotel, index, array) {
-//     dates.forEach(function (offset, index, array) {
-//         entities.push({ hotel: hotel, offset: offset });
-//     });
-// });
-
-
-async.mapLimit(hotels, 3, function (hotel, callback) {
+async.mapLimit(hotels, 1, function (hotel, callback) {
     singleFetchNew(hotel, callback);
 }, function (err) {
     if (err) console.log(err);
@@ -259,67 +296,3 @@ async.mapLimit(hotels, 3, function (hotel, callback) {
 });
 
 
-
-
-/**
- *  
-function singleFetch(hotel, offset) {
-    //Define the screenshot function
-    webdriver.WebDriver.prototype.saveScreenshot = function (filename) {
-        return driver.takeScreenshot().then(function (data) {
-            fs.writeFile(filename, data.replace(/^data:image\/png;base64,/, ''), 'base64', function (err) {
-                if (err) throw err;
-            });
-        })
-    };
-    var p = urlComposer(offset);
-    var driver = new webdriver.Builder().forBrowser('phantomjs').usingServer('http://127.0.0.1:4444/wd/hub').build();
-    var extractDate = p.chkin;
-    var hotelID = hotel.id;
-    var hotelName = hotel.name;
-    var exprat = '';
-    var cat = '';
-    var loc = '';
-    driver.get(hotel.baseUrl + p.params).then(function () {
-        driver.wait(function () {
-            return driver.isElementPresent(by.id('availability-check-in-label')).then(function (present) {
-                return present;
-            })
-        }, 50000).then(function () {
-
-            driver.findElement(by.xpath('//span[@itemprop = "ratingValue"]')).getText().then(function (text) {
-                exprat = text;
-            }).then(function () {
-                driver.findElement(by.xpath('//div[@id = "license-plate"]//span[@class = "visuallyhidden"]')).getText().then(function (text) {
-                    cat = text.slice(0, 1) + '-Stars';
-                }).then(function () {
-                    driver.findElement(by.xpath('//span[@class="street-address"]')).getText().then(function (text) {
-                        loc += text;
-                    }).then(function () {
-                        driver.findElement(by.xpath('//span[@class="city"]')).getText().then(function (text) {
-                            loc += ', ' + text;
-                        }).then(function() {
-                            driver.findElements(by.xpath('//div[@id="rooms-and-rates"]/div/article/table/tbody')).then(function(elements) {
-                                elements.forEach(function(element, index, array) {
-                                    var row = [];
-                                    row.push(extractDate);
-                                    row.push(hotelID);
-                                    row.push(hotelName);
-                                    row.push(exprat);
-                                    row.push(cat);
-                                    row.push(loc);
-                                    element.getAttribute('data-room-code').then(function(typeId){
-                                        row.push(typeId);
-                                    }).then(function() {
-
-                                    });
-                                });
-                            });
-                        });
-                    });
-                });
-            });
-        });
-    });
-}
-*/

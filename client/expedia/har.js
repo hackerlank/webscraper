@@ -533,217 +533,271 @@ module.exports = {
         // "bodySize": -1
 
     },
-    har_searchByName : {
+    har_searchByName: {
 
-          "method": "POST",
-          "url": "https://www.expedia.com.hk/Hotel-Search-Data?responsive=true",
-          "httpVersion": "HTTP/1.1",
-          "cookies": [
+        "method": "POST",
+        "url": "https://www.expedia.com.hk/Hotel-Search-Data?responsive=true",
+        "httpVersion": "HTTP/1.1",
+        "cookies": [
             {
-              "name": "MC1",
-              "value": "GUID=db70b5fc2f1e4da998fccd38e5d3c4a8"
+                "name": "MC1",
+                "value": "GUID=db70b5fc2f1e4da998fccd38e5d3c4a8"
             },
             {
-              "name": "abucket",
-              "value": "CgAUZFen3qxfcjhjiUYQAg=="
+                "name": "abucket",
+                "value": "CgAUZFen3qxfcjhjiUYQAg=="
             },
             {
-              "name": "tpid",
-              "value": "v.1,18"
+                "name": "tpid",
+                "value": "v.1,18"
             },
             {
-              "name": "iEAPID",
-              "value": "0,"
+                "name": "iEAPID",
+                "value": "0,"
             },
             {
-              "name": "linfo",
-              "value": "v.4,|0|0|255|1|0||||||||2057|0|0||0|0|0|-1|-1"
+                "name": "linfo",
+                "value": "v.4,|0|0|255|1|0||||||||2057|0|0||0|0|0|-1|-1"
             },
             {
-              "name": "JSESSION",
-              "value": "9d993ed6-75a7-4d6c-abfd-1d187ac54fb0"
+                "name": "JSESSION",
+                "value": "9d993ed6-75a7-4d6c-abfd-1d187ac54fb0"
             },
             {
-              "name": "utagdb",
-              "value": "true"
+                "name": "utagdb",
+                "value": "true"
             },
             {
-              "name": "qualtrics_sample",
-              "value": "[object Object]"
+                "name": "qualtrics_sample",
+                "value": "[object Object]"
             },
             {
-              "name": "AB_Test_TripAdvisor",
-              "value": "B"
+                "name": "AB_Test_TripAdvisor",
+                "value": "B"
             },
             {
-              "name": "utag_main",
-              "value": "v_id:015667be7099000beb916a48bec910048001b00d00868$_sn:1$_ss:0$_pn:8%3Bexp-session$_st:1470622857600$ses_id:1470619349145%3Bexp-session$dc_visit:1$dc_event:5%3Bexp-session$dc_region:eu-central-1%3Bexp-session"
+                "name": "utag_main",
+                "value": "v_id:015667be7099000beb916a48bec910048001b00d00868$_sn:1$_ss:0$_pn:8%3Bexp-session$_st:1470622857600$ses_id:1470619349145%3Bexp-session$dc_visit:1$dc_event:5%3Bexp-session$dc_region:eu-central-1%3Bexp-session"
             },
             {
-              "name": "__qca",
-              "value": "P0-1784924338-1470619349494"
+                "name": "__qca",
+                "value": "P0-1784924338-1470619349494"
             },
             {
-              "name": "_ga",
-              "value": "GA1.3.963192964.1470619350"
+                "name": "_ga",
+                "value": "GA1.3.963192964.1470619350"
             },
             {
-              "name": "_tq_id.TV-721872-1.d57e",
-              "value": "03236c97070c33cc.1470619350.0.1470620952.."
+                "name": "_tq_id.TV-721872-1.d57e",
+                "value": "03236c97070c33cc.1470619350.0.1470620952.."
             },
             {
-              "name": "_cc",
-              "value": "ATASdLrm+BALNoP7TH7cf/2S"
+                "name": "_cc",
+                "value": "ATASdLrm+BALNoP7TH7cf/2S"
             },
             {
-              "name": "aspp",
-              "value": "v.1,0|||||||||||||"
+                "name": "aspp",
+                "value": "v.1,0|||||||||||||"
             },
             {
-              "name": "AMCV_C00802BE5330A8350A490D4C%40AdobeOrg",
-              "value": "-1248264605%7CMCIDTS%7C17022%7CMCMID%7C68719904712954196841514644106030669673%7CMCAAMLH-1471224155%7C11%7CMCAAMB-1471224155%7CNRX38WO0n5BH8Th-nqAG_A%7CMCOPTOUT-1470626556s%7CNONE%7CMCAID%7CNONE"
+                "name": "AMCV_C00802BE5330A8350A490D4C%40AdobeOrg",
+                "value": "-1248264605%7CMCIDTS%7C17022%7CMCMID%7C68719904712954196841514644106030669673%7CMCAAMLH-1471224155%7C11%7CMCAAMB-1471224155%7CNRX38WO0n5BH8Th-nqAG_A%7CMCOPTOUT-1470626556s%7CNONE%7CMCAID%7CNONE"
             },
             {
-              "name": "AMCVS_C00802BE5330A8350A490D4C%40AdobeOrg",
-              "value": "1"
+                "name": "AMCVS_C00802BE5330A8350A490D4C%40AdobeOrg",
+                "value": "1"
             },
             {
-              "name": "cesc",
-              "value": "%7B%7D"
+                "name": "cesc",
+                "value": "%7B%7D"
             },
             {
-              "name": "s_ppvl",
-              "value": "page.Hotel-Search%2C3%2C3%2C282%2C1360%2C282%2C1360%2C768%2C1%2CP"
+                "name": "s_ppvl",
+                "value": "page.Hotel-Search%2C3%2C3%2C282%2C1360%2C282%2C1360%2C768%2C1%2CP"
             },
             {
-              "name": "s_ppv",
-              "value": "page.Hotel-Search%2C8%2C3%2C852%2C1360%2C282%2C1360%2C768%2C1%2CP"
+                "name": "s_ppv",
+                "value": "page.Hotel-Search%2C8%2C3%2C852%2C1360%2C282%2C1360%2C768%2C1%2CP"
             },
             {
-              "name": "s_cc",
-              "value": "true"
+                "name": "s_cc",
+                "value": "true"
             },
             {
-              "name": "IAID",
-              "value": "d22b406b-d199-4560-a1ce-6bd98d224833"
+                "name": "IAID",
+                "value": "d22b406b-d199-4560-a1ce-6bd98d224833"
             },
             {
-              "name": "s_sq",
-              "value": "%5B%5BB%5D%5D"
+                "name": "s_sq",
+                "value": "%5B%5BB%5D%5D"
             },
             {
-              "name": "__gads",
-              "value": "ID=4146aa6975393b80:T=1470619384:S=ALNI_MYFPWT72IDgG_J12kYc--ZN5wdtWg"
+                "name": "__gads",
+                "value": "ID=4146aa6975393b80:T=1470619384:S=ALNI_MYFPWT72IDgG_J12kYc--ZN5wdtWg"
             },
             {
-              "name": "MediaCookie",
-              "value": "0%7C2805%2C2775%2CPDEST%2CMFM"
+                "name": "MediaCookie",
+                "value": "0%7C2805%2C2775%2CPDEST%2CMFM"
             },
             {
-              "name": "s_ppn",
-              "value": "page.Hotel-Search"
+                "name": "s_ppn",
+                "value": "page.Hotel-Search"
             },
             {
-              "name": "HMS",
-              "value": "7A53E6DF-7B6F-4FAE-BCFC-C05C52D59282"
+                "name": "HMS",
+                "value": "7A53E6DF-7B6F-4FAE-BCFC-C05C52D59282"
             },
             {
-              "name": "HSEWC",
-              "value": "0"
+                "name": "HSEWC",
+                "value": "0"
             }
-          ],
-          "headers": [
+        ],
+        "headers": [
             {
-              "name": "Accept",
-              "value": "*/*"
+                "name": "Accept",
+                "value": "*/*"
             },
             {
-              "name": "Accept-Encoding",
-              "value": "gzip, deflate, br"
+                "name": "Accept-Encoding",
+                "value": "gzip, deflate, br"
             },
             {
-              "name": "Accept-Language",
-              "value": "zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3"
+                "name": "Accept-Language",
+                "value": "zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3"
             },
             {
-              "name": "Connection",
-              "value": "keep-alive"
+                "name": "Connection",
+                "value": "keep-alive"
             },
             {
-              "name": "Content-Length",
-              "value": "189"
+                "name": "Content-Length",
+                "value": "189"
             },
             {
-              "name": "Content-Type",
-              "value": "application/x-www-form-urlencoded; charset=UTF-8"
+                "name": "Content-Type",
+                "value": "application/x-www-form-urlencoded; charset=UTF-8"
             },
             {
-              "name": "Cookie",
-              "value": "MC1=GUID=db70b5fc2f1e4da998fccd38e5d3c4a8; abucket=CgAUZFen3qxfcjhjiUYQAg==; tpid=v.1,18; iEAPID=0,; linfo=v.4,|0|0|255|1|0||||||||2057|0|0||0|0|0|-1|-1; JSESSION=9d993ed6-75a7-4d6c-abfd-1d187ac54fb0; utagdb=true; qualtrics_sample=[object Object]; AB_Test_TripAdvisor=B; utag_main=v_id:015667be7099000beb916a48bec910048001b00d00868$_sn:1$_ss:0$_pn:8%3Bexp-session$_st:1470622857600$ses_id:1470619349145%3Bexp-session$dc_visit:1$dc_event:5%3Bexp-session$dc_region:eu-central-1%3Bexp-session; __qca=P0-1784924338-1470619349494; _ga=GA1.3.963192964.1470619350; _tq_id.TV-721872-1.d57e=03236c97070c33cc.1470619350.0.1470620952..; _cc=ATASdLrm+BALNoP7TH7cf/2S; aspp=v.1,0|||||||||||||; AMCV_C00802BE5330A8350A490D4C%40AdobeOrg=-1248264605%7CMCIDTS%7C17022%7CMCMID%7C68719904712954196841514644106030669673%7CMCAAMLH-1471224155%7C11%7CMCAAMB-1471224155%7CNRX38WO0n5BH8Th-nqAG_A%7CMCOPTOUT-1470626556s%7CNONE%7CMCAID%7CNONE; AMCVS_C00802BE5330A8350A490D4C%40AdobeOrg=1; cesc=%7B%7D; s_ppvl=page.Hotel-Search%2C3%2C3%2C282%2C1360%2C282%2C1360%2C768%2C1%2CP; s_ppv=page.Hotel-Search%2C8%2C3%2C852%2C1360%2C282%2C1360%2C768%2C1%2CP; s_cc=true; IAID=d22b406b-d199-4560-a1ce-6bd98d224833; s_sq=%5B%5BB%5D%5D; __gads=ID=4146aa6975393b80:T=1470619384:S=ALNI_MYFPWT72IDgG_J12kYc--ZN5wdtWg; MediaCookie=0%7C2805%2C2775%2CPDEST%2CMFM; s_ppn=page.Hotel-Search; HMS=7A53E6DF-7B6F-4FAE-BCFC-C05C52D59282; HSEWC=0"
+                "name": "Cookie",
+                "value": "MC1=GUID=db70b5fc2f1e4da998fccd38e5d3c4a8; abucket=CgAUZFen3qxfcjhjiUYQAg==; tpid=v.1,18; iEAPID=0,; linfo=v.4,|0|0|255|1|0||||||||2057|0|0||0|0|0|-1|-1; JSESSION=9d993ed6-75a7-4d6c-abfd-1d187ac54fb0; utagdb=true; qualtrics_sample=[object Object]; AB_Test_TripAdvisor=B; utag_main=v_id:015667be7099000beb916a48bec910048001b00d00868$_sn:1$_ss:0$_pn:8%3Bexp-session$_st:1470622857600$ses_id:1470619349145%3Bexp-session$dc_visit:1$dc_event:5%3Bexp-session$dc_region:eu-central-1%3Bexp-session; __qca=P0-1784924338-1470619349494; _ga=GA1.3.963192964.1470619350; _tq_id.TV-721872-1.d57e=03236c97070c33cc.1470619350.0.1470620952..; _cc=ATASdLrm+BALNoP7TH7cf/2S; aspp=v.1,0|||||||||||||; AMCV_C00802BE5330A8350A490D4C%40AdobeOrg=-1248264605%7CMCIDTS%7C17022%7CMCMID%7C68719904712954196841514644106030669673%7CMCAAMLH-1471224155%7C11%7CMCAAMB-1471224155%7CNRX38WO0n5BH8Th-nqAG_A%7CMCOPTOUT-1470626556s%7CNONE%7CMCAID%7CNONE; AMCVS_C00802BE5330A8350A490D4C%40AdobeOrg=1; cesc=%7B%7D; s_ppvl=page.Hotel-Search%2C3%2C3%2C282%2C1360%2C282%2C1360%2C768%2C1%2CP; s_ppv=page.Hotel-Search%2C8%2C3%2C852%2C1360%2C282%2C1360%2C768%2C1%2CP; s_cc=true; IAID=d22b406b-d199-4560-a1ce-6bd98d224833; s_sq=%5B%5BB%5D%5D; __gads=ID=4146aa6975393b80:T=1470619384:S=ALNI_MYFPWT72IDgG_J12kYc--ZN5wdtWg; MediaCookie=0%7C2805%2C2775%2CPDEST%2CMFM; s_ppn=page.Hotel-Search; HMS=7A53E6DF-7B6F-4FAE-BCFC-C05C52D59282; HSEWC=0"
             },
             {
-              "name": "Host",
-              "value": "www.expedia.com.hk"
+                "name": "Host",
+                "value": "www.expedia.com.hk"
             },
             {
-              "name": "Referer",
-              "value": "https://www.expedia.com.hk/Hotel-Search"
+                "name": "Referer",
+                "value": "https://www.expedia.com.hk/Hotel-Search"
             },
             {
-              "name": "User-Agent",
-              "value": "Mozilla/5.0 (Windows NT 6.1; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0"
+                "name": "User-Agent",
+                "value": "Mozilla/5.0 (Windows NT 6.1; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0"
             },
             {
-              "name": "X-Requested-With",
-              "value": "XMLHttpRequest"
+                "name": "X-Requested-With",
+                "value": "XMLHttpRequest"
             }
-          ],
-          "queryString": [
+        ],
+        "queryString": [
             {
-              "name": "responsive",
-              "value": "true"
+                "name": "responsive",
+                "value": "true"
             }
-          ],
-          "postData": {
+        ],
+        "postData": {
             "mimeType": "application/x-www-form-urlencoded",
             "params": [
-              {
-                "name": "adults",
-                "value": "1"
-              },
-              {
-                "name": "destination",
-                "value": "Macau (all),Macau (all)"
-              },
-              {
-                "name": "endDate",
-                "value": "2016/08/09"
-              },
-              {
-                "name": "hashParam",
-                "value": "24cb08de53ff010a7bd67dc9152e25c08ddf7e6a"
-              },
-              {
-                "name": "hotelName",
-                "value": "Altira Macau"
-              },
-              {
-                "name": "regionId",
-                "value": "8724"
-              },
-              {
-                "name": "sort",
-                "value": "recommended"
-              },
-              {
-                "name": "startDate",
-                "value": "2016/08/08"
-              }
+                {
+                    "name": "adults",
+                    "value": "1"
+                },
+                {
+                    "name": "destination",
+                    "value": "Macau (all),Macau (all)"
+                },
+                {
+                    "name": "endDate",
+                    "value": "2016/08/09"
+                },
+                {
+                    "name": "hashParam",
+                    "value": "24cb08de53ff010a7bd67dc9152e25c08ddf7e6a"
+                },
+                {
+                    "name": "hotelName",
+                    "value": "Altira Macau"
+                },
+                {
+                    "name": "regionId",
+                    "value": "8724"
+                },
+                {
+                    "name": "sort",
+                    "value": "recommended"
+                },
+                {
+                    "name": "startDate",
+                    "value": "2016/08/08"
+                }
             ],
             "text": ""
-          },
-          "headersSize": 1861,
-          "bodySize": 189
-        
+        },
+        "headersSize": 1861,
+        "bodySize": 189
+
+    },
+    harTemp: {
+        "method": "GET",
+        "url": '',
+        "httpVersion": "HTTP/1.1",
+
+        "headers": [
+            {
+                "name": "Accept",
+                "value": "application/json, text/javascript, */*; q=0.01"
+            },
+            {
+                "name": "Accept-Encoding",
+                "value": "gzip, deflate, br"
+            },
+            {
+                "name": "Accept-Language",
+                "value": "zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3"
+            },
+            {
+                "name": "Connection",
+                "value": "keep-alive"
+            },
+            {
+                "name": "Host",
+                "value": "www.expedia.com.hk"
+            },
+            {
+                "name": "User-Agent",
+                "value": "Mozilla/5.0 (Windows NT 6.1; WOW64; rv:47.0) Gecko/20100101 Firefox/47.0"
+            },
+            {
+                "name": "X-Requested-With",
+                "value": "XMLHttpRequest"
+            }
+        ],
+        "queryString": [
+            {
+                "name": "adults",
+                "value": "1"
+            },
+            {
+                "name": "children",
+                "value": "0"
+            },
+            {
+                "name": "isVip",
+                "value": "false"
+            },
+            {
+                "name": "ts",
+                "value": "1470703188974"
+            }
+        ],
     }
 }
