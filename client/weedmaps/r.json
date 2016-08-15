@@ -1,0 +1,1261 @@
+undefined[][{"_type":"delivery","avatar_url":"https://d2kxqxnk1i5o9a.cloudfront.net/uploads/avatars/deliveries/7115/square_c61552357fe932985d00d3b37966809a.jpg","city":"Glendale","distance":null,"feature_level_raw":4,"feature_order":1,"id":7115,"is_delivery":true,"license_type":"medical","latitude":33.510288,"listing_url":"/deliveries/the-gas-station-3","longitude":-112.154237,"name":"THE GAS STATION - GLENDALE","package_level_raw":2,"rating":4.91034482758621,"reviews_count":29,"slug":"the-gas-station-3","state":"AZ","static_map_url":"https://staticmap.weedmaps.com/static_map/13/33.510288/-112.154237/402/147/map.png","wmid":301292599,"zip_code":"85301","street":null},{"_type":"delivery","avatar_url":"https://d2kxqxnk1i5o9a.cloudfront.net/uploads/avatars/deliveries/12870/square_DDelivers.jpg","city":"Scottsdale","distance":null,"feature_level_raw":4,"feature_order":1,"id":12870,"is_delivery":true,"license_type":"medical","latitude":33.459253,"listing_url":"/deliveries/dharma-meds-2","longitude":-111.932655,"name":"Dooby Delivers","package_level_raw":2,"rating":4.61538461538461,"reviews_count":39,"slug":"dharma-meds-2","state":"AZ","static_map_url":"https://staticmap.weedmaps.com/static_map/13/33.459253/-111.932655/402/147/map.png","wmid":549017786,"zip_code":"85257","street":"DELIVERIES ONLY"},{"_type":"delivery","avatar_url":"https://d2kxqxnk1i5o9a.cloudfront.net/uploads/avatars/deliveries/1551/square_images-25.jpeg","city":"Mesa","distance":null,"feature_level_raw":4,"feature_order":1,"id":1551,"is_delivery":true,"license_type":"medical","latitude":33.410169,"listing_url":"/deliveries/nice-guy-meds-2","longitude":-111.887449,"name":"MedMen Deliveries ","package_level_raw":2,"rating":4.31176470588235,"reviews_count":34,"slug":"nice-guy-meds-2","state":"AZ","static_map_url":"https://staticmap.weedmaps.com/static_map/13/33.410169/-111.887449/402/147/map.png","wmid":747977483,"zip_code":"85202","street":"Delivery"},{"_type":"delivery","avatar_url":"https://weedmaps.com/assets/attachments_missing/avatars/deliveries/square_missing.png","city":"Parker","distance":null,"feature_level_raw":4,"feature_order":1,"id":10946,"is_delivery":true,"license_type":"medical","latitude":34.193184,"listing_url":"/deliveries/parker-green","longitude":-114.220992,"name":"High Desert Healing Delivery ( Parker Green )","package_level_raw":2,"rating":4.82222222222222,"reviews_count":9,"slug":"parker-green","state":"AZ","static_map_url":"https://staticmap.weedmaps.com/static_map/13/34.193184/-114.220992/402/147/map.png","wmid":590026434,"zip_code":"85344","street":"9356 Moovalya Estates Drive"},{"_type":"delivery","avatar_url":"https://d2kxqxnk1i5o9a.cloudfront.net/uploads/avatars/deliveries/13694/square_logo.jpg","city":"Tucson","distance":null,"feature_level_raw":4,"feature_order":1,"id":13694,"is_delivery":true,"license_type":"medical","latitude":32.167041,"listing_url":"/deliveries/earth-s-healing-dispensary","longitude":-110.940924,"name":"Earth's Healing Dispensary \u0026 Delivery","package_level_raw":2,"rating":1.0,"reviews_count":1,"slug":"earth-s-healing-dispensary","state":"AZ","static_map_url":"https://staticmap.weedmaps.com/static_map/13/32.167041/-110.940924/402/147/map.png","wmid":573353402,"zip_code":"85714","street":null},{"_type":"delivery","avatar_url":"https://d2kxqxnk1i5o9a.cloudfront.net/uploads/avatars/deliveries/14074/square_mlCySUc.jpg","city":"Phoenix","distance":null,"feature_level_raw":3,"feature_order":2,"id":14074,"is_delivery":true,"license_type":"medical","latitude":33.625456,"listing_url":"/deliveries/phoenix-rising-medical","longitude":-112.100046,"name":"Phoenix  Rising Medical","package_level_raw":2,"rating":4.6,"reviews_count":15,"slug":"phoenix-rising-medical","state":"AZ","static_map_url":"https://staticmap.weedmaps.com/static_map/13/33.625456/-112.100046/402/147/map.png","wmid":270703383,"zip_code":"85023","street":null},{"_type":"delivery","avatar_url":"https://weedmaps.com/assets/attachments_missing/avatars/deliveries/square_missing.png","city":"Tucson","distance":null,"feature_level_raw":3,"feature_order":2,"id":14274,"is_delivery":true,"license_type":"medical","latitude":32.3395031,"listing_url":"/deliveries/tucsons-best-420","longitude":-110.9864294,"name":"Tucsons Best 420","package_level_raw":2,"rating":4.35384615384615,"reviews_count":13,"slug":"tucsons-best-420","state":"AZ","static_map_url":"https://staticmap.weedmaps.com/static_map/13/32.3395031/-110.9864294/402/147/map.png","wmid":412758395,"zip_code":"85704","street":null},{"_type":"delivery","avatar_url":"https://d2kxqxnk1i5o9a.cloudfront.net/uploads/avatars/deliveries/14085/square_raster1.jpg","city":"Tempe","distance":null,"feature_level_raw":3,"feature_order":2,"id":14085,"is_delivery":true,"license_type":"medical","latitude":33.421766,"listing_url":"/deliveries/extract-express","longitude":-111.932405,"name":"Extract Express","package_level_raw":2,"rating":4.9,"reviews_count":2,"slug":"extract-express","state":"AZ","static_map_url":"https://staticmap.weedmaps.com/static_map/13/33.421766/-111.932405/402/147/map.png","wmid":794624543,"zip_code":"85281","street":null},{"_type":"delivery","avatar_url":"https://weedmaps.com/assets/attachments_missing/avatars/deliveries/square_missing.png","city":"Gilbert","distance":null,"feature_level_raw":3,"feature_order":2,"id":14505,"is_delivery":true,"license_type":"medical","latitude":33.364075,"listing_url":"/deliveries/unified-caregivers-of-az","longitude":-111.841057,"name":"Unified Caregivers of Az - East Valley","package_level_raw":2,"rating":0.0,"reviews_count":0,"slug":"unified-caregivers-of-az","state":"AZ","static_map_url":"https://staticmap.weedmaps.com/static_map/13/33.364075/-111.841057/402/147/map.png","wmid":279274842,"zip_code":"85233","street":null},{"_type":"delivery","avatar_url":"https://weedmaps.com/assets/attachments_missing/avatars/deliveries/square_missing.png","city":"Glendale","distance":null,"feature_level_raw":3,"feature_order":2,"id":14170,"is_delivery":true,"license_type":"medical","latitude":33.553701,"listing_url":"/deliveries/the-humble-co","longitude":-112.188719,"name":"The Humble Co","package_level_raw":2,"rating":0.0,"reviews_count":0,"slug":"the-humble-co","state":"AZ","static_map_url":"https://staticmap.weedmaps.com/static_map/13/33.553701/-112.188719/402/147/map.png","wmid":323565269,"zip_code":"85302","street":null},{"_type":"delivery","avatar_url":"https://d2kxqxnk1i5o9a.cloudfront.net/uploads/avatars/deliveries/11701/square_h170.jpg","city":"Chandler","distance":null,"feature_level_raw":2,"feature_order":3,"id":11701,"is_delivery":true,"license_type":"medical","latitude":33.343924,"listing_url":"/deliveries/jointbrosaz","longitude":-111.856745,"name":"Joint Bros","package_level_raw":2,"rating":4.57647058823529,"reviews_count":17,"slug":"jointbrosaz","state":"AZ","static_map_url":"https://staticmap.weedmaps.com/static_map/13/33.343924/-111.856745/402/147/map.png","wmid":562254420,"zip_code":"85225","street":null},{"_type":"delivery","avatar_url":"https://weedmaps.com/assets/attachments_missing/avatars/deliveries/square_missing.png","city":"Phoenix","distance":null,"feature_level_raw":2,"feature_order":3,"id":14507,"is_delivery":true,"license_type":"medical","latitude":33.668665,"listing_url":"/deliveries/unifieed-caregivers-of-az","longitude":-112.11289,"name":"Unified Caregivers of Az - Phoenix","package_level_raw":2,"rating":0.0,"reviews_count":0,"slug":"unifieed-caregivers-of-az","state":"AZ","static_map_url":"https://staticmap.weedmaps.com/static_map/13/33.668665/-112.11289/402/147/map.png","wmid":270289042,"zip_code":"85027","street":null},{"_type":"delivery","avatar_url":"https://weedmaps.com/assets/attachments_missing/avatars/deliveries/square_missing.png","city":"Glendale","distance":null,"feature_level_raw":2,"feature_order":3,"id":14508,"is_delivery":true,"license_type":"medical","latitude":33.520717,"listing_url":"/deliveries/unified-caregivers-of-az-2-2","longitude":-112.265763,"name":"Unified Caregivers of Az - West Valley","package_level_raw":2,"rating":0.0,"reviews_count":0,"slug":"unified-caregivers-of-az-2-2","state":"AZ","static_map_url":"https://staticmap.weedmaps.com/static_map/13/33.520717/-112.265763/402/147/map.png","wmid":744123351,"zip_code":"85305","street":null},{"_type":"delivery","avatar_url":"https://d2kxqxnk1i5o9a.cloudfront.net/uploads/avatars/deliveries/12421/square_speedy-LT_headShot.png","city":"Chandler","distance":null,"feature_level_raw":1,"feature_order":4,"id":12421,"is_delivery":true,"license_type":"medical","latitude":33.307611,"listing_url":"/deliveries/speedy-nugzalez-2","longitude":-111.791389,"name":"Speedy Nugzalez - Chandler/Gilbert/Mesa","package_level_raw":2,"rating":4.88235294117647,"reviews_count":17,"slug":"speedy-nugzalez-2","state":"AZ","static_map_url":"https://staticmap.weedmaps.com/static_map/13/33.307611/-111.791389/402/147/map.png","wmid":805676127,"zip_code":"85225","street":null},{"_type":"delivery","avatar_url":"https://weedmaps.com/assets/attachments_missing/avatars/deliveries/square_missing.png","city":"Phoenix","distance":null,"feature_level_raw":1,"feature_order":4,"id":14169,"is_delivery":true,"license_type":"medical","latitude":33.465827,"listing_url":"/deliveries/kaya-medical-2","longitude":-112.130205,"name":"Kaya Medical","package_level_raw":2,"rating":4.08,"reviews_count":5,"slug":"kaya-medical-2","state":"AZ","static_map_url":"https://staticmap.weedmaps.com/static_map/13/33.465827/-112.130205/402/147/map.png","wmid":517945706,"zip_code":"85009","street":null},{"_type":"delivery","avatar_url":"https://weedmaps.com/assets/attachments_missing/avatars/deliveries/square_missing.png","city":"Tempe","distance":null,"feature_level_raw":1,"feature_order":4,"id":14506,"is_delivery":true,"license_type":"medical","latitude":33.4366655,"listing_url":"/deliveries/unified-caregivers-of-az-2","longitude":-111.9403254,"name":"Unified Caregivers of Az - Tempe","package_level_raw":2,"rating":3.9,"reviews_count":2,"slug":"unified-caregivers-of-az-2","state":"AZ","static_map_url":"https://staticmap.weedmaps.com/static_map/13/33.4366655/-111.9403254/402/147/map.png","wmid":834314488,"zip_code":"85281","street":null},{"_type":"delivery","avatar_url":"https://d2kxqxnk1i5o9a.cloudfront.net/uploads/avatars/deliveries/1381/square_photo.jpg","city":"Tucson","distance":null,"feature_level_raw":1,"feature_order":5,"id":1381,"is_delivery":true,"license_type":"medical","latitude":32.221484,"listing_url":"/deliveries/greenmarket-selections","longitude":-110.9438,"name":"GreenMarket Selections","package_level_raw":2,"rating":4.82162162162162,"reviews_count":111,"slug":"greenmarket-selections","state":"Az","static_map_url":"https://staticmap.weedmaps.com/static_map/13/32.221484/-110.9438/402/147/map.png","wmid":401699895,"zip_code":"85719","street":"Delivery"},{"_type":"delivery","avatar_url":"https://d2kxqxnk1i5o9a.cloudfront.net/uploads/avatars/deliveries/14031/square_weedmaps.png","city":"Gilbert","distance":null,"feature_level_raw":1,"feature_order":5,"id":14031,"is_delivery":true,"license_type":"medical","latitude":33.383109,"listing_url":"/deliveries/garden-of-eden","longitude":-111.719287,"name":"Garden Of Eden (GOE)","package_level_raw":2,"rating":4.64,"reviews_count":6,"slug":"garden-of-eden","state":"AZ","static_map_url":"https://staticmap.weedmaps.com/static_map/13/33.383109/-111.719287/402/147/map.png","wmid":153738239,"zip_code":"85234","street":null},{"_type":"delivery","avatar_url":"https://d2kxqxnk1i5o9a.cloudfront.net/uploads/avatars/deliveries/3355/square_fsfsfsf.png","city":"Tempe","distance":null,"feature_level_raw":1,"feature_order":5,"id":3355,"is_delivery":true,"license_type":"medical","latitude":33.413129,"listing_url":"/deliveries/dream-come-true","longitude":-111.926384,"name":"Dream Come True","package_level_raw":2,"rating":4.9,"reviews_count":2,"slug":"dream-come-true","state":"AZ","static_map_url":"https://staticmap.weedmaps.com/static_map/13/33.413129/-111.926384/402/147/map.png","wmid":142553002,"zip_code":"85281","street":"Delivery"},{"_type":"delivery","avatar_url":"https://d2kxqxnk1i5o9a.cloudfront.net/uploads/avatars/deliveries/14090/square_Dr.feel_good.jpg","city":"Chandler","distance":null,"feature_level_raw":1,"feature_order":6,"id":14090,"is_delivery":true,"license_type":"medical","latitude":33.268994,"listing_url":"/deliveries/dr-feel-good-delivery","longitude":-111.86855,"name":"Dr. Feel Good Delivery","package_level_raw":2,"rating":5.0,"reviews_count":6,"slug":"dr-feel-good-delivery","state":"AZ","static_map_url":"https://staticmap.weedmaps.com/static_map/13/33.268994/-111.86855/402/147/map.png","wmid":209200254,"zip_code":"85286","street":null},{"_type":"delivery","avatar_url":"https://d2kxqxnk1i5o9a.cloudfront.net/uploads/avatars/deliveries/14190/square_h170.jpeg","city":"Tempe","distance":null,"feature_level_raw":1,"feature_order":6,"id":14190,"is_delivery":true,"license_type":"medical","latitude":33.4147,"listing_url":"/deliveries/710-men-711","longitude":-111.908661,"name":"710 Men","package_level_raw":2,"rating":4.8,"reviews_count":2,"slug":"710-men-711","state":"AZ","static_map_url":"https://staticmap.weedmaps.com/static_map/13/33.4147/-111.908661/402/147/map.png","wmid":151918977,"zip_code":"85281","street":null},{"_type":"delivery","avatar_url":"https://d2kxqxnk1i5o9a.cloudfront.net/uploads/avatars/deliveries/4166/square_Main_Logo.jpg","city":"Tucson","distance":null,"feature_level_raw":1,"feature_order":6,"id":4166,"is_delivery":true,"license_type":"medical","latitude":32.206816,"listing_url":"/deliveries/thc-thehumboldtconnection-org-2","longitude":-110.926662,"name":"THC-TheHumboldtConnection.org","package_level_raw":2,"rating":0.0,"reviews_count":0,"slug":"thc-thehumboldtconnection-org-2","state":"AZ","static_map_url":"https://staticmap.weedmaps.com/static_map/13/32.206816/-110.926662/402/147/map.png","wmid":106759705,"zip_code":"85713","street":null},{"_type":"delivery","avatar_url":"https://d2kxqxnk1i5o9a.cloudfront.net/uploads/avatars/deliveries/14158/square_h170.jpeg","city":"Tempe","distance":null,"feature_level_raw":1,"feature_order":7,"id":14158,"is_delivery":true,"license_type":"medical","latitude":33.4366655,"listing_url":"/deliveries/meds-2-u","longitude":-111.9403254,"name":"Meds 2 U","package_level_raw":2,"rating":4.94285714285714,"reviews_count":7,"slug":"meds-2-u","state":"AZ","static_map_url":"https://staticmap.weedmaps.com/static_map/13/33.4366655/-111.9403254/402/147/map.png","wmid":578637068,"zip_code":"85281","street":null},{"_type":"delivery","avatar_url":"https://d2kxqxnk1i5o9a.cloudfront.net/uploads/avatars/deliveries/14200/square_Delivery_Truck_Logo.jpg","city":"Gilbert","distance":null,"feature_level_raw":1,"feature_order":7,"id":14200,"is_delivery":true,"license_type":"medical","latitude":33.3073768,"listing_url":"/deliveries/acme420-delivery-services","longitude":-111.7435799,"name":"ACME420 ","package_level_raw":2,"rating":5.0,"reviews_count":6,"slug":"acme420-delivery-services","state":"AZ","static_map_url":"https://staticmap.weedmaps.com/static_map/13/33.3073768/-111.7435799/402/147/map.png","wmid":493949012,"zip_code":"85295","street":null},{"_type":"delivery","avatar_url":"https://d2kxqxnk1i5o9a.cloudfront.net/uploads/avatars/deliveries/14187/square_DT.jpg","city":"Apache Junction","distance":null,"feature_level_raw":1,"feature_order":8,"id":14187,"is_delivery":true,"license_type":"medical","latitude":33.4150485,"listing_url":"/deliveries/dabtronix","longitude":-111.5495777,"name":"Dabtronix","package_level_raw":2,"rating":4.97142857142857,"reviews_count":7,"slug":"dabtronix","state":"AZ","static_map_url":"https://staticmap.weedmaps.com/static_map/13/33.4150485/-111.5495777/402/147/map.png","wmid":468832344,"zip_code":"85119","street":null},{"_type":"delivery","avatar_url":"https://d2kxqxnk1i5o9a.cloudfront.net/uploads/avatars/deliveries/14332/square_RHC.jpg","city":"Scottsdale","distance":null,"feature_level_raw":1,"feature_order":8,"id":14332,"is_delivery":true,"license_type":"medical","latitude":33.465954,"listing_url":"/deliveries/royal-healing-collective","longitude":-111.926313,"name":"Royal Healing Collective","package_level_raw":2,"rating":0.0,"reviews_count":0,"slug":"royal-healing-collective","state":"AZ","static_map_url":"https://staticmap.weedmaps.com/static_map/13/33.465954/-111.926313/402/147/map.png","wmid":634468807,"zip_code":"85257","street":null},{"_type":"delivery","avatar_url":"https://weedmaps.com/assets/attachments_missing/avatars/deliveries/square_missing.png","city":"Mesa","distance":null,"feature_level_raw":1,"feature_order":9,"id":14389,"is_delivery":true,"license_type":"medical","latitude":33.388442,"listing_url":"/deliveries/7leafdelivery","longitude":-111.6515,"name":"7leafdelivery","package_level_raw":2,"rating":4.2,"reviews_count":5,"slug":"7leafdelivery","state":"AZ","static_map_url":"https://staticmap.weedmaps.com/static_map/13/33.388442/-111.6515/402/147/map.png","wmid":328144594,"zip_code":"85209","street":null},{"_type":"delivery","avatar_url":"https://d2kxqxnk1i5o9a.cloudfront.net/uploads/avatars/deliveries/14326/square_CHQC.jpg","city":"Chandler","distance":null,"feature_level_raw":1,"feature_order":10,"id":14326,"is_delivery":true,"license_type":"medical","latitude":33.262932,"listing_url":"/deliveries/chandler-high-quality-collectives","longitude":-111.789674,"name":"Chandler High Quality Collectives","package_level_raw":2,"rating":3.025,"reviews_count":8,"slug":"chandler-high-quality-collectives","state":"AZ","static_map_url":"https://staticmap.weedmaps.com/static_map/13/33.262932/-111.789674/402/147/map.png","wmid":800140978,"zip_code":"85249","street":null},{"_type":"delivery","avatar_url":"https://d2kxqxnk1i5o9a.cloudfront.net/uploads/avatars/deliveries/14673/square_Tree_of_life_az_logo.png","city":"Mesa","distance":null,"feature_level_raw":1,"feature_order":12,"id":14673,"is_delivery":true,"license_type":"medical","latitude":33.445974,"listing_url":"/deliveries/tree-of-life","longitude":-111.8032005,"name":"Tree of Life Delivery","package_level_raw":2,"rating":5.0,"reviews_count":3,"slug":"tree-of-life","state":"AZ","static_map_url":"https://staticmap.weedmaps.com/static_map/13/33.445974/-111.8032005/402/147/map.png","wmid":313273774,"zip_code":"85203","street":null}][][{"_type":"delivery","avatar_url":"https://d2kxqxnk1i5o9a.cloudfront.net/uploads/avatars/deliveries/4013/square_DELIVERY.jpg","city":"Barstow","distance":null,"feature_level_raw":4,"feature_order":1,"id":4013,"is_delivery":true,"license_type":"medical","latitude":34.893191,"listing_url":"/deliveries/the-stash-spot","longitude":-117.047497,"name":"The Stash Spot","package_level_raw":2,"rating":4.94891443167305,"reviews_count":1410,"slug":"the-stash-spot","state":"CA","static_map_url":"https://staticmap.weedmaps.com/static_map/13/34.893191/-117.047497/402/147/map.png","wmid":872966279,"zip_code":"92311","street":null},{"_type":"delivery","avatar_url":"https://d2kxqxnk1i5o9a.cloudfront.net/uploads/avatars/deliveries/957/square_TRICOMB.jpg","city":"Victorville","distance":null,"feature_level_raw":4,"feature_order":1,"id":957,"is_delivery":true,"license_type":"medical","latitude":34.471213,"listing_url":"/deliveries/tricomb-therapies","longitude":-117.269362,"name":"TriComb Therapies - Victorville","package_level_raw":2,"rating":4.92646464646465,"reviews_count":990,"slug":"tricomb-therapies","state":"CA","static_map_url":"https://staticmap.weedmaps.com/static_map/13/34.471213/-117.269362/402/147/map.png","wmid":495692726,"zip_code":"92395","street":"Delivery Service"},{"_type":"delivery","avatar_url":"https://d2kxqxnk1i5o9a.cloudfront.net/uploads/avatars/deliveries/140/square_WESTSIDE_LOGO.jpeg","city":"Westminster","distance":null,"feature_level_raw":4,"feature_order":1,"id":140,"is_delivery":true,"license_type":"medical","latitude":33.759489,"listing_url":"/deliveries/nwa-natural-wellness-association","longitude":-117.955042,"name":"NWA - NATURAL WELLNESS ASSOCIATION ","package_level_raw":2,"rating":4.98280542986425,"reviews_count":221,"slug":"nwa-natural-wellness-association","state":"CA","static_map_url":"https://staticmap.weedmaps.com/static_map/13/33.759489/-117.955042/402/147/map.png","wmid":843501754,"zip_code":"92683","street":"Delivery"},{"_type":"delivery","avatar_url":"https://d2kxqxnk1i5o9a.cloudfront.net/uploads/avatars/deliveries/1596/square_PART_1441734102756_IMG956045.jpg","city":"Fresno","distance":null,"feature_level_raw":4,"feature_order":1,"id":1596,"is_delivery":true,"license_type":"medical","latitude":36.823036,"listing_url":"/deliveries/alternative-green-solutions-2","longitude":-119.789306,"name":"Alternative Green Solutions ","package_level_raw":2,"rating":4.89250720461095,"reviews_count":694,"slug":"alternative-green-solutions-2","state":"CA","static_map_url":"https://staticmap.weedmaps.com/static_map/13/36.823036/-119.789306/402/147/map.png","wmid":538342127,"zip_code":"93710","street":"Delivery"},{"_type":"delivery","avatar_url":"https://d2kxqxnk1i5o9a.cloudfront.net/uploads/avatars/deliveries/1432/square_GANJA_HARD.png","city":"Moreno Valley","distance":null,"feature_level_raw":4,"feature_order":1,"id":1432,"is_delivery":true,"license_type":"medical","latitude":33.932406,"listing_url":"/deliveries/rehab-delivery-moreno-valley","longitude":-117.226072,"name":"HERBOLUTION ORGANICS","package_level_raw":2,"rating":4.96,"reviews_count":165,"slug":"rehab-delivery-moreno-valley","state":"CA","static_map_url":"https://staticmap.weedmaps.com/static_map/13/33.932406/-117.226072/402/147/map.png","wmid":894779536,"zip_code":"92553","street":"Delivery"},{"_type":"delivery","avatar_url":"https://d2kxqxnk1i5o9a.cloudfront.net/uploads/avatars/deliveries/372/square_square_square_square_17398_NewImage_1337729691-1.jpg","city":"Azusa","distance":null,"feature_level_raw":4,"feature_order":1,"id":372,"is_delivery":true,"license_type":"medical","latitude":34.130098,"listing_url":"/deliveries/best-choice-deliveries-8","longitude":-117.896153,"name":"Best Choice Deliveries - Azusa/Covina","package_level_raw":2,"rating":4.87487164441837,"reviews_count":1364,"slug":"best-choice-deliveries-8","state":"Ca","static_map_url":"https://staticmap.weedmaps.com/static_map/13/34.130098/-117.896153/402/147/map.png","wmid":609521691,"zip_code":"91702","street":"FREE DELIVERY"},{"_type":"delivery","avatar_url":"https://d2kxqxnk1i5o9a.cloudfront.net/uploads/avatars/deliveries/194/square_photo_1_.JPG","city":"Chino","distance":null,"feature_level_raw":4,"feature_order":1,"id":194,"is_delivery":true,"license_type":"medical","latitude":34.0116,"listing_url":"/deliveries/quality-medical-collective-chino","longitude":-117.650918,"name":"Quality Medical Collective ","package_level_raw":2,"rating":4.86732026143791,"reviews_count":612,"slug":"quality-medical-collective-chino","state":"CA","static_map_url":"https://staticmap.weedmaps.com/static_map/13/34.0116/-117.650918/402/147/map.png","wmid":940775017,"zip_code":"91710","street":"Delivery Only"},{"_type":"delivery","avatar_url":"https://d2kxqxnk1i5o9a.cloudfront.net/uploads/avatars/deliveries/932/square_GreenBeanPharmLogo-2.png","city":"Visalia","distance":null,"feature_level_raw":4,"feature_order":1,"id":932,"is_delivery":true,"license_type":"medical","latitude":36.32013,"listing_url":"/deliveries/green-bean-pharm-3","longitude":-119.293308,"name":"Green Bean Pharm","package_level_raw":2,"rating":4.86939443535188,"reviews_count":611,"slug":"green-bean-pharm-3","state":"CA","static_map_url":"https://staticmap.weedmaps.com/static_map/13/36.32013/-119.293308/402/147/map.png","wmid":887203767,"zip_code":"93291","street":null},{"_type":"delivery","avatar_url":"https://d2kxqxnk1i5o9a.cloudfront.net/uploads/avatars/deliveries/2650/square_FullSizeRender-9.jpg","city":"San Gabriel Valley","distance":null,"feature_level_raw":4,"feature_order":1,"id":2650,"is_delivery":true,"license_type":"medical","latitude":34.148639,"listing_url":"/deliveries/budex-4","longitude":-118.038595,"name":"BudEx Delivery","package_level_raw":2,"rating":4.97384615384615,"reviews_count":130,"slug":"budex-4","state":"CA","static_map_url":"https://staticmap.weedmaps.com/static_map/13/34.148639/-118.038595/402/147/map.png","wmid":575069973,"zip_code":"91801","street":"Delivery"},{"_type":"delivery","avatar_url":"https://d2kxqxnk1i5o9a.cloudfront.net/uploads/avatars/deliveries/10632/square_Bestlogo.jpg","city":"Dr. J's is back!!!","distance":null,"feature_level_raw":4,"feature_order":1,"id":10632,"is_delivery":true,"license_type":"medical","latitude":34.134975,"listing_url":"/deliveries/mojave-medical-cultivators-club","longitude":-116.369722,"name":"Mojave Medical Cultivators Club","package_level_raw":2,"rating":4.92181069958848,"reviews_count":195,"slug":"mojave-medical-cultivators-club","state":"CA","static_map_url":"https://staticmap.weedmaps.com/static_map/13/34.134975/-116.369722/402/147/map.png","wmid":390040315,"zip_code":"92284","street":null},{"_type":"delivery","avatar_url":"https://d2kxqxnk1i5o9a.cloudfront.net/uploads/avatars/deliveries/1466/square_square_TRICOMB.jpg","city":"Redlands","distance":null,"feature_level_raw":4,"feature_order":1,"id":1466,"is_delivery":true,"license_type":"medical","latitude":34.056431,"listing_url":"/deliveries/tricomb-therapies-3","longitude":-117.176624,"name":"TriComb Therapies - Redlands","package_level_raw":2,"rating":4.92782608695652,"reviews_count":230,"slug":"tricomb-therapies-3","state":"CA","static_map_url":"https://staticmap.weedmaps.com/static_map/13/34.056431/-117.176624/402/147/map.png","wmid":187530853,"zip_code":"92373","street":"Delivery"},{"_type":"delivery","avatar_url":"https://d2kxqxnk1i5o9a.cloudfront.net/uploads/avatars/deliveries/729/square_CLOSE_UP.jpg","city":"Santa Clarita","distance":null,"feature_level_raw":4,"feature_order":1,"id":729,"is_delivery":true,"license_type":"medical","latitude":34.409788,"listing_url":"/deliveries/los-angeles-medical-delivery-services","longitude":-118.54022,"name":"CALI CARE","package_level_raw":2,"rating":4.92771084337349,"reviews_count":166,"slug":"los-angeles-medical-delivery-services","state":"California","static_map_url":"https://staticmap.weedmaps.com/static_map/13/34.409788/-118.54022/402/147/map.png","wmid":822580691,"zip_code":"91350","street":"Delivery Only"},{"_type":"delivery","avatar_url":"https://d2kxqxnk1i5o9a.cloudfront.net/uploads/avatars/deliveries/161/square_square_FullSizeRender.jpg","city":"San Diego","distance":null,"feature_level_raw":4,"feature_order":1,"id":161,"is_delivery":true,"license_type":"medical","latitude":32.73615,"listing_url":"/deliveries/alpha-medic-inc-2","longitude":-117.217373,"name":"Alpha Medic, Inc. - Ocean Beach","package_level_raw":2,"rating":4.86236391912908,"reviews_count":515,"slug":"alpha-medic-inc-2","state":"Ca","static_map_url":"https://staticmap.weedmaps.com/static_map/13/32.73615/-117.217373/402/147/map.png","wmid":106921763,"zip_code":"92110","street":"4227 Coronado Ave"},{"_type":"delivery","avatar_url":"https://d2kxqxnk1i5o9a.cloudfront.net/uploads/avatars/deliveries/1285/square_square_LOGO.jpg","city":"Placentia","distance":null,"feature_level_raw":4,"feature_order":1,"id":1285,"is_delivery":true,"license_type":"medical","latitude":33.896429,"listing_url":"/deliveries/anaheim-patient-care-delivery-2","longitude":-117.872317,"name":"APC","package_level_raw":2,"rating":4.87126436781609,"reviews_count":261,"slug":"anaheim-patient-care-delivery-2","state":"CA","static_map_url":"https://staticmap.weedmaps.com/static_map/13/33.896429/-117.872317/402/147/map.png","wmid":347542243,"zip_code":"90621","street":"Delivery"},{"_type":"delivery","avatar_url":"https://d2kxqxnk1i5o9a.cloudfront.net/uploads/avatars/deliveries/258/square_GOLDSTAR12.jpg","city":"Rancho Cucamonga","distance":null,"feature_level_raw":4,"feature_order":1,"id":258,"is_delivery":true,"license_type":"medical","latitude":34.120208,"listing_url":"/deliveries/goldstar-delivery-service","longitude":-117.586195,"name":"GoldStar Delivery","package_level_raw":2,"rating":4.86764705882353,"reviews_count":340,"slug":"goldstar-delivery-service","state":"CA","static_map_url":"https://staticmap.weedmaps.com/static_map/13/34.120208/-117.586195/402/147/map.png","wmid":109940937,"zip_code":"91730","street":"Delivery Only"},{"_type":"delivery","avatar_url":"https://d2kxqxnk1i5o9a.cloudfront.net/uploads/avatars/deliveries/9765/square_STASH_SPOT_INFO.jpg","city":"Apple Valley","distance":null,"feature_level_raw":4,"feature_order":1,"id":9765,"is_delivery":true,"license_type":"medical","latitude":34.524146,"listing_url":"/deliveries/the-stash-spot-2","longitude":-117.216896,"name":"The Stash Spot","package_level_raw":2,"rating":4.91446540880503,"reviews_count":159,"slug":"the-stash-spot-2","state":"CA","static_map_url":"https://staticmap.weedmaps.com/static_map/13/34.524146/-117.216896/402/147/map.png","wmid":631397401,"zip_code":"92307","street":null},{"_type":"delivery","avatar_url":"https://d2kxqxnk1i5o9a.cloudfront.net/uploads/avatars/deliveries/2624/square_IMG_4682.JPG","city":"La Puente","distance":null,"feature_level_raw":4,"feature_order":1,"id":2624,"is_delivery":true,"license_type":"medical","latitude":34.036206,"listing_url":"/deliveries/buddies-med-express","longitude":-117.934592,"name":"Buddies Med Express","package_level_raw":2,"rating":4.89256198347107,"reviews_count":242,"slug":"buddies-med-express","state":"Ca","static_map_url":"https://staticmap.weedmaps.com/static_map/13/34.036206/-117.934592/402/147/map.png","wmid":345853207,"zip_code":"91790","street":"Delivery"},{"_type":"delivery","avatar_url":"https://d2kxqxnk1i5o9a.cloudfront.net/uploads/avatars/deliveries/1141/square_logo_square.png","city":"Hollywood","distance":null,"feature_level_raw":4,"feature_order":1,"id":1141,"is_delivery":true,"license_type":"medical","latitude":34.095278,"listing_url":"/deliveries/fly-delivery-3","longitude":-118.328587,"name":"Fly Delivery","package_level_raw":2,"rating":4.9248322147651,"reviews_count":149,"slug":"fly-delivery-3","state":"CA","static_map_url":"https://staticmap.weedmaps.com/static_map/13/34.095278/-118.328587/402/147/map.png","wmid":630047705,"zip_code":"90039","street":"Delivery"},{"_type":"delivery","avatar_url":"https://d2kxqxnk1i5o9a.cloudfront.net/uploads/avatars/deliveries/1820/square_GIU_RS-logo001_BlackText.jpg","city":"Los Angeles","distance":null,"feature_level_raw":4,"feature_order":1,"id":1820,"is_delivery":true,"license_type":"medical","latitude":34.0466,"listing_url":"/deliveries/sticky-icky-delivery","longitude":-118.255483,"name":"Sticky Icky Delivery","package_level_raw":2,"rating":4.87344262295082,"reviews_count":305,"slug":"sticky-icky-delivery","state":"CA","static_map_url":"https://staticmap.weedmaps.com/static_map/13/34.0466/-118.255483/402/147/map.png","wmid":973348825,"zip_code":"90014","street":"Delivery"},{"_type":"delivery","avatar_url":"https://d2kxqxnk1i5o9a.cloudfront.net/uploads/avatars/deliveries/9755/square_ADS_logo_weedmaps2.jpg","city":"Antelope Valley","distance":null,"feature_level_raw":4,"feature_order":1,"id":9755,"is_delivery":true,"license_type":"medical","latitude":34.645569,"listing_url":"/deliveries/anon-delivery","longitude":-118.218399,"name":"Anon Delivery - Antelope Valley","package_level_raw":2,"rating":4.92093023255814,"reviews_count":129,"slug":"anon-delivery","state":"CA","static_map_url":"https://staticmap.weedmaps.com/static_map/13/34.645569/-118.218399/402/147/map.png","wmid":174995982,"zip_code":"93536","street":null},{"_type":"delivery","avatar_url":"https://d2kxqxnk1i5o9a.cloudfront.net/uploads/avatars/deliveries/402/square_tlc.jpg","city":"Lake Arrowhead","distance":null,"feature_level_raw":4,"feature_order":1,"id":402,"is_delivery":true,"license_type":"medical","latitude":34.248538,"listing_url":"/deliveries/the-lima-collective-inc-lake-arrowhead","longitude":-117.189548,"name":"TLC Delivery, Inc - Lake Arrowhead    ","package_level_raw":2,"rating":4.88085106382979,"reviews_count":188,"slug":"the-lima-collective-inc-lake-arrowhead","state":"CA","static_map_url":"https://staticmap.weedmaps.com/static_map/13/34.248538/-117.189548/402/147/map.png","wmid":635213613,"zip_code":"92352","street":"Deliveries Only"},{"_type":"delivery","avatar_url":"https://d2kxqxnk1i5o9a.cloudfront.net/uploads/avatars/deliveries/349/square_square_FullSizeRender.jpg","city":"San Diego","distance":null,"feature_level_raw":4,"feature_order":1,"id":349,"is_delivery":true,"license_type":"medical","latitude":32.816657,"listing_url":"/deliveries/alpha-medic-inc-2-2","longitude":-117.223896,"name":"Alpha Medic, Inc. - Pacific Beach","package_level_raw":2,"rating":4.8391167192429,"reviews_count":317,"slug":"alpha-medic-inc-2-2","state":"CA","static_map_url":"https://staticmap.weedmaps.com/static_map/13/32.816657/-117.223896/402/147/map.png","wmid":484470079,"zip_code":"92109","street":"Pacific Beach"},{"_type":"delivery","avatar_url":"https://d2kxqxnk1i5o9a.cloudfront.net/uploads/avatars/deliveries/1139/square_logo_square.png","city":"Glendale","distance":null,"feature_level_raw":4,"feature_order":1,"id":1139,"is_delivery":true,"license_type":"medical","latitude":34.150067,"listing_url":"/deliveries/fly-delivery-sunvalley","longitude":-118.248926,"name":"Fly Delivery","package_level_raw":2,"rating":4.90058479532164,"reviews_count":171,"slug":"fly-delivery-sunvalley","state":"CA","static_map_url":"https://staticmap.weedmaps.com/static_map/13/34.150067/-118.248926/402/147/map.png","wmid":171658992,"zip_code":"91205","street":"Delivery"},{"_type":"delivery","avatar_url":"https://d2kxqxnk1i5o9a.cloudfront.net/uploads/avatars/deliveries/2013/square_logo_square.png","city":"Los Angeles","distance":null,"feature_level_raw":4,"feature_order":1,"id":2013,"is_delivery":true,"license_type":"medical","latitude":34.061615,"listing_url":"/deliveries/fly-delivery-4","longitude":-118.259192,"name":"Fly Delivery ","package_level_raw":2,"rating":4.98961038961039,"reviews_count":77,"slug":"fly-delivery-4","state":"CA","static_map_url":"https://staticmap.weedmaps.com/static_map/13/34.061615/-118.259192/402/147/map.png","wmid":422116955,"zip_code":"90039","street":"Delivery Only"},{"_type":"delivery","avatar_url":"https://d2kxqxnk1i5o9a.cloudfront.net/uploads/avatars/deliveries/978/square_Private_Label.jpg","city":"Laguna Niguel","distance":null,"feature_level_raw":4,"feature_order":1,"id":978,"is_delivery":true,"license_type":"medical","latitude":33.535386,"listing_url":"/deliveries/private-label-organics","longitude":-117.715287,"name":"Private Label Organics - Aliso Viejo, Laguna Niguel, - 92677, 92656, 92653","package_level_raw":2,"rating":4.97662337662338,"reviews_count":77,"slug":"private-label-organics","state":"CA","static_map_url":"https://staticmap.weedmaps.com/static_map/13/33.535386/-117.715287/402/147/map.png","wmid":349352765,"zip_code":"92677","street":"Delivery"},{"_type":"delivery","avatar_url":"https://d2kxqxnk1i5o9a.cloudfront.net/uploads/avatars/deliveries/591/square_1.jpg","city":"Anywhere in SGV","distance":null,"feature_level_raw":4,"feature_order":1,"id":591,"is_delivery":true,"license_type":"medical","latitude":34.095207,"listing_url":"/deliveries/sgv-med-express-626-200-3587","longitude":-118.070588,"name":"SGV MED EXPRESS","package_level_raw":2,"rating":4.85526315789474,"reviews_count":183,"slug":"sgv-med-express-626-200-3587","state":"ca","static_map_url":"https://staticmap.weedmaps.com/static_map/13/34.095207/-118.070588/402/147/map.png","wmid":940575857,"zip_code":"91780","street":"Delivery Only"},{"_type":"delivery","avatar_url":"https://d2kxqxnk1i5o9a.cloudfront.net/uploads/avatars/deliveries/9087/square_13165889_834746529999993_6901049325093676638_n.jpg","city":"Burbank","distance":null,"feature_level_raw":4,"feature_order":1,"id":9087,"is_delivery":true,"license_type":"medical","latitude":34.17497,"listing_url":"/deliveries/califlower-collective","longitude":-118.349254,"name":"Califlower Collective - Burbank","package_level_raw":2,"rating":4.98787878787879,"reviews_count":66,"slug":"califlower-collective","state":"CA","static_map_url":"https://staticmap.weedmaps.com/static_map/13/34.17497/-118.349254/402/147/map.png","wmid":592610724,"zip_code":"91505","street":null},{"_type":"delivery","avatar_url":"https://d2kxqxnk1i5o9a.cloudfront.net/uploads/avatars/deliveries/59/square_CKWMLogo.jpg","city":"El Cajon","distance":null,"feature_level_raw":4,"feature_order":1,"id":59,"is_delivery":true,"license_type":"medical","latitude":32.7986227,"listing_url":"/deliveries/californiakindness","longitude":-116.9623474,"name":"California's Kindest","package_level_raw":2,"rating":4.76598639455782,"reviews_count":441,"slug":"californiakindness","state":"CA","static_map_url":"https://staticmap.weedmaps.com/static_map/13/32.7986227/-116.9623474/402/147/map.png","wmid":243532918,"zip_code":"92020","street":"North Magnolia Avenue"},{"_type":"delivery","avatar_url":"https://d2kxqxnk1i5o9a.cloudfront.net/uploads/avatars/deliveries/285/square_westside_organic_squre_logo_screen_grab.JPG","city":"Santa Monica","distance":null,"feature_level_raw":4,"feature_order":1,"id":285,"is_delivery":true,"license_type":"medical","latitude":34.01682,"listing_url":"/deliveries/westsideorganic","longitude":-118.488194,"name":"Westside Organic Delivery - Santa Monica","package_level_raw":2,"rating":4.89807692307692,"reviews_count":104,"slug":"westsideorganic","state":"CA","static_map_url":"https://staticmap.weedmaps.com/static_map/13/34.01682/-118.488194/402/147/map.png","wmid":980112850,"zip_code":"90401","street":"Delivery Only"},{"_type":"delivery","avatar_url":"https://d2kxqxnk1i5o9a.cloudfront.net/uploads/avatars/deliveries/168/square_Logo101wellnessNew.jpg","city":"Sonoma County","distance":null,"feature_level_raw":4,"feature_order":1,"id":168,"is_delivery":true,"license_type":"medical","latitude":38.387228,"listing_url":"/deliveries/101-wellness-delivery","longitude":-122.726748,"name":"101 Wellness Delivery - Santa Rosa","package_level_raw":2,"rating":4.84197530864198,"reviews_count":162,"slug":"101-wellness-delivery","state":"CA","static_map_url":"https://staticmap.weedmaps.com/static_map/13/38.387228/-122.726748/402/147/map.png","wmid":193774651,"zip_code":"95407","street":"Santa Rosa Delivery"},{"_type":"delivery","avatar_url":"https://d2kxqxnk1i5o9a.cloudfront.net/uploads/avatars/deliveries/6933/square_safe_access_fb_cover.jpg","city":"Modesto","distance":null,"feature_level_raw":4,"feature_order":1,"id":6933,"is_delivery":true,"license_type":"medical","latitude":37.6781,"listing_url":"/deliveries/safe-access","longitude":-120.939606,"name":"Safe Access - Modesto","package_level_raw":2,"rating":4.85972222222222,"reviews_count":144,"slug":"safe-access","state":"CA","static_map_url":"https://staticmap.weedmaps.com/static_map/13/37.6781/-120.939606/402/147/map.png","wmid":980439497,"zip_code":"95355","street":null},{"_type":"delivery","avatar_url":"https://d2kxqxnk1i5o9a.cloudfront.net/uploads/avatars/deliveries/13834/square_large_imageedit_1_3262204259.jpg","city":"Studio City","distance":null,"feature_level_raw":4,"feature_order":1,"id":13834,"is_delivery":true,"license_type":"medical","latitude":34.157555,"listing_url":"/deliveries/future-meds-2-2","longitude":-118.405447,"name":"Future Meds","package_level_raw":2,"rating":4.89473684210526,"reviews_count":38,"slug":"future-meds-2-2","state":"CA","static_map_url":"https://staticmap.weedmaps.com/static_map/13/34.157555/-118.405447/402/147/map.png","wmid":781829451,"zip_code":"91423","street":null},{"_type":"delivery","avatar_url":"https://d2kxqxnk1i5o9a.cloudfront.net/uploads/avatars/deliveries/1247/square_photo.JPG","city":"El Centro","distance":null,"feature_level_raw":4,"feature_order":1,"id":1247,"is_delivery":true,"license_type":"medical","latitude":32.787787,"listing_url":"/deliveries/green-lantern-express-inc","longitude":-115.552539,"name":"Green Lantern Express, Inc.","package_level_raw":2,"rating":4.85198237885463,"reviews_count":227,"slug":"green-lantern-express-inc","state":"California","static_map_url":"https://staticmap.weedmaps.com/static_map/13/32.787787/-115.552539/402/147/map.png","wmid":521339299,"zip_code":"92243","street":"birch st."},{"_type":"delivery","avatar_url":"https://d2kxqxnk1i5o9a.cloudfront.net/uploads/avatars/deliveries/2633/square_Herb-COnnection-Square-Layered-1920.jpg","city":"Pasadena","distance":null,"feature_level_raw":4,"feature_order":1,"id":2633,"is_delivery":true,"license_type":"medical","latitude":34.162387,"listing_url":"/deliveries/the-herb-connection-pasadena","longitude":-118.121626,"name":"The Herb Connection - Pasadena ","package_level_raw":2,"rating":4.95737704918033,"reviews_count":61,"slug":"the-herb-connection-pasadena","state":"CA","static_map_url":"https://staticmap.weedmaps.com/static_map/13/34.162387/-118.121626/402/147/map.png","wmid":883168174,"zip_code":"91104","street":"Delivery"},{"_type":"delivery","avatar_url":"https://d2kxqxnk1i5o9a.cloudfront.net/uploads/avatars/deliveries/2374/square_square_FullSizeRender.jpg","city":"Highland","distance":null,"feature_level_raw":4,"feature_order":1,"id":2374,"is_delivery":true,"license_type":"medical","latitude":34.146674,"listing_url":"/deliveries/alpha-medic-inc-2-4","longitude":-117.226089,"name":"Alpha Medic, Inc. - San Bernardino","package_level_raw":2,"rating":4.84431818181818,"reviews_count":176,"slug":"alpha-medic-inc-2-4","state":"Ca","static_map_url":"https://staticmap.weedmaps.com/static_map/13/34.146674/-117.226089/402/147/map.png","wmid":336084607,"zip_code":"92346","street":"Delivery"},{"_type":"delivery","avatar_url":"https://d2kxqxnk1i5o9a.cloudfront.net/uploads/avatars/deliveries/4973/square_gorilla_glue.jpg","city":"SAN FERNANDO VALLEY","distance":null,"feature_level_raw":4,"feature_order":1,"id":4973,"is_delivery":true,"license_type":"medical","latitude":34.172186,"listing_url":"/deliveries/ez-meds-delivery-2","longitude":-118.422515,"name":"Ez Meds **Open Late**","package_level_raw":2,"rating":4.94375,"reviews_count":64,"slug":"ez-meds-delivery-2","state":"CA","static_map_url":"https://staticmap.weedmaps.com/static_map/13/34.172186/-118.422515/402/147/map.png","wmid":529812933,"zip_code":"91401","street":null},{"_type":"delivery","avatar_url":"https://d2kxqxnk1i5o9a.cloudfront.net/uploads/avatars/deliveries/4505/square_logow_relief.jpg","city":"Pacifica","distance":null,"feature_level_raw":4,"feature_order":1,"id":4505,"is_delivery":true,"license_type":"medical","latitude":37.633419,"listing_url":"/deliveries/emerald-phog","longitude":-122.49035,"name":"Emerald Phog Pacifica ","package_level_raw":2,"rating":4.92054794520548,"reviews_count":73,"slug":"emerald-phog","state":"CA","static_map_url":"https://staticmap.weedmaps.com/static_map/13/37.633419/-122.49035/402/147/map.png","wmid":320442785,"zip_code":"94044","street":null},{"_type":"delivery","avatar_url":"https://d2kxqxnk1i5o9a.cloudfront.net/uploads/avatars/deliveries/115/square_square_CKWMLogo.jpg","city":"San Diego","distance":null,"feature_level_raw":4,"feature_order":1,"id":115,"is_delivery":true,"license_type":"medical","latitude":32.764646,"listing_url":"/deliveries/kind-patient-services-e4","longitude":-117.096905,"name":"California's Kindest","package_level_raw":2,"rating":4.86078431372549,"reviews_count":102,"slug":"kind-patient-services-e4","state":"CA","static_map_url":"https://staticmap.weedmaps.com/static_map/13/32.764646/-117.096905/402/147/map.png","wmid":905283950,"zip_code":"92108","street":"Delivery Only"},{"_type":"delivery","avatar_url":"https://d2kxqxnk1i5o9a.cloudfront.net/uploads/avatars/deliveries/345/square_CKWMLogo.jpg","city":"North San Diego","distance":null,"feature_level_raw":4,"feature_order":1,"id":345,"is_delivery":true,"license_type":"medical","latitude":32.97503,"listing_url":"/deliveries/californiakindness6","longitude":-117.049958,"name":"California's Kindest","package_level_raw":2,"rating":4.79507389162562,"reviews_count":203,"slug":"californiakindness6","state":"CA","static_map_url":"https://staticmap.weedmaps.com/static_map/13/32.97503/-117.049958/402/147/map.png","wmid":551511588,"zip_code":"92129","street":"North San Diego"},{"_type":"delivery","avatar_url":"https://d2kxqxnk1i5o9a.cloudfront.net/uploads/avatars/deliveries/3092/square_FullSizeRender-3.jpg","city":"Ontario","distance":null,"feature_level_raw":4,"feature_order":1,"id":3092,"is_delivery":true,"license_type":"medical","latitude":34.063745,"listing_url":"/deliveries/budex-delivery-2-3","longitude":-117.6443,"name":"BudEx Delivery - Ontario / Montclair","package_level_raw":2,"rating":4.91666666666667,"reviews_count":84,"slug":"budex-delivery-2-3","state":"CA","static_map_url":"https://staticmap.weedmaps.com/static_map/13/34.063745/-117.6443/402/147/map.png","wmid":437125467,"zip_code":"91762","street":"Delivery"}][][][][{"_type":"delivery","avatar_url":"https://d2kxqxnk1i5o9a.cloudfront.net/uploads/avatars/deliveries/9164/square_CBD_MOLECULE.png","city":"Orlando","distance":null,"feature_level_raw":1,"feature_order":5,"id":9164,"is_delivery":true,"license_type":"medical","latitude":28.542204,"listing_url":"/deliveries/david-s-cbd-dispensary","longitude":-81.379024,"name":"David's CBD Dispensary","package_level_raw":2,"rating":5.0,"reviews_count":6,"slug":"david-s-cbd-dispensary","state":"Fl","static_map_url":"https://staticmap.weedmaps.com/static_map/13/28.542204/-81.379024/402/147/map.png","wmid":853273662,"zip_code":"32801","street":null}][{"_type":"delivery","avatar_url":"https://d2kxqxnk1i5o9a.cloudfront.net/uploads/avatars/deliveries/10172/square_Georgia_cannabis.JPG","city":"Atlanta","distance":null,"feature_level_raw":1,"feature_order":5,"id":10172,"is_delivery":true,"license_type":"medical","latitude":33.798599,"listing_url":"/deliveries/georgia-cannabis-org","longitude":-84.393343,"name":"GeorgiaCannabis.org","package_level_raw":2,"rating":0.0,"reviews_count":0,"slug":"georgia-cannabis-org","state":"GA","static_map_url":"https://staticmap.weedmaps.com/static_map/13/33.798599/-84.393343/402/147/map.png","wmid":314952805,"zip_code":"30301","street":"2100 Scenic Dr"}][][][][][][][][][{"_type":"delivery","avatar_url":"https://d2kxqxnk1i5o9a.cloudfront.net/uploads/avatars/deliveries/7162/square_caregiver.png","city":"Kittery","distance":null,"feature_level_raw":3,"feature_order":2,"id":7162,"is_delivery":true,"license_type":"medical","latitude":43.09369,"listing_url":"/deliveries/cambridge-care-givers","longitude":-70.752763,"name":"Cambridge Caregivers","package_level_raw":2,"rating":5.0,"reviews_count":10,"slug":"cambridge-care-givers","state":"ME","static_map_url":"https://staticmap.weedmaps.com/static_map/13/43.09369/-70.752763/402/147/map.png","wmid":248006390,"zip_code":"03904","street":null},{"_type":"delivery","avatar_url":"https://d2kxqxnk1i5o9a.cloudfront.net/uploads/avatars/deliveries/8444/square_MWc-jpeg-correct.jpg","city":"Eliot","distance":null,"feature_level_raw":2,"feature_order":3,"id":8444,"is_delivery":true,"license_type":"medical","latitude":43.111142,"listing_url":"/deliveries/metrowest-care","longitude":-70.77594,"name":"MetroWest  Care","package_level_raw":2,"rating":4.96666666666667,"reviews_count":6,"slug":"metrowest-care","state":"ME","static_map_url":"https://staticmap.weedmaps.com/static_map/13/43.111142/-70.77594/402/147/map.png","wmid":713022750,"zip_code":"03903","street":null}][][][{"_type":"delivery","avatar_url":"https://d2kxqxnk1i5o9a.cloudfront.net/uploads/avatars/deliveries/1775/square_Weedmaps.jpg","city":"Macomb County","distance":null,"feature_level_raw":4,"feature_order":1,"id":1775,"is_delivery":true,"license_type":"medical","latitude":42.626749,"listing_url":"/deliveries/michorganics","longitude":-82.966938,"name":"MichOrganics","package_level_raw":2,"rating":4.74942528735632,"reviews_count":174,"slug":"michorganics","state":"MI","static_map_url":"https://staticmap.weedmaps.com/static_map/13/42.626749/-82.966938/402/147/map.png","wmid":813545891,"zip_code":"49236","street":"CALL FIRST for VERIFICATION"},{"_type":"delivery","avatar_url":"https://weedmaps.com/assets/attachments_missing/avatars/deliveries/square_missing.png","city":"Lansing","distance":null,"feature_level_raw":4,"feature_order":1,"id":13299,"is_delivery":true,"license_type":"medical","latitude":42.68506,"listing_url":"/deliveries/buds-r-us-delivery-2","longitude":-84.513458,"name":"Buds R Us Delivery","package_level_raw":2,"rating":1.0,"reviews_count":1,"slug":"buds-r-us-delivery-2","state":"MI","static_map_url":"https://staticmap.weedmaps.com/static_map/13/42.68506/-84.513458/402/147/map.png","wmid":470763846,"zip_code":"48910","street":null},{"_type":"delivery","avatar_url":"https://d2kxqxnk1i5o9a.cloudfront.net/uploads/avatars/deliveries/7260/square_med-marijuana.jpg","city":"Oakland County","distance":null,"feature_level_raw":4,"feature_order":1,"id":7260,"is_delivery":true,"license_type":"medical","latitude":42.499212,"listing_url":"/deliveries/weedies-2-2","longitude":-83.358582,"name":"Weedies","package_level_raw":2,"rating":4.73333333333333,"reviews_count":69,"slug":"weedies-2-2","state":"Michigan","static_map_url":"https://staticmap.weedmaps.com/static_map/13/42.499212/-83.358582/402/147/map.png","wmid":363259958,"zip_code":"48334","street":null},{"_type":"delivery","avatar_url":"https://d2kxqxnk1i5o9a.cloudfront.net/uploads/avatars/deliveries/7855/square_414520150724-4483-v2ttra.jpg","city":"St Clair Shores","distance":null,"feature_level_raw":4,"feature_order":1,"id":7855,"is_delivery":true,"license_type":"medical","latitude":42.481121,"listing_url":"/deliveries/budex-delivery-2-3-2","longitude":-82.889228,"name":"BudEx Delivery","package_level_raw":2,"rating":4.82727272727273,"reviews_count":44,"slug":"budex-delivery-2-3-2","state":"MI","static_map_url":"https://staticmap.weedmaps.com/static_map/13/42.481121/-82.889228/402/147/map.png","wmid":575608420,"zip_code":"48081","street":null},{"_type":"delivery","avatar_url":"https://d2kxqxnk1i5o9a.cloudfront.net/uploads/avatars/deliveries/7535/square_doorbell.jpg","city":"South West Detroit","distance":null,"feature_level_raw":4,"feature_order":1,"id":7535,"is_delivery":true,"license_type":"medical","latitude":42.325526,"listing_url":"/deliveries/medex","longitude":-83.330974,"name":"MedEx Delivery","package_level_raw":2,"rating":4.60454545454545,"reviews_count":44,"slug":"medex","state":"MI","static_map_url":"https://staticmap.weedmaps.com/static_map/13/42.325526/-83.330974/402/147/map.png","wmid":761926739,"zip_code":"48101","street":null},{"_type":"delivery","avatar_url":"https://d2kxqxnk1i5o9a.cloudfront.net/uploads/avatars/deliveries/1711/square_rsz_large_nuwavemedz.jpg","city":"Macomb County","distance":null,"feature_level_raw":3,"feature_order":2,"id":1711,"is_delivery":true,"license_type":"medical","latitude":42.598237,"listing_url":"/deliveries/nu-wave-medz","longitude":-82.880826,"name":"Nu Wave Medz","package_level_raw":2,"rating":4.79636363636364,"reviews_count":110,"slug":"nu-wave-medz","state":"mi","static_map_url":"https://staticmap.weedmaps.com/static_map/13/42.598237/-82.880826/402/147/map.png","wmid":303714810,"zip_code":"48035","street":"Delivery Only!!!"},{"_type":"delivery","avatar_url":"https://d2kxqxnk1i5o9a.cloudfront.net/uploads/avatars/deliveries/2011/square_avatar.jpg","city":"Southgate","distance":null,"feature_level_raw":3,"feature_order":2,"id":2011,"is_delivery":true,"license_type":"medical","latitude":42.199264,"listing_url":"/deliveries/good-life-delivery-2","longitude":-83.195279,"name":"Good Life Delivery","package_level_raw":2,"rating":4.83673469387755,"reviews_count":49,"slug":"good-life-delivery-2","state":"MI","static_map_url":"https://staticmap.weedmaps.com/static_map/13/42.199264/-83.195279/402/147/map.png","wmid":288411712,"zip_code":"48195","street":"Delivery Only"},{"_type":"delivery","avatar_url":"https://d2kxqxnk1i5o9a.cloudfront.net/uploads/avatars/deliveries/352/square_rsz_antfarmlogo.jpg","city":"Southfield","distance":null,"feature_level_raw":3,"feature_order":2,"id":352,"is_delivery":true,"license_type":"medical","latitude":42.473363,"listing_url":"/deliveries/ant-farm-compassion-club","longitude":-83.220921,"name":"Ant Farm Compassion Club","package_level_raw":2,"rating":3.96363636363636,"reviews_count":22,"slug":"ant-farm-compassion-club","state":"MI","static_map_url":"https://staticmap.weedmaps.com/static_map/13/42.473363/-83.220921/402/147/map.png","wmid":740391003,"zip_code":"48075","street":"Delivery Only"},{"_type":"delivery","avatar_url":"https://d2kxqxnk1i5o9a.cloudfront.net/uploads/avatars/deliveries/9348/square_GREEN_LOOP_2.png","city":"Marquette","distance":null,"feature_level_raw":3,"feature_order":2,"id":9348,"is_delivery":true,"license_type":"medical","latitude":46.5477714,"listing_url":"/deliveries/green-loop","longitude":-87.3956241,"name":"Green Loop","package_level_raw":2,"rating":5.0,"reviews_count":1,"slug":"green-loop","state":"MI","static_map_url":"https://staticmap.weedmaps.com/static_map/13/46.5477714/-87.3956241/402/147/map.png","wmid":163837599,"zip_code":"49855","street":null},{"_type":"delivery","avatar_url":"https://d2kxqxnk1i5o9a.cloudfront.net/uploads/avatars/deliveries/10817/square_InstagramsLogo.jpg","city":"St Clair Shores","distance":null,"feature_level_raw":3,"feature_order":2,"id":10817,"is_delivery":true,"license_type":"medical","latitude":42.495195,"listing_url":"/deliveries/instagrams","longitude":-82.91705,"name":"Instagrams","package_level_raw":2,"rating":5.0,"reviews_count":1,"slug":"instagrams","state":"MI","static_map_url":"https://staticmap.weedmaps.com/static_map/13/42.495195/-82.91705/402/147/map.png","wmid":755976220,"zip_code":"48081","street":null},{"_type":"delivery","avatar_url":"https://d2kxqxnk1i5o9a.cloudfront.net/uploads/avatars/deliveries/2545/square_large.png","city":"southfield","distance":null,"feature_level_raw":2,"feature_order":3,"id":2545,"is_delivery":true,"license_type":"medical","latitude":42.496591,"listing_url":"/deliveries/happy-420-dispensary","longitude":-83.231187,"name":"Happy 420 Delivery","package_level_raw":2,"rating":4.98,"reviews_count":50,"slug":"happy-420-dispensary","state":"mi","static_map_url":"https://staticmap.weedmaps.com/static_map/13/42.496591/-83.231187/402/147/map.png","wmid":439140700,"zip_code":"48076","street":"Delivery Only"},{"_type":"delivery","avatar_url":"https://d2kxqxnk1i5o9a.cloudfront.net/uploads/avatars/deliveries/12601/square_Bud_R_Us_logo_300dpi_color.png","city":"Macomb County","distance":null,"feature_level_raw":2,"feature_order":3,"id":12601,"is_delivery":true,"license_type":"medical","latitude":42.672569,"listing_url":"/deliveries/buds-r-us-delivery","longitude":-82.935004,"name":"Buds R Us Delivery","package_level_raw":2,"rating":4.70666666666667,"reviews_count":30,"slug":"buds-r-us-delivery","state":"MI","static_map_url":"https://staticmap.weedmaps.com/static_map/13/42.672569/-82.935004/402/147/map.png","wmid":104689053,"zip_code":"48042","street":null},{"_type":"delivery","avatar_url":"https://d2kxqxnk1i5o9a.cloudfront.net/uploads/avatars/deliveries/12102/square_FullSizeRender__1_.jpg","city":"Downriver","distance":null,"feature_level_raw":1,"feature_order":4,"id":12102,"is_delivery":true,"license_type":"medical","latitude":42.227545,"listing_url":"/deliveries/nugs-on-the-run","longitude":-83.229861,"name":"Nugs On The Run","package_level_raw":2,"rating":4.99166666666667,"reviews_count":24,"slug":"nugs-on-the-run","state":"MI","static_map_url":"https://staticmap.weedmaps.com/static_map/13/42.227545/-83.229861/402/147/map.png","wmid":938903187,"zip_code":"48180","street":null},{"_type":"delivery","avatar_url":"https://d2kxqxnk1i5o9a.cloudfront.net/uploads/avatars/deliveries/8152/square_images.jpg","city":"Macomb \u0026 Oakland County","distance":null,"feature_level_raw":1,"feature_order":4,"id":8152,"is_delivery":true,"license_type":"medical","latitude":42.676148,"listing_url":"/deliveries/mobilemedz1","longitude":-82.750591,"name":"Mobile Medz 1","package_level_raw":2,"rating":4.93333333333333,"reviews_count":12,"slug":"mobilemedz1","state":"MI","static_map_url":"https://staticmap.weedmaps.com/static_map/13/42.676148/-82.750591/402/147/map.png","wmid":482608372,"zip_code":"48315","street":null},{"_type":"delivery","avatar_url":"https://d2kxqxnk1i5o9a.cloudfront.net/uploads/avatars/deliveries/12834/square_SnoopsDoggzLogo.png","city":"West Bloomfield","distance":null,"feature_level_raw":1,"feature_order":4,"id":12834,"is_delivery":true,"license_type":"medical","latitude":42.5440126,"listing_url":"/deliveries/snoops-doggz-smoke-relief-2","longitude":-83.3468784,"name":"Snoops Doggz Smoke Relief","package_level_raw":2,"rating":0.0,"reviews_count":0,"slug":"snoops-doggz-smoke-relief-2","state":"MI","static_map_url":"https://staticmap.weedmaps.com/static_map/13/42.5440126/-83.3468784/402/147/map.png","wmid":114529702,"zip_code":"48322","street":null},{"_type":"delivery","avatar_url":"https://weedmaps.com/assets/attachments_missing/avatars/deliveries/square_missing.png","city":"Ann Arbor","distance":null,"feature_level_raw":1,"feature_order":5,"id":14254,"is_delivery":true,"license_type":"medical","latitude":42.265777,"listing_url":"/deliveries/green-nuggets","longitude":-83.735663,"name":"Green Nuggets","package_level_raw":2,"rating":4.9,"reviews_count":2,"slug":"green-nuggets","state":"MI","static_map_url":"https://staticmap.weedmaps.com/static_map/13/42.265777/-83.735663/402/147/map.png","wmid":792824311,"zip_code":"48198","street":null},{"_type":"delivery","avatar_url":"https://d2kxqxnk1i5o9a.cloudfront.net/uploads/avatars/deliveries/11025/square_IMG_4277_1_.PNG","city":"Macomb County","distance":null,"feature_level_raw":1,"feature_order":5,"id":11025,"is_delivery":true,"license_type":"medical","latitude":42.628457,"listing_url":"/deliveries/the-caviar-hut","longitude":-82.935896,"name":"The Caviar Hut","package_level_raw":2,"rating":4.95384615384615,"reviews_count":117,"slug":"the-caviar-hut","state":"MI","static_map_url":"https://staticmap.weedmaps.com/static_map/13/42.628457/-82.935896/402/147/map.png","wmid":135860499,"zip_code":"48042","street":"12718 East 8 Mile Road"},{"_type":"delivery","avatar_url":"https://weedmaps.com/assets/attachments_missing/avatars/deliveries/square_missing.png","city":"Macomb \u0026 Oakland County","distance":null,"feature_level_raw":1,"feature_order":6,"id":12138,"is_delivery":true,"license_type":"medical","latitude":42.568619,"listing_url":"/deliveries/champion-meds","longitude":-82.938775,"name":"Champion Meds","package_level_raw":2,"rating":4.8258064516129,"reviews_count":31,"slug":"champion-meds","state":"MI","static_map_url":"https://staticmap.weedmaps.com/static_map/13/42.568619/-82.938775/402/147/map.png","wmid":596905705,"zip_code":"48310","street":null},{"_type":"delivery","avatar_url":"https://d2kxqxnk1i5o9a.cloudfront.net/uploads/avatars/deliveries/8302/square_weblogo.jpg","city":"Oakland County","distance":null,"feature_level_raw":1,"feature_order":6,"id":8302,"is_delivery":true,"license_type":"medical","latitude":42.665587,"listing_url":"/deliveries/michorganics-2","longitude":-83.241805,"name":"MichOrganics","package_level_raw":2,"rating":4.632,"reviews_count":25,"slug":"michorganics-2","state":"MI","static_map_url":"https://staticmap.weedmaps.com/static_map/13/42.665587/-83.241805/402/147/map.png","wmid":314909978,"zip_code":"48043","street":null},{"_type":"delivery","avatar_url":"https://d2kxqxnk1i5o9a.cloudfront.net/uploads/avatars/deliveries/3868/square_images.png","city":"Macomb County","distance":null,"feature_level_raw":1,"feature_order":7,"id":3868,"is_delivery":true,"license_type":"medical","latitude":42.661034,"listing_url":"/deliveries/kelly-mobile-caregivers","longitude":-82.846901,"name":"KELLY MOBILE CAREGIVERS","package_level_raw":2,"rating":4.50697674418605,"reviews_count":43,"slug":"kelly-mobile-caregivers","state":"MI","static_map_url":"https://staticmap.weedmaps.com/static_map/13/42.661034/-82.846901/402/147/map.png","wmid":925372803,"zip_code":"48051","street":null},{"_type":"delivery","avatar_url":"https://d2kxqxnk1i5o9a.cloudfront.net/uploads/avatars/deliveries/12557/square_DOOR_TO_DOOR.jpeg","city":"Macomb County","distance":null,"feature_level_raw":1,"feature_order":8,"id":12557,"is_delivery":true,"license_type":"medical","latitude":42.537881,"listing_url":"/deliveries/door-to-door-meds","longitude":-82.988673,"name":"Door to Door Meds","package_level_raw":2,"rating":4.99090909090909,"reviews_count":22,"slug":"door-to-door-meds","state":"mi","static_map_url":"https://staticmap.weedmaps.com/static_map/13/42.537881/-82.988673/402/147/map.png","wmid":109951508,"zip_code":"48092","street":null},{"_type":"delivery","avatar_url":"https://d2kxqxnk1i5o9a.cloudfront.net/uploads/avatars/deliveries/436/square_AntFarm.jpg","city":"Berkley","distance":null,"feature_level_raw":1,"feature_order":8,"id":436,"is_delivery":true,"license_type":"medical","latitude":42.502787,"listing_url":"/deliveries/antfarm","longitude":-83.196795,"name":"Ant Farm Compassion Club","package_level_raw":2,"rating":3.82222222222222,"reviews_count":9,"slug":"antfarm","state":"MI","static_map_url":"https://staticmap.weedmaps.com/static_map/13/42.502787/-83.196795/402/147/map.png","wmid":899270774,"zip_code":"48322","street":"Delivery Only"},{"_type":"delivery","avatar_url":"https://d2kxqxnk1i5o9a.cloudfront.net/uploads/avatars/deliveries/13888/square_cannabisstation.jpg","city":"Macomb County","distance":null,"feature_level_raw":1,"feature_order":9,"id":13888,"is_delivery":true,"license_type":"medical","latitude":42.624848,"listing_url":"/deliveries/cannabis-station","longitude":-83.05192,"name":"The Cannabis Station","package_level_raw":2,"rating":4.64,"reviews_count":10,"slug":"cannabis-station","state":"MI","static_map_url":"https://staticmap.weedmaps.com/static_map/13/42.624848/-83.05192/402/147/map.png","wmid":166041085,"zip_code":"48314","street":null},{"_type":"delivery","avatar_url":"https://d2kxqxnk1i5o9a.cloudfront.net/uploads/avatars/deliveries/13733/square_IMG_5125.JPG","city":"Eastpointe","distance":null,"feature_level_raw":1,"feature_order":10,"id":13733,"is_delivery":true,"license_type":"medical","latitude":42.4683698,"listing_url":"/deliveries/the-happy-cab","longitude":-82.9554746,"name":"The Happy Cab","package_level_raw":2,"rating":4.88235294117647,"reviews_count":34,"slug":"the-happy-cab","state":"MI","static_map_url":"https://staticmap.weedmaps.com/static_map/13/42.4683698/-82.9554746/402/147/map.png","wmid":111672889,"zip_code":"48021","street":null},{"_type":"delivery","avatar_url":"https://d2kxqxnk1i5o9a.cloudfront.net/uploads/avatars/deliveries/3177/square_AntFarm.jpg","city":"Ferndale","distance":null,"feature_level_raw":1,"feature_order":10,"id":3177,"is_delivery":true,"license_type":"medical","latitude":42.460232,"listing_url":"/deliveries/ant-farm-compassion-club-2","longitude":-83.145747,"name":"Ant Farm Compassion Club","package_level_raw":2,"rating":3.4,"reviews_count":1,"slug":"ant-farm-compassion-club-2","state":"MI","static_map_url":"https://staticmap.weedmaps.com/static_map/13/42.460232/-83.145747/402/147/map.png","wmid":788848621,"zip_code":"48081","street":"Delivery Only"},{"_type":"delivery","avatar_url":"https://d2kxqxnk1i5o9a.cloudfront.net/uploads/avatars/deliveries/14188/square_HighlifeMeds__1_.png","city":"Sterling Heights","distance":null,"feature_level_raw":1,"feature_order":11,"id":14188,"is_delivery":true,"license_type":"medical","latitude":42.5665296,"listing_url":"/deliveries/highlife-meds","longitude":-83.0683519,"name":"HighLife Meds","package_level_raw":2,"rating":4.0,"reviews_count":4,"slug":"highlife-meds","state":"MI","static_map_url":"https://staticmap.weedmaps.com/static_map/13/42.5665296/-83.0683519/402/147/map.png","wmid":457417066,"zip_code":"48310","street":null}][][][][][][{"_type":"delivery","avatar_url":"https://d2kxqxnk1i5o9a.cloudfront.net/uploads/avatars/deliveries/7092/square_purple.jpg","city":"Reno","distance":null,"feature_level_raw":3,"feature_order":2,"id":7092,"is_delivery":true,"license_type":"medical","latitude":39.531076,"listing_url":"/deliveries/patients-4-patients-reno","longitude":-119.820802,"name":"Patients 4 Patients Reno","package_level_raw":2,"rating":4.92080536912752,"reviews_count":149,"slug":"patients-4-patients-reno","state":"NV","static_map_url":"https://staticmap.weedmaps.com/static_map/13/39.531076/-119.820802/402/147/map.png","wmid":906973642,"zip_code":"89502","street":null},{"_type":"delivery","avatar_url":"https://d2kxqxnk1i5o9a.cloudfront.net/uploads/avatars/deliveries/10409/square_fullname_STICK__2_.png","city":"Las Vegas","distance":null,"feature_level_raw":3,"feature_order":2,"id":10409,"is_delivery":true,"license_type":"medical","latitude":36.122422,"listing_url":"/deliveries/las-vegas-releaf","longitude":-115.163313,"name":"Las Vegas ReLeaf","package_level_raw":2,"rating":4.83333333333333,"reviews_count":12,"slug":"las-vegas-releaf","state":"NV","static_map_url":"https://staticmap.weedmaps.com/static_map/13/36.122422/-115.163313/402/147/map.png","wmid":863655130,"zip_code":"89104","street":null},{"_type":"delivery","avatar_url":"https://d2kxqxnk1i5o9a.cloudfront.net/uploads/avatars/deliveries/10411/square_fullname_STICK__2_.png","city":"Las Vegas","distance":null,"feature_level_raw":3,"feature_order":2,"id":10411,"is_delivery":true,"license_type":"medical","latitude":36.101665,"listing_url":"/deliveries/las-vegas-releaf-2","longitude":-115.279256,"name":"Las Vegas ReLeaf -  Summerlin","package_level_raw":2,"rating":4.88,"reviews_count":5,"slug":"las-vegas-releaf-2","state":"NV","static_map_url":"https://staticmap.weedmaps.com/static_map/13/36.101665/-115.279256/402/147/map.png","wmid":163900526,"zip_code":"89147","street":null},{"_type":"delivery","avatar_url":"https://d2kxqxnk1i5o9a.cloudfront.net/uploads/avatars/deliveries/10421/square_fullname_STICK__2_.png","city":"Las Vegas","distance":null,"feature_level_raw":3,"feature_order":2,"id":10421,"is_delivery":true,"license_type":"medical","latitude":36.186303,"listing_url":"/deliveries/las-vegas-releaf-2-3","longitude":-115.260055,"name":"Las Vegas ReLeaf","package_level_raw":2,"rating":5.0,"reviews_count":4,"slug":"las-vegas-releaf-2-3","state":"NV","static_map_url":"https://staticmap.weedmaps.com/static_map/13/36.186303/-115.260055/402/147/map.png","wmid":908904471,"zip_code":"89134","street":null},{"_type":"delivery","avatar_url":"https://d2kxqxnk1i5o9a.cloudfront.net/uploads/avatars/deliveries/10412/square_fullname_STICK__2_.png","city":"Henderson","distance":null,"feature_level_raw":3,"feature_order":2,"id":10412,"is_delivery":true,"license_type":"medical","latitude":36.030221,"listing_url":"/deliveries/las-vegas-releaf-2-2","longitude":-115.078126,"name":"Las Vegas ReLeaf","package_level_raw":2,"rating":5.0,"reviews_count":1,"slug":"las-vegas-releaf-2-2","state":"NV","static_map_url":"https://staticmap.weedmaps.com/static_map/13/36.030221/-115.078126/402/147/map.png","wmid":381851135,"zip_code":"89074","street":null},{"_type":"delivery","avatar_url":"https://d2kxqxnk1i5o9a.cloudfront.net/uploads/avatars/deliveries/13919/square_logo.jpg","city":"Las Vegas","distance":null,"feature_level_raw":2,"feature_order":3,"id":13919,"is_delivery":true,"license_type":"medical","latitude":36.143636,"listing_url":"/deliveries/pisos","longitude":-115.156679,"name":"Pisos","package_level_raw":2,"rating":4.96428571428571,"reviews_count":28,"slug":"pisos","state":"NV","static_map_url":"https://staticmap.weedmaps.com/static_map/13/36.143636/-115.156679/402/147/map.png","wmid":446321371,"zip_code":"89119","street":null},{"_type":"delivery","avatar_url":"https://d2kxqxnk1i5o9a.cloudfront.net/uploads/avatars/deliveries/10425/square_LogoSquare.JPG","city":"Reno","distance":null,"feature_level_raw":2,"feature_order":3,"id":10425,"is_delivery":true,"license_type":"medical","latitude":39.534944,"listing_url":"/deliveries/silver-state-relief-2","longitude":-119.842837,"name":"Silver State Relief Delivery - Reno","package_level_raw":2,"rating":3.3,"reviews_count":2,"slug":"silver-state-relief-2","state":"Nv","static_map_url":"https://staticmap.weedmaps.com/static_map/13/39.534944/-119.842837/402/147/map.png","wmid":817242188,"zip_code":"89503","street":null},{"_type":"delivery","avatar_url":"https://d2kxqxnk1i5o9a.cloudfront.net/uploads/avatars/deliveries/9317/square_Oasis_v3_Vertical_Full_Color.jpg","city":"Las Vegas","distance":null,"feature_level_raw":1,"feature_order":4,"id":9317,"is_delivery":true,"license_type":"medical","latitude":36.298238,"listing_url":"/deliveries/oasis-medical-cannabis","longitude":-115.260209,"name":"Oasis Cannabis Delivery","package_level_raw":2,"rating":4.97142857142857,"reviews_count":7,"slug":"oasis-medical-cannabis","state":"NV","static_map_url":"https://staticmap.weedmaps.com/static_map/13/36.298238/-115.260209/402/147/map.png","wmid":807816277,"zip_code":"89149","street":null},{"_type":"delivery","avatar_url":"https://d2kxqxnk1i5o9a.cloudfront.net/uploads/avatars/deliveries/9318/square_Oasis_v3_Vertical_Full_Color.jpg","city":"Las Vegas","distance":null,"feature_level_raw":1,"feature_order":4,"id":9318,"is_delivery":true,"license_type":"medical","latitude":36.144572,"listing_url":"/deliveries/oasis-medical-cannabis-2","longitude":-115.326602,"name":"Oasis Cannabis Delivery","package_level_raw":2,"rating":5.0,"reviews_count":3,"slug":"oasis-medical-cannabis-2","state":"NV","static_map_url":"https://staticmap.weedmaps.com/static_map/13/36.144572/-115.326602/402/147/map.png","wmid":695381274,"zip_code":"89135","street":null},{"_type":"delivery","avatar_url":"https://d2kxqxnk1i5o9a.cloudfront.net/uploads/avatars/deliveries/8418/square_large_sierrawellnessconecction-cannabis-medical-marijuana-dispensary-logo.png","city":"Reno","distance":null,"feature_level_raw":1,"feature_order":4,"id":8418,"is_delivery":true,"license_type":"medical","latitude":39.550002,"listing_url":"/deliveries/sierra-wellness-connection","longitude":-119.785938,"name":"Sierra Wellness Connection","package_level_raw":2,"rating":2.93333333333333,"reviews_count":3,"slug":"sierra-wellness-connection","state":"Nv","static_map_url":"https://staticmap.weedmaps.com/static_map/13/39.550002/-119.785938/402/147/map.png","wmid":107829877,"zip_code":"89502","street":null},{"_type":"delivery","avatar_url":"https://d2kxqxnk1i5o9a.cloudfront.net/uploads/avatars/deliveries/13937/square_oasis_1.jpg","city":"Las Vegas","distance":null,"feature_level_raw":1,"feature_order":4,"id":13937,"is_delivery":true,"license_type":"medical","latitude":36.110493,"listing_url":"/deliveries/oasis-cannabis-delivery","longitude":-115.152623,"name":"Oasis Cannabis Delivery","package_level_raw":2,"rating":0.0,"reviews_count":0,"slug":"oasis-cannabis-delivery","state":"NV","static_map_url":"https://staticmap.weedmaps.com/static_map/13/36.110493/-115.152623/402/147/map.png","wmid":791989602,"zip_code":"89109","street":null},{"_type":"delivery","avatar_url":"https://d2kxqxnk1i5o9a.cloudfront.net/uploads/avatars/deliveries/13938/square_oasis_1.jpg","city":"Las Vegas","distance":null,"feature_level_raw":1,"feature_order":4,"id":13938,"is_delivery":true,"license_type":"medical","latitude":36.0633189,"listing_url":"/deliveries/oasis-cannabis-delivery-2","longitude":-115.0525302,"name":"Oasis Cannabis Delivery","package_level_raw":2,"rating":0.0,"reviews_count":0,"slug":"oasis-cannabis-delivery-2","state":"NV","static_map_url":"https://staticmap.weedmaps.com/static_map/13/36.0633189/-115.0525302/402/147/map.png","wmid":413747888,"zip_code":"89014","street":null},{"_type":"delivery","avatar_url":"https://d2kxqxnk1i5o9a.cloudfront.net/uploads/avatars/deliveries/8584/square_Untitled.png","city":"Reno","distance":null,"feature_level_raw":1,"feature_order":9,"id":8584,"is_delivery":true,"license_type":"medical","latitude":39.51454,"listing_url":"/deliveries/blc-delivery","longitude":-119.809987,"name":"Biggest Little Collective Reno","package_level_raw":2,"rating":4.72692307692308,"reviews_count":52,"slug":"blc-delivery","state":"Nv","static_map_url":"https://staticmap.weedmaps.com/static_map/13/39.51454/-119.809987/402/147/map.png","wmid":656316752,"zip_code":"89509","street":null}]<html>
+<head>
+<link href='//fonts.googleapis.com/css?family=Luckiest+Guy' rel='stylesheet' type='text/css'>
+<link href='//fonts.googleapis.com/css?family=Dawning+of+a+New+Day' rel='stylesheet' type='text/css'>
+<style type="text/css">
+html, body {margin:0; padding:0;}
+body {margin:0px; padding:0px;text-align:center;background:#799c36 url(/images/50x.jpg) no-repeat top center;}
+h1 {margin:6px 0 0 0;text-transform:uppercase;text-shadow:1px 1px 2px yellow;font-weight:400;font-size:45px;}
+#floater {position:relative;margin:210px auto 7px auto;width:25px;padding-left:510px;}
+#footer {text-align:right; padding-right:20px; font-size:0.75em;}
+
+#content {margin:0 auto 40px auto;text-align:left;background:-moz-linear-gradient(center top,#fff,#cfcfb6) repeat scroll 0 0 transparent;background:-webkit-gradient(linear,left top,left bottom,from(#fff),to(#cfcfb6));filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff',endColorstr='#cfcfb6');border-radius:25px;-moz-border-radius:25px;-webkit-border-radius:25px;box-shadow:0px 0px 8px #333;border:8px solid #333;background-color:#fff;clear:both; height:650px; position:relative;width:495px;padding:30px;}
+#content a {color:#222;font-weight:700;text-decoration:none;border:none;}
+#content img {margin:0 35px 20px 0;width:200px;float:left;}
+#content hr {clear:both;border-left:none;border-right:none;border-top:1px solid #f8f8f8;border-bottom:1px solid #bbb;}
+#content p {margin:0;line-height:44px;font-weight:700;font-size:45px;text-shadow:0px 0px 1px #ddd;font-family:'Dawning of a New Day', arial, serif;}
+#content a {font-family:'Luckiest Guy', arial, serif;}
+#content p.tv {clear:both;margin:45px 0 0;line-height:0;font-family:'Luckiest Guy',arial,serif;font-size:20px;text-transform:none;text-shadow:0 0 1px yellow;}
+#content a.rightback {height:111px;display:block;}
+
+p.mobile {height:60px;}
+#mobile img {border:1px solid transparent;height:167px;width:auto;margin:10px 25px 38px 0;box-shadow:5px 5px 20px #fff;-moz-box-shadow:5px 5px 20px #fff;-webkit-box-shadow:5px 5px 20px #fff;border-radius:10px;-webkit-border-radius:10px;-moz-border-radius:10px;}
+#mobile img:hover {border:1px solid yellow;-moz-transform:rotate(1deg);-webkit-transform:rotate(1deg);}
+#mobile {margin:35px auto 29px auto;width:211px;}
+
+#tv {margin-top:20px;}
+#tv div.video {width:247px;float:left;}
+#tv div.video a {font-size:13px;color:#333;}
+#tv div.video a:hover {color:#000;text-shadow:0 0 1px orange;}
+#tv div.video img:hover {outline:1px solid #bbb;border:3px dashed orange;}
+#tv img {border-radius:8px;-webkit-border-radius:8px;-moz-border-radius:8px;box-shadow:1px 1px 3px #000;-moz-box-shadow:1px 1px 3px #000;-webkit-box-shadow:1px 1px 3px #000;outline:1px solid transparent;border:3px dashed #aaa;width:100px;margin:0 12px 17px 0;display:inline;}
+#tv a {text-shadow:0 0 1px white;font-weight:400;margin:0 10px 0 0;padding:0;display:block;}
+
+a#twitter {display:block;text-indent:-999999px;background:url(/twitter.png);width:25px;height:24px;margin-top:3px;}
+</style>
+
+</head>
+<body>
+<div id="floater"><a title="Twitter Us!" id="twitter" href="http://twitter.com/weedmaps" target="_blank"><span>Twitter</span></a></div>
+<div id="content">
+        <a class="rightback" href="http://legalmarijuanadispensary.com">
+          <img src="/images/logo_weedmaps.png?71">
+          <h1>We'll be<br/>right back<i>!</i></h1>
+        </a>
+        <hr />
+        <p class="mobile">If you have a smart phone,<br/>you're probably still in luck...</p>
+        <div id="mobile">
+          <a title="WeedMap on Droid!" href="http://qrcode.kaywa.com/img.php?s=8&d=market%3A%2F%2Fdetails%3Fid%3Dcom.weedmaps.app.android" target="_blank"><img src="/images/wm_apps_splash_07.png"></a>
+          <a title="WeedMaps on iPhone!" href="http://itunes.apple.com/us/app/legal-maps/id350189835?mt=8" target="_blank"><img src="/images/wm_apps_splash_03.png"></a>
+        </div>
+        <p class="tv">Check out the latest WeedMaps.TV<i>!</i></p>
+        <div id="tv"></div>
+</div>
+<div id="footer">
+</div>
+</body>
+</html>
+
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+<script type="text/javascript">
+
+ var __mainDiv;
+ var __preLoaderHTML;
+ var __opts;
+
+ function __jQueryYouTubeChannelReceiveData(data) {
+
+     var cnt = 0;
+
+     $.each(data.feed.entry, function(i, e) {
+         if (cnt < __opts.numberToDisplay) {
+             var parts = e.id.$t.split('/');
+             var videoId = parts[parts.length-1];
+             var clear = (cnt==2) ? ' style="clear:both;"' : '';
+             var out = '<div class="video"'+clear+'><a href="' + 
+                  e.link[0].href + '"><img src="//i.ytimg.com/vi/' + 
+                  videoId + '/2.jpg"/></a><a href="' + 
+                  e.link[0].href + '">' + e.title.$t + '</a><p>';
+             if (!__opts.hideAuthor) {
+                 out = out + 'Author: ' + e.author[0].name.$t + '';
+             }
+             out = out + '</p></div>';
+             __mainDiv.append(out);
+             cnt = cnt + 1;
+         }
+     });
+            
+    // Open in new tab?
+    if (__opts.linksInNewWindow) {
+        $(__mainDiv).find("li > a").attr("target", "_blank");
+    }
+    
+    // Remove the preloader and show the content
+    $(__preLoaderHTML).remove();
+    __mainDiv.show();
+}
+                
+(function($) {
+    $.fn.youTubeChannel = function(options) {
+        var videoDiv = $(this);
+
+        $.fn.youTubeChannel.defaults = {
+            userName: 'nugporn',
+            channel:  'uploads', //options are favorites or uploads
+            loadingText: 'Loading WeedMap.TV...',
+            numberToDisplay: 4,
+            linksInNewWindow: true,
+            hideAuthor: true
+        }
+
+        __opts = $.extend({}, $.fn.youTubeChannel.defaults, options);
+
+        return this.each(function() {
+            if (__opts.userName != null) {
+                videoDiv.append("<div id=\"channel_div\"></div>");
+                __mainDiv = $("#channel_div");
+                __mainDiv.hide();
+
+                __preLoaderHTML = $("<p class=\"loader\">" + 
+                    __opts.loadingText + "</p>");
+                videoDiv.append(__preLoaderHTML);
+
+                // TODO: Error handling!
+                $.ajax({
+                    url: "//gdata.youtube.com/feeds/base/users/" + 
+                        __opts.userName + "/" + __opts.channel + "?alt=json",
+                    cache: true,
+                    dataType: 'jsonp',                    
+                    success: __jQueryYouTubeChannelReceiveData
+                });
+            }
+        });
+    };
+})(jQuery);
+$(document).ready(function() {
+    $('#tv').youTubeChannel({});
+}); 
+
+
+</script>
+<html>
+<head>
+<link href='//fonts.googleapis.com/css?family=Luckiest+Guy' rel='stylesheet' type='text/css'>
+<link href='//fonts.googleapis.com/css?family=Dawning+of+a+New+Day' rel='stylesheet' type='text/css'>
+<style type="text/css">
+html, body {margin:0; padding:0;}
+body {margin:0px; padding:0px;text-align:center;background:#799c36 url(/images/50x.jpg) no-repeat top center;}
+h1 {margin:6px 0 0 0;text-transform:uppercase;text-shadow:1px 1px 2px yellow;font-weight:400;font-size:45px;}
+#floater {position:relative;margin:210px auto 7px auto;width:25px;padding-left:510px;}
+#footer {text-align:right; padding-right:20px; font-size:0.75em;}
+
+#content {margin:0 auto 40px auto;text-align:left;background:-moz-linear-gradient(center top,#fff,#cfcfb6) repeat scroll 0 0 transparent;background:-webkit-gradient(linear,left top,left bottom,from(#fff),to(#cfcfb6));filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff',endColorstr='#cfcfb6');border-radius:25px;-moz-border-radius:25px;-webkit-border-radius:25px;box-shadow:0px 0px 8px #333;border:8px solid #333;background-color:#fff;clear:both; height:650px; position:relative;width:495px;padding:30px;}
+#content a {color:#222;font-weight:700;text-decoration:none;border:none;}
+#content img {margin:0 35px 20px 0;width:200px;float:left;}
+#content hr {clear:both;border-left:none;border-right:none;border-top:1px solid #f8f8f8;border-bottom:1px solid #bbb;}
+#content p {margin:0;line-height:44px;font-weight:700;font-size:45px;text-shadow:0px 0px 1px #ddd;font-family:'Dawning of a New Day', arial, serif;}
+#content a {font-family:'Luckiest Guy', arial, serif;}
+#content p.tv {clear:both;margin:45px 0 0;line-height:0;font-family:'Luckiest Guy',arial,serif;font-size:20px;text-transform:none;text-shadow:0 0 1px yellow;}
+#content a.rightback {height:111px;display:block;}
+
+p.mobile {height:60px;}
+#mobile img {border:1px solid transparent;height:167px;width:auto;margin:10px 25px 38px 0;box-shadow:5px 5px 20px #fff;-moz-box-shadow:5px 5px 20px #fff;-webkit-box-shadow:5px 5px 20px #fff;border-radius:10px;-webkit-border-radius:10px;-moz-border-radius:10px;}
+#mobile img:hover {border:1px solid yellow;-moz-transform:rotate(1deg);-webkit-transform:rotate(1deg);}
+#mobile {margin:35px auto 29px auto;width:211px;}
+
+#tv {margin-top:20px;}
+#tv div.video {width:247px;float:left;}
+#tv div.video a {font-size:13px;color:#333;}
+#tv div.video a:hover {color:#000;text-shadow:0 0 1px orange;}
+#tv div.video img:hover {outline:1px solid #bbb;border:3px dashed orange;}
+#tv img {border-radius:8px;-webkit-border-radius:8px;-moz-border-radius:8px;box-shadow:1px 1px 3px #000;-moz-box-shadow:1px 1px 3px #000;-webkit-box-shadow:1px 1px 3px #000;outline:1px solid transparent;border:3px dashed #aaa;width:100px;margin:0 12px 17px 0;display:inline;}
+#tv a {text-shadow:0 0 1px white;font-weight:400;margin:0 10px 0 0;padding:0;display:block;}
+
+a#twitter {display:block;text-indent:-999999px;background:url(/twitter.png);width:25px;height:24px;margin-top:3px;}
+</style>
+
+</head>
+<body>
+<div id="floater"><a title="Twitter Us!" id="twitter" href="http://twitter.com/weedmaps" target="_blank"><span>Twitter</span></a></div>
+<div id="content">
+        <a class="rightback" href="http://legalmarijuanadispensary.com">
+          <img src="/images/logo_weedmaps.png?71">
+          <h1>We'll be<br/>right back<i>!</i></h1>
+        </a>
+        <hr />
+        <p class="mobile">If you have a smart phone,<br/>you're probably still in luck...</p>
+        <div id="mobile">
+          <a title="WeedMap on Droid!" href="http://qrcode.kaywa.com/img.php?s=8&d=market%3A%2F%2Fdetails%3Fid%3Dcom.weedmaps.app.android" target="_blank"><img src="/images/wm_apps_splash_07.png"></a>
+          <a title="WeedMaps on iPhone!" href="http://itunes.apple.com/us/app/legal-maps/id350189835?mt=8" target="_blank"><img src="/images/wm_apps_splash_03.png"></a>
+        </div>
+        <p class="tv">Check out the latest WeedMaps.TV<i>!</i></p>
+        <div id="tv"></div>
+</div>
+<div id="footer">
+</div>
+</body>
+</html>
+
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+<script type="text/javascript">
+
+ var __mainDiv;
+ var __preLoaderHTML;
+ var __opts;
+
+ function __jQueryYouTubeChannelReceiveData(data) {
+
+     var cnt = 0;
+
+     $.each(data.feed.entry, function(i, e) {
+         if (cnt < __opts.numberToDisplay) {
+             var parts = e.id.$t.split('/');
+             var videoId = parts[parts.length-1];
+             var clear = (cnt==2) ? ' style="clear:both;"' : '';
+             var out = '<div class="video"'+clear+'><a href="' + 
+                  e.link[0].href + '"><img src="//i.ytimg.com/vi/' + 
+                  videoId + '/2.jpg"/></a><a href="' + 
+                  e.link[0].href + '">' + e.title.$t + '</a><p>';
+             if (!__opts.hideAuthor) {
+                 out = out + 'Author: ' + e.author[0].name.$t + '';
+             }
+             out = out + '</p></div>';
+             __mainDiv.append(out);
+             cnt = cnt + 1;
+         }
+     });
+            
+    // Open in new tab?
+    if (__opts.linksInNewWindow) {
+        $(__mainDiv).find("li > a").attr("target", "_blank");
+    }
+    
+    // Remove the preloader and show the content
+    $(__preLoaderHTML).remove();
+    __mainDiv.show();
+}
+                
+(function($) {
+    $.fn.youTubeChannel = function(options) {
+        var videoDiv = $(this);
+
+        $.fn.youTubeChannel.defaults = {
+            userName: 'nugporn',
+            channel:  'uploads', //options are favorites or uploads
+            loadingText: 'Loading WeedMap.TV...',
+            numberToDisplay: 4,
+            linksInNewWindow: true,
+            hideAuthor: true
+        }
+
+        __opts = $.extend({}, $.fn.youTubeChannel.defaults, options);
+
+        return this.each(function() {
+            if (__opts.userName != null) {
+                videoDiv.append("<div id=\"channel_div\"></div>");
+                __mainDiv = $("#channel_div");
+                __mainDiv.hide();
+
+                __preLoaderHTML = $("<p class=\"loader\">" + 
+                    __opts.loadingText + "</p>");
+                videoDiv.append(__preLoaderHTML);
+
+                // TODO: Error handling!
+                $.ajax({
+                    url: "//gdata.youtube.com/feeds/base/users/" + 
+                        __opts.userName + "/" + __opts.channel + "?alt=json",
+                    cache: true,
+                    dataType: 'jsonp',                    
+                    success: __jQueryYouTubeChannelReceiveData
+                });
+            }
+        });
+    };
+})(jQuery);
+$(document).ready(function() {
+    $('#tv').youTubeChannel({});
+}); 
+
+
+</script>
+<html>
+<head>
+<link href='//fonts.googleapis.com/css?family=Luckiest+Guy' rel='stylesheet' type='text/css'>
+<link href='//fonts.googleapis.com/css?family=Dawning+of+a+New+Day' rel='stylesheet' type='text/css'>
+<style type="text/css">
+html, body {margin:0; padding:0;}
+body {margin:0px; padding:0px;text-align:center;background:#799c36 url(/images/50x.jpg) no-repeat top center;}
+h1 {margin:6px 0 0 0;text-transform:uppercase;text-shadow:1px 1px 2px yellow;font-weight:400;font-size:45px;}
+#floater {position:relative;margin:210px auto 7px auto;width:25px;padding-left:510px;}
+#footer {text-align:right; padding-right:20px; font-size:0.75em;}
+
+#content {margin:0 auto 40px auto;text-align:left;background:-moz-linear-gradient(center top,#fff,#cfcfb6) repeat scroll 0 0 transparent;background:-webkit-gradient(linear,left top,left bottom,from(#fff),to(#cfcfb6));filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff',endColorstr='#cfcfb6');border-radius:25px;-moz-border-radius:25px;-webkit-border-radius:25px;box-shadow:0px 0px 8px #333;border:8px solid #333;background-color:#fff;clear:both; height:650px; position:relative;width:495px;padding:30px;}
+#content a {color:#222;font-weight:700;text-decoration:none;border:none;}
+#content img {margin:0 35px 20px 0;width:200px;float:left;}
+#content hr {clear:both;border-left:none;border-right:none;border-top:1px solid #f8f8f8;border-bottom:1px solid #bbb;}
+#content p {margin:0;line-height:44px;font-weight:700;font-size:45px;text-shadow:0px 0px 1px #ddd;font-family:'Dawning of a New Day', arial, serif;}
+#content a {font-family:'Luckiest Guy', arial, serif;}
+#content p.tv {clear:both;margin:45px 0 0;line-height:0;font-family:'Luckiest Guy',arial,serif;font-size:20px;text-transform:none;text-shadow:0 0 1px yellow;}
+#content a.rightback {height:111px;display:block;}
+
+p.mobile {height:60px;}
+#mobile img {border:1px solid transparent;height:167px;width:auto;margin:10px 25px 38px 0;box-shadow:5px 5px 20px #fff;-moz-box-shadow:5px 5px 20px #fff;-webkit-box-shadow:5px 5px 20px #fff;border-radius:10px;-webkit-border-radius:10px;-moz-border-radius:10px;}
+#mobile img:hover {border:1px solid yellow;-moz-transform:rotate(1deg);-webkit-transform:rotate(1deg);}
+#mobile {margin:35px auto 29px auto;width:211px;}
+
+#tv {margin-top:20px;}
+#tv div.video {width:247px;float:left;}
+#tv div.video a {font-size:13px;color:#333;}
+#tv div.video a:hover {color:#000;text-shadow:0 0 1px orange;}
+#tv div.video img:hover {outline:1px solid #bbb;border:3px dashed orange;}
+#tv img {border-radius:8px;-webkit-border-radius:8px;-moz-border-radius:8px;box-shadow:1px 1px 3px #000;-moz-box-shadow:1px 1px 3px #000;-webkit-box-shadow:1px 1px 3px #000;outline:1px solid transparent;border:3px dashed #aaa;width:100px;margin:0 12px 17px 0;display:inline;}
+#tv a {text-shadow:0 0 1px white;font-weight:400;margin:0 10px 0 0;padding:0;display:block;}
+
+a#twitter {display:block;text-indent:-999999px;background:url(/twitter.png);width:25px;height:24px;margin-top:3px;}
+</style>
+
+</head>
+<body>
+<div id="floater"><a title="Twitter Us!" id="twitter" href="http://twitter.com/weedmaps" target="_blank"><span>Twitter</span></a></div>
+<div id="content">
+        <a class="rightback" href="http://legalmarijuanadispensary.com">
+          <img src="/images/logo_weedmaps.png?71">
+          <h1>We'll be<br/>right back<i>!</i></h1>
+        </a>
+        <hr />
+        <p class="mobile">If you have a smart phone,<br/>you're probably still in luck...</p>
+        <div id="mobile">
+          <a title="WeedMap on Droid!" href="http://qrcode.kaywa.com/img.php?s=8&d=market%3A%2F%2Fdetails%3Fid%3Dcom.weedmaps.app.android" target="_blank"><img src="/images/wm_apps_splash_07.png"></a>
+          <a title="WeedMaps on iPhone!" href="http://itunes.apple.com/us/app/legal-maps/id350189835?mt=8" target="_blank"><img src="/images/wm_apps_splash_03.png"></a>
+        </div>
+        <p class="tv">Check out the latest WeedMaps.TV<i>!</i></p>
+        <div id="tv"></div>
+</div>
+<div id="footer">
+</div>
+</body>
+</html>
+
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+<script type="text/javascript">
+
+ var __mainDiv;
+ var __preLoaderHTML;
+ var __opts;
+
+ function __jQueryYouTubeChannelReceiveData(data) {
+
+     var cnt = 0;
+
+     $.each(data.feed.entry, function(i, e) {
+         if (cnt < __opts.numberToDisplay) {
+             var parts = e.id.$t.split('/');
+             var videoId = parts[parts.length-1];
+             var clear = (cnt==2) ? ' style="clear:both;"' : '';
+             var out = '<div class="video"'+clear+'><a href="' + 
+                  e.link[0].href + '"><img src="//i.ytimg.com/vi/' + 
+                  videoId + '/2.jpg"/></a><a href="' + 
+                  e.link[0].href + '">' + e.title.$t + '</a><p>';
+             if (!__opts.hideAuthor) {
+                 out = out + 'Author: ' + e.author[0].name.$t + '';
+             }
+             out = out + '</p></div>';
+             __mainDiv.append(out);
+             cnt = cnt + 1;
+         }
+     });
+            
+    // Open in new tab?
+    if (__opts.linksInNewWindow) {
+        $(__mainDiv).find("li > a").attr("target", "_blank");
+    }
+    
+    // Remove the preloader and show the content
+    $(__preLoaderHTML).remove();
+    __mainDiv.show();
+}
+                
+(function($) {
+    $.fn.youTubeChannel = function(options) {
+        var videoDiv = $(this);
+
+        $.fn.youTubeChannel.defaults = {
+            userName: 'nugporn',
+            channel:  'uploads', //options are favorites or uploads
+            loadingText: 'Loading WeedMap.TV...',
+            numberToDisplay: 4,
+            linksInNewWindow: true,
+            hideAuthor: true
+        }
+
+        __opts = $.extend({}, $.fn.youTubeChannel.defaults, options);
+
+        return this.each(function() {
+            if (__opts.userName != null) {
+                videoDiv.append("<div id=\"channel_div\"></div>");
+                __mainDiv = $("#channel_div");
+                __mainDiv.hide();
+
+                __preLoaderHTML = $("<p class=\"loader\">" + 
+                    __opts.loadingText + "</p>");
+                videoDiv.append(__preLoaderHTML);
+
+                // TODO: Error handling!
+                $.ajax({
+                    url: "//gdata.youtube.com/feeds/base/users/" + 
+                        __opts.userName + "/" + __opts.channel + "?alt=json",
+                    cache: true,
+                    dataType: 'jsonp',                    
+                    success: __jQueryYouTubeChannelReceiveData
+                });
+            }
+        });
+    };
+})(jQuery);
+$(document).ready(function() {
+    $('#tv').youTubeChannel({});
+}); 
+
+
+</script>
+<html>
+<head>
+<link href='//fonts.googleapis.com/css?family=Luckiest+Guy' rel='stylesheet' type='text/css'>
+<link href='//fonts.googleapis.com/css?family=Dawning+of+a+New+Day' rel='stylesheet' type='text/css'>
+<style type="text/css">
+html, body {margin:0; padding:0;}
+body {margin:0px; padding:0px;text-align:center;background:#799c36 url(/images/50x.jpg) no-repeat top center;}
+h1 {margin:6px 0 0 0;text-transform:uppercase;text-shadow:1px 1px 2px yellow;font-weight:400;font-size:45px;}
+#floater {position:relative;margin:210px auto 7px auto;width:25px;padding-left:510px;}
+#footer {text-align:right; padding-right:20px; font-size:0.75em;}
+
+#content {margin:0 auto 40px auto;text-align:left;background:-moz-linear-gradient(center top,#fff,#cfcfb6) repeat scroll 0 0 transparent;background:-webkit-gradient(linear,left top,left bottom,from(#fff),to(#cfcfb6));filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff',endColorstr='#cfcfb6');border-radius:25px;-moz-border-radius:25px;-webkit-border-radius:25px;box-shadow:0px 0px 8px #333;border:8px solid #333;background-color:#fff;clear:both; height:650px; position:relative;width:495px;padding:30px;}
+#content a {color:#222;font-weight:700;text-decoration:none;border:none;}
+#content img {margin:0 35px 20px 0;width:200px;float:left;}
+#content hr {clear:both;border-left:none;border-right:none;border-top:1px solid #f8f8f8;border-bottom:1px solid #bbb;}
+#content p {margin:0;line-height:44px;font-weight:700;font-size:45px;text-shadow:0px 0px 1px #ddd;font-family:'Dawning of a New Day', arial, serif;}
+#content a {font-family:'Luckiest Guy', arial, serif;}
+#content p.tv {clear:both;margin:45px 0 0;line-height:0;font-family:'Luckiest Guy',arial,serif;font-size:20px;text-transform:none;text-shadow:0 0 1px yellow;}
+#content a.rightback {height:111px;display:block;}
+
+p.mobile {height:60px;}
+#mobile img {border:1px solid transparent;height:167px;width:auto;margin:10px 25px 38px 0;box-shadow:5px 5px 20px #fff;-moz-box-shadow:5px 5px 20px #fff;-webkit-box-shadow:5px 5px 20px #fff;border-radius:10px;-webkit-border-radius:10px;-moz-border-radius:10px;}
+#mobile img:hover {border:1px solid yellow;-moz-transform:rotate(1deg);-webkit-transform:rotate(1deg);}
+#mobile {margin:35px auto 29px auto;width:211px;}
+
+#tv {margin-top:20px;}
+#tv div.video {width:247px;float:left;}
+#tv div.video a {font-size:13px;color:#333;}
+#tv div.video a:hover {color:#000;text-shadow:0 0 1px orange;}
+#tv div.video img:hover {outline:1px solid #bbb;border:3px dashed orange;}
+#tv img {border-radius:8px;-webkit-border-radius:8px;-moz-border-radius:8px;box-shadow:1px 1px 3px #000;-moz-box-shadow:1px 1px 3px #000;-webkit-box-shadow:1px 1px 3px #000;outline:1px solid transparent;border:3px dashed #aaa;width:100px;margin:0 12px 17px 0;display:inline;}
+#tv a {text-shadow:0 0 1px white;font-weight:400;margin:0 10px 0 0;padding:0;display:block;}
+
+a#twitter {display:block;text-indent:-999999px;background:url(/twitter.png);width:25px;height:24px;margin-top:3px;}
+</style>
+
+</head>
+<body>
+<div id="floater"><a title="Twitter Us!" id="twitter" href="http://twitter.com/weedmaps" target="_blank"><span>Twitter</span></a></div>
+<div id="content">
+        <a class="rightback" href="http://legalmarijuanadispensary.com">
+          <img src="/images/logo_weedmaps.png?71">
+          <h1>We'll be<br/>right back<i>!</i></h1>
+        </a>
+        <hr />
+        <p class="mobile">If you have a smart phone,<br/>you're probably still in luck...</p>
+        <div id="mobile">
+          <a title="WeedMap on Droid!" href="http://qrcode.kaywa.com/img.php?s=8&d=market%3A%2F%2Fdetails%3Fid%3Dcom.weedmaps.app.android" target="_blank"><img src="/images/wm_apps_splash_07.png"></a>
+          <a title="WeedMaps on iPhone!" href="http://itunes.apple.com/us/app/legal-maps/id350189835?mt=8" target="_blank"><img src="/images/wm_apps_splash_03.png"></a>
+        </div>
+        <p class="tv">Check out the latest WeedMaps.TV<i>!</i></p>
+        <div id="tv"></div>
+</div>
+<div id="footer">
+</div>
+</body>
+</html>
+
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+<script type="text/javascript">
+
+ var __mainDiv;
+ var __preLoaderHTML;
+ var __opts;
+
+ function __jQueryYouTubeChannelReceiveData(data) {
+
+     var cnt = 0;
+
+     $.each(data.feed.entry, function(i, e) {
+         if (cnt < __opts.numberToDisplay) {
+             var parts = e.id.$t.split('/');
+             var videoId = parts[parts.length-1];
+             var clear = (cnt==2) ? ' style="clear:both;"' : '';
+             var out = '<div class="video"'+clear+'><a href="' + 
+                  e.link[0].href + '"><img src="//i.ytimg.com/vi/' + 
+                  videoId + '/2.jpg"/></a><a href="' + 
+                  e.link[0].href + '">' + e.title.$t + '</a><p>';
+             if (!__opts.hideAuthor) {
+                 out = out + 'Author: ' + e.author[0].name.$t + '';
+             }
+             out = out + '</p></div>';
+             __mainDiv.append(out);
+             cnt = cnt + 1;
+         }
+     });
+            
+    // Open in new tab?
+    if (__opts.linksInNewWindow) {
+        $(__mainDiv).find("li > a").attr("target", "_blank");
+    }
+    
+    // Remove the preloader and show the content
+    $(__preLoaderHTML).remove();
+    __mainDiv.show();
+}
+                
+(function($) {
+    $.fn.youTubeChannel = function(options) {
+        var videoDiv = $(this);
+
+        $.fn.youTubeChannel.defaults = {
+            userName: 'nugporn',
+            channel:  'uploads', //options are favorites or uploads
+            loadingText: 'Loading WeedMap.TV...',
+            numberToDisplay: 4,
+            linksInNewWindow: true,
+            hideAuthor: true
+        }
+
+        __opts = $.extend({}, $.fn.youTubeChannel.defaults, options);
+
+        return this.each(function() {
+            if (__opts.userName != null) {
+                videoDiv.append("<div id=\"channel_div\"></div>");
+                __mainDiv = $("#channel_div");
+                __mainDiv.hide();
+
+                __preLoaderHTML = $("<p class=\"loader\">" + 
+                    __opts.loadingText + "</p>");
+                videoDiv.append(__preLoaderHTML);
+
+                // TODO: Error handling!
+                $.ajax({
+                    url: "//gdata.youtube.com/feeds/base/users/" + 
+                        __opts.userName + "/" + __opts.channel + "?alt=json",
+                    cache: true,
+                    dataType: 'jsonp',                    
+                    success: __jQueryYouTubeChannelReceiveData
+                });
+            }
+        });
+    };
+})(jQuery);
+$(document).ready(function() {
+    $('#tv').youTubeChannel({});
+}); 
+
+
+</script>
+<html>
+<head>
+<link href='//fonts.googleapis.com/css?family=Luckiest+Guy' rel='stylesheet' type='text/css'>
+<link href='//fonts.googleapis.com/css?family=Dawning+of+a+New+Day' rel='stylesheet' type='text/css'>
+<style type="text/css">
+html, body {margin:0; padding:0;}
+body {margin:0px; padding:0px;text-align:center;background:#799c36 url(/images/50x.jpg) no-repeat top center;}
+h1 {margin:6px 0 0 0;text-transform:uppercase;text-shadow:1px 1px 2px yellow;font-weight:400;font-size:45px;}
+#floater {position:relative;margin:210px auto 7px auto;width:25px;padding-left:510px;}
+#footer {text-align:right; padding-right:20px; font-size:0.75em;}
+
+#content {margin:0 auto 40px auto;text-align:left;background:-moz-linear-gradient(center top,#fff,#cfcfb6) repeat scroll 0 0 transparent;background:-webkit-gradient(linear,left top,left bottom,from(#fff),to(#cfcfb6));filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff',endColorstr='#cfcfb6');border-radius:25px;-moz-border-radius:25px;-webkit-border-radius:25px;box-shadow:0px 0px 8px #333;border:8px solid #333;background-color:#fff;clear:both; height:650px; position:relative;width:495px;padding:30px;}
+#content a {color:#222;font-weight:700;text-decoration:none;border:none;}
+#content img {margin:0 35px 20px 0;width:200px;float:left;}
+#content hr {clear:both;border-left:none;border-right:none;border-top:1px solid #f8f8f8;border-bottom:1px solid #bbb;}
+#content p {margin:0;line-height:44px;font-weight:700;font-size:45px;text-shadow:0px 0px 1px #ddd;font-family:'Dawning of a New Day', arial, serif;}
+#content a {font-family:'Luckiest Guy', arial, serif;}
+#content p.tv {clear:both;margin:45px 0 0;line-height:0;font-family:'Luckiest Guy',arial,serif;font-size:20px;text-transform:none;text-shadow:0 0 1px yellow;}
+#content a.rightback {height:111px;display:block;}
+
+p.mobile {height:60px;}
+#mobile img {border:1px solid transparent;height:167px;width:auto;margin:10px 25px 38px 0;box-shadow:5px 5px 20px #fff;-moz-box-shadow:5px 5px 20px #fff;-webkit-box-shadow:5px 5px 20px #fff;border-radius:10px;-webkit-border-radius:10px;-moz-border-radius:10px;}
+#mobile img:hover {border:1px solid yellow;-moz-transform:rotate(1deg);-webkit-transform:rotate(1deg);}
+#mobile {margin:35px auto 29px auto;width:211px;}
+
+#tv {margin-top:20px;}
+#tv div.video {width:247px;float:left;}
+#tv div.video a {font-size:13px;color:#333;}
+#tv div.video a:hover {color:#000;text-shadow:0 0 1px orange;}
+#tv div.video img:hover {outline:1px solid #bbb;border:3px dashed orange;}
+#tv img {border-radius:8px;-webkit-border-radius:8px;-moz-border-radius:8px;box-shadow:1px 1px 3px #000;-moz-box-shadow:1px 1px 3px #000;-webkit-box-shadow:1px 1px 3px #000;outline:1px solid transparent;border:3px dashed #aaa;width:100px;margin:0 12px 17px 0;display:inline;}
+#tv a {text-shadow:0 0 1px white;font-weight:400;margin:0 10px 0 0;padding:0;display:block;}
+
+a#twitter {display:block;text-indent:-999999px;background:url(/twitter.png);width:25px;height:24px;margin-top:3px;}
+</style>
+
+</head>
+<body>
+<div id="floater"><a title="Twitter Us!" id="twitter" href="http://twitter.com/weedmaps" target="_blank"><span>Twitter</span></a></div>
+<div id="content">
+        <a class="rightback" href="http://legalmarijuanadispensary.com">
+          <img src="/images/logo_weedmaps.png?71">
+          <h1>We'll be<br/>right back<i>!</i></h1>
+        </a>
+        <hr />
+        <p class="mobile">If you have a smart phone,<br/>you're probably still in luck...</p>
+        <div id="mobile">
+          <a title="WeedMap on Droid!" href="http://qrcode.kaywa.com/img.php?s=8&d=market%3A%2F%2Fdetails%3Fid%3Dcom.weedmaps.app.android" target="_blank"><img src="/images/wm_apps_splash_07.png"></a>
+          <a title="WeedMaps on iPhone!" href="http://itunes.apple.com/us/app/legal-maps/id350189835?mt=8" target="_blank"><img src="/images/wm_apps_splash_03.png"></a>
+        </div>
+        <p class="tv">Check out the latest WeedMaps.TV<i>!</i></p>
+        <div id="tv"></div>
+</div>
+<div id="footer">
+</div>
+</body>
+</html>
+
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+<script type="text/javascript">
+
+ var __mainDiv;
+ var __preLoaderHTML;
+ var __opts;
+
+ function __jQueryYouTubeChannelReceiveData(data) {
+
+     var cnt = 0;
+
+     $.each(data.feed.entry, function(i, e) {
+         if (cnt < __opts.numberToDisplay) {
+             var parts = e.id.$t.split('/');
+             var videoId = parts[parts.length-1];
+             var clear = (cnt==2) ? ' style="clear:both;"' : '';
+             var out = '<div class="video"'+clear+'><a href="' + 
+                  e.link[0].href + '"><img src="//i.ytimg.com/vi/' + 
+                  videoId + '/2.jpg"/></a><a href="' + 
+                  e.link[0].href + '">' + e.title.$t + '</a><p>';
+             if (!__opts.hideAuthor) {
+                 out = out + 'Author: ' + e.author[0].name.$t + '';
+             }
+             out = out + '</p></div>';
+             __mainDiv.append(out);
+             cnt = cnt + 1;
+         }
+     });
+            
+    // Open in new tab?
+    if (__opts.linksInNewWindow) {
+        $(__mainDiv).find("li > a").attr("target", "_blank");
+    }
+    
+    // Remove the preloader and show the content
+    $(__preLoaderHTML).remove();
+    __mainDiv.show();
+}
+                
+(function($) {
+    $.fn.youTubeChannel = function(options) {
+        var videoDiv = $(this);
+
+        $.fn.youTubeChannel.defaults = {
+            userName: 'nugporn',
+            channel:  'uploads', //options are favorites or uploads
+            loadingText: 'Loading WeedMap.TV...',
+            numberToDisplay: 4,
+            linksInNewWindow: true,
+            hideAuthor: true
+        }
+
+        __opts = $.extend({}, $.fn.youTubeChannel.defaults, options);
+
+        return this.each(function() {
+            if (__opts.userName != null) {
+                videoDiv.append("<div id=\"channel_div\"></div>");
+                __mainDiv = $("#channel_div");
+                __mainDiv.hide();
+
+                __preLoaderHTML = $("<p class=\"loader\">" + 
+                    __opts.loadingText + "</p>");
+                videoDiv.append(__preLoaderHTML);
+
+                // TODO: Error handling!
+                $.ajax({
+                    url: "//gdata.youtube.com/feeds/base/users/" + 
+                        __opts.userName + "/" + __opts.channel + "?alt=json",
+                    cache: true,
+                    dataType: 'jsonp',                    
+                    success: __jQueryYouTubeChannelReceiveData
+                });
+            }
+        });
+    };
+})(jQuery);
+$(document).ready(function() {
+    $('#tv').youTubeChannel({});
+}); 
+
+
+</script>
+<html>
+<head>
+<link href='//fonts.googleapis.com/css?family=Luckiest+Guy' rel='stylesheet' type='text/css'>
+<link href='//fonts.googleapis.com/css?family=Dawning+of+a+New+Day' rel='stylesheet' type='text/css'>
+<style type="text/css">
+html, body {margin:0; padding:0;}
+body {margin:0px; padding:0px;text-align:center;background:#799c36 url(/images/50x.jpg) no-repeat top center;}
+h1 {margin:6px 0 0 0;text-transform:uppercase;text-shadow:1px 1px 2px yellow;font-weight:400;font-size:45px;}
+#floater {position:relative;margin:210px auto 7px auto;width:25px;padding-left:510px;}
+#footer {text-align:right; padding-right:20px; font-size:0.75em;}
+
+#content {margin:0 auto 40px auto;text-align:left;background:-moz-linear-gradient(center top,#fff,#cfcfb6) repeat scroll 0 0 transparent;background:-webkit-gradient(linear,left top,left bottom,from(#fff),to(#cfcfb6));filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff',endColorstr='#cfcfb6');border-radius:25px;-moz-border-radius:25px;-webkit-border-radius:25px;box-shadow:0px 0px 8px #333;border:8px solid #333;background-color:#fff;clear:both; height:650px; position:relative;width:495px;padding:30px;}
+#content a {color:#222;font-weight:700;text-decoration:none;border:none;}
+#content img {margin:0 35px 20px 0;width:200px;float:left;}
+#content hr {clear:both;border-left:none;border-right:none;border-top:1px solid #f8f8f8;border-bottom:1px solid #bbb;}
+#content p {margin:0;line-height:44px;font-weight:700;font-size:45px;text-shadow:0px 0px 1px #ddd;font-family:'Dawning of a New Day', arial, serif;}
+#content a {font-family:'Luckiest Guy', arial, serif;}
+#content p.tv {clear:both;margin:45px 0 0;line-height:0;font-family:'Luckiest Guy',arial,serif;font-size:20px;text-transform:none;text-shadow:0 0 1px yellow;}
+#content a.rightback {height:111px;display:block;}
+
+p.mobile {height:60px;}
+#mobile img {border:1px solid transparent;height:167px;width:auto;margin:10px 25px 38px 0;box-shadow:5px 5px 20px #fff;-moz-box-shadow:5px 5px 20px #fff;-webkit-box-shadow:5px 5px 20px #fff;border-radius:10px;-webkit-border-radius:10px;-moz-border-radius:10px;}
+#mobile img:hover {border:1px solid yellow;-moz-transform:rotate(1deg);-webkit-transform:rotate(1deg);}
+#mobile {margin:35px auto 29px auto;width:211px;}
+
+#tv {margin-top:20px;}
+#tv div.video {width:247px;float:left;}
+#tv div.video a {font-size:13px;color:#333;}
+#tv div.video a:hover {color:#000;text-shadow:0 0 1px orange;}
+#tv div.video img:hover {outline:1px solid #bbb;border:3px dashed orange;}
+#tv img {border-radius:8px;-webkit-border-radius:8px;-moz-border-radius:8px;box-shadow:1px 1px 3px #000;-moz-box-shadow:1px 1px 3px #000;-webkit-box-shadow:1px 1px 3px #000;outline:1px solid transparent;border:3px dashed #aaa;width:100px;margin:0 12px 17px 0;display:inline;}
+#tv a {text-shadow:0 0 1px white;font-weight:400;margin:0 10px 0 0;padding:0;display:block;}
+
+a#twitter {display:block;text-indent:-999999px;background:url(/twitter.png);width:25px;height:24px;margin-top:3px;}
+</style>
+
+</head>
+<body>
+<div id="floater"><a title="Twitter Us!" id="twitter" href="http://twitter.com/weedmaps" target="_blank"><span>Twitter</span></a></div>
+<div id="content">
+        <a class="rightback" href="http://legalmarijuanadispensary.com">
+          <img src="/images/logo_weedmaps.png?71">
+          <h1>We'll be<br/>right back<i>!</i></h1>
+        </a>
+        <hr />
+        <p class="mobile">If you have a smart phone,<br/>you're probably still in luck...</p>
+        <div id="mobile">
+          <a title="WeedMap on Droid!" href="http://qrcode.kaywa.com/img.php?s=8&d=market%3A%2F%2Fdetails%3Fid%3Dcom.weedmaps.app.android" target="_blank"><img src="/images/wm_apps_splash_07.png"></a>
+          <a title="WeedMaps on iPhone!" href="http://itunes.apple.com/us/app/legal-maps/id350189835?mt=8" target="_blank"><img src="/images/wm_apps_splash_03.png"></a>
+        </div>
+        <p class="tv">Check out the latest WeedMaps.TV<i>!</i></p>
+        <div id="tv"></div>
+</div>
+<div id="footer">
+</div>
+</body>
+</html>
+
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+<script type="text/javascript">
+
+ var __mainDiv;
+ var __preLoaderHTML;
+ var __opts;
+
+ function __jQueryYouTubeChannelReceiveData(data) {
+
+     var cnt = 0;
+
+     $.each(data.feed.entry, function(i, e) {
+         if (cnt < __opts.numberToDisplay) {
+             var parts = e.id.$t.split('/');
+             var videoId = parts[parts.length-1];
+             var clear = (cnt==2) ? ' style="clear:both;"' : '';
+             var out = '<div class="video"'+clear+'><a href="' + 
+                  e.link[0].href + '"><img src="//i.ytimg.com/vi/' + 
+                  videoId + '/2.jpg"/></a><a href="' + 
+                  e.link[0].href + '">' + e.title.$t + '</a><p>';
+             if (!__opts.hideAuthor) {
+                 out = out + 'Author: ' + e.author[0].name.$t + '';
+             }
+             out = out + '</p></div>';
+             __mainDiv.append(out);
+             cnt = cnt + 1;
+         }
+     });
+            
+    // Open in new tab?
+    if (__opts.linksInNewWindow) {
+        $(__mainDiv).find("li > a").attr("target", "_blank");
+    }
+    
+    // Remove the preloader and show the content
+    $(__preLoaderHTML).remove();
+    __mainDiv.show();
+}
+                
+(function($) {
+    $.fn.youTubeChannel = function(options) {
+        var videoDiv = $(this);
+
+        $.fn.youTubeChannel.defaults = {
+            userName: 'nugporn',
+            channel:  'uploads', //options are favorites or uploads
+            loadingText: 'Loading WeedMap.TV...',
+            numberToDisplay: 4,
+            linksInNewWindow: true,
+            hideAuthor: true
+        }
+
+        __opts = $.extend({}, $.fn.youTubeChannel.defaults, options);
+
+        return this.each(function() {
+            if (__opts.userName != null) {
+                videoDiv.append("<div id=\"channel_div\"></div>");
+                __mainDiv = $("#channel_div");
+                __mainDiv.hide();
+
+                __preLoaderHTML = $("<p class=\"loader\">" + 
+                    __opts.loadingText + "</p>");
+                videoDiv.append(__preLoaderHTML);
+
+                // TODO: Error handling!
+                $.ajax({
+                    url: "//gdata.youtube.com/feeds/base/users/" + 
+                        __opts.userName + "/" + __opts.channel + "?alt=json",
+                    cache: true,
+                    dataType: 'jsonp',                    
+                    success: __jQueryYouTubeChannelReceiveData
+                });
+            }
+        });
+    };
+})(jQuery);
+$(document).ready(function() {
+    $('#tv').youTubeChannel({});
+}); 
+
+
+</script>
+[][][{"_type":"delivery","avatar_url":"https://d2kxqxnk1i5o9a.cloudfront.net/uploads/avatars/deliveries/4970/square_300px.jpg","city":"Portland","distance":null,"feature_level_raw":4,"feature_order":1,"id":4970,"is_delivery":true,"license_type":"medical","latitude":45.513245,"listing_url":"/deliveries/oregon-green-society-1","longitude":-122.679402,"name":"Oregon Green Society","package_level_raw":2,"rating":4.89411764705882,"reviews_count":17,"slug":"oregon-green-society-1","state":"Oregon","static_map_url":"https://staticmap.weedmaps.com/static_map/13/45.513245/-122.679402/402/147/map.png","wmid":335412881,"zip_code":"97201","street":null}][]<html>
+<head>
+<link href='//fonts.googleapis.com/css?family=Luckiest+Guy' rel='stylesheet' type='text/css'>
+<link href='//fonts.googleapis.com/css?family=Dawning+of+a+New+Day' rel='stylesheet' type='text/css'>
+<style type="text/css">
+html, body {margin:0; padding:0;}
+body {margin:0px; padding:0px;text-align:center;background:#799c36 url(/images/50x.jpg) no-repeat top center;}
+h1 {margin:6px 0 0 0;text-transform:uppercase;text-shadow:1px 1px 2px yellow;font-weight:400;font-size:45px;}
+#floater {position:relative;margin:210px auto 7px auto;width:25px;padding-left:510px;}
+#footer {text-align:right; padding-right:20px; font-size:0.75em;}
+
+#content {margin:0 auto 40px auto;text-align:left;background:-moz-linear-gradient(center top,#fff,#cfcfb6) repeat scroll 0 0 transparent;background:-webkit-gradient(linear,left top,left bottom,from(#fff),to(#cfcfb6));filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff',endColorstr='#cfcfb6');border-radius:25px;-moz-border-radius:25px;-webkit-border-radius:25px;box-shadow:0px 0px 8px #333;border:8px solid #333;background-color:#fff;clear:both; height:650px; position:relative;width:495px;padding:30px;}
+#content a {color:#222;font-weight:700;text-decoration:none;border:none;}
+#content img {margin:0 35px 20px 0;width:200px;float:left;}
+#content hr {clear:both;border-left:none;border-right:none;border-top:1px solid #f8f8f8;border-bottom:1px solid #bbb;}
+#content p {margin:0;line-height:44px;font-weight:700;font-size:45px;text-shadow:0px 0px 1px #ddd;font-family:'Dawning of a New Day', arial, serif;}
+#content a {font-family:'Luckiest Guy', arial, serif;}
+#content p.tv {clear:both;margin:45px 0 0;line-height:0;font-family:'Luckiest Guy',arial,serif;font-size:20px;text-transform:none;text-shadow:0 0 1px yellow;}
+#content a.rightback {height:111px;display:block;}
+
+p.mobile {height:60px;}
+#mobile img {border:1px solid transparent;height:167px;width:auto;margin:10px 25px 38px 0;box-shadow:5px 5px 20px #fff;-moz-box-shadow:5px 5px 20px #fff;-webkit-box-shadow:5px 5px 20px #fff;border-radius:10px;-webkit-border-radius:10px;-moz-border-radius:10px;}
+#mobile img:hover {border:1px solid yellow;-moz-transform:rotate(1deg);-webkit-transform:rotate(1deg);}
+#mobile {margin:35px auto 29px auto;width:211px;}
+
+#tv {margin-top:20px;}
+#tv div.video {width:247px;float:left;}
+#tv div.video a {font-size:13px;color:#333;}
+#tv div.video a:hover {color:#000;text-shadow:0 0 1px orange;}
+#tv div.video img:hover {outline:1px solid #bbb;border:3px dashed orange;}
+#tv img {border-radius:8px;-webkit-border-radius:8px;-moz-border-radius:8px;box-shadow:1px 1px 3px #000;-moz-box-shadow:1px 1px 3px #000;-webkit-box-shadow:1px 1px 3px #000;outline:1px solid transparent;border:3px dashed #aaa;width:100px;margin:0 12px 17px 0;display:inline;}
+#tv a {text-shadow:0 0 1px white;font-weight:400;margin:0 10px 0 0;padding:0;display:block;}
+
+a#twitter {display:block;text-indent:-999999px;background:url(/twitter.png);width:25px;height:24px;margin-top:3px;}
+</style>
+
+</head>
+<body>
+<div id="floater"><a title="Twitter Us!" id="twitter" href="http://twitter.com/weedmaps" target="_blank"><span>Twitter</span></a></div>
+<div id="content">
+        <a class="rightback" href="http://legalmarijuanadispensary.com">
+          <img src="/images/logo_weedmaps.png?71">
+          <h1>We'll be<br/>right back<i>!</i></h1>
+        </a>
+        <hr />
+        <p class="mobile">If you have a smart phone,<br/>you're probably still in luck...</p>
+        <div id="mobile">
+          <a title="WeedMap on Droid!" href="http://qrcode.kaywa.com/img.php?s=8&d=market%3A%2F%2Fdetails%3Fid%3Dcom.weedmaps.app.android" target="_blank"><img src="/images/wm_apps_splash_07.png"></a>
+          <a title="WeedMaps on iPhone!" href="http://itunes.apple.com/us/app/legal-maps/id350189835?mt=8" target="_blank"><img src="/images/wm_apps_splash_03.png"></a>
+        </div>
+        <p class="tv">Check out the latest WeedMaps.TV<i>!</i></p>
+        <div id="tv"></div>
+</div>
+<div id="footer">
+</div>
+</body>
+</html>
+
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+<script type="text/javascript">
+
+ var __mainDiv;
+ var __preLoaderHTML;
+ var __opts;
+
+ function __jQueryYouTubeChannelReceiveData(data) {
+
+     var cnt = 0;
+
+     $.each(data.feed.entry, function(i, e) {
+         if (cnt < __opts.numberToDisplay) {
+             var parts = e.id.$t.split('/');
+             var videoId = parts[parts.length-1];
+             var clear = (cnt==2) ? ' style="clear:both;"' : '';
+             var out = '<div class="video"'+clear+'><a href="' + 
+                  e.link[0].href + '"><img src="//i.ytimg.com/vi/' + 
+                  videoId + '/2.jpg"/></a><a href="' + 
+                  e.link[0].href + '">' + e.title.$t + '</a><p>';
+             if (!__opts.hideAuthor) {
+                 out = out + 'Author: ' + e.author[0].name.$t + '';
+             }
+             out = out + '</p></div>';
+             __mainDiv.append(out);
+             cnt = cnt + 1;
+         }
+     });
+            
+    // Open in new tab?
+    if (__opts.linksInNewWindow) {
+        $(__mainDiv).find("li > a").attr("target", "_blank");
+    }
+    
+    // Remove the preloader and show the content
+    $(__preLoaderHTML).remove();
+    __mainDiv.show();
+}
+                
+(function($) {
+    $.fn.youTubeChannel = function(options) {
+        var videoDiv = $(this);
+
+        $.fn.youTubeChannel.defaults = {
+            userName: 'nugporn',
+            channel:  'uploads', //options are favorites or uploads
+            loadingText: 'Loading WeedMap.TV...',
+            numberToDisplay: 4,
+            linksInNewWindow: true,
+            hideAuthor: true
+        }
+
+        __opts = $.extend({}, $.fn.youTubeChannel.defaults, options);
+
+        return this.each(function() {
+            if (__opts.userName != null) {
+                videoDiv.append("<div id=\"channel_div\"></div>");
+                __mainDiv = $("#channel_div");
+                __mainDiv.hide();
+
+                __preLoaderHTML = $("<p class=\"loader\">" + 
+                    __opts.loadingText + "</p>");
+                videoDiv.append(__preLoaderHTML);
+
+                // TODO: Error handling!
+                $.ajax({
+                    url: "//gdata.youtube.com/feeds/base/users/" + 
+                        __opts.userName + "/" + __opts.channel + "?alt=json",
+                    cache: true,
+                    dataType: 'jsonp',                    
+                    success: __jQueryYouTubeChannelReceiveData
+                });
+            }
+        });
+    };
+})(jQuery);
+$(document).ready(function() {
+    $('#tv').youTubeChannel({});
+}); 
+
+
+</script>
+<html>
+<head>
+<link href='//fonts.googleapis.com/css?family=Luckiest+Guy' rel='stylesheet' type='text/css'>
+<link href='//fonts.googleapis.com/css?family=Dawning+of+a+New+Day' rel='stylesheet' type='text/css'>
+<style type="text/css">
+html, body {margin:0; padding:0;}
+body {margin:0px; padding:0px;text-align:center;background:#799c36 url(/images/50x.jpg) no-repeat top center;}
+h1 {margin:6px 0 0 0;text-transform:uppercase;text-shadow:1px 1px 2px yellow;font-weight:400;font-size:45px;}
+#floater {position:relative;margin:210px auto 7px auto;width:25px;padding-left:510px;}
+#footer {text-align:right; padding-right:20px; font-size:0.75em;}
+
+#content {margin:0 auto 40px auto;text-align:left;background:-moz-linear-gradient(center top,#fff,#cfcfb6) repeat scroll 0 0 transparent;background:-webkit-gradient(linear,left top,left bottom,from(#fff),to(#cfcfb6));filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff',endColorstr='#cfcfb6');border-radius:25px;-moz-border-radius:25px;-webkit-border-radius:25px;box-shadow:0px 0px 8px #333;border:8px solid #333;background-color:#fff;clear:both; height:650px; position:relative;width:495px;padding:30px;}
+#content a {color:#222;font-weight:700;text-decoration:none;border:none;}
+#content img {margin:0 35px 20px 0;width:200px;float:left;}
+#content hr {clear:both;border-left:none;border-right:none;border-top:1px solid #f8f8f8;border-bottom:1px solid #bbb;}
+#content p {margin:0;line-height:44px;font-weight:700;font-size:45px;text-shadow:0px 0px 1px #ddd;font-family:'Dawning of a New Day', arial, serif;}
+#content a {font-family:'Luckiest Guy', arial, serif;}
+#content p.tv {clear:both;margin:45px 0 0;line-height:0;font-family:'Luckiest Guy',arial,serif;font-size:20px;text-transform:none;text-shadow:0 0 1px yellow;}
+#content a.rightback {height:111px;display:block;}
+
+p.mobile {height:60px;}
+#mobile img {border:1px solid transparent;height:167px;width:auto;margin:10px 25px 38px 0;box-shadow:5px 5px 20px #fff;-moz-box-shadow:5px 5px 20px #fff;-webkit-box-shadow:5px 5px 20px #fff;border-radius:10px;-webkit-border-radius:10px;-moz-border-radius:10px;}
+#mobile img:hover {border:1px solid yellow;-moz-transform:rotate(1deg);-webkit-transform:rotate(1deg);}
+#mobile {margin:35px auto 29px auto;width:211px;}
+
+#tv {margin-top:20px;}
+#tv div.video {width:247px;float:left;}
+#tv div.video a {font-size:13px;color:#333;}
+#tv div.video a:hover {color:#000;text-shadow:0 0 1px orange;}
+#tv div.video img:hover {outline:1px solid #bbb;border:3px dashed orange;}
+#tv img {border-radius:8px;-webkit-border-radius:8px;-moz-border-radius:8px;box-shadow:1px 1px 3px #000;-moz-box-shadow:1px 1px 3px #000;-webkit-box-shadow:1px 1px 3px #000;outline:1px solid transparent;border:3px dashed #aaa;width:100px;margin:0 12px 17px 0;display:inline;}
+#tv a {text-shadow:0 0 1px white;font-weight:400;margin:0 10px 0 0;padding:0;display:block;}
+
+a#twitter {display:block;text-indent:-999999px;background:url(/twitter.png);width:25px;height:24px;margin-top:3px;}
+</style>
+
+</head>
+<body>
+<div id="floater"><a title="Twitter Us!" id="twitter" href="http://twitter.com/weedmaps" target="_blank"><span>Twitter</span></a></div>
+<div id="content">
+        <a class="rightback" href="http://legalmarijuanadispensary.com">
+          <img src="/images/logo_weedmaps.png?71">
+          <h1>We'll be<br/>right back<i>!</i></h1>
+        </a>
+        <hr />
+        <p class="mobile">If you have a smart phone,<br/>you're probably still in luck...</p>
+        <div id="mobile">
+          <a title="WeedMap on Droid!" href="http://qrcode.kaywa.com/img.php?s=8&d=market%3A%2F%2Fdetails%3Fid%3Dcom.weedmaps.app.android" target="_blank"><img src="/images/wm_apps_splash_07.png"></a>
+          <a title="WeedMaps on iPhone!" href="http://itunes.apple.com/us/app/legal-maps/id350189835?mt=8" target="_blank"><img src="/images/wm_apps_splash_03.png"></a>
+        </div>
+        <p class="tv">Check out the latest WeedMaps.TV<i>!</i></p>
+        <div id="tv"></div>
+</div>
+<div id="footer">
+</div>
+</body>
+</html>
+
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+<script type="text/javascript">
+
+ var __mainDiv;
+ var __preLoaderHTML;
+ var __opts;
+
+ function __jQueryYouTubeChannelReceiveData(data) {
+
+     var cnt = 0;
+
+     $.each(data.feed.entry, function(i, e) {
+         if (cnt < __opts.numberToDisplay) {
+             var parts = e.id.$t.split('/');
+             var videoId = parts[parts.length-1];
+             var clear = (cnt==2) ? ' style="clear:both;"' : '';
+             var out = '<div class="video"'+clear+'><a href="' + 
+                  e.link[0].href + '"><img src="//i.ytimg.com/vi/' + 
+                  videoId + '/2.jpg"/></a><a href="' + 
+                  e.link[0].href + '">' + e.title.$t + '</a><p>';
+             if (!__opts.hideAuthor) {
+                 out = out + 'Author: ' + e.author[0].name.$t + '';
+             }
+             out = out + '</p></div>';
+             __mainDiv.append(out);
+             cnt = cnt + 1;
+         }
+     });
+            
+    // Open in new tab?
+    if (__opts.linksInNewWindow) {
+        $(__mainDiv).find("li > a").attr("target", "_blank");
+    }
+    
+    // Remove the preloader and show the content
+    $(__preLoaderHTML).remove();
+    __mainDiv.show();
+}
+                
+(function($) {
+    $.fn.youTubeChannel = function(options) {
+        var videoDiv = $(this);
+
+        $.fn.youTubeChannel.defaults = {
+            userName: 'nugporn',
+            channel:  'uploads', //options are favorites or uploads
+            loadingText: 'Loading WeedMap.TV...',
+            numberToDisplay: 4,
+            linksInNewWindow: true,
+            hideAuthor: true
+        }
+
+        __opts = $.extend({}, $.fn.youTubeChannel.defaults, options);
+
+        return this.each(function() {
+            if (__opts.userName != null) {
+                videoDiv.append("<div id=\"channel_div\"></div>");
+                __mainDiv = $("#channel_div");
+                __mainDiv.hide();
+
+                __preLoaderHTML = $("<p class=\"loader\">" + 
+                    __opts.loadingText + "</p>");
+                videoDiv.append(__preLoaderHTML);
+
+                // TODO: Error handling!
+                $.ajax({
+                    url: "//gdata.youtube.com/feeds/base/users/" + 
+                        __opts.userName + "/" + __opts.channel + "?alt=json",
+                    cache: true,
+                    dataType: 'jsonp',                    
+                    success: __jQueryYouTubeChannelReceiveData
+                });
+            }
+        });
+    };
+})(jQuery);
+$(document).ready(function() {
+    $('#tv').youTubeChannel({});
+}); 
+
+
+</script>
+<html>
+<head>
+<link href='//fonts.googleapis.com/css?family=Luckiest+Guy' rel='stylesheet' type='text/css'>
+<link href='//fonts.googleapis.com/css?family=Dawning+of+a+New+Day' rel='stylesheet' type='text/css'>
+<style type="text/css">
+html, body {margin:0; padding:0;}
+body {margin:0px; padding:0px;text-align:center;background:#799c36 url(/images/50x.jpg) no-repeat top center;}
+h1 {margin:6px 0 0 0;text-transform:uppercase;text-shadow:1px 1px 2px yellow;font-weight:400;font-size:45px;}
+#floater {position:relative;margin:210px auto 7px auto;width:25px;padding-left:510px;}
+#footer {text-align:right; padding-right:20px; font-size:0.75em;}
+
+#content {margin:0 auto 40px auto;text-align:left;background:-moz-linear-gradient(center top,#fff,#cfcfb6) repeat scroll 0 0 transparent;background:-webkit-gradient(linear,left top,left bottom,from(#fff),to(#cfcfb6));filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff',endColorstr='#cfcfb6');border-radius:25px;-moz-border-radius:25px;-webkit-border-radius:25px;box-shadow:0px 0px 8px #333;border:8px solid #333;background-color:#fff;clear:both; height:650px; position:relative;width:495px;padding:30px;}
+#content a {color:#222;font-weight:700;text-decoration:none;border:none;}
+#content img {margin:0 35px 20px 0;width:200px;float:left;}
+#content hr {clear:both;border-left:none;border-right:none;border-top:1px solid #f8f8f8;border-bottom:1px solid #bbb;}
+#content p {margin:0;line-height:44px;font-weight:700;font-size:45px;text-shadow:0px 0px 1px #ddd;font-family:'Dawning of a New Day', arial, serif;}
+#content a {font-family:'Luckiest Guy', arial, serif;}
+#content p.tv {clear:both;margin:45px 0 0;line-height:0;font-family:'Luckiest Guy',arial,serif;font-size:20px;text-transform:none;text-shadow:0 0 1px yellow;}
+#content a.rightback {height:111px;display:block;}
+
+p.mobile {height:60px;}
+#mobile img {border:1px solid transparent;height:167px;width:auto;margin:10px 25px 38px 0;box-shadow:5px 5px 20px #fff;-moz-box-shadow:5px 5px 20px #fff;-webkit-box-shadow:5px 5px 20px #fff;border-radius:10px;-webkit-border-radius:10px;-moz-border-radius:10px;}
+#mobile img:hover {border:1px solid yellow;-moz-transform:rotate(1deg);-webkit-transform:rotate(1deg);}
+#mobile {margin:35px auto 29px auto;width:211px;}
+
+#tv {margin-top:20px;}
+#tv div.video {width:247px;float:left;}
+#tv div.video a {font-size:13px;color:#333;}
+#tv div.video a:hover {color:#000;text-shadow:0 0 1px orange;}
+#tv div.video img:hover {outline:1px solid #bbb;border:3px dashed orange;}
+#tv img {border-radius:8px;-webkit-border-radius:8px;-moz-border-radius:8px;box-shadow:1px 1px 3px #000;-moz-box-shadow:1px 1px 3px #000;-webkit-box-shadow:1px 1px 3px #000;outline:1px solid transparent;border:3px dashed #aaa;width:100px;margin:0 12px 17px 0;display:inline;}
+#tv a {text-shadow:0 0 1px white;font-weight:400;margin:0 10px 0 0;padding:0;display:block;}
+
+a#twitter {display:block;text-indent:-999999px;background:url(/twitter.png);width:25px;height:24px;margin-top:3px;}
+</style>
+
+</head>
+<body>
+<div id="floater"><a title="Twitter Us!" id="twitter" href="http://twitter.com/weedmaps" target="_blank"><span>Twitter</span></a></div>
+<div id="content">
+        <a class="rightback" href="http://legalmarijuanadispensary.com">
+          <img src="/images/logo_weedmaps.png?71">
+          <h1>We'll be<br/>right back<i>!</i></h1>
+        </a>
+        <hr />
+        <p class="mobile">If you have a smart phone,<br/>you're probably still in luck...</p>
+        <div id="mobile">
+          <a title="WeedMap on Droid!" href="http://qrcode.kaywa.com/img.php?s=8&d=market%3A%2F%2Fdetails%3Fid%3Dcom.weedmaps.app.android" target="_blank"><img src="/images/wm_apps_splash_07.png"></a>
+          <a title="WeedMaps on iPhone!" href="http://itunes.apple.com/us/app/legal-maps/id350189835?mt=8" target="_blank"><img src="/images/wm_apps_splash_03.png"></a>
+        </div>
+        <p class="tv">Check out the latest WeedMaps.TV<i>!</i></p>
+        <div id="tv"></div>
+</div>
+<div id="footer">
+</div>
+</body>
+</html>
+
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+<script type="text/javascript">
+
+ var __mainDiv;
+ var __preLoaderHTML;
+ var __opts;
+
+ function __jQueryYouTubeChannelReceiveData(data) {
+
+     var cnt = 0;
+
+     $.each(data.feed.entry, function(i, e) {
+         if (cnt < __opts.numberToDisplay) {
+             var parts = e.id.$t.split('/');
+             var videoId = parts[parts.length-1];
+             var clear = (cnt==2) ? ' style="clear:both;"' : '';
+             var out = '<div class="video"'+clear+'><a href="' + 
+                  e.link[0].href + '"><img src="//i.ytimg.com/vi/' + 
+                  videoId + '/2.jpg"/></a><a href="' + 
+                  e.link[0].href + '">' + e.title.$t + '</a><p>';
+             if (!__opts.hideAuthor) {
+                 out = out + 'Author: ' + e.author[0].name.$t + '';
+             }
+             out = out + '</p></div>';
+             __mainDiv.append(out);
+             cnt = cnt + 1;
+         }
+     });
+            
+    // Open in new tab?
+    if (__opts.linksInNewWindow) {
+        $(__mainDiv).find("li > a").attr("target", "_blank");
+    }
+    
+    // Remove the preloader and show the content
+    $(__preLoaderHTML).remove();
+    __mainDiv.show();
+}
+                
+(function($) {
+    $.fn.youTubeChannel = function(options) {
+        var videoDiv = $(this);
+
+        $.fn.youTubeChannel.defaults = {
+            userName: 'nugporn',
+            channel:  'uploads', //options are favorites or uploads
+            loadingText: 'Loading WeedMap.TV...',
+            numberToDisplay: 4,
+            linksInNewWindow: true,
+            hideAuthor: true
+        }
+
+        __opts = $.extend({}, $.fn.youTubeChannel.defaults, options);
+
+        return this.each(function() {
+            if (__opts.userName != null) {
+                videoDiv.append("<div id=\"channel_div\"></div>");
+                __mainDiv = $("#channel_div");
+                __mainDiv.hide();
+
+                __preLoaderHTML = $("<p class=\"loader\">" + 
+                    __opts.loadingText + "</p>");
+                videoDiv.append(__preLoaderHTML);
+
+                // TODO: Error handling!
+                $.ajax({
+                    url: "//gdata.youtube.com/feeds/base/users/" + 
+                        __opts.userName + "/" + __opts.channel + "?alt=json",
+                    cache: true,
+                    dataType: 'jsonp',                    
+                    success: __jQueryYouTubeChannelReceiveData
+                });
+            }
+        });
+    };
+})(jQuery);
+$(document).ready(function() {
+    $('#tv').youTubeChannel({});
+}); 
+
+
+</script>
+[][]
