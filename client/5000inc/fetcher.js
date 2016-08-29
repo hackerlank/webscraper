@@ -26,7 +26,7 @@ var dataJSON = JSON.parse(dataBuffer.toString());
 var urls = [];
 
 dataJSON.forEach(function (company, index, array) {
-    if(company.state_s == 'CA') {
+    if(company.state_s == 'SC' || company.state_s == 'NC' || company.state_s == 'GA') {
         urls.push('http://www.inc.com/rest/inc5000company/' + company.id + '?currentinc5000year=2016');
     }
 });
