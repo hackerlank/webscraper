@@ -122,52 +122,52 @@ var __getSessions = function (resp) {
 // request = request.defaults({proxy : 'http://127.0.0.1:8888'});
 
 var hotels = [
-    // {
-    //     "name": "Altira Macau",
-    //     "id": "10091860",
-    //     "baseUrl": "https://www.expedia.com.hk/en/Macau-Hotels-Altira-Macau.h10091860.Hotel-Information"
-    // },
-    // {
-    //     "name": "Banyan Tree Macau",
-    //     "id": "4282350",
-    //     "baseUrl": "https://www.expedia.com.hk/en/Macau-Hotels-Banyan-Tree-Macau.h4282350.Hotel-Information"
-    // },
-    // {
-    //     "name": "Broadway Macau",
-    //     "id": "10106413",
-    //     "baseUrl": "https://www.expedia.com.hk/en/Macau-Hotels-Broadway-Macau.h10106413.Hotel-Information"
-    // },
+    {
+        "name": "Altira Macau",
+        "id": "10091860",
+        "baseUrl": "https://www.expedia.com.hk/en/Macau-Hotels-Altira-Macau.h10091860.Hotel-Information"
+    },
+    {
+        "name": "Banyan Tree Macau",
+        "id": "4282350",
+        "baseUrl": "https://www.expedia.com.hk/en/Macau-Hotels-Banyan-Tree-Macau.h4282350.Hotel-Information"
+    },
+    {
+        "name": "Broadway Macau",
+        "id": "10106413",
+        "baseUrl": "https://www.expedia.com.hk/en/Macau-Hotels-Broadway-Macau.h10106413.Hotel-Information"
+    },
     // {
     //     "name" : "City of Dreams-Crown Towers Macau"
     // },
-    // {
-    //     "name": "Conrad Macao Cotai Central",
-    //     "id": "4944702",
-    //     "baseUrl": "https://www.expedia.com.hk/en/Macau-Hotels-Conrad-Macao-Cotai-Central.h4944702.Hotel-Information"
-    // },
-    // {
-    //     "name" : "Four Seasons Macao at Cotai Strip"  
-    // },
-    // {
-    //     "name": "Galaxy Macau",
-    //     "id": "4359010",
-    //     "baseUrl": "https://www.expedia.com.hk/en/Macau-Hotels-Galaxy-Macau.h4359010.Hotel-Information"
-    // },
-    // {
-    //     "name" : "Grand Hyatt Macau",
-    //     "id" : "2844548",
-    //     "baseUrl" : "https://www.expedia.com.hk/en/Macau-Hotels-Grand-Hyatt-Macau.h2844548.Hotel-Information"
-    // },
-    // {
-    //     "name" : "Grand Lisboa",
-    //     "id" : "2867646",
-    //     "baseUrl" : "https://www.expedia.com.hk/en/Macau-Hotels-Grand-Lisboa-Macau.h2867646.Hotel-Information"
-    // },
-    // {
-    //     "name" : "Grandview Hotel Macau",
-    //     "id" : "1042400",
-    //     "baseUrl" : "https://www.expedia.com.hk/en/Macau-Hotels-Grandview-Hotel-Macau.h1042400.Hotel-Information"
-    // },
+    {
+        "name": "Conrad Macao Cotai Central",
+        "id": "4944702",
+        "baseUrl": "https://www.expedia.com.hk/en/Macau-Hotels-Conrad-Macao-Cotai-Central.h4944702.Hotel-Information"
+    },
+    {
+        "name" : "Four Seasons Macao at Cotai Strip"  
+    },
+    {
+        "name": "Galaxy Macau",
+        "id": "4359010",
+        "baseUrl": "https://www.expedia.com.hk/en/Macau-Hotels-Galaxy-Macau.h4359010.Hotel-Information"
+    },
+    {
+        "name" : "Grand Hyatt Macau",
+        "id" : "2844548",
+        "baseUrl" : "https://www.expedia.com.hk/en/Macau-Hotels-Grand-Hyatt-Macau.h2844548.Hotel-Information"
+    },
+    {
+        "name" : "Grand Lisboa",
+        "id" : "2867646",
+        "baseUrl" : "https://www.expedia.com.hk/en/Macau-Hotels-Grand-Lisboa-Macau.h2867646.Hotel-Information"
+    },
+    {
+        "name" : "Grandview Hotel Macau",
+        "id" : "1042400",
+        "baseUrl" : "https://www.expedia.com.hk/en/Macau-Hotels-Grandview-Hotel-Macau.h1042400.Hotel-Information"
+    },
     {
         "name" : "Hard Rock Hotel",
         "id" : "2759501",
@@ -253,7 +253,7 @@ function fetchRate(ckin, ckout, hotel, outerCallback) {
                 var hotelName = hotel.name;
                 var $ = cheerio.load(hbody);
                 var hotelRate = $('.rating-number').text();
-                var hcat = $('#license-plate .visuallyhidden').text().slice(0, 1) + '-Stars';
+                var hcat = $('#license-plate .visuallyhidden').text().match(/[\d\.]+/)[0] + '-Stars';
                 var hloc = $('.street-address').eq(0).text() + ', ' + $('.city').eq(0).text();
                 var roomTypeCode = h.roomTypeCode;
                 var ratePlanCode = h.ratePlanCode;

@@ -8,7 +8,7 @@ var async = require('async');
 var excel = require('node-xlsx');
 
 
-var columns = ["Name", "Category", "Email"];
+var columns = ["Name", "Category", "Email", "targetUrl"];
 var sheet1 = { name: 'result', data: [] };
 sheet1.data.push(columns);
 
@@ -16,7 +16,7 @@ var rows = sheet1.data;
 
 var base = 'http://www.inventright.com/companies/'
 var urls = [];
-for (var i = 0; i < 3000; i++) {
+for (var i = 1; i < 3000; i++) {
     (function (k) {
         urls.push(base + k);
     })(i);
@@ -105,7 +105,7 @@ function singleFetch(url, callback) {
                 callback();
                 return;
             }
-            if (!$('.SPDetailEntry').attr('class') || $('.SPDetailEntry').attr('class') == '') {
+            if ((!$('.SPDetailEntry').attr('class')) || ($('.SPDetailEntry').attr('class') == '') || (!$('.SPDetailEntry h1')) || ($('.SPDetailEntry h1').text().length<2)) {
                 callback();
                 return;
             }
@@ -113,15 +113,16 @@ function singleFetch(url, callback) {
             var row = [];
             var name = $('.SPDetailEntry h1').text();
             var cate = $('.spEntryCats a').text();
-            var emai='';
-            $('.SPDetailEntry a').each(function(index, element) {
-                if($(this).attr('href') && ($(this).attr('href').indexOf('mailto') !==0)) {
+            var email='';
+            $('.SPDetailEntry .spField a').each(function(index, element) {
+                if($(this).attr('href') && ($(this).attr('href').indexOf('mailto') !== -1)) {
                     email = $(this).text();
                 }
             });
             row.push(name);
             row.push(cate);
             row.push(email);
+            row.push(url);
 
             fs.appendFileSync('collected.txt', row + ',' + url + '\r\n');
 
@@ -133,6 +134,8 @@ function singleFetch(url, callback) {
 
     });
 }
+
+// singleFetch('http://www.inventright.com/companies/2435', new Function());
 
 process.on('error', function() {
     var buffer = excel.build([sheet1]);

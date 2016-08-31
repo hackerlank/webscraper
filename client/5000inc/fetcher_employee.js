@@ -8,7 +8,7 @@ var cheerio = require('cheerio');
 var async = require('async');
 var ew = require('node-xlsx');
 
-var columns = ["Pres./CEO Name", "Company name", "Address", "City", "State", "Zip Code", "Phone Number", "Pres./CEO email address"];
+var columns = ["Pres./CEO First name", "Pres/CEO Last Name", "Company name", "Address", "City", "State", "Zip Code", "Phone Number", "Pres./CEO email address"];
 
 var sheet = { name: 'result', data: [] };
 
@@ -26,9 +26,9 @@ var dataJSON = JSON.parse(dataBuffer.toString());
 var urls = [];
 
 dataJSON.forEach(function (company, index, array) {
-    // if (company.state_s == 'SC' || company.state_s == 'NC' || company.state_s == 'GA') {
-    urls.push('http://www.inc.com/rest/inc5000company/' + company.id + '?currentinc5000year=2016');
-    // }
+    if (company.state_s == 'SC' || company.state_s == 'NC' || company.state_s == 'GA') {
+        urls.push('http://www.inc.com/rest/inc5000company/' + company.id + '?currentinc5000year=2016');
+    }
 });
 
 console.log(urls.length);
@@ -39,12 +39,12 @@ function singleQuery(url, callback) {
         try {
             var b = JSON.parse(body);
         } catch (err) {
+            fs.appendFileSync('error.txt', url + '\r\n');
             callback();
             return;
         }
-        // var ceoFirst = b.ifc_ceo_name.split(' ')[0];
-        // var ceoLast = b.ifc_ceo_name.split(' ')[1];
-        var ceoName = b.ifc_ceo_name;
+        var ceoFirst = b.ifc_ceo_name.split(' ')[0];
+        var ceoLast = b.ifc_ceo_name.split(' ')[1];
         var companyName = b.ifc_company;
         var address = b.ifc_address;
         var city = b.ifc_city;
@@ -54,8 +54,8 @@ function singleQuery(url, callback) {
         var email = b.ifc_ceo_email;
 
         var row = [];
-        row.push(ceoName);
-        // row.push(ceoLast);
+        row.push(ceoFirst);
+        row.push(ceoLast);
         row.push(companyName);
         row.push(address);
         row.push(city);
@@ -66,7 +66,7 @@ function singleQuery(url, callback) {
 
         rows.push(row);
 
-        // fs.appendFileSync('records.txt', row + '\r\n');
+        fs.appendFileSync('records.txt', row + '\r\n');
 
         setTimeout(function () {
             console.log(url + ' was done')
@@ -80,5 +80,5 @@ async.mapLimit(urls, 10, function (url, callback) {
 }, function (err) {
     if (err) console.log(err);
     var buffer = ew.build([sheet]);
-    fs.writeFileSync('5000inc_all.xlsx', buffer);
+    fs.writeFileSync('5000inc_update_0831.xlsx', buffer);
 });

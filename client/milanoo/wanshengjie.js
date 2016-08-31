@@ -91,10 +91,10 @@ function situation2(mail, callback) {
                             request({ url: drawUrl, gzip: true }, function (err, resp, body3) {
                                 var type3 = JSON.parse(body3).awardType;
                                 var value3 = JSON.parse(body3).awardValue;
-                                fs.appendFileSync('situation2_1.txt', '我是' + mail + ' memberID是 ' + memberId + ' , 我浏览了74965， 第一次抽到type ' + type1 + ' , 第二次抽到了type ' + type2 + ', 第三次抽到了type ' + type3 + '我的三次抽奖结果如下 ： \r\n');
-                                fs.appendFileSync('situation2_1.txt', body1 + '\r\n');
-                                fs.appendFileSync('situation2_1.txt', body2 + '\r\n');
-                                fs.appendFileSync('situation2_1.txt', body3 + '\r\n');
+                                fs.appendFileSync('situation2_2.txt', '我是' + mail + ' memberID是 ' + memberId + ' , 我浏览了74965， 第一次抽到type ' + type1 + ' , 第二次抽到了type ' + type2 + ', 第三次抽到了type ' + type3 + '我的三次抽奖结果如下 ： \r\n');
+                                fs.appendFileSync('situation2_2.txt', body1 + '\r\n');
+                                fs.appendFileSync('situation2_2.txt', body2 + '\r\n');
+                                fs.appendFileSync('situation2_2.txt', body3 + '\r\n');
                                 setTimeout(function () {
                                     callback();
                                 }, 200);
@@ -231,10 +231,10 @@ function situation5(mail, callback) {
                         request({ url: drawUrl, gzip: true }, function (err, resp, body3) {
                             var type3 = JSON.parse(body3).awardType;
                             var value3 = JSON.parse(body3).awardValue;
-                            fs.appendFileSync('situation5_1.txt', '我是' + mail + ' memberID是 ' + memberId + ' , 我什么都没浏览， 第一次抽到type ' + type1 + ' , 第二次抽到了type ' + type2 + ', 第三次抽到了type ' + type3 + '我的三次抽奖结果如下： \r\n');
-                            fs.appendFileSync('situation5_1.txt', body1 + '\r\n');
-                            fs.appendFileSync('situation5_1.txt', body2 + '\r\n');
-                            fs.appendFileSync('situation5_1.txt', body3 + '\r\n');
+                            fs.appendFileSync('situation5_2.txt', '我是' + mail + ' memberID是 ' + memberId + ' , 我什么都没浏览， 第一次抽到type ' + type1 + ' , 第二次抽到了type ' + type2 + ', 第三次抽到了type ' + type3 + '我的三次抽奖结果如下： \r\n');
+                            fs.appendFileSync('situation5_2.txt', body1 + '\r\n');
+                            fs.appendFileSync('situation5_2.txt', body2 + '\r\n');
+                            fs.appendFileSync('situation5_2.txt', body3 + '\r\n');
                             setTimeout(function () {
                                 callback();
                             }, 50);
@@ -287,10 +287,6 @@ function situation6(mail, callback) {
                                         console.log(memberId + " : " + type3 + " ?= " + type2);
                                     }
                                     var value3 = JSON.parse(body3).awardValue;
-                                    // fs.appendFileSync('situation5_1.txt', '我是' + mail + ' memberID是 ' + memberId + ' , 我什么都没浏览， 第一次抽到type ' + type1 + ' , 第二次抽到了type ' + type2 + ', 第三次抽到了type ' + type3 + '我的三次抽奖结果如下： \r\n');
-                                    // fs.appendFileSync('situation5_1.txt', body1 + '\r\n');
-                                    // fs.appendFileSync('situation5_1.txt', body2 + '\r\n');
-                                    // fs.appendFileSync('situation5_1.txt', body3 + '\r\n');
                                     setTimeout(function () {
                                         request({ url: drawUrl, gzip: true }, function (err, resp, body4) {
                                             var type4 = JSON.parse(body4).awardType;
@@ -299,6 +295,8 @@ function situation6(mail, callback) {
                                                 console.log(memberId + " : " + type4 + " ?= " + type2);
                                                 console.log(memberId + " : " + type4 + " ?= " + type3);
                                             }
+
+                                            fs.appendFileSync('type4.txt', type4 + ' : ' + memberId +  '\r\n');
                                         });
                                     }, 1000);
                                     setTimeout(function () {
@@ -325,11 +323,25 @@ for (var i = 0; i < 500; i++) {
     } (i));
 }
 
-async.mapLimit(emails, 10, function (mail, callback) {
+async.mapLimit(emails, 15, function (mail, callback) {
     // situation1(mail, callback);
     // situation2(mail, callback);
-    situation6(mail, callback);
+    situation2(mail, callback);
 }, function (err) {
     if (err) console.log(err);
     console.log('All 500 users have done their job');
 });
+
+// var ids = [499451,85982,202666,35688,85882,33763,69465,551885,202622,73286,551883,202654,432877,551889,202606,432873,78541,202614,432875,78547,432881,85948,432863,432869,432885];
+
+// async.mapLimit(ids, 5, function (id, callback) {
+//     var url = "http://192.168.11.67:8080/products/products/productDetails.htm?productId=" + id + "&websiteId=1&languageCode=en-uk&deviceType=1&websiteIdLastView=1&memberId=3773613";
+
+//     request({ url: url, gzip: true }, function (err, resp, body) {
+//         var r = JSON.parse(body);
+//         if(!r.productDetails.limitNum || r.productDetails.limitNum !== 1) {
+//             console.log(id);
+//         }
+//         callback();
+//     });
+// });

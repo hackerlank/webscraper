@@ -5,8 +5,7 @@ var sTool = require('../../toolkits/stringtool.js');
 var fs = require('fs');
 var cheerio = require('cheerio');
 var async = require('async');
-var officegen = require('officegen-2');
-var Docxtemplater = require('docxtemplater');
+var officegen = require('officegen');
 
 var tabs = [];
 

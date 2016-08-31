@@ -84,43 +84,51 @@ filePath = 'result.xlsx';
 
 // var states = ["alabama", "alaska", "arizona", "arkansas", "california", "colorado", "connecticut", "delaware", "florida", "georgia", "hawaii", "idaho", "illinois", "indiana", "iowa", "kansas", "kentucky", "louisiana", "maine", "maryland", "massachusetts", "michigan", "minnesota", "mississippi", "missouri", "montana", "nebraska", "nevada", "new hampshire", "new jersey", "new mexico", "new york", "north carolina", "north dakota", "ohio", "oklahoma", "oregon", "pennsylvania", "rhode island", "south carolina", "south dakota", "tennessee", "texas", "utah", "vermont", "virginia", "washington", "west virginia", "wisconsin", "wyoming"];
 
-var states = ["annapolis-valley","barrie","bracebridge","calgary","campbell-river","chemainus","cowichan-valley","durham","edmonton","fredericton","halifax","halton","hamilton","hastings","kamloops-salmon-arm","kelowna-vernon","kingston","kitchener-waterloo","langley","london","maple-ridge","merritt","moncton","montreal","nanaimo","nelson","niagara-falls","northumberland","ottawa","penticton-osoyoos","peterborough","port-alberni","prince-edward-island","prince-george","salt-spring-island","saskatchewan","saskatoon","sooke","squamish","st-johns","sudbury","sunshine-coast","thunder-bay","toronto-east","toronto","vancouver-victoria","vancouver-north","victoria","windsor-london","winnipeg"];
+var states = ["alabama","alaska","arizona","arkansas","california","colorado","connecticut","delaware","florida","georgia","hawaii","idaho","illinois","indiana","iowa","kansas","kentucky","louisiana","maine","maryland","massachusetts","michigan","minnesota","mississippi","missouri","montana","nebraska","nevada","new-hampshire","new-jersey","new-mexico","new-york","north-carolina","north-dakota","ohio","oklahoma","oregon","pennsylvania","rhode-island","south-carolina","south-dakota","tennessee","texas","utah","vermont","virginia","washington","washington-dc","west-virginia","wisconsin","wyoming"];
+
+// var states = ["annapolis-valley", "barrie", "bracebridge", "calgary", "campbell-river", "chemainus", "cowichan-valley", "durham", "edmonton", "fredericton", "halifax", "halton", "hamilton", "hastings", "kamloops-salmon-arm", "kelowna-vernon", "kingston", "kitchener-waterloo", "langley", "london", "maple-ridge", "merritt", "moncton", "montreal", "nanaimo", "nelson", "niagara-falls", "northumberland", "ottawa", "penticton-osoyoos", "peterborough", "port-alberni", "prince-edward-island", "prince-george", "salt-spring-island", "saskatchewan", "saskatoon", "sooke", "squamish", "st-johns", "sudbury", "sunshine-coast", "thunder-bay", "toronto-east", "toronto", "vancouver-victoria", "vancouver-north", "victoria", "windsor-london", "winnipeg"];
 
 var urls = [];
 
+
 states.forEach(function (value, index, array) {
-    // urls.push('https://weedmaps.com/api/web/v1/regions/' + value + '?card_only=true&premium_only=true&size=100&types=delivery');
-    urls.push('https://weedmaps.com/api/web/v1/regions/' + value + '?card_only=true&premium_only=true&size=100&types=dispensary');
+    urls.push('https://weedmaps.com/api/web/v1/regions/' + value + '?card_only=true&premium_only=true&size=100&types=delivery');
+    // urls.push('https://weedmaps.com/api/web/v1/regions/' + value + '?card_only=true&premium_only=true&size=100&types=dispensary');
 });
 
-async.mapLimit(urls, 1, function (url, callback) {
+async.mapLimit(urls, 3, function (url, callback) {
     singleFetch(url, callback);
 });
 
-// var body = fs.readFileSync("canada.html", "utf-8");
 
-// var $ = cheerio.load(body);
 
-// $('a').each(function(index, element) {
-//     fs.appendFileSync('canada_states.txt', $(this).attr('href') + '\r\n');
-// });
+function getStates() {
+
+    var body = fs.readFileSync("usa.html", "utf-8");
+
+    var $ = cheerio.load(body);
+
+    $('a').each(function (index, element) {
+        fs.appendFileSync('usa_states.txt', $(this).attr('href') + '\r\n');
+    });
+}
 
 function singleFetch(url, callback) {
     request({ url: url, method: 'GET', gzip: true }, function (err, resp, body) {
 
         // fs.appendFileSync('r.json', body);
 
-        if(body && (body.length > 100) && (body.indexOf('<html>') == -1)) {
+        if (body && (body.length > 100) && (body.indexOf('<html>') == -1)) {
             var iBody = JSON.parse(body);
-            iBody.forEach(function(item, index, array) {
-                fs.appendFileSync('ca_dispensary.txt', item.listing_url + '\r\n');
+            iBody.forEach(function (item, index, array) {
+                fs.appendFileSync('usa_delivery.txt', item.listing_url + '\r\n');
             })
         }
 
-        setTimeout(function() {
+        setTimeout(function () {
             console.log(url + ' was done');
             callback();
-        }, 3000);
+        }, 2000);
     });
 }
 
