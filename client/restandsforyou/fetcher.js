@@ -7131,15 +7131,215 @@ var zips = ["02124",
 var url = 'http://www.riastandsforyou.com/FindAdvisor/FindAnAdvisor/GetAdvisorListings';
 
 
-process.on('error', function () {
-    var buffer = ew.build([sheet]);
-    fs.writeFileSync('sample.xlsx', buffer);
-});
+// process.on('error', function () {
+//     var buffer = ew.build([sheet]);
+//     fs.writeFileSync('sample.xlsx', buffer);
+// });
 
-process.on('exit', function () {
-    var buffer = ew.build([sheet]);
-    fs.writeFileSync('sample.xlsx', buffer);
-});
+// process.on('exit', function () {
+//     var buffer = ew.build([sheet]);
+//     fs.writeFileSync('sample.xlsx', buffer);
+// });
+
+var zips = ["93033",
+    "06106",
+    "02909",
+    "98115",
+    "53704",
+    "40214",
+    "95823",
+    "85710",
+    "80219",
+    "44102",
+    "87121",
+    "30906",
+    "25314",
+    "33914",
+    "63116",
+    "30318",
+    "49504",
+    "95123",
+    "44505",
+    "32907",
+    "84404",
+    "33125",
+    "17401",
+    "79936",
+    "21215",
+    "78501",
+    "11368",
+    "18102",
+    "19601",
+    "48228",
+    "84116",
+    "02124",
+    "46227",
+    "71106",
+    "55407",
+    "29205",
+    "93277",
+    "60629",
+    "48602",
+    "31907",
+    "74133",
+    "77036",
+    "32210",
+    "93401",
+    "14215",
+    "35810",
+    "27804",
+    "72701",
+    "15213",
+    "68516",
+    "44313",
+    "34287",
+    "75217",
+    "28269",
+    "43229",
+    "80525",
+    "54302",
+    "33803",
+    "06511",
+    "93722",
+    "98312",
+    "70119",
+    "89502",
+    "28307",
+    "17603",
+    "14621",
+    "93309",
+    "78228",
+    "12208",
+    "85032",
+    "27610",
+    "95403",
+    "01109",
+    "95206",
+    "45417",
+    "84604",
+    "45211",
+    "29577",
+    "29607",
+    "70808",
+    "55811",
+    "40515",
+    "27410",
+    "72204",
+    "68104",
+    "18505",
+    "65807",
+    "95355",
+    "48911",
+    "78521",
+    "34953",
+    "36608",
+    "61107",
+    "67212",
+    "32503",
+    "99205",
+    "79424",
+    "34102",
+    "03103",
+    "28806",
+    "17104",
+    "49001",
+    "39212",
+    "34471",
+    "80918",
+    "76706",
+    "52806",
+    "32304",
+    "54915",
+    "37921",
+    "28601",
+    "32738",
+    "71201",
+    "48104",
+    "44709",
+    "75604",
+    "21804",
+    "61614",
+    "08401",
+    "75701",
+    "29306",
+    "21740",
+    "24017",
+    "99336",
+    "47714",
+    "72903",
+    "36305",
+    "",
+    "77706",
+    "32608",
+    "24502",
+    "95060",
+    "97301",
+    "99504",
+    "98501",
+    "62704",
+    "06360",
+    "54401",
+    "37042",
+    "97402",
+    "79109",
+    "55901",
+    "13905",
+    "06606",
+    "37211",
+    "",
+    "38109",
+    "70506",
+    "33647",
+    "23464",
+    "53215",
+    "96817",
+    "83709",
+    "50315",
+    "46614",
+    "46835",
+    "97206",
+    "37421",
+    "04103",
+    "92154",
+    "97504",
+    "37604",
+    "43613",
+    "93905",
+    "73119",
+    "94591",
+    "01604",
+    "31405",
+    "78415",
+    "27106",
+    "90011",
+    "31204",
+    "27713",
+    "93458",
+    "13210",
+    "78745",
+    "39503",
+    "76549",
+    "80304",
+    "19120",
+    "36117",
+    "78046",
+    "37660",
+    "89108",
+    "13501",
+    "08611",
+    "79707",
+    "28403",
+    "48503",
+    "95341",
+    "80634",
+    "16503",
+    "35211",
+    "52402",
+    "25701",
+    "32811",
+    "23220",
+    "64114",
+    "29407"];
 
 async.mapLimit(zips, 10, function (zip, callback) {
     single(zip, callback)
@@ -7163,11 +7363,12 @@ async.mapLimit(zips, 10, function (zip, callback) {
 //             var searchZip = 'http://www.unitedstateszipcodes.org/';
 //             request({ url: searchZip, gzip: true, method: 'POST', form: { q: city } }, function (e, r, b) {
 //                 var $ = cheerio.load(b);
-
-//                 $('.table-condensed').eq(1).find('tr').each(function (index, element) {
-//                     var finalZip = $(this).find('td').eq(0).find('a').text();
-//                     fs.appendFileSync('zips.txt', finalZip + '\r\n');
-//                 });
+//                 var populated = $('#map-info small span a').text();
+//                 fs.appendFileSync('mostPopulatedZips.txt', populated + '\r\n');
+//                 // $('.table-condensed').eq(1).find('tr').each(function (index, element) {
+//                 //     var finalZip = $(this).find('td').eq(0).find('a').text();
+//                 //     fs.appendFileSync('zips.txt', finalZip + '\r\n');
+//                 // });
 //             });
 //         }
 //     });
@@ -7208,6 +7409,7 @@ function single(zip, callback) {
                 var location = $(this).find('a[data-tracking="firm_distance"]').text();
                 var iard = $(this).find('.content-right .additional-firm-info').eq(0).text().replace('Firm IARD/CRD#: ', ''); /** === '' ? '' : $(this).find('.content-right .additional-firm-info').eq(0).text().match('\\d+')[0];*/
                 var assets = $(this).find('.content-right .additional-firm-info').eq(1).text().replace('Minimum investable assets: ', ''); /**=== '' ? '' : $(this).find('.content-right .additional-firm-info').eq(1).text().match('\$\\d+')[0]; */
+                // fs.appendFileSync('result.csv', [name, phone, email, website, location, iard, assets].join(',') + '\r\n');
                 rows.push([name, phone, email, website, location, iard, assets]);
             });
 
