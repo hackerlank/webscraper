@@ -11,7 +11,7 @@ var ew = require('node-xlsx');
 
 
 
-var columns = ["name", "phone", "twitter", "address", "lat", "lng", "neighborhood", "city", "state", "country", "canonicalUrl", "category", "checkinsCount", "usersCount", "tipCount", "visitsCount", "url", "tier", "message", "currency", "rating"];
+var columns = ["name", "phone", "twitter", "address", "lat", "lng", "neighborhood", "city", "state", "country", "canonicalUrl", "category", "checkinsCount", "usersCount", "tipCount", "visitsCount", "url", "tier", "message", "currency", "rating", "seachedBy"];
 
 var sheet = { name: 'result', data: [] };
 
@@ -26,7 +26,9 @@ var headers = {
 }
 var cities = ["New York", "Los Angeles", "Chicago", "Washington", "San Francisco", "Boston", "Dallas", "Philadelphia", "Houston", "Miami", "Atlanta", "Detroit", "Seattle", "Phoenix", "Minneapolis", "Cleveland", "Denver", "San Diego", "Orlando", "Portland", "Tampa", "St. Louis", "Pittsburgh", "Charlotte", "Sacramento", "Salt Lake City", "Kansas City", "Columbus", "Indianapolis", "San Antonio", "Las Vegas", "Cincinnati", "Raleigh", "Milwaukee", "Austin", "Nashville", "Virginia Beach", "Greensboro", "Providence", "Jacksonville", "Hartford", "Louisville", "New Orleans", "Grand Rapids", "Greenville", "Memphis", "Oklahoma City", "Birmingham", "Richmond", "Harrisburg", "Buffalo", "Rochester", "Albany", "Albuquerque", "Tulsa", "Fresno", "Knoxville", "Dayton", "El Paso", "Tucson", "Cape Coral", "Honolulu", "Chattanooga", "Bridgeport", "Worcester", "Omaha", "North Port", "Columbia", "Little Rock", "McAllen", "New Haven", "Bakersfield", "Madison", "Oxnard", "Allentown", "Baton Rouge", "Modesto", "Des Moines", "Syracuse", "South Bend", "Boise", "Charleston", "Lexington", "Stockton", "Akron", "Charleston", "Springfield", "Huntsville", "Spokane", "Wichita", "Jackson", "Colorado Springs", "Youngstown", "Toledo", "Winston-Salem", "Portland", "Fort Wayne", "Lakeland", "Ogden", "Lafayette", "Mobile", "Visalia", "Deltona", "Reno", "Augusta", "Scranton", "Provo", "Palm Bay", "Fayetteville", "Lansing", "Springfield", "Lancaster", "Kalamazoo", "Durham", "Corpus Christi", "Savannah", "Johnson City", "Columbus", "Santa Rosa", "Fayetteville", "Davenport", "Asheville", "Pensacola", "Myrtle Beach", "Shreveport", "Rockford", "York", "Brownsville", "Port St. Lucie", "Santa Maria", "Gulfport", "Salinas", "Vallejo", "Killeen", "Cedar Rapids", "Flint", "Macon", "Peoria", "Reading", "Hickory", "Beaumont", "Canton", "Manchester", "Tallahassee", "Appleton", "Salem", "Anchorage", "Saginaw", "Salisbury", "Montgomery", "Trenton", "Erie", "Huntington", "Green Bay", "Eugene", "Ann Arbor", "Gainesville", "Ocala", "Naples", "Lincoln", "Lubbock", "Springfield", "Spartanburg", "Evansville", "Fort Collins", "Roanoke", "Kingsport", "Rocky Mount", "Wausau", "Boulder", "Utica", "Midland", "Medford", "Longview", "Fort Smith", "Amarillo", "Duluth", "Atlantic City", "San Luis Obispo", "Clarksville", "Norwich", "Kennewick", "Santa Cruz", "Tyler", "Bloomsburg", "Greeley", "Wilmington", "Merced", "Laredo", "Olympia", "Waco", "Hagerstown", "Lynchburg", "Bremerton", "Monroe", "Dothan", "Rochester", "Binghamton", "Crestview", "Harrisonburg"];
 
-// var cities = ["San Francisco"];
+var cities = ["Reading", "Hickory", "Beaumont", "Canton", "Manchester", "Tallahassee", "Appleton", "Salem", "Anchorage", "Saginaw", "Salisbury", "Montgomery", "Trenton", "Erie", "Huntington", "Green Bay", "Eugene", "Ann Arbor", "Gainesville", "Ocala", "Naples", "Lincoln", "Lubbock", "Springfield", "Spartanburg", "Evansville", "Fort Collins", "Roanoke", "Kingsport", "Rocky Mount", "Wausau", "Boulder", "Utica", "Midland", "Medford", "Longview", "Fort Smith", "Amarillo", "Duluth", "Atlantic City", "San Luis Obispo", "Clarksville", "Norwich", "Kennewick", "Santa Cruz", "Tyler", "Bloomsburg", "Greeley", "Wilmington", "Merced", "Laredo", "Olympia", "Waco", "Hagerstown", "Lynchburg", "Bremerton", "Monroe", "Dothan", "Rochester", "Binghamton", "Crestview", "Harrisonburg"];
+
+
 var categories = '4bf58dd8d48988d1d8941735,4bf58dd8d48988d11e941735,4bf58dd8d48988d11d941735,4bf58dd8d48988d116941735,4bf58dd8d48988d11e941735,4bf58dd8d48988d122941735,50327c8591d4c4b30a586d5d,4bf58dd8d48988d155941735,4bf58dd8d48988d118941735,4bf58dd8d48988d11b941735,4bf58dd8d48988d11f941735';
 
 var geoBase = 'https://api.foursquare.com/v2/geo/geocode?locale=en&explicit-lang=false&v=20160908&autocomplete=true&allowCountry=false&wsid=BK0BYVYKVURU2TACZSJYCICEPO1V2Z&oauth_token=QEJ4AQPTMMNB413HGNZ5YDMJSHTOHZHMLZCAQCCLXIX41OMP&query=';
@@ -123,7 +125,7 @@ function single(city, callback) {
                                 var lat = venue.location.lat;
                                 var lng = venue.location.lng;
                                 var neighborhood = venue.location.neighborhood;
-                                var city = venue.location.city;
+                                var city_fetched = venue.location.city;
                                 var state = venue.location.state;
                                 var country = venue.location.country;
                                 var canonicalUrl = venue.canonicalUrl;
@@ -147,7 +149,7 @@ function single(city, callback) {
                                 cb();
                                 return;
                             }
-                            rows.push([name, phone, twitter, address, lat, lng, neighborhood, city, state, country, canonicalUrl, category, checkinsCount, usersCount, tipCount, visitsCount, url, tier, message, currency, rating]);
+                            rows.push([name, phone, twitter, address, lat, lng, neighborhood, city_fetched, state, country, canonicalUrl, category, checkinsCount, usersCount, tipCount, visitsCount, url, tier, message, currency, rating, city]);
                             setTimeout(function () {
                                 console.log(id + ' was done, current rating ' + rating);
                                 cb();
