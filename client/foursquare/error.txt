@@ -1,0 +1,4 @@
+Unexpected Error while geo Summit Park, Utah - TypeError: Cannot read property 'ne' of undefined
+
+Unexpected Error while fetching Middlesborough, Kentucky - TypeError: Cannot read property 'totalResults' of undefined
+

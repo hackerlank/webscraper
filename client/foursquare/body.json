@@ -1,0 +1,15 @@
+{"meta":{"code":200,"requestId":"57d7c022498e0eb7fb8f1d5f"},"response":{"geocode":{"interpretations":{"count":0,"items":[]}}}}
+
+
+{"meta":{"code":200,"requestId":"57d7c022498ee59833529536"},"response":{"geocode":{"interpretations":{"count":1,"items":[{"what":"","where":"espanola new mexico","feature":{"cc":"US","name":"Española","displayName":"Española, NM, United States","matchedName":"Espanola, New Mexico, United States","highlightedName":"<b>Espanola<\/b>, <b>New Mexico<\/b>, United States","woeType":7,"slug":"espanola-new-mexico","id":"geonameid:5467024","longId":"72057594043394960","geometry":{"center":{"lat":35.99113,"lng":-106.08058},"bounds":{"ne":{"lat":36.031033,"lng":-106.030651},"sw":{"lat":35.976288,"lng":-106.10744}}}},"parents":[]}]}}}}
+
+
+{"meta":{"code":200,"requestId":"57d7c023498e7c0b8c02a417"},"response":{"geocode":{"interpretations":{"count":1,"items":[{"what":"","where":"summit park utah","feature":{"cc":"US","name":"Summit Park","displayName":"Summit Park, UT, United States","matchedName":"Summit Park, Utah, United States","highlightedName":"<b>Summit Park<\/b>, <b>Utah<\/b>, United States","woeType":7,"slug":"summit-park-utah","id":"geonameid:5782272","longId":"72057594043710208","geometry":{"center":{"lat":40.74578,"lng":-111.61159}}},"parents":[]}]}}}}
+
+
+{"meta":{"code":200,"requestId":"57d7c023498e34b1565f47a6"},"response":{"geocode":{"interpretations":{"count":2,"items":[{"what":"","where":"canon city","feature":{"cc":"US","name":"Cañon City","displayName":"Cañon City, CO, United States","matchedName":"Canon City, CO, United States","highlightedName":"<b>Canon City<\/b>, CO, United States","woeType":7,"slug":"canon-city-colorado","id":"geonameid:5416005","longId":"72057594043343941","geometry":{"center":{"lat":38.44098,"lng":-105.24245},"bounds":{"ne":{"lat":38.475763,"lng":-105.146755},"sw":{"lat":38.38773,"lng":-105.273894}}}},"parents":[]},{"what":"","where":"canon city","feature":{"cc":"US","name":"Canon City","displayName":"Canon City, NV, United States","matchedName":"Canon City, NV, United States","highlightedName":"<b>Canon City<\/b>, NV, United States","woeType":7,"id":"geonameid:5501265","longId":"72057594043429201","geometry":{"center":{"lat":39.45659,"lng":-117.12926}}},"parents":[]}]}}}}
+
+
+{"meta":{"code":200,"requestId":"57d7c155498ed530f97e483d"},"response":{"geocode":{"interpretations":{"count":1,"items":[{"what":"","where":"canon city colorado","feature":{"cc":"US","name":"Cañon City","displayName":"Cañon City, CO, United States","matchedName":"Canon City, Colorado, United States","highlightedName":"<b>Canon City<\/b>, <b>Colorado<\/b>, United States","woeType":7,"slug":"canon-city-colorado","id":"geonameid:5416005","longId":"72057594043343941","geometry":{"center":{"lat":38.44098,"lng":-105.24245},"bounds":{"ne":{"lat":38.475763,"lng":-105.146755},"sw":{"lat":38.38773,"lng":-105.273894}}}},"parents":[]}]}}}}
+
+
