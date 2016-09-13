@@ -1,0 +1,200 @@
+
+New York, New York
+Los Angeles, California
+Chicago, Illinois
+Washington, District of Columbia and Baltimore, Maryland
+San Francisco, California and San Jose, California
+Boston, Massachusetts
+Dallas, Texas
+Philadelphia, Pennsylvania
+Houston, Texas
+Miami, Florida
+Atlanta, Georgia
+Detroit, Michigan
+Seattle, Washington
+Phoenix, Arizona
+Minneapolis, Minnesota
+Cleveland, Ohio
+Denver, Colorado
+San Diego, California
+Orlando, Florida
+Portland, Oregon
+Tampa, Florida
+St. Louis, Missouri
+Pittsburgh, Pennsylvania
+Charlotte, North Carolina
+Sacramento, California
+Salt Lake City, Utah
+Kansas City, Missouri
+Columbus, Ohio
+Indianapolis, Indiana
+San Antonio, Texas
+Las Vegas, Nevada
+Cincinnati, Ohio
+Raleigh, North Carolina
+Milwaukee, Wisconsin
+Austin, Texas
+Nashville, Tennessee
+Virginia Beach, Virginia
+Greensboro, North Carolina
+Providence, Rhode Island
+Jacksonville, Florida
+Hartford, Connecticut
+Louisville, Kentucky
+New Orleans, Louisiana
+Grand Rapids, Michigan
+Greenville, South Carolina
+Memphis, Tennessee
+Oklahoma City, Oklahoma
+Birmingham, Alabama
+Richmond, Virginia
+Harrisburg, Pennsylvania
+Buffalo, New York
+Rochester, New York
+Albany, New York
+Albuquerque, New Mexico
+Tulsa, Oklahoma
+Fresno, California
+Knoxville, Tennessee
+Dayton, Ohio
+El Paso, Texas
+Tucson, Arizona
+Cape Coral, Florida
+Honolulu, Hawaii
+Chattanooga, Tennessee
+Bridgeport, Connecticut
+Worcester, Massachusetts
+Omaha, Nebraska
+North Port, Florida
+Columbia, South Carolina
+Little Rock, Arkansas
+McAllen, Texas
+New Haven, Connecticut
+Bakersfield, California
+Madison, Wisconsin
+Oxnard, California
+Allentown, Pennsylvania
+Baton Rouge, Louisiana
+Modesto, California
+Des Moines, Iowa
+Syracuse, New York
+South Bend, Indiana
+Boise, Idaho
+Charleston, West Virginia
+Lexington, Kentucky
+Stockton, California
+Akron, Ohio
+Charleston, South Carolina
+Springfield, Massachusetts
+Huntsville, Alabama
+Spokane, Washington
+Wichita, Kansas
+Jackson, Mississippi
+Colorado Springs, Colorado
+Youngstown, Ohio
+Toledo, Ohio
+Winston-Salem, North Carolina
+Portland, Maine
+Fort Wayne, Indiana
+Lakeland, Florida
+Ogden, Utah
+Lafayette, Louisiana
+Mobile, Alabama
+Visalia, California
+Deltona, Florida
+Reno, Nevada
+Augusta, Georgia
+Scranton, Pennsylvania
+Provo, Utah
+Palm Bay, Florida
+Fayetteville, North Carolina
+Lansing, Michigan
+Springfield, Missouri
+Lancaster, Pennsylvania
+Kalamazoo, Michigan
+Durham, North Carolina
+Corpus Christi, Texas
+Savannah, Georgia
+Johnson City, Tennessee
+Columbus, Georgia
+Santa Rosa, California
+Fayetteville, Arkansas
+Davenport, Iowa
+Asheville, North Carolina
+Pensacola, Florida
+Myrtle Beach, South Carolina
+Shreveport, Louisiana
+Rockford, Illinois
+York, Pennsylvania
+Brownsville, Texas
+Port St. Lucie, Florida
+Santa Maria, California
+Gulfport, Mississippi
+Salinas, California
+Vallejo, California
+Killeen, Texas
+Cedar Rapids, Iowa
+Flint, Michigan
+Macon, Georgia
+Peoria, Illinois
+Reading, Pennsylvania
+Hickory, North Carolina
+Beaumont, Texas
+Canton, Ohio
+Manchester, New Hampshire
+Tallahassee, Florida
+Appleton, Wisconsin
+Salem, Oregon
+Anchorage, Alaska
+Saginaw, Michigan
+Salisbury, Maryland
+Montgomery, Alabama
+Trenton, New Jersey
+Erie, Pennsylvania
+Huntington, West Virginia
+Green Bay, Wisconsin
+Eugene, Oregon
+Ann Arbor, Michigan
+Gainesville, Florida
+Ocala, Florida
+Naples, Florida
+Lincoln, Nebraska
+Lubbock, Texas
+Springfield, Illinois
+Spartanburg, South Carolina
+Evansville, Indiana
+Fort Collins, Colorado
+Roanoke, Virginia
+Kingsport, Tennessee
+Rocky Mount, North Carolina
+Wausau, Wisconsin
+Boulder, Colorado
+Utica, New York
+Midland, Texas
+Medford, Oregon
+Longview, Texas
+Fort Smith, Arkansas
+Amarillo, Texas
+Duluth, Minnesota
+Atlantic City, New Jersey
+San Luis Obispo, California
+Clarksville, Tennessee
+Norwich, Connecticut
+Kennewick, Washington
+Santa Cruz, California
+Tyler, Texas
+Bloomsburg, Pennsylvania
+Greeley, Colorado
+Wilmington, North Carolina
+Merced, California
+Laredo, Texas
+Olympia, Washington
+Waco, Texas
+Hagerstown, Maryland
+Lynchburg, Virginia
+Bremerton, Washington
+Monroe, Louisiana
+Dothan, Alabama
+Rochester, Minnesota
+Binghamton, New York
+Crestview, Florida
