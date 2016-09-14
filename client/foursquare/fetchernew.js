@@ -1,5 +1,8 @@
 /// <reference path="../../include.d.ts" />
 
+//https://en.wikipedia.org/wiki/List_of_metropolitan_areas_of_the_United_States
+//https://en.wikipedia.org/wiki/List_of_cities_in_China
+
 
 var request = require('request');
 var sTool = require('../../toolkits/stringtool.js');
@@ -21,8 +24,8 @@ prepareDir('./usa');
 prepareDir('./china');
 prepareDir('./uk');
 
-
 var cityJson = JSON.parse(fs.readFileSync('./cities.json').toString());
+
 
 var usaCities = cityJson.usa;
 var chinaCities = cityJson.china;
@@ -44,11 +47,26 @@ function single(country, city, callback) {
     var ids = [];
 
     async.mapLimit(categories, 3, function (category, categoryCallBack) {
-        var firstSearchUrl = 'https://api.foursquare.com/v2/search/recommendations?near=' + city + '&categoryId=' + category + '&locale=en&explicit-lang=false&v=20160908&m=foursquare&limit=20&offset=0&wsid=BK0BYVYKVURU2TACZSJYCICEPO1V2Z&oauth_token=QEJ4AQPTMMNB413HGNZ5YDMJSHTOHZHMLZCAQCCLXIX41OMP'
+        var firstSearchUrl = 'https://api.foursquare.com/v2/search/recommendations?near=' + city + '&categoryId=' + category + '&locale=en&explicit-lang=false&v=20160908&m=foursquare&limit=20&offset=0&wsid=BK0BYVYKVURU2TACZSJYCICEPO1V2Z&oauth_token=QEJ4AQPTMMNB413HGNZ5YDMJSHTOHZHMLZCAQCCLXIX41OMP';
         request({ url: firstSearchUrl, method: 'GET', gzip: true }, function (error, response, body) {
-            var resJson = JSON.parse(body);
+            if (error) console.log(error);
+            try {
+                var resJson = JSON.parse(body);
+                if(resJson.meta.code !== 200) {
+                    fs.appendFileSync('codeError.txt', country + ' - ' + city + ' - ' + firstSearchUrl + ' - ' + '\r\n\r\n');
+                    categoryCallBack();
+                    return;
+                }
+            } catch (e) {
+                console.log(e);
+                fs.appendFileSync('body.json', firstSearchUrl + ' - ' + body + '\r\n\r\n\r\n');
+            }
             try {
                 var total = resJson.response.group.totalResults;
+                if ((!total) || (total === 0)) {
+                    categoryCallBack();
+                    return;
+                }
             } catch (error) {
                 fs.appendFileSync('error.txt', 'Unexpected Error while fetching ' + city + ' - ' + error + '\r\n\r\n');
                 categoryCallBack();
@@ -60,7 +78,7 @@ function single(country, city, callback) {
                 searchUrls.push('https://api.foursquare.com/v2/search/recommendations?near=' + city + '&categoryId=' + category + '&locale=en&explicit-lang=false&v=20160908&m=foursquare&limit=100&offset=' + offset + '&wsid=BK0BYVYKVURU2TACZSJYCICEPO1V2Z&oauth_token=QEJ4AQPTMMNB413HGNZ5YDMJSHTOHZHMLZCAQCCLXIX41OMP');
                 offset = offset + 101;
             }
-
+            fs.appendFileSync('urls.txt', searchUrls + '\r\n');
             async.mapLimit(searchUrls, 1, function (su, scb) {
                 request({ url: su, method: 'GET', gzip: true }, function (err, resp, body) {
                     try {
@@ -90,7 +108,7 @@ function single(country, city, callback) {
         if (error) console.log(error);
         console.log(city + ' - all ' + ids.length + ' records');
 
-        async.mapSeries(ids, function (id, cb) {
+        async.mapLimit(ids, 10, function (id, cb) {
 
             var detailUrl = 'https://api.foursquare.com/v2/venues/' + id + '?' + suffix;
 
@@ -109,6 +127,7 @@ function single(country, city, callback) {
                     var state = venue.location.state;
                     var country = venue.location.country;
                     var canonicalUrl = venue.canonicalUrl;
+                    var cateId = venue.categories[0].id;
                     var category = venue.categories[0].name;
                     var checkinsCount = venue.stats.checkinsCount;
                     var usersCount = venue.stats.usersCount;
@@ -129,18 +148,20 @@ function single(country, city, callback) {
                     cb();
                     return;
                 }
-                finalItems.push({ name: name, phone: phone, twitter: twitter, address: address, lat: lat, lng: lng, neighborhood: neighborhood, city_fetched: city, state: state, country: country, canonicalUrl: canonicalUrl, category: category, checkinsCount: checkinsCount, usersCount: usersCount, tipCount: tipCount, visitsCount: visitsCount, url: url, tier: tier, message: message, currency: currency, rating: rating });
+                if (categories.indexOf(cateId) !== -1) {
+                    finalItems.push({ name: name, phone: phone, twitter: twitter, address: address, lat: lat, lng: lng, neighborhood: neighborhood, city_fetched: city, state: state, country: country, canonicalUrl: canonicalUrl, categoryId: cateId, category: category, checkinsCount: checkinsCount, usersCount: usersCount, tipCount: tipCount, visitsCount: visitsCount, url: url, tier: tier, message: message, currency: currency, rating: rating });
+                }
                 setTimeout(function () {
                     console.log(id + ' was done');
                     cb();
-                }, 800);
+                }, 500);
             });
         }, function (err) {
             if (err) console.log(err);
             /** sort finalItems */
             finalItems.sort(compare('rating'))
             console.log(city + ' was done, length ' + finalItems.length);
-            fs.writeFileSync(country + '/' + city + '.json', JSON.stringify(finalItems));
+            fs.writeFileSync(country + '/' + city.split(',')[0] + '.json', JSON.stringify(finalItems));
             var cindex = remainingCities.indexOf(city);
             remainingCities = remainingCities.slice(0, cindex).concat(remainingCities.slice(cindex + 1));
             callback();
@@ -153,11 +174,17 @@ process.on('exit', function () {
     fs.writeFileSync('remainingCities.txt', remainingCities);
 });
 
+// async.mapLimit(["San Francisco"], 10, function (city, callback) {
+//     single('usa', city, callback)
+// }, function (err) {
+//     if (err) console.log(err);
+//     console.log(country + ' was done');
+// });
 
 var cs = ['usa', 'uk', 'china'];
 
 cs.forEach(function (country, index, array) {
-    async.mapLimit(cities, 7, function (city, callback) {
+    async.mapLimit(cityJson[country], 7, function (city, callback) {
         single(country, city, callback)
     }, function (err) {
         if (err) console.log(err);

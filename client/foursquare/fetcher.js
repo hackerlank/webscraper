@@ -182,20 +182,20 @@ function single(city, callback) {
     });
 }
 
-process.on('exit', function () {
-    fs.writeFileSync('remainingCities.txt', remainingCities);
-    // var buffer = ew.build([sheet]);
-    // fs.writeFileSync('usaTop200.xlsx', buffer);
-});
+// process.on('exit', function () {
+//     fs.writeFileSync('remainingCities.txt', remainingCities);
+//     // var buffer = ew.build([sheet]);
+//     // fs.writeFileSync('usaTop200.xlsx', buffer);
+// });
 
-async.mapLimit(cities, 10, function (city, callback) {
-    single(city, callback)
-}, function (err) {
-    if (err) console.log(err);
-    console.log('everything was done');
-    // var buffer = ew.build([sheet]);
-    // fs.writeFileSync('usaTop200.xlsx', buffer);
-});
+// async.mapLimit(cities, 10, function (city, callback) {
+//     single(city, callback)
+// }, function (err) {
+//     if (err) console.log(err);
+//     console.log('everything was done');
+//     // var buffer = ew.build([sheet]);
+//     // fs.writeFileSync('usaTop200.xlsx', buffer);
+// });
 
 /** sorting comparation, for Array.sort */
 function compare(p1, p2) {
@@ -239,11 +239,11 @@ function compare(p1, p2) {
 //     });
 // });
 
-// request({ url: 'https://en.wikipedia.org/wiki/Metropolitan_regions_of_China', gzip: true, method: 'GET' }, function (err, resp, body) {
-//     var $ = cheerio.load(body);
-//     $('.wikitable').eq(0).find('tr').each(function (index, element) {
-//         $(this).find('td').eq(2).find('a').each(function(index, element) {
-//             fs.appendFileSync('UKCities.txt', $(this).text() + '\r\n');
-//         });
-//     });
-// });
+request({ url: 'https://en.wikipedia.org/wiki/List_of_cities_in_China', gzip: true, method: 'GET' }, function (err, resp, body) {
+    var $ = cheerio.load(body);
+    $('.wikitable.sortable.selected_now').eq(0).find('tr').each(function (index, element) {
+        $(this).find('td').eq(0).find('a').each(function(index, element) {
+            fs.appendFileSync('chinese.txt', $(this).text() + '\r\n');
+        });
+    });
+});
