@@ -5,11 +5,9 @@
 
 
 var request = require('request');
-var sTool = require('../../toolkits/stringtool.js');
 var fs = require('fs');
-var cheerio = require('cheerio');
 var async = require('async');
-var ew = require('node-xlsx');
+
 
 
 function prepareDir(dPath) {
@@ -143,13 +141,17 @@ function single(country, city, callback) {
                         currency = venue.price.currency;
                     }
                     var rating = venue.rating;
+                    var businessTime='';
+                    if(venue.hours && venue.hours.status) {
+                        businessTime = venue.hours.status;
+                    }
                 } catch (parseError) {
                     fs.appendFileSync('error.txt', 'Unexpected Error while parsing ' + city + ' - ' + id + ' - ' + parseError + '\r\n\r\n');
                     cb();
                     return;
                 }
                 if (categories.indexOf(cateId) !== -1) {
-                    finalItems.push({ name: name, phone: phone, twitter: twitter, address: address, lat: lat, lng: lng, neighborhood: neighborhood, city_fetched: city, state: state, country: country, canonicalUrl: canonicalUrl, categoryId: cateId, category: category, checkinsCount: checkinsCount, usersCount: usersCount, tipCount: tipCount, visitsCount: visitsCount, url: url, tier: tier, message: message, currency: currency, rating: rating });
+                    finalItems.push({ name: name, phone: phone, twitter: twitter, address: address, lat: lat, lng: lng, neighborhood: neighborhood, city_fetched: city, state: state, country: country, canonicalUrl: canonicalUrl, categoryId: cateId, category: category, checkinsCount: checkinsCount, usersCount: usersCount, tipCount: tipCount, visitsCount: visitsCount, url: url, tier: tier, message: message, currency: currency, rating: rating, businessTime : businessTime });
                 }
                 setTimeout(function () {
                     console.log(id + ' was done');
