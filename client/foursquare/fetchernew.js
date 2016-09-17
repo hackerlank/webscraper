@@ -19,8 +19,9 @@ function prepareDir(dPath) {
 }
 
 prepareDir('./usa');
-prepareDir('./china');
+prepareDir('./aus');
 prepareDir('./uk');
+prepareDir('./canada');
 
 var cityJson = JSON.parse(fs.readFileSync('./cities.json').toString());
 
@@ -117,6 +118,10 @@ function single(country, city, callback) {
                     var name = venue.name;
                     var phone = venue.contact.phone;
                     var twitter = venue.contact.twitter;
+                    var facebook= venue.contact.facebook;
+                    var facebookUsername=venue.contact.facebookUsername;
+                    var facebookName= venue.contact.facebookName;
+                    var website = venue.contact.url;                              
                     var address = venue.location.address;
                     var lat = venue.location.lat;
                     var lng = venue.location.lng;
@@ -142,8 +147,8 @@ function single(country, city, callback) {
                     }
                     var rating = venue.rating;
                     var businessTime='';
-                    if(venue.hours && venue.hours.status) {
-                        businessTime = venue.hours.status;
+                    if(venue.hours && venue.hours.timeframes) {
+                        businessTime = venue.hours.timeframes;
                     }
                 } catch (parseError) {
                     fs.appendFileSync('error.txt', 'Unexpected Error while parsing ' + city + ' - ' + id + ' - ' + parseError + '\r\n\r\n');
@@ -151,7 +156,7 @@ function single(country, city, callback) {
                     return;
                 }
                 if (categories.indexOf(cateId) !== -1) {
-                    finalItems.push({ name: name, phone: phone, twitter: twitter, address: address, lat: lat, lng: lng, neighborhood: neighborhood, city_fetched: city, state: state, country: country, canonicalUrl: canonicalUrl, categoryId: cateId, category: category, checkinsCount: checkinsCount, usersCount: usersCount, tipCount: tipCount, visitsCount: visitsCount, url: url, tier: tier, message: message, currency: currency, rating: rating, businessTime : businessTime });
+                    finalItems.push({ name: name, phone: phone, twitter: twitter, facebook: facebook, facebookUsername: facebookUsername, facebookName: facebookName, website: website, address: address, lat: lat, lng: lng, neighborhood: neighborhood, city_fetched: city, state: state, country: country, canonicalUrl: canonicalUrl, categoryId: cateId, category: category, checkinsCount: checkinsCount, usersCount: usersCount, tipCount: tipCount, visitsCount: visitsCount, url: url, tier: tier, message: message, currency: currency, rating: rating, businessTime : businessTime });
                 }
                 setTimeout(function () {
                     console.log(id + ' was done');
@@ -183,7 +188,7 @@ process.on('exit', function () {
 //     console.log(country + ' was done');
 // });
 
-var cs = ['usa', 'uk', 'china'];
+var cs = ['uk','usa','canada', 'aus'];
 
 cs.forEach(function (country, index, array) {
     async.mapLimit(cityJson[country], 7, function (city, callback) {
