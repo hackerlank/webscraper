@@ -123,7 +123,7 @@ function singleBusiness(auth, category, callback) {
 
         /** b20 loops */
         var forms = [];
-        for (var offset = 0; offset < total; offset += 20) {
+        for (var offset = 0; offset < 1000; offset += 20) {
             (function (k) {
                 if (k === 0) {
                     forms.push({ category_filter: category, limit: 20 });
@@ -150,27 +150,27 @@ function singleBusiness(auth, category, callback) {
                     return;
                 }
                 var items = rJson.businesses;
-                async.mapLimit(items, 10, function (business, uicb) {
+                async.mapLimit(items, 5, function (business, uicb) {
                     var name = business.name;
                     var rating = business.rating;
                     var phone = business.phone;
                     var url = business.url;
-                    var price = '';
-                    //     request(url, function (e, r, b) {
-                    //         try {
-                    //             var $ = cheerio.load(b);
-                    //         } catch (err) {
-                    //             fs.appendFileSync('error.txt', 'Something wrong with ' + category + ' item ' + name + '\r\n\r\n');
-                    //             fs.appendFileSync('error.json', b + '\r\n\r\n');
-                    //             uicb();
-                    //             return;
-                    //         }
-                    //         var price = $('.price-range').text();
-                    rows.push([name, rating, phone, url, price, category]);
-                    setTimeout(function () {
-                        console.log(business.name + ' was done');
-                        uicb();
-                    }, 100);
+                    request(url, function (e, r, b) {
+                        try {
+                            var $ = cheerio.load(b);
+                        } catch (err) {
+                            fs.appendFileSync('error.txt', 'Something wrong with ' + category + ' item ' + name + '\r\n\r\n');
+                            fs.appendFileSync('error.json', b + '\r\n\r\n');
+                            uicb();
+                            return;
+                        }
+                        var price = $('.price-range').text();
+                        rows.push([name, rating, phone, url, price, category]);
+                        setTimeout(function () {
+                            console.log(business.name + ' was done');
+                            uicb();
+                        }, 2000);
+                    });
 
                 }, function (err) {
                     setTimeout(function () {
