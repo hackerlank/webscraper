@@ -41,7 +41,7 @@ var request_yelp = function (api, set_parameters, callback) {
         var url = 'http://api.yelp.com/v2/search';
         /* We can setup default parameters here */
         default_parameters = {
-            location: 'San+Francisco',
+            location: 'San Francisco',
             sort: '0'
         };
     } else if (api.type === 'business') {
@@ -93,12 +93,12 @@ var beautysvc = { type: 'beautysvc', auth: ['5PdL-gP7n6F-e0U1Mzn0DQ', 'FVOFgN2P6
 
 var categories = [food, nightlife, restaurants, beautysvc];
 
-async.mapLimit(categories, 4, function (category, callback) {
-    singleBusiness(category.auth, category.type, callback);
-}, function (err) {
-    var buffer = ew.build([sheet]);
-    fs.writeFileSync('sf-first100.xlsx', buffer);
-});
+// async.mapLimit(categories, 4, function (category, callback) {
+//     singleBusiness(category.auth, category.type, callback);
+// }, function (err) {
+//     var buffer = ew.build([sheet]);
+//     fs.writeFileSync('sf-first100.xlsx', buffer);
+// });
 
 // request('https://www.yelp.com/biz/bon-nene-san-francisco?adjust_creative=D39sJgBReatVUjYcaw4Giw\u0026utm_campaign=yelp_api\u0026utm_medium=api_v2_search\u0026utm_source=D39sJgBReatVUjYcaw4Giw', function(e, r, b) {
 //     console.log(b);
@@ -155,7 +155,12 @@ function singleBusiness(auth, category, callback) {
                     var rating = business.rating;
                     var phone = business.phone;
                     var url = business.url;
-                    request(url, function (e, r, b) {
+                    request({ url: url, timeout: 500000 }, function (e, r, b) {
+                        if (e && (e.code === 'ETIMEDOUT' || e.connect === true)) {
+                            fs.appendFileSync('error.txt', 'Timeout ' + category + ' item ' + name + '\r\n\r\n');
+                            uicb();
+                            return;
+                        }
                         try {
                             var $ = cheerio.load(b);
                         } catch (err) {
@@ -188,6 +193,6 @@ function singleBusiness(auth, category, callback) {
 
 
 
-// request_yelp({ type: 'business', bid: 'tacorea-san-francisco' }, {actionlinks:true, cc :'US', lang : 'en'}, function (error, response, body) {
-//     fs.writeFileSync('sf-food_detail.json', body);
-// });
+request_yelp({ type: 'search', auth : ['D39sJgBReatVUjYcaw4Giw', '4FB08NtU64bqRedN8tymwGGknZkGfkkC', 'QBZjSbJWvSjxJWh3xZXBp7ESL_M', '1CWM6CM_3YISGFPXewwuf67Yf7E']}, {term: 'food'}, function (error, response, body) {
+    fs.writeFileSync('sf-food_deals.json', body);
+});
