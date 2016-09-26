@@ -90,15 +90,16 @@ var food = { type: 'food', auth: ['D39sJgBReatVUjYcaw4Giw', '4FB08NtU64bqRedN8ty
 var nightlife = { type: 'nightlife', auth: ['LMPzr51KN5dpW3Z7DS6ZYw', 'hsLQDPhQkkWZ-lRk-xwyZ_toVy8GkP8C', 'yAEgTAq2j6DagR1T1BpCNjsLS_U', '88au7Hq6lMw3T5YWAAcOgCXJM8c'] };
 var restaurants = { type: 'restaurants', auth: ['1PTTNbZLc_nm0EPb8VD0_w', 'pj1lm5gnYI_ZqLpfe_n9RF235B2C8Sbc', 'SkP6TbFZX3b_W-ECFgu4HD5HxlY', '--6obL7D6iwAdYyMPektuwXGM8c'] };
 var beautysvc = { type: 'beautysvc', auth: ['5PdL-gP7n6F-e0U1Mzn0DQ', 'FVOFgN2P6V7MaL7tlZOgR4Pgc-jR50yA', 'GRikuhra_nb2VYTlfhKpXiFyirw', 'CYjHEmzSwH7YE7-PGmQOSb9xaA4'] };
+var coffe = {type : 'coffee', auth: ['Q9ytXgv7OcR2aC2HYDsGPg', 'KdkGSp3vHhxzajyR2sNfkpY15m53MaSV', 'MlUPkhWTf-2ar9ZWhnNlRb1PDZg', 'fUufpxoSWMiwutlBmKs9x5_ck8o']};
 
-var categories = [food, nightlife, restaurants, beautysvc];
+var categories = [restaurants, coffe];
 
-// async.mapLimit(categories, 4, function (category, callback) {
-//     singleBusiness(category.auth, category.type, callback);
-// }, function (err) {
-//     var buffer = ew.build([sheet]);
-//     fs.writeFileSync('sf-first100.xlsx', buffer);
-// });
+async.mapLimit(categories, 4, function (category, callback) {
+    singleBusiness(category.auth, category.type, callback);
+}, function (err) {
+    var buffer = ew.build([sheet]);
+    fs.writeFileSync('sf-first100.xlsx', buffer);
+});
 
 // request('https://www.yelp.com/biz/bon-nene-san-francisco?adjust_creative=D39sJgBReatVUjYcaw4Giw\u0026utm_campaign=yelp_api\u0026utm_medium=api_v2_search\u0026utm_source=D39sJgBReatVUjYcaw4Giw', function(e, r, b) {
 //     console.log(b);

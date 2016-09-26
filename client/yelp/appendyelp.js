@@ -100,7 +100,7 @@ var beautysvc = { type: 'beautysvc', auth: ['5PdL-gP7n6F-e0U1Mzn0DQ', 'FVOFgN2P6
 var fromGit1 = { type: '', auth: ['Q9ytXgv7OcR2aC2HYDsGPg', 'KdkGSp3vHhxzajyR2sNfkpY15m53MaSV', 'MlUPkhWTf-2ar9ZWhnNlRb1PDZg', 'fUufpxoSWMiwutlBmKs9x5_ck8o'] };
 
 
-var filePath = 'usa_all_deliver.xlsx'
+var filePath = 'sanfransiscoAndSanJose.xlsx'
 
 var sheet = ew.parse(fs.readFileSync(filePath))[0];
 
@@ -112,65 +112,83 @@ var rows = sheet.data;
 //     console.log('done');
 // });
 
-rows = rows.slice(38562);
+// rows = rows.slice(64981);
+var done = JSON.parse(fs.readFileSync('done_sf.json').toString());
 
 rows[0].push('yelp page');
 
-async.mapLimit(rows, 10, function (row, callback) {
-    if (row[0] == 'name') {
-        callback();
+rows.forEach(function (row, index, array) {
+    if (index === 0) {
         return;
     }
-
     var name = row[0];
     var phone = row[1];
-    var city = row[10];
 
-    request_yelp({ type: 'search', auth: restaurants.auth, term: name, location: city }, {}, function (error, response, body) {
-        if (error && (error.code === 'ETIMEDOUT' || error.connect === true)) {
-            fs.appendFileSync('TimeoutError.txt', 'Timeout ' + name + '\r\n\r\n');
-            callback();
-            return;
+    done.forEach(function (item, i, a) {
+        if ((item.name === name) && (item.phone === phone)) {
+            row.push(item.yelpurl);
         }
-        try {
-            var resJson = JSON.parse(body);
-        } catch (error) {
-            fs.appendFileSync('ParseError.txt', 'Parse error - ' + name + '\r\n');
-            callback();
-            return;
-        }
-
-        var businesses = resJson.businesses;
-
-        if (!businesses) {
-            fs.appendFileSync('NonBussinessError.txt', 'Non business error - ' + name + '\r\n');
-            callback();
-            return;
-        }
-        var flag = 0;
-        businesses.forEach(function (record, index, array) {
-            if ((flag === 0) && (record.name === name) && (record.phone === phone)) {
-                row.push(record.url);
-                flag = 1;
-            }
-        });
-        setTimeout(function () {
-            if (flag === 1) {
-                var so = {};
-                so.name = name;
-                so.phone = phone;
-                so.yelpurl = row[row.length - 1];
-                fs.appendFileSync('done.txt', JSON.stringify(so) + '\r\n');
-            }
-            console.log(name + ' was done');
-            callback();
-        }, 200);
     });
-}, function (err) {
-    var buffer = ew.build([{ name: 'yelpappended', data: rows }]);
-    fs.writeFileSync('yelpappended_all.xlsx', buffer);
-    console.log('done');
 });
+var buffer = ew.build([{ name: 'yelpappended', data: rows }]);
+fs.writeFileSync('sfandsjappended.xlsx', buffer);
+
+// request = request.defaults({ proxy: 'http://52.45.229.70:8888' });
+// async.mapLimit(rows, 10, function (row, callback) {
+//     if (row[0] == 'name') {
+//         callback();
+//         return;
+//     }
+
+//     var name = row[0];
+//     var phone = row[1];
+//     var city = row[10];
+
+//     request_yelp({ type: 'search', auth: beautysvc.auth, term: name, location: city }, {}, function (error, response, body) {
+//         if (error && (error.code === 'ETIMEDOUT' || error.connect === true)) {
+//             fs.appendFileSync('TimeoutError.txt', 'Timeout ' + name + '\r\n\r\n');
+//             callback();
+//             return;
+//         }
+//         try {
+//             var resJson = JSON.parse(body);
+//         } catch (error) {
+//             fs.appendFileSync('ParseError.txt', 'Parse error - ' + name + '\r\n');
+//             callback();
+//             return;
+//         }
+
+//         var businesses = resJson.businesses;
+
+//         if (!businesses) {
+//             fs.appendFileSync('NonBussinessError.txt', 'Non business error - ' + name + '\r\n');
+//             callback();
+//             return;
+//         }
+//         var flag = 0;
+//         businesses.forEach(function (record, index, array) {
+//             if ((flag === 0) && (record.name === name) && (record.phone === phone)) {
+//                 row.push(record.url);
+//                 flag = 1;
+//             }
+//         });
+//         setTimeout(function () {
+//             if (flag === 1) {
+//                 var so = {};
+//                 so.name = name;
+//                 so.phone = phone;
+//                 so.yelpurl = row[row.length - 1];
+//                 fs.appendFileSync('done_sf.txt', JSON.stringify(so) + '\r\n');
+//             }
+//             console.log(name + ' was done');
+//             callback();
+//         }, 200);
+//     });
+// }, function (err) {
+//     // var buffer = ew.build([{ name: 'yelpappended', data: rows }]);
+//     // fs.writeFileSync('yelpappended_all.xlsx', buffer);
+//     console.log('done');
+// });
 
 
 // request_yelp({ type: 'search', auth: food.auth, term: 'Columbus Gold Gentlemen\'s Club', location: 'Columbus' }, {}, function (error, response, body) {

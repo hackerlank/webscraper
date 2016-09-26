@@ -15,6 +15,8 @@ var ew = require('node-xlsx');
 var jsonfile = require('jsonfile');
 var util = require('util');
 
+// request = request.defaults({ proxy: 'http://52.45.229.70:8888' });
+
 var columns = ['name', 'rating', 'phone', 'url', 'price', 'category'];
 
 var sheet = { name: 'result', data: [] };
@@ -196,7 +198,11 @@ function singleBusiness(auth, category, callback) {
                     var name = business.name;
                     var rating = business.rating;
                     var reviewCount = business.review_count;
-                    sfRecords.push({ id: id, name: name, rating: rating, reviewCount: reviewCount });
+                    var address = business.location.display_address.join(', ');
+                    var location = business.location.cross_streets;
+                    var phone = business.display_phone;
+                    var menuLink = 'https://www.yelp.com/menu/' + id;
+                    sfRecords.push({ id: id, name: name, rating: rating, reviewCount: reviewCount, address: address, location: location, phone: phone, menuLink: menuLink });
                     setTimeout(function () {
                         uicb();
                     }, 100);
@@ -227,16 +233,42 @@ function singleBusiness(auth, category, callback) {
 //     fs.writeFileSync('sf-reviews.json', body);
 // });
 
+
+
 var after = [];
 
 var items = JSON.parse(fs.readFileSync('sf_items.json').toString());
 
+// items = items.slice(2400);
+
+// var items = [];
+// var itemList = fs.readdirSync('./reviews/');
+
+// itemList.forEach(function (file, index, array) {
+//     var itemJson = JSON.parse(fs.readFileSync('./reviews/' + file).toString());
+//     var rl = itemJson.reviewList;
+//     if (rl.length === 0) {
+//         items.push(itemJson);
+//     }
+// });
+
+console.log(items.length);
+
 process.on('exit', function () {
-    fs.writeFileSync('error_occur.json', JSON.stringify(items));
+    // fs.writeFileSync('error_occur.json', JSON.stringify(items));
 });
 
+var proxies = fs.readFileSync('usefulproxies.txt').toString();
 
-async.mapLimit(items, 2, function (item, outCallback) {
+var pArray = proxies.split('\r\n');
+
+
+async.mapLimit(items, 15, function (item, outCallback) {
+    if (fs.existsSync('./reviews/' + item.id + '.json')) {
+        console.log('item ' + item.id + ' already done, passed');
+        outCallback();
+        return;
+    }
     var count = item.reviewCount;
     /** b20 loops */
     var urls = [];
@@ -253,8 +285,17 @@ async.mapLimit(items, 2, function (item, outCallback) {
 
     var reviews = [];
     // item['reviews'] = '';
-    async.mapLimit(urls, 2, function (url, insideCallback) {
-        request({ url: url, method: 'GET', gzip: true, timeout: 60000 }, function (err, resp, body) {
+    async.mapLimit(urls, 15, function (url, insideCallback) {
+        var random = Math.floor(Math.random() * pArray.length);
+        // var found = false;
+        // async.mapSeries(pArray, function (proxy, callback) {
+        //     var testReq = require('request');
+        //     testReq = testReq.defaults({ proxy: proxy });
+
+        // });
+        var pageRequester = request.defaults({ proxy: pArray[random] });
+
+        pageRequester({ url: url, method: 'GET', gzip: true, timeout: 60000 }, function (err, resp, body) {
             if (err && (err.code === 'ETIMEDOUT' || err.connect === true)) {
                 fs.appendFileSync('TimeoutError.txt', 'Timeout ' + url + '\r\n\r\n');
                 insideCallback();
@@ -266,10 +307,16 @@ async.mapLimit(items, 2, function (item, outCallback) {
                 return;
             }
             var $ = cheerio.load(body);
+
+            var type = $('.category-str-list a').text();
+            var price = $('.price-range').text();
+            item['type'] = type;
+            item['price'] = price;
             $('.review-list .ylist li .review-content').each(function (index, element) {
                 var ratings = $(this).find('meta[itemprop="ratingValue"]').attr('content');
                 var content = $(this).find('p[itemprop="description"]').text();
                 reviews.push({ "ratings": ratings, "content": content });
+                content = null;
                 // item['reviews'] += "{ r:" + ratings + ", c: " + content + "},";
             });
 
@@ -277,30 +324,34 @@ async.mapLimit(items, 2, function (item, outCallback) {
                 console.log(url + ' was done');
                 insideCallback();
             }, 2000);
+        }).on('error', function (err) {
+            fs.appendFileSync('eventError.txt', item.id + '\r\n');
         });
     }, function (err) {
         setTimeout(function () {
+            // item['reviewList'] = reviews;
+            var toSave = {};
+            for (var key in item) {
+                toSave[key] = item[key];
+            };
+            toSave['reviewList'] = reviews;
+            fs.writeFileSync('reviews/' + toSave.id + '.json', JSON.stringify(toSave));
+            toSave = null;
             console.log(item.id + ' was done');
-            item['reviewList'] = reviews;
             outCallback();
-        }, 500);
+        }, 1000);
     });
 
 }, function (err) {
-    fs.writeFileSync('sf_reviews.json', JSON.stringify(items));
+    fs.writeFileSync('sf_reviews_proxies.json', JSON.stringify(items));
     console.log('Everything was done');
-    // var cache = [];
-    // JSON.stringify(items, function (key, value) {
-    //     if (typeof value === 'object' && value !== null) {
-    //         if (cache.indexOf(value) !== -1) {
-    //             // Circular reference found, discard key
-    //             return;
-    //         }
-    //         // Store value in our collection
-    //         cache.push(value);
-    //     }
-    //     return value;
-    // });
-    // cache = null; // Enable garbage collection
-    // // console.log(items);
 });
+
+
+
+
+// request = request.defaults({ proxy: 'http://52.45.229.70:8888' });
+// request('https://www.yelp.com', function (err, resp, body) {
+//     fs.writeFileSync('forbidden.html', body);
+// });
+
