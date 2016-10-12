@@ -37,7 +37,7 @@ for (var i = 1; i < 100; i++) {
     } (i));
 }
 
-async.mapLimit(urls, 10, function (id, callback) {
+async.mapLimit(urls, 10, function (url, callback) {
     single(url, callback)
 }, function (err) {
     if (err) console.log(err);
