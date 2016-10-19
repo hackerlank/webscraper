@@ -1,0 +1,11 @@
+http://web.archive.org/web/20150206054127/http://www.petitionspot.com/listpetitions/animalrights/,Animal Rights
+http://web.archive.org/web/20150206054127/http://www.petitionspot.com/listpetitions/humanrights/,Civil & Human Rights
+http://web.archive.org/web/20150206054127/http://www.petitionspot.com/listpetitions/criminaljustice/,Criminal Justice
+http://web.archive.org/web/20150206054127/http://www.petitionspot.com/listpetitions/business/,Economy & Business
+http://web.archive.org/web/20150206054127/http://www.petitionspot.com/listpetitions/education/,Education
+http://web.archive.org/web/20150206054127/http://www.petitionspot.com/listpetitions/entertainment/,Entertainment & Media
+http://web.archive.org/web/20150206054127/http://www.petitionspot.com/listpetitions/environment/,Environment
+http://web.archive.org/web/20150206054127/http://www.petitionspot.com/listpetitions/politcs/,Government & Politics
+http://web.archive.org/web/20150206054127/http://www.petitionspot.com/listpetitions/health/,Health
+http://web.archive.org/web/20150206054127/http://www.petitionspot.com/listpetitions/premium/,Premium Petitions
+http://web.archive.org/web/20150206054127/http://www.petitionspot.com/listpetitions/uncategorized/,Uncategorized
