@@ -13,7 +13,7 @@ var rows = sheet.data;
 
 var timeout = 1500;
 
-var optFolder = 'articles/';
+var optFolder = 'articles_new/';
 
 /** compose url by yourself */
 var urls = fs.readFileSync('articlelinks.txt').toString().split('\r\n');
@@ -42,7 +42,7 @@ var sayAllDone = function () {
 }
 
 var writeNeedToRework = function () {
-    fs.writeFileSync('NeedToRework.txt', needToRework);
+
 }
 
 Promise.all(Promise.map(urls, singleRequest, { concurrency: 5 })).then(sayAllDone).then(writeNeedToRework);
@@ -71,6 +71,13 @@ function singleRequest(url) {
             result['text'] = text;
             result['author'] = author;
             result['signatures'] = [];
+            var comments = [];
+            var sig_entity = { link: url, comments: comments };
+            $('.sig_comment').each(function (index, element) {
+                comments.push($(this).text());
+            });
+            result.signatures.push(sig_entity);
+
             var links = [];
             $('#sig_links div a').each(function (index, element) {
                 links.push('http://web.archive.org' + $(this).attr('href'));
@@ -98,7 +105,7 @@ function singleRequest(url) {
                     headers: {
                     },
                     gzip: true,
-                    timeout : 25000
+                    timeout: 25000
                 };
                 return rp(options)
                     .then(function (body) {
@@ -116,7 +123,7 @@ function singleRequest(url) {
                         console.log(link + ' was done successfully');
                     }).catch(function (err) {
                         needToRework.push(url + '-' + link);
-                        fs.appendFileSync('error.txt', err + ' - ' + 　link + 　'\r\n');
+                        fs.appendFileSync('error.txt', err + ' - ' + link + '\r\n');
                         // return err;
                     });
             }
@@ -131,5 +138,6 @@ function singleRequest(url) {
             }
             fs.writeFileSync(fileName, JSON.stringify(result));
             result = null;
+            fs.writeFileSync('NeedToRework.txt', needToRework);
         });
 }
