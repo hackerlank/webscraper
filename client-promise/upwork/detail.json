@@ -1,0 +1,1920 @@
+{
+	"csrfTokenCookieName": "XSRF-TOKEN",
+	"csrfTokenHeaderName": "X-Odesk-Csrf-Token",
+	"runtime_id": "fd518776-ac77-4f6f-a732-70dde9628993",
+	"clientStatsDMetrics": true,
+	"smfAjax": false,
+	"pageSpeedMetrics": false,
+	"pageId": "flProfile",
+	"isHideEarnings": true,
+	"scrubbingFlags": [],
+	"profile": {
+		"identity": {
+			"userId": "d1994c",
+			"ciphertext": "~016928bfceb0347a4f",
+			"recno": 12553456,
+			"legacyCiphertext": "~~0109377a1e87f08f",
+			"uid": "765572412325478400",
+			"edcUserId": 0
+		},
+		"profile": {
+			"name": "Darren Close",
+			"shortName": "Darren Close",
+			"title": "Data Entry, Web Scraping and QA Professional",
+			"description": "Am a a Computer Science Graduate who had accumulated many skills though years of education and self teaching. I am an expert with a keyboard and can type up to 115 WPM accurately making me a perfect candidate for all data entry tasks. I have also been freelancing for 3 years now and within that time I have carried out multiple web scraping\/researching tasks. I am a qualified QA Engineer so I can carry out expert testing both in the manual and automated fields. I am sure if you have a project I can help you at a reasonable price!",
+			"location": {
+				"country": "United Kingdom",
+				"city": "Jordanstown",
+				"state": null,
+				"countryTimezone": "UTC (no DST) Tangiers, Casablanca",
+				"worldRegion": "Jordanstown, United Kingdom (UTC)",
+				"timezoneOffset": 0,
+				"countryCode": "GBR"
+			},
+			"portrait": {
+				"portrait": "https:\/\/odesk-prod-portraits.s3.amazonaws.com\/Users:d1994c:PortraitUrl?AWSAccessKeyId=1XVAX3FNQZAFC9GJCFR2&Expires=2147483647&Signature=L415QLKXgcbBjnom%2BgfB1whbrro%3D&1471434198334465",
+				"bigPortrait": "https:\/\/odesk-prod-portraits.s3.amazonaws.com\/Users:d1994c:PortraitUrl_100?AWSAccessKeyId=1XVAX3FNQZAFC9GJCFR2&Expires=2147483647&Signature=LQfAMsKj7HA%2B9LkYW6zYRP3dxig%3D&1471434198334465",
+				"smallPortrait": "https:\/\/odesk-prod-portraits.s3.amazonaws.com\/Users:d1994c:PortraitUrl_50?AWSAccessKeyId=1XVAX3FNQZAFC9GJCFR2&Expires=2147483647&Signature=I1gy0WvvHBHpCLirEdVCNlF7GZ0%3D&1471434198334465",
+				"originalPortrait": "https:\/\/odesk-prod-portraits.s3.amazonaws.com\/Users:d1994c:PortraitUrl_original?AWSAccessKeyId=1XVAX3FNQZAFC9GJCFR2&Expires=2147483647&Signature=IEB22EQmj%2FwubiICJtjjVcR5n4c%3D&1471434198334465"
+			},
+			"skills": [
+				{
+					"name": "data-entry",
+					"prettyName": "Data Entry",
+					"active": true,
+					"testsCount": 0,
+					"hasTests": false,
+					"uid": "475721704352415745",
+					"rank": 1,
+					"description": "A data entry clerk, sometimes called a typist, is a member of staff employed to type data into a database using a keyboard. The keyboards used can often have specialist keys and multiple colours to help them in the task and speed up the work.",
+					"externalUrl": "http:\/\/en.wikipedia.org\/wiki\/Data_entry_clerk",
+					"tests": null,
+					"certificates": null
+				},
+				{
+					"name": "web-scraping",
+					"prettyName": "Web scraping",
+					"active": true,
+					"testsCount": 0,
+					"hasTests": false,
+					"uid": "475721704276918277",
+					"rank": 2,
+					"description": "Web scraping (also called web harvesting or web data extraction) is a computer software technique of extracting information from websites.",
+					"externalUrl": "http:\/\/en.wikipedia.org\/wiki\/Web_scraping",
+					"tests": null,
+					"certificates": null
+				},
+				{
+					"name": "qa-engineering",
+					"prettyName": "QA Engineering",
+					"active": true,
+					"testsCount": 0,
+					"hasTests": false,
+					"uid": "514995617545162752",
+					"rank": 3,
+					"description": "Quality Assurance (QA) is a way of preventing mistakes or defects in manufactured products and avoiding problems when delivering solutions or services to customers.",
+					"externalUrl": "http:\/\/en.wikipedia.org\/wiki\/Quality_assurance",
+					"tests": null,
+					"certificates": null
+				},
+				{
+					"name": "software-qa-testing",
+					"prettyName": "Software QA Testing",
+					"active": true,
+					"testsCount": 0,
+					"hasTests": false,
+					"uid": "475721703937179651",
+					"rank": 4,
+					"description": "Software testing is an investigation conducted to provide stakeholders with information about the quality of the product or service under test.",
+					"externalUrl": "http:\/\/en.wikipedia.org\/wiki\/Software_testing",
+					"tests": null,
+					"certificates": null
+				},
+				{
+					"name": "seo",
+					"prettyName": "Search Engine Optimization (SEO)",
+					"active": true,
+					"testsCount": 1,
+					"hasTests": true,
+					"uid": "475721704176254982",
+					"rank": 5,
+					"description": "\"Search engine optimization (SEO) is the process of improving the visibility of a website or a web page in search engines via the \"\"natural\"\" or un-paid (\"\"organic\"\" or \"\"algorithmic\"\") search results.\"",
+					"externalUrl": "http:\/\/en.wikipedia.org\/wiki\/Search_engine_optimization",
+					"tests": [
+						{
+							"id": 565,
+							"examId": "14923065",
+							"examPartnerId": 1,
+							"examPercentile": 71,
+							"examScore": 62,
+							"examDate": "2016-08-18T00:00:00.000Z"
+						}
+					],
+					"certificates": null
+				},
+				{
+					"name": "proofreading",
+					"prettyName": "Proofreading",
+					"active": true,
+					"testsCount": 0,
+					"hasTests": true,
+					"uid": "475721704142700546",
+					"rank": 6,
+					"description": "Proofreading (also proof-reading) is the reading of a galley proof or computer monitor to detect and correct production-errors of text or art. Proofreaders are expected to be consistently accurate by default because they occupy the last stage of typographic production before publication.",
+					"externalUrl": "http:\/\/en.wikipedia.org\/wiki\/Proofreading",
+					"tests": null,
+					"certificates": null
+				},
+				{
+					"name": "english-proofreading",
+					"prettyName": "English Proofreading",
+					"active": true,
+					"testsCount": 0,
+					"hasTests": false,
+					"uid": "514995561014333440",
+					"rank": 7,
+					"description": "Proofreading is the reading of a galley proof or an electronic copy of a publication to detect and correct production errors of text or art. Proofreaders are expected to be consistently accurate by default because they occupy the last stage of typographic production before publication.",
+					"externalUrl": "http:\/\/en.wikipedia.org\/wiki\/Proofreading",
+					"tests": null,
+					"certificates": null
+				},
+				{
+					"name": "functional-testing",
+					"prettyName": "Functional testing",
+					"active": true,
+					"testsCount": 0,
+					"hasTests": false,
+					"uid": "475721703974928393",
+					"rank": 8,
+					"description": "Functional testing is a type of black box testing that bases its test cases on the specifications of the software component under test. Functions are tested by feeding them input and examining the output, and internal program structure is rarely considered (Not like in white-box",
+					"externalUrl": "http:\/\/en.wikipedia.org\/wiki\/Functional_testing",
+					"tests": null,
+					"certificates": null
+				},
+				{
+					"name": "web-testing",
+					"prettyName": "Web Testing",
+					"active": true,
+					"testsCount": 0,
+					"hasTests": false,
+					"uid": "475721704276918278",
+					"rank": 9,
+					"description": "Web testing is the name given to software testing that focuses on web applications. Complete testing of a web-based system before going live can help address issues before the system is revealed to the public.",
+					"externalUrl": "http:\/\/en.wikipedia.org\/wiki\/Web_testing",
+					"tests": null,
+					"certificates": null
+				},
+				{
+					"name": "research",
+					"prettyName": "Research",
+					"active": true,
+					"testsCount": 0,
+					"hasTests": false,
+					"uid": "514995620565061632",
+					"rank": 10,
+					"description": "Research comprises \"creative work undertaken on a systematic basis in order to increase the stock of knowledge, including knowledge of man, culture and society, and the use of this stock of knowledge to devise new applications.",
+					"externalUrl": "http:\/\/en.wikipedia.org\/wiki\/Research",
+					"tests": null,
+					"certificates": null
+				}
+			],
+			"visibility": 1,
+			"isDisabled": false,
+			"affiliated": false,
+			"isLooking": false,
+			"isLookingWeek": false,
+			"exposeFullName": true,
+			"confidentialityBound": false,
+			"isConsoleViewable": false,
+			"isSearchable": false,
+			"agencyRef": null,
+			"idVerified": false,
+			"exposeBillings": true,
+			"pci": {
+				"action": "certifications",
+				"actionCredit": 5,
+				"actual": 90,
+				"ts": "1478089731",
+				"display": 90
+			},
+			"phoneVerified": false,
+			"state": "Accepted",
+			"hideAgencyEarnings": false,
+			"contractorTier": 1
+		},
+		"stats": {
+			"totalHours": 187.50000001,
+			"totalHoursRecent": 187.50000001,
+			"totalFeedback": 2,
+			"totalFeedbackRecent": 2,
+			"totalJobsWorked": 3,
+			"totalJobsWorkedRecent": 3,
+			"rating": 5,
+			"ratingRecent": 5,
+			"hourlyRate": {
+				"currencyCode": "USD",
+				"amount": 13
+			},
+			"totalPortfolioItems": 1,
+			"englishLevel": 4,
+			"memberSince": "2016-08-16T00:00:00.000Z",
+			"lastWorkedOn": "2016-11-01T00:00:00.000Z",
+			"hireAgainPercentage": 0,
+			"totalHourlyJobs": 1,
+			"totalHourlyJobsRecent": 1,
+			"totalFixedJobs": 2,
+			"totalFixedJobsRecent": 2,
+			"isRecommended": false,
+			"responsiveState": "not_enough_invites",
+			"privateFeedbackHireAgain": 0,
+			"scores": 0,
+			"skillTestsPassed": 0,
+			"activeInterviews": 0,
+			"activeAssignments": 0,
+			"nSS100BwScore": 0,
+			"topRatedStatus": "hipo_eligible",
+			"totalHoursActual": 157.5,
+			"edcAssignments": 0
+		},
+		"video": null,
+		"groups": null,
+		"tests": [
+			{
+				"name": "Search Engine Optimization Test",
+				"score": 62,
+				"duration": 10,
+				"isPassed": true,
+				"rank": 26668,
+				"percentile": 72,
+				"id": 14923065,
+				"dateTaken": "2016-08-18T00:00:00.000Z",
+				"provider": "Expert Rating",
+				"visibility": 1
+			}
+		],
+		"agencies": null,
+		"portfolios": [
+			{
+				"title": "Head of QA",
+				"description": "My Client needed a QA tester. I created processes for testing as well as a reusable framework with could be adapted for each individual project. \n\nI thorough tested each project with the highest attention and raised bugs which were fixed and retested immediately to allow the client to receive the best product possible",
+				"thumbnail": null,
+				"image": null,
+				"url": null,
+				"completedOn": null,
+				"category": {
+					"name": "Web, Mobile & Software Dev",
+					"urlSlug": "web-mobile-software-dev"
+				},
+				"subCategory": {
+					"name": "QA & Testing",
+					"urlSlug": "qa-testing"
+				},
+				"visibility": 1,
+				"projectUrl": null,
+				"attachments": null,
+				"skills": [
+					"web-testing",
+					"qa-engineering",
+					"qa-management"
+				],
+				"linkedAssignment": null,
+				"categoryRid": 15,
+				"uid": "773527415155675136",
+				"rank": 1
+			}
+		],
+		"competencies": null,
+		"assignments": [
+			{
+				"startedOn": "2016-10-01T00:00:00.000Z",
+				"endedOn": "2016-10-01T00:00:00.000Z",
+				"totalCharges": {
+					"currencyCode": "USD",
+					"amount": 13
+				},
+				"totalHours": 0,
+				"hourlyRate": {
+					"currencyCode": "USD",
+					"amount": 0
+				},
+				"type": 1,
+				"title": "RECORD YOUR VOICE- easy task for BRITISH ENGLISH NATIVE SPEAKERS",
+				"feedback": {
+					"score": 5,
+					"comment": "Darren has helped us a lot in our scientific project related to the British English language. Excellent job. Great person. We are more than 100% satisfied. Thanks a million!",
+					"commentIsPublic": true,
+					"response": null,
+					"scoreDetails": [
+						{
+							"score": 5,
+							"label": "Skills",
+							"description": "competency and skills for the job, understanding of specifications\/instructions"
+						},
+						{
+							"score": 5,
+							"label": "Quality",
+							"description": "quality of work deliverables"
+						},
+						{
+							"score": 5,
+							"label": "Availability",
+							"description": "online presence on a consistent schedule"
+						},
+						{
+							"score": 5,
+							"label": "Deadlines",
+							"description": "ability to complete tasks on time"
+						},
+						{
+							"score": 5,
+							"label": "Communication",
+							"description": "communication skills, frequent progress updates, responsiveness"
+						},
+						{
+							"score": 5,
+							"label": "Cooperation",
+							"description": "cooperation and flexibility, suggestions for improvement"
+						}
+					]
+				},
+				"linkedPortfolio": null,
+				"description": "Worked for an employer from Poland in a ",
+				"clientId": "2242457",
+				"isPrivate": false,
+				"agencyName": null,
+				"status": null,
+				"initialAmount": {
+					"currencyCode": "USD",
+					"amount": 13
+				},
+				"hoursPerWeek": 0,
+				"openingRid": "208612941",
+				"skills": null,
+				"totalEarnings": null,
+				"blendedChargeRate": null,
+				"blendedEarnRate": null,
+				"feedbackGiven": {
+					"score": 5,
+					"comment": "Easy Client to deal with - gave full instructions",
+					"commentIsPublic": true,
+					"response": null,
+					"scoreDetails": [
+						{
+							"score": 5,
+							"label": "Skills",
+							"description": "competency and skills for the job, understanding of task complexities"
+						},
+						{
+							"score": 5,
+							"label": "Quality",
+							"description": "quality of specifications\/instructions"
+						},
+						{
+							"score": 5,
+							"label": "Availability",
+							"description": "online presence on a consistent schedule"
+						},
+						{
+							"score": 5,
+							"label": "Deadlines",
+							"description": "understanding of complexities and trade-offs"
+						},
+						{
+							"score": 5,
+							"label": "Communication",
+							"description": "communication skills and responsiveness, feedback and guidance"
+						},
+						{
+							"score": 5,
+							"label": "Cooperation",
+							"description": "cooperation and flexibility, open to suggestions for improvement"
+						}
+					]
+				},
+				"id": "17061908",
+				"isEdc": false,
+				"ciphertext": "~0187cd651b4c1815f7",
+				"isPtc": false,
+				"isOpeningVisible": true,
+				"accessType": 1
+			},
+			{
+				"startedOn": "2016-08-01T00:00:00.000Z",
+				"endedOn": "2016-08-01T00:00:00.000Z",
+				"totalCharges": {
+					"currencyCode": "USD",
+					"amount": 5
+				},
+				"totalHours": 0,
+				"hourlyRate": {
+					"currencyCode": "USD",
+					"amount": 0
+				},
+				"type": 1,
+				"title": "Looking for people to test a product (ideal for newcomer on upwork)",
+				"feedback": {
+					"score": 5,
+					"comment": "Darren did an excellent job. He delivered his work on time and had a clear communication with us. Highly recommended.",
+					"commentIsPublic": true,
+					"response": null,
+					"scoreDetails": [
+						{
+							"score": 5,
+							"label": "Skills",
+							"description": "competency and skills for the job, understanding of specifications\/instructions"
+						},
+						{
+							"score": 5,
+							"label": "Quality",
+							"description": "quality of work deliverables"
+						},
+						{
+							"score": 5,
+							"label": "Availability",
+							"description": "online presence on a consistent schedule"
+						},
+						{
+							"score": 5,
+							"label": "Deadlines",
+							"description": "ability to complete tasks on time"
+						},
+						{
+							"score": 5,
+							"label": "Communication",
+							"description": "communication skills, frequent progress updates, responsiveness"
+						},
+						{
+							"score": 5,
+							"label": "Cooperation",
+							"description": "cooperation and flexibility, suggestions for improvement"
+						}
+					]
+				},
+				"linkedPortfolio": null,
+				"description": "Worked for an employer from South Korea in a ",
+				"clientId": "949617",
+				"isPrivate": false,
+				"agencyName": null,
+				"status": null,
+				"initialAmount": {
+					"currencyCode": "USD",
+					"amount": 5
+				},
+				"hoursPerWeek": 0,
+				"openingRid": "206452481",
+				"skills": null,
+				"totalEarnings": null,
+				"blendedChargeRate": null,
+				"blendedEarnRate": null,
+				"feedbackGiven": {
+					"score": 5,
+					"comment": "Great client. Any questions were responded to within 24 hours and she was very clear with her requirements. I would happily work with her again!",
+					"commentIsPublic": true,
+					"response": null,
+					"scoreDetails": [
+						{
+							"score": 5,
+							"label": "Skills",
+							"description": "competency and skills for the job, understanding of task complexities"
+						},
+						{
+							"score": 5,
+							"label": "Quality",
+							"description": "quality of specifications\/instructions"
+						},
+						{
+							"score": 5,
+							"label": "Availability",
+							"description": "online presence on a consistent schedule"
+						},
+						{
+							"score": 5,
+							"label": "Deadlines",
+							"description": "understanding of complexities and trade-offs"
+						},
+						{
+							"score": 5,
+							"label": "Communication",
+							"description": "communication skills and responsiveness, feedback and guidance"
+						},
+						{
+							"score": 5,
+							"label": "Cooperation",
+							"description": "cooperation and flexibility, open to suggestions for improvement"
+						}
+					]
+				},
+				"id": "16838501",
+				"isEdc": false,
+				"ciphertext": "~01193076a121ffa9c5",
+				"isPtc": false,
+				"isOpeningVisible": true,
+				"accessType": 1
+			}
+		],
+		"availability": {
+			"availabilityTs": null,
+			"source": "onboarding",
+			"uid": "765876711273807872",
+			"personUid": "765572412325478400",
+			"capacity": {
+				"nid": "notSure",
+				"name": "As Needed - Open to Offers"
+			},
+			"creationTs": "2016-08-17T11:43:31Z"
+		},
+		"clientRelationship": null,
+		"languages": [
+			{
+				"uid": "765876711318560768",
+				"personRid": 12553456,
+				"language": {
+					"iso639Code": "en",
+					"isActive": true,
+					"englishName": "English",
+					"name": "English"
+				},
+				"proficiencyLevel": {
+					"code": "natl",
+					"proficiencyTitle": "Native or Bilingual",
+					"rank": 4,
+					"isActive": true,
+					"description": "I have complete command of this language, including breadth of vocabulary, idioms, and colloquialisms",
+					"type": "level"
+				},
+				"verified": false,
+				"personUid": "765572412325478400",
+				"verifiedByCertificate": false,
+				"verifiedByFeedback": false
+			}
+		],
+		"certificates": null,
+		"employmentHistory": [
+			{
+				"uid": "765876960518938624",
+				"personUid": "765572412325478400",
+				"companyName": "Arris",
+				"jobTitle": "QA Engineer",
+				"standardizedCompanyUid": null,
+				"standardizedJobTitleUid": "492413021270736918",
+				"role": "Intern",
+				"startDate": "2015-06-01",
+				"endDate": null,
+				"description": null,
+				"city": "Belfast",
+				"country": "GBR"
+			}
+		],
+		"education": [
+			{
+				"uid": "765877292019949568",
+				"personUid": "765572412325478400",
+				"institutionName": "Queens Univesity Belfast",
+				"standardizedInstitutionUid": null,
+				"areaOfStudy": "Computer science",
+				"standardizedAreaOfStudyUid": "482305184288899086",
+				"degree": "Master of Computer Applications (M.C.A.)",
+				"standardizedDegreeUid": "482303921736286209",
+				"dateStarted": "2014-01-01",
+				"dateEnded": "2016-01-01",
+				"comment": null
+			}
+		],
+		"otherExperiences": [
+			{
+				"uid": "773527920211759104",
+				"personUid": "765572412325478400",
+				"subject": "Self Taught Wordpress development",
+				"description": "I self-taught myself how to create beautiful, bespoke and responsive websites using WordPress\u200b.",
+				"active": true,
+				"creationTs": "2016-09-07T14:26:42Z",
+				"lastUpdateTs": "2016-09-07T14:26:42Z"
+			}
+		],
+		"esn": [
+			{
+				"esnName": "linkedin",
+				"esnId": "ZTCizgRCOZ",
+				"esnUserProfile": "https:\/\/www.linkedin.com\/in\/darren-close-45b219a5",
+				"isPublic": true,
+				"revokedOn": null
+			},
+			{
+				"esnName": "facebook",
+				"esnId": "10206874555689295",
+				"esnUserProfile": "https:\/\/www.facebook.com\/app_scoped_user_id\/10206874555689295\/",
+				"isPublic": false,
+				"revokedOn": null
+			}
+		],
+		"jobCategoriesV2": [
+			{
+				"groupUid": "531770282580668418",
+				"groupName": "Web, Mobile & Software Dev",
+				"selectedCategories": [
+					{
+						"uid": "531770282589057031",
+						"name": "QA & Testing"
+					}
+				]
+			},
+			{
+				"groupUid": "531770282580668416",
+				"groupName": "Admin Support",
+				"selectedCategories": [
+					{
+						"uid": "531770282584862725",
+						"name": "Personal \/ Virtual Assistant"
+					},
+					{
+						"uid": "531770282584862727",
+						"name": "Transcription"
+					},
+					{
+						"uid": "531770282584862726",
+						"name": "Web Research"
+					},
+					{
+						"uid": "531770282584862729",
+						"name": "Other - Admin Support"
+					},
+					{
+						"uid": "531770282584862724",
+						"name": "Data Entry"
+					}
+				]
+			}
+		],
+		"assignmentsInProgress": [
+			{
+				"startedOn": "2016-09-01T00:00:00.000Z",
+				"endedOn": null,
+				"totalCharges": {
+					"currencyCode": "USD",
+					"amount": 1417.5
+				},
+				"totalHours": 173,
+				"hourlyRate": {
+					"currencyCode": "USD",
+					"amount": 9
+				},
+				"type": 2,
+				"title": "QA and Data",
+				"feedback": null,
+				"linkedPortfolio": null,
+				"description": "Working for an employer from Ireland in a ",
+				"clientId": "1248653",
+				"isPrivate": false,
+				"agencyName": null,
+				"status": null,
+				"initialAmount": {
+					"currencyCode": "USD",
+					"amount": 0
+				},
+				"hoursPerWeek": 0,
+				"openingRid": "208365948",
+				"skills": null,
+				"totalEarnings": null,
+				"blendedChargeRate": null,
+				"blendedEarnRate": null,
+				"feedbackGiven": null,
+				"id": "16884783",
+				"isEdc": false,
+				"ciphertext": "~01bbfba0981ebc4c0c",
+				"isPtc": false,
+				"isOpeningVisible": true,
+				"accessType": null
+			}
+		],
+		"assignmentsEnded": {
+			"pageNumber": 1,
+			"itemsPerPage": 10,
+			"totalItems": 2,
+			"sortOrder": 1,
+			"assignments": [
+				{
+					"startedOn": "2016-10-01T00:00:00.000Z",
+					"endedOn": "2016-10-01T00:00:00.000Z",
+					"totalCharges": {
+						"currencyCode": "USD",
+						"amount": 13
+					},
+					"totalHours": 0,
+					"hourlyRate": {
+						"currencyCode": "USD",
+						"amount": 0
+					},
+					"type": 1,
+					"title": "RECORD YOUR VOICE- easy task for BRITISH ENGLISH NATIVE SPEAKERS",
+					"feedback": {
+						"score": 5,
+						"comment": "Darren has helped us a lot in our scientific project related to the British English language. Excellent job. Great person. We are more than 100% satisfied. Thanks a million!",
+						"commentIsPublic": true,
+						"response": null,
+						"scoreDetails": [
+							{
+								"score": 5,
+								"label": "Skills",
+								"description": "competency and skills for the job, understanding of specifications\/instructions"
+							},
+							{
+								"score": 5,
+								"label": "Quality",
+								"description": "quality of work deliverables"
+							},
+							{
+								"score": 5,
+								"label": "Availability",
+								"description": "online presence on a consistent schedule"
+							},
+							{
+								"score": 5,
+								"label": "Deadlines",
+								"description": "ability to complete tasks on time"
+							},
+							{
+								"score": 5,
+								"label": "Communication",
+								"description": "communication skills, frequent progress updates, responsiveness"
+							},
+							{
+								"score": 5,
+								"label": "Cooperation",
+								"description": "cooperation and flexibility, suggestions for improvement"
+							}
+						]
+					},
+					"linkedPortfolio": null,
+					"description": "Worked for an employer from Poland in a ",
+					"clientId": "2242457",
+					"isPrivate": false,
+					"agencyName": null,
+					"status": null,
+					"initialAmount": {
+						"currencyCode": "USD",
+						"amount": 13
+					},
+					"hoursPerWeek": 0,
+					"openingRid": "208612941",
+					"skills": null,
+					"totalEarnings": null,
+					"blendedChargeRate": null,
+					"blendedEarnRate": null,
+					"feedbackGiven": {
+						"score": 5,
+						"comment": "Easy Client to deal with - gave full instructions",
+						"commentIsPublic": true,
+						"response": null,
+						"scoreDetails": [
+							{
+								"score": 5,
+								"label": "Skills",
+								"description": "competency and skills for the job, understanding of task complexities"
+							},
+							{
+								"score": 5,
+								"label": "Quality",
+								"description": "quality of specifications\/instructions"
+							},
+							{
+								"score": 5,
+								"label": "Availability",
+								"description": "online presence on a consistent schedule"
+							},
+							{
+								"score": 5,
+								"label": "Deadlines",
+								"description": "understanding of complexities and trade-offs"
+							},
+							{
+								"score": 5,
+								"label": "Communication",
+								"description": "communication skills and responsiveness, feedback and guidance"
+							},
+							{
+								"score": 5,
+								"label": "Cooperation",
+								"description": "cooperation and flexibility, open to suggestions for improvement"
+							}
+						]
+					},
+					"id": "17061908",
+					"isEdc": false,
+					"ciphertext": "~0187cd651b4c1815f7",
+					"isPtc": false,
+					"isOpeningVisible": true,
+					"accessType": 1
+				},
+				{
+					"startedOn": "2016-08-01T00:00:00.000Z",
+					"endedOn": "2016-08-01T00:00:00.000Z",
+					"totalCharges": {
+						"currencyCode": "USD",
+						"amount": 5
+					},
+					"totalHours": 0,
+					"hourlyRate": {
+						"currencyCode": "USD",
+						"amount": 0
+					},
+					"type": 1,
+					"title": "Looking for people to test a product (ideal for newcomer on upwork)",
+					"feedback": {
+						"score": 5,
+						"comment": "Darren did an excellent job. He delivered his work on time and had a clear communication with us. Highly recommended.",
+						"commentIsPublic": true,
+						"response": null,
+						"scoreDetails": [
+							{
+								"score": 5,
+								"label": "Skills",
+								"description": "competency and skills for the job, understanding of specifications\/instructions"
+							},
+							{
+								"score": 5,
+								"label": "Quality",
+								"description": "quality of work deliverables"
+							},
+							{
+								"score": 5,
+								"label": "Availability",
+								"description": "online presence on a consistent schedule"
+							},
+							{
+								"score": 5,
+								"label": "Deadlines",
+								"description": "ability to complete tasks on time"
+							},
+							{
+								"score": 5,
+								"label": "Communication",
+								"description": "communication skills, frequent progress updates, responsiveness"
+							},
+							{
+								"score": 5,
+								"label": "Cooperation",
+								"description": "cooperation and flexibility, suggestions for improvement"
+							}
+						]
+					},
+					"linkedPortfolio": null,
+					"description": "Worked for an employer from South Korea in a ",
+					"clientId": "949617",
+					"isPrivate": false,
+					"agencyName": null,
+					"status": null,
+					"initialAmount": {
+						"currencyCode": "USD",
+						"amount": 5
+					},
+					"hoursPerWeek": 0,
+					"openingRid": "206452481",
+					"skills": null,
+					"totalEarnings": null,
+					"blendedChargeRate": null,
+					"blendedEarnRate": null,
+					"feedbackGiven": {
+						"score": 5,
+						"comment": "Great client. Any questions were responded to within 24 hours and she was very clear with her requirements. I would happily work with her again!",
+						"commentIsPublic": true,
+						"response": null,
+						"scoreDetails": [
+							{
+								"score": 5,
+								"label": "Skills",
+								"description": "competency and skills for the job, understanding of task complexities"
+							},
+							{
+								"score": 5,
+								"label": "Quality",
+								"description": "quality of specifications\/instructions"
+							},
+							{
+								"score": 5,
+								"label": "Availability",
+								"description": "online presence on a consistent schedule"
+							},
+							{
+								"score": 5,
+								"label": "Deadlines",
+								"description": "understanding of complexities and trade-offs"
+							},
+							{
+								"score": 5,
+								"label": "Communication",
+								"description": "communication skills and responsiveness, feedback and guidance"
+							},
+							{
+								"score": 5,
+								"label": "Cooperation",
+								"description": "cooperation and flexibility, open to suggestions for improvement"
+							}
+						]
+					},
+					"id": "16838501",
+					"isEdc": false,
+					"ciphertext": "~01193076a121ffa9c5",
+					"isPtc": false,
+					"isOpeningVisible": true,
+					"accessType": 1
+				}
+			],
+			"filterClientAssignments": false
+		},
+		"isACE": false
+	},
+	"userId": "765572412325478400",
+	"userRid": "12553456",
+	"isOwner": false,
+	"isViewAsOthers": false,
+	"isFreelancer": false,
+	"isClient": true,
+	"isVisitor": false,
+	"isOnboardingV2": false,
+	"elanceOnboarding": false,
+	"isAgency": false,
+	"rateMinValue": 3,
+	"rateMaxValue": 999,
+	"facebookAppId": 121633185800,
+	"refererUrl": "https:\/\/www.upwork.com\/o\/profiles\/browse\/?page=7&q=Web%20scraping",
+	"startInEditMode": false,
+	"profileUrl": "http:\/\/www.upwork.com\/o\/profiles\/users\/_~016928bfceb0347a4f\/",
+	"qualifiesForCustomUrl": false,
+	"qt": {
+		"FP6855_PSR": "Treatment",
+		"FP7102_IdentifyContactInformation": "Control",
+		"FP2511_HideFreelancerBillings": "Control"
+	},
+	"ff": {
+		"ShowFreelancerTotalHoursUpdated": false,
+		"showClientAssignmentsOnly": true,
+		"FP6777FsHideEarnings": true,
+		"FP8147DisplayFLEarnings": false,
+		"FP7853ProfileInterviewWidget": true,
+		"ResponsiveStatsFreelancerShorten": true,
+		"FP8328BasicSkillsTest": true
+	},
+	"isEnterprise": false,
+	"clientName": "Aaron Walsh",
+	"clientJobs": [],
+	"profileSettings": {
+		"csrfTokenCookieName": "XSRF-TOKEN",
+		"csrfTokenHeaderName": "X-Odesk-Csrf-Token",
+		"runtime_id": "fd518776-ac77-4f6f-a732-70dde9628993",
+		"clientStatsDMetrics": true,
+		"smfAjax": false,
+		"pageSpeedMetrics": false,
+		"pageId": "flProfile",
+		"isHideEarnings": true,
+		"scrubbingFlags": [],
+		"profile": {
+			"identity": {
+				"userId": "d1994c",
+				"ciphertext": "~016928bfceb0347a4f",
+				"recno": 12553456,
+				"legacyCiphertext": "~~0109377a1e87f08f",
+				"uid": "765572412325478400",
+				"edcUserId": 0
+			},
+			"profile": {
+				"name": "Darren Close",
+				"shortName": "Darren Close",
+				"title": "Data Entry, Web Scraping and QA Professional",
+				"description": "Am a a Computer Science Graduate who had accumulated many skills though years of education and self teaching. I am an expert with a keyboard and can type up to 115 WPM accurately making me a perfect candidate for all data entry tasks. I have also been freelancing for 3 years now and within that time I have carried out multiple web scraping\/researching tasks. I am a qualified QA Engineer so I can carry out expert testing both in the manual and automated fields. I am sure if you have a project I can help you at a reasonable price!",
+				"location": {
+					"country": "United Kingdom",
+					"city": "Jordanstown",
+					"state": null,
+					"countryTimezone": "UTC (no DST) Tangiers, Casablanca",
+					"worldRegion": "Jordanstown, United Kingdom (UTC)",
+					"timezoneOffset": 0,
+					"countryCode": "GBR"
+				},
+				"portrait": {
+					"portrait": "https:\/\/odesk-prod-portraits.s3.amazonaws.com\/Users:d1994c:PortraitUrl?AWSAccessKeyId=1XVAX3FNQZAFC9GJCFR2&Expires=2147483647&Signature=L415QLKXgcbBjnom%2BgfB1whbrro%3D&1471434198334465",
+					"bigPortrait": "https:\/\/odesk-prod-portraits.s3.amazonaws.com\/Users:d1994c:PortraitUrl_100?AWSAccessKeyId=1XVAX3FNQZAFC9GJCFR2&Expires=2147483647&Signature=LQfAMsKj7HA%2B9LkYW6zYRP3dxig%3D&1471434198334465",
+					"smallPortrait": "https:\/\/odesk-prod-portraits.s3.amazonaws.com\/Users:d1994c:PortraitUrl_50?AWSAccessKeyId=1XVAX3FNQZAFC9GJCFR2&Expires=2147483647&Signature=I1gy0WvvHBHpCLirEdVCNlF7GZ0%3D&1471434198334465",
+					"originalPortrait": "https:\/\/odesk-prod-portraits.s3.amazonaws.com\/Users:d1994c:PortraitUrl_original?AWSAccessKeyId=1XVAX3FNQZAFC9GJCFR2&Expires=2147483647&Signature=IEB22EQmj%2FwubiICJtjjVcR5n4c%3D&1471434198334465"
+				},
+				"skills": [
+					{
+						"name": "data-entry",
+						"prettyName": "Data Entry",
+						"active": true,
+						"testsCount": 0,
+						"hasTests": false,
+						"uid": "475721704352415745",
+						"rank": 1,
+						"description": "A data entry clerk, sometimes called a typist, is a member of staff employed to type data into a database using a keyboard. The keyboards used can often have specialist keys and multiple colours to help them in the task and speed up the work.",
+						"externalUrl": "http:\/\/en.wikipedia.org\/wiki\/Data_entry_clerk",
+						"tests": null,
+						"certificates": null
+					},
+					{
+						"name": "web-scraping",
+						"prettyName": "Web scraping",
+						"active": true,
+						"testsCount": 0,
+						"hasTests": false,
+						"uid": "475721704276918277",
+						"rank": 2,
+						"description": "Web scraping (also called web harvesting or web data extraction) is a computer software technique of extracting information from websites.",
+						"externalUrl": "http:\/\/en.wikipedia.org\/wiki\/Web_scraping",
+						"tests": null,
+						"certificates": null
+					},
+					{
+						"name": "qa-engineering",
+						"prettyName": "QA Engineering",
+						"active": true,
+						"testsCount": 0,
+						"hasTests": false,
+						"uid": "514995617545162752",
+						"rank": 3,
+						"description": "Quality Assurance (QA) is a way of preventing mistakes or defects in manufactured products and avoiding problems when delivering solutions or services to customers.",
+						"externalUrl": "http:\/\/en.wikipedia.org\/wiki\/Quality_assurance",
+						"tests": null,
+						"certificates": null
+					},
+					{
+						"name": "software-qa-testing",
+						"prettyName": "Software QA Testing",
+						"active": true,
+						"testsCount": 0,
+						"hasTests": false,
+						"uid": "475721703937179651",
+						"rank": 4,
+						"description": "Software testing is an investigation conducted to provide stakeholders with information about the quality of the product or service under test.",
+						"externalUrl": "http:\/\/en.wikipedia.org\/wiki\/Software_testing",
+						"tests": null,
+						"certificates": null
+					},
+					{
+						"name": "seo",
+						"prettyName": "Search Engine Optimization (SEO)",
+						"active": true,
+						"testsCount": 1,
+						"hasTests": true,
+						"uid": "475721704176254982",
+						"rank": 5,
+						"description": "\"Search engine optimization (SEO) is the process of improving the visibility of a website or a web page in search engines via the \"\"natural\"\" or un-paid (\"\"organic\"\" or \"\"algorithmic\"\") search results.\"",
+						"externalUrl": "http:\/\/en.wikipedia.org\/wiki\/Search_engine_optimization",
+						"tests": [
+							{
+								"id": 565,
+								"examId": "14923065",
+								"examPartnerId": 1,
+								"examPercentile": 71,
+								"examScore": 62,
+								"examDate": "2016-08-18T00:00:00.000Z"
+							}
+						],
+						"certificates": null
+					},
+					{
+						"name": "proofreading",
+						"prettyName": "Proofreading",
+						"active": true,
+						"testsCount": 0,
+						"hasTests": true,
+						"uid": "475721704142700546",
+						"rank": 6,
+						"description": "Proofreading (also proof-reading) is the reading of a galley proof or computer monitor to detect and correct production-errors of text or art. Proofreaders are expected to be consistently accurate by default because they occupy the last stage of typographic production before publication.",
+						"externalUrl": "http:\/\/en.wikipedia.org\/wiki\/Proofreading",
+						"tests": null,
+						"certificates": null
+					},
+					{
+						"name": "english-proofreading",
+						"prettyName": "English Proofreading",
+						"active": true,
+						"testsCount": 0,
+						"hasTests": false,
+						"uid": "514995561014333440",
+						"rank": 7,
+						"description": "Proofreading is the reading of a galley proof or an electronic copy of a publication to detect and correct production errors of text or art. Proofreaders are expected to be consistently accurate by default because they occupy the last stage of typographic production before publication.",
+						"externalUrl": "http:\/\/en.wikipedia.org\/wiki\/Proofreading",
+						"tests": null,
+						"certificates": null
+					},
+					{
+						"name": "functional-testing",
+						"prettyName": "Functional testing",
+						"active": true,
+						"testsCount": 0,
+						"hasTests": false,
+						"uid": "475721703974928393",
+						"rank": 8,
+						"description": "Functional testing is a type of black box testing that bases its test cases on the specifications of the software component under test. Functions are tested by feeding them input and examining the output, and internal program structure is rarely considered (Not like in white-box",
+						"externalUrl": "http:\/\/en.wikipedia.org\/wiki\/Functional_testing",
+						"tests": null,
+						"certificates": null
+					},
+					{
+						"name": "web-testing",
+						"prettyName": "Web Testing",
+						"active": true,
+						"testsCount": 0,
+						"hasTests": false,
+						"uid": "475721704276918278",
+						"rank": 9,
+						"description": "Web testing is the name given to software testing that focuses on web applications. Complete testing of a web-based system before going live can help address issues before the system is revealed to the public.",
+						"externalUrl": "http:\/\/en.wikipedia.org\/wiki\/Web_testing",
+						"tests": null,
+						"certificates": null
+					},
+					{
+						"name": "research",
+						"prettyName": "Research",
+						"active": true,
+						"testsCount": 0,
+						"hasTests": false,
+						"uid": "514995620565061632",
+						"rank": 10,
+						"description": "Research comprises \"creative work undertaken on a systematic basis in order to increase the stock of knowledge, including knowledge of man, culture and society, and the use of this stock of knowledge to devise new applications.",
+						"externalUrl": "http:\/\/en.wikipedia.org\/wiki\/Research",
+						"tests": null,
+						"certificates": null
+					}
+				],
+				"visibility": 1,
+				"isDisabled": false,
+				"affiliated": false,
+				"isLooking": false,
+				"isLookingWeek": false,
+				"exposeFullName": true,
+				"confidentialityBound": false,
+				"isConsoleViewable": false,
+				"isSearchable": false,
+				"agencyRef": null,
+				"idVerified": false,
+				"exposeBillings": true,
+				"pci": {
+					"action": "certifications",
+					"actionCredit": 5,
+					"actual": 90,
+					"ts": "1478089731",
+					"display": 90
+				},
+				"phoneVerified": false,
+				"state": "Accepted",
+				"hideAgencyEarnings": false,
+				"contractorTier": 1
+			},
+			"stats": {
+				"totalHours": 187.50000001,
+				"totalHoursRecent": 187.50000001,
+				"totalFeedback": 2,
+				"totalFeedbackRecent": 2,
+				"totalJobsWorked": 3,
+				"totalJobsWorkedRecent": 3,
+				"rating": 5,
+				"ratingRecent": 5,
+				"hourlyRate": {
+					"currencyCode": "USD",
+					"amount": 13
+				},
+				"totalPortfolioItems": 1,
+				"englishLevel": 4,
+				"memberSince": "2016-08-16T00:00:00.000Z",
+				"lastWorkedOn": "2016-11-01T00:00:00.000Z",
+				"hireAgainPercentage": 0,
+				"totalHourlyJobs": 1,
+				"totalHourlyJobsRecent": 1,
+				"totalFixedJobs": 2,
+				"totalFixedJobsRecent": 2,
+				"isRecommended": false,
+				"responsiveState": "not_enough_invites",
+				"privateFeedbackHireAgain": 0,
+				"scores": 0,
+				"skillTestsPassed": 0,
+				"activeInterviews": 0,
+				"activeAssignments": 0,
+				"nSS100BwScore": 0,
+				"topRatedStatus": "hipo_eligible",
+				"totalHoursActual": 157.5,
+				"edcAssignments": 0
+			},
+			"video": null,
+			"groups": null,
+			"tests": [
+				{
+					"name": "Search Engine Optimization Test",
+					"score": 62,
+					"duration": 10,
+					"isPassed": true,
+					"rank": 26668,
+					"percentile": 72,
+					"id": 14923065,
+					"dateTaken": "2016-08-18T00:00:00.000Z",
+					"provider": "Expert Rating",
+					"visibility": 1
+				}
+			],
+			"agencies": null,
+			"portfolios": [
+				{
+					"title": "Head of QA",
+					"description": "My Client needed a QA tester. I created processes for testing as well as a reusable framework with could be adapted for each individual project. \n\nI thorough tested each project with the highest attention and raised bugs which were fixed and retested immediately to allow the client to receive the best product possible",
+					"thumbnail": null,
+					"image": null,
+					"url": null,
+					"completedOn": null,
+					"category": {
+						"name": "Web, Mobile & Software Dev",
+						"urlSlug": "web-mobile-software-dev"
+					},
+					"subCategory": {
+						"name": "QA & Testing",
+						"urlSlug": "qa-testing"
+					},
+					"visibility": 1,
+					"projectUrl": null,
+					"attachments": null,
+					"skills": [
+						"web-testing",
+						"qa-engineering",
+						"qa-management"
+					],
+					"linkedAssignment": null,
+					"categoryRid": 15,
+					"uid": "773527415155675136",
+					"rank": 1
+				}
+			],
+			"competencies": null,
+			"assignments": [
+				{
+					"startedOn": "2016-10-01T00:00:00.000Z",
+					"endedOn": "2016-10-01T00:00:00.000Z",
+					"totalCharges": {
+						"currencyCode": "USD",
+						"amount": 13
+					},
+					"totalHours": 0,
+					"hourlyRate": {
+						"currencyCode": "USD",
+						"amount": 0
+					},
+					"type": 1,
+					"title": "RECORD YOUR VOICE- easy task for BRITISH ENGLISH NATIVE SPEAKERS",
+					"feedback": {
+						"score": 5,
+						"comment": "Darren has helped us a lot in our scientific project related to the British English language. Excellent job. Great person. We are more than 100% satisfied. Thanks a million!",
+						"commentIsPublic": true,
+						"response": null,
+						"scoreDetails": [
+							{
+								"score": 5,
+								"label": "Skills",
+								"description": "competency and skills for the job, understanding of specifications\/instructions"
+							},
+							{
+								"score": 5,
+								"label": "Quality",
+								"description": "quality of work deliverables"
+							},
+							{
+								"score": 5,
+								"label": "Availability",
+								"description": "online presence on a consistent schedule"
+							},
+							{
+								"score": 5,
+								"label": "Deadlines",
+								"description": "ability to complete tasks on time"
+							},
+							{
+								"score": 5,
+								"label": "Communication",
+								"description": "communication skills, frequent progress updates, responsiveness"
+							},
+							{
+								"score": 5,
+								"label": "Cooperation",
+								"description": "cooperation and flexibility, suggestions for improvement"
+							}
+						]
+					},
+					"linkedPortfolio": null,
+					"description": "Worked for an employer from Poland in a ",
+					"clientId": "2242457",
+					"isPrivate": false,
+					"agencyName": null,
+					"status": null,
+					"initialAmount": {
+						"currencyCode": "USD",
+						"amount": 13
+					},
+					"hoursPerWeek": 0,
+					"openingRid": "208612941",
+					"skills": null,
+					"totalEarnings": null,
+					"blendedChargeRate": null,
+					"blendedEarnRate": null,
+					"feedbackGiven": {
+						"score": 5,
+						"comment": "Easy Client to deal with - gave full instructions",
+						"commentIsPublic": true,
+						"response": null,
+						"scoreDetails": [
+							{
+								"score": 5,
+								"label": "Skills",
+								"description": "competency and skills for the job, understanding of task complexities"
+							},
+							{
+								"score": 5,
+								"label": "Quality",
+								"description": "quality of specifications\/instructions"
+							},
+							{
+								"score": 5,
+								"label": "Availability",
+								"description": "online presence on a consistent schedule"
+							},
+							{
+								"score": 5,
+								"label": "Deadlines",
+								"description": "understanding of complexities and trade-offs"
+							},
+							{
+								"score": 5,
+								"label": "Communication",
+								"description": "communication skills and responsiveness, feedback and guidance"
+							},
+							{
+								"score": 5,
+								"label": "Cooperation",
+								"description": "cooperation and flexibility, open to suggestions for improvement"
+							}
+						]
+					},
+					"id": "17061908",
+					"isEdc": false,
+					"ciphertext": "~0187cd651b4c1815f7",
+					"isPtc": false,
+					"isOpeningVisible": true,
+					"accessType": 1
+				},
+				{
+					"startedOn": "2016-08-01T00:00:00.000Z",
+					"endedOn": "2016-08-01T00:00:00.000Z",
+					"totalCharges": {
+						"currencyCode": "USD",
+						"amount": 5
+					},
+					"totalHours": 0,
+					"hourlyRate": {
+						"currencyCode": "USD",
+						"amount": 0
+					},
+					"type": 1,
+					"title": "Looking for people to test a product (ideal for newcomer on upwork)",
+					"feedback": {
+						"score": 5,
+						"comment": "Darren did an excellent job. He delivered his work on time and had a clear communication with us. Highly recommended.",
+						"commentIsPublic": true,
+						"response": null,
+						"scoreDetails": [
+							{
+								"score": 5,
+								"label": "Skills",
+								"description": "competency and skills for the job, understanding of specifications\/instructions"
+							},
+							{
+								"score": 5,
+								"label": "Quality",
+								"description": "quality of work deliverables"
+							},
+							{
+								"score": 5,
+								"label": "Availability",
+								"description": "online presence on a consistent schedule"
+							},
+							{
+								"score": 5,
+								"label": "Deadlines",
+								"description": "ability to complete tasks on time"
+							},
+							{
+								"score": 5,
+								"label": "Communication",
+								"description": "communication skills, frequent progress updates, responsiveness"
+							},
+							{
+								"score": 5,
+								"label": "Cooperation",
+								"description": "cooperation and flexibility, suggestions for improvement"
+							}
+						]
+					},
+					"linkedPortfolio": null,
+					"description": "Worked for an employer from South Korea in a ",
+					"clientId": "949617",
+					"isPrivate": false,
+					"agencyName": null,
+					"status": null,
+					"initialAmount": {
+						"currencyCode": "USD",
+						"amount": 5
+					},
+					"hoursPerWeek": 0,
+					"openingRid": "206452481",
+					"skills": null,
+					"totalEarnings": null,
+					"blendedChargeRate": null,
+					"blendedEarnRate": null,
+					"feedbackGiven": {
+						"score": 5,
+						"comment": "Great client. Any questions were responded to within 24 hours and she was very clear with her requirements. I would happily work with her again!",
+						"commentIsPublic": true,
+						"response": null,
+						"scoreDetails": [
+							{
+								"score": 5,
+								"label": "Skills",
+								"description": "competency and skills for the job, understanding of task complexities"
+							},
+							{
+								"score": 5,
+								"label": "Quality",
+								"description": "quality of specifications\/instructions"
+							},
+							{
+								"score": 5,
+								"label": "Availability",
+								"description": "online presence on a consistent schedule"
+							},
+							{
+								"score": 5,
+								"label": "Deadlines",
+								"description": "understanding of complexities and trade-offs"
+							},
+							{
+								"score": 5,
+								"label": "Communication",
+								"description": "communication skills and responsiveness, feedback and guidance"
+							},
+							{
+								"score": 5,
+								"label": "Cooperation",
+								"description": "cooperation and flexibility, open to suggestions for improvement"
+							}
+						]
+					},
+					"id": "16838501",
+					"isEdc": false,
+					"ciphertext": "~01193076a121ffa9c5",
+					"isPtc": false,
+					"isOpeningVisible": true,
+					"accessType": 1
+				}
+			],
+			"availability": {
+				"availabilityTs": null,
+				"source": "onboarding",
+				"uid": "765876711273807872",
+				"personUid": "765572412325478400",
+				"capacity": {
+					"nid": "notSure",
+					"name": "As Needed - Open to Offers"
+				},
+				"creationTs": "2016-08-17T11:43:31Z"
+			},
+			"clientRelationship": null,
+			"languages": [
+				{
+					"uid": "765876711318560768",
+					"personRid": 12553456,
+					"language": {
+						"iso639Code": "en",
+						"isActive": true,
+						"englishName": "English",
+						"name": "English"
+					},
+					"proficiencyLevel": {
+						"code": "natl",
+						"proficiencyTitle": "Native or Bilingual",
+						"rank": 4,
+						"isActive": true,
+						"description": "I have complete command of this language, including breadth of vocabulary, idioms, and colloquialisms",
+						"type": "level"
+					},
+					"verified": false,
+					"personUid": "765572412325478400",
+					"verifiedByCertificate": false,
+					"verifiedByFeedback": false
+				}
+			],
+			"certificates": null,
+			"employmentHistory": [
+				{
+					"uid": "765876960518938624",
+					"personUid": "765572412325478400",
+					"companyName": "Arris",
+					"jobTitle": "QA Engineer",
+					"standardizedCompanyUid": null,
+					"standardizedJobTitleUid": "492413021270736918",
+					"role": "Intern",
+					"startDate": "2015-06-01",
+					"endDate": null,
+					"description": null,
+					"city": "Belfast",
+					"country": "GBR"
+				}
+			],
+			"education": [
+				{
+					"uid": "765877292019949568",
+					"personUid": "765572412325478400",
+					"institutionName": "Queens Univesity Belfast",
+					"standardizedInstitutionUid": null,
+					"areaOfStudy": "Computer science",
+					"standardizedAreaOfStudyUid": "482305184288899086",
+					"degree": "Master of Computer Applications (M.C.A.)",
+					"standardizedDegreeUid": "482303921736286209",
+					"dateStarted": "2014-01-01",
+					"dateEnded": "2016-01-01",
+					"comment": null
+				}
+			],
+			"otherExperiences": [
+				{
+					"uid": "773527920211759104",
+					"personUid": "765572412325478400",
+					"subject": "Self Taught Wordpress development",
+					"description": "I self-taught myself how to create beautiful, bespoke and responsive websites using WordPress\u200b.",
+					"active": true,
+					"creationTs": "2016-09-07T14:26:42Z",
+					"lastUpdateTs": "2016-09-07T14:26:42Z"
+				}
+			],
+			"esn": [
+				{
+					"esnName": "linkedin",
+					"esnId": "ZTCizgRCOZ",
+					"esnUserProfile": "https:\/\/www.linkedin.com\/in\/darren-close-45b219a5",
+					"isPublic": true,
+					"revokedOn": null
+				},
+				{
+					"esnName": "facebook",
+					"esnId": "10206874555689295",
+					"esnUserProfile": "https:\/\/www.facebook.com\/app_scoped_user_id\/10206874555689295\/",
+					"isPublic": false,
+					"revokedOn": null
+				}
+			],
+			"jobCategoriesV2": [
+				{
+					"groupUid": "531770282580668418",
+					"groupName": "Web, Mobile & Software Dev",
+					"selectedCategories": [
+						{
+							"uid": "531770282589057031",
+							"name": "QA & Testing"
+						}
+					]
+				},
+				{
+					"groupUid": "531770282580668416",
+					"groupName": "Admin Support",
+					"selectedCategories": [
+						{
+							"uid": "531770282584862725",
+							"name": "Personal \/ Virtual Assistant"
+						},
+						{
+							"uid": "531770282584862727",
+							"name": "Transcription"
+						},
+						{
+							"uid": "531770282584862726",
+							"name": "Web Research"
+						},
+						{
+							"uid": "531770282584862729",
+							"name": "Other - Admin Support"
+						},
+						{
+							"uid": "531770282584862724",
+							"name": "Data Entry"
+						}
+					]
+				}
+			],
+			"assignmentsInProgress": [
+				{
+					"startedOn": "2016-09-01T00:00:00.000Z",
+					"endedOn": null,
+					"totalCharges": {
+						"currencyCode": "USD",
+						"amount": 1417.5
+					},
+					"totalHours": 173,
+					"hourlyRate": {
+						"currencyCode": "USD",
+						"amount": 9
+					},
+					"type": 2,
+					"title": "QA and Data",
+					"feedback": null,
+					"linkedPortfolio": null,
+					"description": "Working for an employer from Ireland in a ",
+					"clientId": "1248653",
+					"isPrivate": false,
+					"agencyName": null,
+					"status": null,
+					"initialAmount": {
+						"currencyCode": "USD",
+						"amount": 0
+					},
+					"hoursPerWeek": 0,
+					"openingRid": "208365948",
+					"skills": null,
+					"totalEarnings": null,
+					"blendedChargeRate": null,
+					"blendedEarnRate": null,
+					"feedbackGiven": null,
+					"id": "16884783",
+					"isEdc": false,
+					"ciphertext": "~01bbfba0981ebc4c0c",
+					"isPtc": false,
+					"isOpeningVisible": true,
+					"accessType": null
+				}
+			],
+			"assignmentsEnded": {
+				"pageNumber": 1,
+				"itemsPerPage": 10,
+				"totalItems": 2,
+				"sortOrder": 1,
+				"assignments": [
+					{
+						"startedOn": "2016-10-01T00:00:00.000Z",
+						"endedOn": "2016-10-01T00:00:00.000Z",
+						"totalCharges": {
+							"currencyCode": "USD",
+							"amount": 13
+						},
+						"totalHours": 0,
+						"hourlyRate": {
+							"currencyCode": "USD",
+							"amount": 0
+						},
+						"type": 1,
+						"title": "RECORD YOUR VOICE- easy task for BRITISH ENGLISH NATIVE SPEAKERS",
+						"feedback": {
+							"score": 5,
+							"comment": "Darren has helped us a lot in our scientific project related to the British English language. Excellent job. Great person. We are more than 100% satisfied. Thanks a million!",
+							"commentIsPublic": true,
+							"response": null,
+							"scoreDetails": [
+								{
+									"score": 5,
+									"label": "Skills",
+									"description": "competency and skills for the job, understanding of specifications\/instructions"
+								},
+								{
+									"score": 5,
+									"label": "Quality",
+									"description": "quality of work deliverables"
+								},
+								{
+									"score": 5,
+									"label": "Availability",
+									"description": "online presence on a consistent schedule"
+								},
+								{
+									"score": 5,
+									"label": "Deadlines",
+									"description": "ability to complete tasks on time"
+								},
+								{
+									"score": 5,
+									"label": "Communication",
+									"description": "communication skills, frequent progress updates, responsiveness"
+								},
+								{
+									"score": 5,
+									"label": "Cooperation",
+									"description": "cooperation and flexibility, suggestions for improvement"
+								}
+							]
+						},
+						"linkedPortfolio": null,
+						"description": "Worked for an employer from Poland in a ",
+						"clientId": "2242457",
+						"isPrivate": false,
+						"agencyName": null,
+						"status": null,
+						"initialAmount": {
+							"currencyCode": "USD",
+							"amount": 13
+						},
+						"hoursPerWeek": 0,
+						"openingRid": "208612941",
+						"skills": null,
+						"totalEarnings": null,
+						"blendedChargeRate": null,
+						"blendedEarnRate": null,
+						"feedbackGiven": {
+							"score": 5,
+							"comment": "Easy Client to deal with - gave full instructions",
+							"commentIsPublic": true,
+							"response": null,
+							"scoreDetails": [
+								{
+									"score": 5,
+									"label": "Skills",
+									"description": "competency and skills for the job, understanding of task complexities"
+								},
+								{
+									"score": 5,
+									"label": "Quality",
+									"description": "quality of specifications\/instructions"
+								},
+								{
+									"score": 5,
+									"label": "Availability",
+									"description": "online presence on a consistent schedule"
+								},
+								{
+									"score": 5,
+									"label": "Deadlines",
+									"description": "understanding of complexities and trade-offs"
+								},
+								{
+									"score": 5,
+									"label": "Communication",
+									"description": "communication skills and responsiveness, feedback and guidance"
+								},
+								{
+									"score": 5,
+									"label": "Cooperation",
+									"description": "cooperation and flexibility, open to suggestions for improvement"
+								}
+							]
+						},
+						"id": "17061908",
+						"isEdc": false,
+						"ciphertext": "~0187cd651b4c1815f7",
+						"isPtc": false,
+						"isOpeningVisible": true,
+						"accessType": 1
+					},
+					{
+						"startedOn": "2016-08-01T00:00:00.000Z",
+						"endedOn": "2016-08-01T00:00:00.000Z",
+						"totalCharges": {
+							"currencyCode": "USD",
+							"amount": 5
+						},
+						"totalHours": 0,
+						"hourlyRate": {
+							"currencyCode": "USD",
+							"amount": 0
+						},
+						"type": 1,
+						"title": "Looking for people to test a product (ideal for newcomer on upwork)",
+						"feedback": {
+							"score": 5,
+							"comment": "Darren did an excellent job. He delivered his work on time and had a clear communication with us. Highly recommended.",
+							"commentIsPublic": true,
+							"response": null,
+							"scoreDetails": [
+								{
+									"score": 5,
+									"label": "Skills",
+									"description": "competency and skills for the job, understanding of specifications\/instructions"
+								},
+								{
+									"score": 5,
+									"label": "Quality",
+									"description": "quality of work deliverables"
+								},
+								{
+									"score": 5,
+									"label": "Availability",
+									"description": "online presence on a consistent schedule"
+								},
+								{
+									"score": 5,
+									"label": "Deadlines",
+									"description": "ability to complete tasks on time"
+								},
+								{
+									"score": 5,
+									"label": "Communication",
+									"description": "communication skills, frequent progress updates, responsiveness"
+								},
+								{
+									"score": 5,
+									"label": "Cooperation",
+									"description": "cooperation and flexibility, suggestions for improvement"
+								}
+							]
+						},
+						"linkedPortfolio": null,
+						"description": "Worked for an employer from South Korea in a ",
+						"clientId": "949617",
+						"isPrivate": false,
+						"agencyName": null,
+						"status": null,
+						"initialAmount": {
+							"currencyCode": "USD",
+							"amount": 5
+						},
+						"hoursPerWeek": 0,
+						"openingRid": "206452481",
+						"skills": null,
+						"totalEarnings": null,
+						"blendedChargeRate": null,
+						"blendedEarnRate": null,
+						"feedbackGiven": {
+							"score": 5,
+							"comment": "Great client. Any questions were responded to within 24 hours and she was very clear with her requirements. I would happily work with her again!",
+							"commentIsPublic": true,
+							"response": null,
+							"scoreDetails": [
+								{
+									"score": 5,
+									"label": "Skills",
+									"description": "competency and skills for the job, understanding of task complexities"
+								},
+								{
+									"score": 5,
+									"label": "Quality",
+									"description": "quality of specifications\/instructions"
+								},
+								{
+									"score": 5,
+									"label": "Availability",
+									"description": "online presence on a consistent schedule"
+								},
+								{
+									"score": 5,
+									"label": "Deadlines",
+									"description": "understanding of complexities and trade-offs"
+								},
+								{
+									"score": 5,
+									"label": "Communication",
+									"description": "communication skills and responsiveness, feedback and guidance"
+								},
+								{
+									"score": 5,
+									"label": "Cooperation",
+									"description": "cooperation and flexibility, open to suggestions for improvement"
+								}
+							]
+						},
+						"id": "16838501",
+						"isEdc": false,
+						"ciphertext": "~01193076a121ffa9c5",
+						"isPtc": false,
+						"isOpeningVisible": true,
+						"accessType": 1
+					}
+				],
+				"filterClientAssignments": false
+			},
+			"isACE": false
+		},
+		"userId": "765572412325478400",
+		"userRid": "12553456",
+		"isOwner": false,
+		"isViewAsOthers": false,
+		"isFreelancer": false,
+		"isClient": true,
+		"isVisitor": false,
+		"isOnboardingV2": false,
+		"elanceOnboarding": false,
+		"isAgency": false,
+		"rateMinValue": 3,
+		"rateMaxValue": 999,
+		"facebookAppId": 121633185800,
+		"refererUrl": "https:\/\/www.upwork.com\/o\/profiles\/browse\/?page=7&q=Web%20scraping",
+		"startInEditMode": false,
+		"profileUrl": "http:\/\/www.upwork.com\/o\/profiles\/users\/_~016928bfceb0347a4f\/",
+		"qualifiesForCustomUrl": false,
+		"qt": {
+			"FP6855_PSR": "Treatment",
+			"FP7102_IdentifyContactInformation": "Control",
+			"FP2511_HideFreelancerBillings": "Control"
+		},
+		"ff": {
+			"ShowFreelancerTotalHoursUpdated": false,
+			"showClientAssignmentsOnly": true,
+			"FP6777FsHideEarnings": true,
+			"FP8147DisplayFLEarnings": false,
+			"FP7853ProfileInterviewWidget": true,
+			"ResponsiveStatsFreelancerShorten": true,
+			"FP8328BasicSkillsTest": true
+		},
+		"isEnterprise": false,
+		"clientName": "Aaron Walsh",
+		"clientJobs": []
+	}
+}

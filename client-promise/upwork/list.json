@@ -1,0 +1,2742 @@
+{
+	"ngViewsPath": "\/o\/profiles\/browse\/bundles\/odeskprofilesearch\/views",
+	"skillsToTruncate": 4,
+	"csrfTokenCookieName": "XSRF-TOKEN",
+	"csrfTokenHeaderName": "X-Odesk-Csrf-Token",
+	"runtime_id": "5168cb9b-204c-4128-9185-1acce5a51f1e",
+	"clientStatsDMetrics": true,
+	"smfAjax": false,
+	"pageSpeedMetrics": false,
+	"freelancerTileExt": {
+		"initTileMode": "compact",
+		"isShowFreelancerEarnings": false
+	},
+	"pageId": "ProfilesSearchUI-Visitor",
+	"isPtcServiceAvailable": true,
+	"MAT1814_PresenceInSearch_Presence": false,
+	"CategoriesList": [
+		{
+			"name": "Web, Mobile & Software Dev",
+			"id": "web-mobile-software-dev",
+			"subcategories": [
+				{
+					"name": "Desktop Software Development",
+					"id": "desktop-software-development"
+				},
+				{
+					"name": "Ecommerce Development",
+					"id": "ecommerce-development"
+				},
+				{
+					"name": "Game Development",
+					"id": "game-development"
+				},
+				{
+					"name": "Mobile Development",
+					"id": "mobile-development"
+				},
+				{
+					"name": "Product Management",
+					"id": "product-management"
+				},
+				{
+					"name": "QA & Testing",
+					"id": "qa-testing"
+				},
+				{
+					"name": "Scripts & Utilities",
+					"id": "scripts-utilities"
+				},
+				{
+					"name": "Web Development",
+					"id": "web-development"
+				},
+				{
+					"name": "Web & Mobile Design",
+					"id": "web-mobile-design"
+				},
+				{
+					"name": "Other - Software Development",
+					"id": "other-software-development"
+				}
+			]
+		},
+		{
+			"name": "IT & Networking",
+			"id": "it-networking",
+			"subcategories": [
+				{
+					"name": "Database Administration",
+					"id": "database-administration"
+				},
+				{
+					"name": "ERP \/ CRM Software",
+					"id": "erp-crm-software"
+				},
+				{
+					"name": "Information Security",
+					"id": "information-security"
+				},
+				{
+					"name": "Network & System Administration",
+					"id": "network-system-administration"
+				},
+				{
+					"name": "Other - IT & Networking",
+					"id": "other-it-networking"
+				}
+			]
+		},
+		{
+			"name": "Data Science & Analytics",
+			"id": "data-science-analytics",
+			"subcategories": [
+				{
+					"name": "A\/B Testing",
+					"id": "a-b-testing"
+				},
+				{
+					"name": "Data Visualization",
+					"id": "data-visualization"
+				},
+				{
+					"name": "Data Extraction \/ ETL",
+					"id": "data-extraction-etl"
+				},
+				{
+					"name": "Data Mining & Management",
+					"id": "data-mining-management"
+				},
+				{
+					"name": "Machine Learning",
+					"id": "machine-learning"
+				},
+				{
+					"name": "Quantitative Analysis",
+					"id": "quantitative-analysis"
+				},
+				{
+					"name": "Other - Data Science & Analytics",
+					"id": "other-data-science-analytics"
+				}
+			]
+		},
+		{
+			"name": "Engineering & Architecture",
+			"id": "engineering-architecture",
+			"subcategories": [
+				{
+					"name": "3D Modeling & CAD",
+					"id": "3d-modeling-cad"
+				},
+				{
+					"name": "Architecture",
+					"id": "architecture"
+				},
+				{
+					"name": "Chemical Engineering",
+					"id": "chemical-engineering"
+				},
+				{
+					"name": "Civil & Structural Engineering",
+					"id": "civil-structural-engineering"
+				},
+				{
+					"name": "Contract Manufacturing",
+					"id": "contract-manufacturing"
+				},
+				{
+					"name": "Electrical Engineering",
+					"id": "electrical-engineering"
+				},
+				{
+					"name": "Interior Design",
+					"id": "interior-design"
+				},
+				{
+					"name": "Mechanical Engineering",
+					"id": "mechanical-engineering"
+				},
+				{
+					"name": "Product Design",
+					"id": "product-design"
+				},
+				{
+					"name": "Other - Engineering & Architecture",
+					"id": "other-engineering-architecture"
+				}
+			]
+		},
+		{
+			"name": "Design & Creative",
+			"id": "design-creative",
+			"subcategories": [
+				{
+					"name": "Animation",
+					"id": "animation"
+				},
+				{
+					"name": "Audio Production",
+					"id": "audio-production"
+				},
+				{
+					"name": "Graphic Design",
+					"id": "graphic-design"
+				},
+				{
+					"name": "Illustration",
+					"id": "illustration"
+				},
+				{
+					"name": "Logo Design & Branding",
+					"id": "logo-design-branding"
+				},
+				{
+					"name": "Photography",
+					"id": "photography"
+				},
+				{
+					"name": "Presentations",
+					"id": "presentations"
+				},
+				{
+					"name": "Video Production",
+					"id": "video-production"
+				},
+				{
+					"name": "Voice Talent",
+					"id": "voice-talent"
+				},
+				{
+					"name": "Other - Design & Creative",
+					"id": "other-design-creative"
+				}
+			]
+		},
+		{
+			"name": "Writing",
+			"id": "writing",
+			"subcategories": [
+				{
+					"name": "Academic Writing & Research",
+					"id": "academic-writing-research"
+				},
+				{
+					"name": "Article & Blog Writing",
+					"id": "article-blog-writing"
+				},
+				{
+					"name": "Copywriting",
+					"id": "copywriting"
+				},
+				{
+					"name": "Creative Writing",
+					"id": "creative-writing"
+				},
+				{
+					"name": "Editing & Proofreading",
+					"id": "editing-proofreading"
+				},
+				{
+					"name": "Grant Writing",
+					"id": "grant-writing"
+				},
+				{
+					"name": "Resumes & Cover Letters",
+					"id": "resumes-cover-letters"
+				},
+				{
+					"name": "Technical Writing",
+					"id": "technical-writing"
+				},
+				{
+					"name": "Web Content",
+					"id": "web-content"
+				},
+				{
+					"name": "Other - Writing",
+					"id": "other-writing"
+				}
+			]
+		},
+		{
+			"name": "Translation",
+			"id": "translation",
+			"subcategories": [
+				{
+					"name": "General Translation",
+					"id": "general-translation"
+				},
+				{
+					"name": "Legal Translation",
+					"id": "legal-translation"
+				},
+				{
+					"name": "Medical Translation",
+					"id": "medical-translation"
+				},
+				{
+					"name": "Technical Translation",
+					"id": "technical-translation"
+				}
+			]
+		},
+		{
+			"name": "Legal",
+			"id": "legal",
+			"subcategories": [
+				{
+					"name": "Contract Law",
+					"id": "contract-law"
+				},
+				{
+					"name": "Corporate Law",
+					"id": "corporate-law"
+				},
+				{
+					"name": "Criminal Law",
+					"id": "criminal-law"
+				},
+				{
+					"name": "Family Law",
+					"id": "family-law"
+				},
+				{
+					"name": "Intellectual Property Law",
+					"id": "intellectual-property-law"
+				},
+				{
+					"name": "Paralegal Services",
+					"id": "paralegal-services"
+				},
+				{
+					"name": "Other - Legal",
+					"id": "other-legal"
+				}
+			]
+		},
+		{
+			"name": "Admin Support",
+			"id": "admin-support",
+			"subcategories": [
+				{
+					"name": "Data Entry",
+					"id": "data-entry"
+				},
+				{
+					"name": "Personal \/ Virtual Assistant",
+					"id": "personal-virtual-assistant"
+				},
+				{
+					"name": "Project Management",
+					"id": "project-management"
+				},
+				{
+					"name": "Transcription",
+					"id": "transcription"
+				},
+				{
+					"name": "Web Research",
+					"id": "web-research"
+				},
+				{
+					"name": "Other - Admin Support",
+					"id": "other-admin-support"
+				}
+			]
+		},
+		{
+			"name": "Customer Service",
+			"id": "customer-service",
+			"subcategories": [
+				{
+					"name": "Customer Service",
+					"id": "customer-service"
+				},
+				{
+					"name": "Technical Support",
+					"id": "technical-support"
+				},
+				{
+					"name": "Other - Customer Service",
+					"id": "other-customer-service"
+				}
+			]
+		},
+		{
+			"name": "Sales & Marketing",
+			"id": "sales-marketing",
+			"subcategories": [
+				{
+					"name": "Display Advertising",
+					"id": "display-advertising"
+				},
+				{
+					"name": "Email & Marketing Automation",
+					"id": "email-marketing-automation"
+				},
+				{
+					"name": "Lead Generation",
+					"id": "lead-generation"
+				},
+				{
+					"name": "Market & Customer Research",
+					"id": "market-customer-research"
+				},
+				{
+					"name": "Marketing Strategy",
+					"id": "marketing-strategy"
+				},
+				{
+					"name": "Public Relations",
+					"id": "public-relations"
+				},
+				{
+					"name": "SEM - Search Engine Marketing",
+					"id": "sem-search-engine-marketing"
+				},
+				{
+					"name": "SEO - Search Engine Optimization",
+					"id": "seo-search-engine-optimization"
+				},
+				{
+					"name": "SMM - Social Media Marketing",
+					"id": "smm-social-media-marketing"
+				},
+				{
+					"name": "Telemarketing & Telesales",
+					"id": "telemarketing-telesales"
+				},
+				{
+					"name": "Other - Sales & Marketing",
+					"id": "other-sales-marketing"
+				}
+			]
+		},
+		{
+			"name": "Accounting & Consulting",
+			"id": "accounting-consulting",
+			"subcategories": [
+				{
+					"name": "Accounting",
+					"id": "accounting"
+				},
+				{
+					"name": "Financial Planning",
+					"id": "financial-planning"
+				},
+				{
+					"name": "Human Resources",
+					"id": "human-resources"
+				},
+				{
+					"name": "Management Consulting",
+					"id": "management-consulting"
+				},
+				{
+					"name": "Other - Accounting & Consulting",
+					"id": "other-accounting-consulting"
+				}
+			]
+		}
+	],
+	"pages": [
+		1,
+		2,
+		3,
+		4,
+		5
+	],
+	"profiles": [
+		{
+			"recno": 8654824,
+			"ciphertext": "~01e200ab864accf375",
+			"shortName": "Ali Farooq",
+			"title": "Web Development, ASP.NET MVC C#, C\/C++, Android Dev,  iOS dev",
+			"description": "Currently the CEO\/senior programmer at \"AlfaBolt\". A small firm based in Islamabad, Pakistan who works on innovative IT solutions\n\n***PAST EXPERIENCE***\nDirector Web & IT - NUST Internations Model United Nations\nDirector Web & IT UNIDO - BGT International Conference\nFormer Web & IT director at Beijing Forum, Islamabad.\nSenior Developer - ALMIN Apps.\nSenior Developer - RJ Applications\nSenior Tutorial manager for SHAUN SPALDING\n\nMy expertise include web design and server side  development, mobile app development(Android, iOS, Universal Windows App), C++, DBMS etc.\n\nWeb Projects:\n    ASP.NET MVC:\n     1. Website for Beijing Forum International Conference Islamabad\n     2. Chartertree (an entire software solution for management of yachtes for yacht owners, brokers, crew, clients and much more) in progress.\n\n\nC++ projects:\n    1. Data Encryption (key generation algorithms)\n    2. Data manipulation (generating statistics based on collected data)\n    3. Game Development (Brick Breaker)\n    4. Image processing (PPM editor)\n\nAndroid Projects:\n    1. Copter Escapade (Game)\n    2. Escape The Trap (Game)\n    3. Other projects which I cannot disclose due to client's privacy including Image editor, a game.\n\nIOS Projects:\n    1. Beijing Forum 2016 iOS app",
+			"portrait": "https:\/\/odesk-prod-portraits.s3.amazonaws.com\/Users:alifarooq96:PortraitUrl_100?AWSAccessKeyId=1XVAX3FNQZAFC9GJCFR2&Expires=2147483647&Signature=QS3%2BnFIysffQ6Yt6fRor7%2FIRN7E%3D&1441745077085262",
+			"location": {
+				"country": "Pakistan",
+				"city": "islamabad",
+				"state": null,
+				"countryTimezone": null,
+				"worldRegion": null
+			},
+			"hourlyRate": {
+				"currencyCode": "USD",
+				"amount": 33
+			},
+			"lastActivity": "2016-10-11T00:00:00.000Z",
+			"totalHoursBilled": 200.16666667,
+			"totalPortfolioItems": 6,
+			"totalPassedTests": 3,
+			"skills": [
+				{
+					"skill": {
+						"name": "android-app-development",
+						"prettyName": "Android App Development",
+						"hlPrettyName": "Android App Development"
+					},
+					"link": "http:\/\/en.wikipedia.org\/wiki\/Android_SDK",
+					"rank": 1,
+					"uid": "475721704297889804",
+					"status": 0,
+					"tests": null,
+					"skillUrl": "\/o\/profiles\/browse\/skill\/android-app-development\/"
+				},
+				{
+					"skill": {
+						"name": "java",
+						"prettyName": "Java"
+					},
+					"link": "http:\/\/en.wikipedia.org\/wiki\/Java_(programming)",
+					"rank": 2,
+					"uid": "475721704021065736",
+					"status": 0,
+					"tests": null,
+					"skillUrl": "\/o\/profiles\/browse\/skill\/java\/"
+				},
+				{
+					"skill": {
+						"name": "c++",
+						"prettyName": "C++"
+					},
+					"link": "http:\/\/en.wikipedia.org\/wiki\/C++",
+					"rank": 3,
+					"uid": "475721703756824577",
+					"status": 0,
+					"tests": null,
+					"skillUrl": "\/o\/profiles\/browse\/skill\/c-\/"
+				},
+				{
+					"skill": {
+						"name": "c",
+						"prettyName": "C"
+					},
+					"link": "http:\/\/en.wikipedia.org\/wiki\/C_(programming_language)",
+					"rank": 4,
+					"uid": "475721703752630275",
+					"status": 1,
+					"tests": {
+						"1015": {
+							"id": "13225943",
+							"partner": "2",
+							"score": 78,
+							"percentile": 78,
+							"takenOn": "2015-10-22T00:00:00.000Z",
+							"name": "C Programming Test"
+						}
+					},
+					"skillUrl": "\/o\/profiles\/browse\/skill\/c\/"
+				},
+				{
+					"skill": {
+						"name": "opengl",
+						"prettyName": "OpenGL"
+					},
+					"link": "http:\/\/en.wikipedia.org\/wiki\/OpenGL",
+					"rank": 5,
+					"uid": "475721704104951808",
+					"status": 0,
+					"tests": null,
+					"skillUrl": "\/o\/profiles\/browse\/skill\/opengl\/"
+				},
+				{
+					"skill": {
+						"name": "sdlx",
+						"prettyName": "SDLX",
+						"hlPrettyName": "SDLX"
+					},
+					"link": "http:\/\/en.wikipedia.org\/wiki\/SDL_Trados",
+					"rank": 6,
+					"uid": "475721704457273344",
+					"status": -1,
+					"tests": null,
+					"skillUrl": "\/o\/profiles\/browse\/skill\/sdlx\/"
+				},
+				{
+					"skill": {
+						"name": "css3",
+						"prettyName": "CSS3"
+					},
+					"link": "http:\/\/en.wikipedia.org\/wiki\/Cascading_Style_Sheets",
+					"rank": 7,
+					"uid": "475721704339832832",
+					"status": 0,
+					"tests": null,
+					"skillUrl": "\/o\/profiles\/browse\/skill\/css3\/"
+				},
+				{
+					"skill": {
+						"name": "html5",
+						"prettyName": "HTML5",
+						"hlPrettyName": "HTML5"
+					},
+					"link": "http:\/\/en.wikipedia.org\/wiki\/HTML_5",
+					"rank": 8,
+					"uid": "475721704390164481",
+					"status": 0,
+					"tests": null,
+					"skillUrl": "\/o\/profiles\/browse\/skill\/html5\/"
+				},
+				{
+					"skill": {
+						"name": "bootstrap",
+						"prettyName": "Bootstrap",
+						"hlPrettyName": "Bootstrap"
+					},
+					"link": "http:\/\/getbootstrap.com\/",
+					"rank": 9,
+					"uid": "514995534568812544",
+					"status": -1,
+					"tests": null,
+					"skillUrl": "\/o\/profiles\/browse\/skill\/bootstrap\/"
+				},
+				{
+					"skill": {
+						"name": "javascript",
+						"prettyName": "JavaScript"
+					},
+					"link": "http:\/\/en.wikipedia.org\/wiki\/JavaScript",
+					"rank": 10,
+					"uid": "475721704021065738",
+					"status": 0,
+					"tests": null,
+					"skillUrl": "\/o\/profiles\/browse\/skill\/javascript\/"
+				}
+			],
+			"groups": [],
+			"agencies": [],
+			"nss100": 1,
+			"highlighting": {
+				"shortName": null,
+				"title": [
+					"<em>Web<\/em> Development, ASP.NET MVC C#, C&#x2F;C++, Android <em>Dev<\/em>,  iOS <em>dev<\/em>"
+				],
+				"blurb": [
+					"Currently the CEO&#x2F;senior programmer at &quot;AlfaBolt&quot;. A small firm based in Islamabad, Pakistan who works on innovative IT solutions\n\n***PAST EXPERIENCE***\nDirector <em>Web<\/em> &amp; IT - NUST Internations Model United Nations\nDirector <em>Web<\/em> &amp; IT UNIDO - BGT International Conference\nFormer <em>Web<\/em> &amp; IT director at Beijing Forum, Islamabad.\nSenior Developer - ALMIN Apps.\nSenior Developer - RJ Applications\nSenior Tutorial manager for SHAUN SPALDING\n\nMy expertise include <em>web<\/em> design and server side  development, <em>mobile<\/em> app development(Android, iOS, Universal Windows App), C++, DBMS etc.\n\n<em>Web<\/em> Projects:\n    ASP.NET MVC:\n     1. Website for Beijing Forum International Conference Islamabad\n     2. Chartertree (an entire <em>software<\/em> solution for management of yachtes for yacht owners, brokers, crew, clients and much more) in progress.\n\n\nC++ projects:\n    1. Data Encryption (key generation algorithms)\n    2. Data manipulation (generating statistics based on collected data)\n    3. Game Development (Brick Breaker)\n    4. Image processing (PPM editor)\n\nAndroid Projects:\n    1. Copter Escapade (Game)\n    2. Escape The Trap (Game)\n    3. Other projects which I cannot disclose due to client&#x27;s privacy including Image editor, a game.\n\nIOS Projects:\n    1. Beijing Forum 2016 iOS app"
+				],
+				"skills": {
+					"android-app-development": "Android <em>software<\/em> development is the process by which new applications are created for the Android operating system. Applications are usually developed in the Java programming language using the Android <em>Software<\/em> Development Kit, but other development tools are available.",
+					"sdlx": "SDL Trados is a computer assisted translation <em>software<\/em> suite. It provides translation memory and terminology management.",
+					"bootstrap": "Bootstrap is a popular HTML, CSS, and JS framework for developing responsive, <em>mobile<\/em> first projects on the <em>web<\/em>.",
+					"html5": "HTML5 is a language for structuring and presenting content for the World Wide <em>Web<\/em>, and is a core technology of the Internet originally proposed by Opera <em>Software<\/em>. It is the fifth revision of the HTML standard."
+				},
+				"agencyName": null,
+				"agencySummary": null,
+				"agencyDescription": null
+			},
+			"rankInfo": {
+				"iv": "IYBjtXpuvZzlpej2GS0Sdw==",
+				"d": "iW68f5xb\/AATZHz8OWIF+7LGFwPwOMxUgX23nmleLKUvZGMG0qzRXvQTS\/vMwM6lxgvgqimkhtc3hdCvUfjno0z11F5Cpo4ub3t6s\/gB08RXpJNNYy1FPtgvwnPAOJ9lWJQ5n4gUf5Ma8VEaa3dfp2jojyHjLe4XSTCL5XwkDpnTeoqlwEZ63dNN17JA6KGtnSfGsbNnlTyk9Y7bFtrdgA=="
+			},
+			"topRatedStatus": "top_rated",
+			"extendedAgencies": [],
+			"combinedTotalRevenue": 0,
+			"descriptionSanitized": "Currently the CEO\/senior programmer at &quot;AlfaBolt&quot;. A small firm based in Islamabad, Pakistan who works on innovative IT solutions\n\n***PAST EXPERIENCE***\nDirector Web &amp; IT - NUST Internations Model United Nations\nDirector Web &amp; IT UNIDO - BGT International Conference\nFormer Web &amp; IT director at Beijing Forum, Islamabad.\nSenior Developer - ALMIN Apps.\nSenior Developer - RJ Applications\nSenior Tutorial manager for SHAUN SPALDING\n\nMy expertise include web design and server side  development, mobile app development(Android, iOS, Universal Windows App), C++, DBMS etc.\n\nWeb Projects:\n    ASP.NET MVC:\n     1. Website for Beijing Forum International Conference Islamabad\n     2. Chartertree (an entire software solution for management of yachtes for yacht owners, brokers, crew, clients and much more) in progress.\n\n\nC++ projects:\n    1. Data Encryption (key generation algorithms)\n    2. Data manipulation (generating statistics based on collected data)\n    3. Game Development (Brick Breaker)\n    4. Image processing (PPM editor)\n\nAndroid Projects:\n    1. Copter Escapade (Game)\n    2. Escape The Trap (Game)\n    3. Other projects which I cannot disclose due to client&#039;s privacy including Image editor, a game.\n\nIOS Projects:\n    1. Beijing Forum 2016 iOS app",
+			"shortNameSanitized": "Ali Farooq",
+			"titleSanitized": "Web Development, ASP.NET MVC C#, C\/C++, Android Dev,  iOS dev",
+			"url": "\/freelancers\/_~01e200ab864accf375\/"
+		},
+		{
+			"recno": 8916756,
+			"ciphertext": "~01f67c826792b20dec",
+			"shortName": "Dany Iliev",
+			"title": "Mobile Development",
+			"description": "I am a Mobile Development expert (iOS & android app developer) on Web, Mobile & Software Dev - 5 minutes Mobile Development (iOS\/iPhone\/iPad\/Android) interview with me leads you to the incredible future about your innovative mobile app idea than you were expecting in the drawing board.\n\nIn the Mobile Development (iOS\/iPhone\/iPad\/Android), and the Web, Mobile & Software Dev field, I have 7 years experience. I developed 50+ Mobile Development and Web projects of social networking, music, service booking, and extra diverse categories of mobile apps (iPhone & Android apps) working with the promising start-ups, teams, and individuals during the last 7 years. \n\nMy key skills are Mobile User Interface Designing (UX\/UI Design Skills), Mobile Modern Programming Languages, Agile Methodologies Experience, Backend Computing in Mobile App Development (iPhone & android), and Business Expertise. \n\nWorking category:\n\u2714 Web, Mobile & Software Dev : Web Development\n\u2714 Web, Mobile & Software Dev : Mobile Development\n\u2714 Web & Mobile Design\n\u2714 Game Development\n\u2714 Mobile Development\n\u2714 Web Development\n\u2714 Other - Software Development\n\u2714 IT & Networking\n\u2714 Other - IT & Networking\n\nMy core skill set on Web, Mobile & Software Dev:  \n\u2714 Native Mobile Development: iOS and Android  \n\u2714 Web service: XML\/JSON, REST\/SOAP  \n\u2714 Cloud backend: Parse.com, AWS, Firebase, Foodie, remoteStorage, Twilio \n\u2714 Chat & Messaging Engine: XMPP, Jabber, OpenFire, OpenTok WebRTC  \n\u2714 Video\/audio\/image processing: OpenCV, GPU Image, CoreAudio, AVFoundation  \n\u2714 MySQL, SQLite, Oracle, SQL Server, ODBC  \n\u2714 Facebook, Twitter, Linkedin, Instagram, Youtube, Pinterest, Vimeo  \n\u2714 Google Map, Foursquare, Geolocation, GPS, Open Street Maps  \n\u2714 iAd, Adwirl, Revmob, Admob, Chartboost, Tapjoy, Flurry, Testflight  \n\u2714 Source Control: Mantis, JIRA, Redmine, BaseCamp, Github, BitBucket, SVN  \n\u2714 Online Payment Gateway: PayPal, Authorize.net, Stripe\n\nProgram Languages: \n\u2714 Mobile Development - iOS (Objective-C, Swift)\n\u2714 Web, Mobile & Software Dev - Java, Python\n\u2714 Web Development - PHP, HTML5, JavaScript, CSS, MySQL\n\u2714 Web, Mobile & Software Dev - C, C++, C#",
+			"portrait": "https:\/\/odesk-prod-portraits.s3.amazonaws.com\/Users:danyilive:PortraitUrl_100?AWSAccessKeyId=1XVAX3FNQZAFC9GJCFR2&Expires=2147483647&Signature=O62YF8rsPl9KcXoH8rWn8VfKb1E%3D&1476639154443848",
+			"location": {
+				"country": "Bulgaria",
+				"city": "Sofia",
+				"state": null,
+				"countryTimezone": null,
+				"worldRegion": null
+			},
+			"hourlyRate": {
+				"currencyCode": "USD",
+				"amount": 40
+			},
+			"lastActivity": "2016-11-03T00:00:00.000Z",
+			"totalHoursBilled": 1057.16666668,
+			"totalPortfolioItems": 13,
+			"totalPassedTests": 10,
+			"skills": [
+				{
+					"skill": {
+						"name": "iphone-app-development",
+						"prettyName": "iPhone App Development",
+						"hlPrettyName": "iPhone App Development"
+					},
+					"link": "http:\/\/en.wikipedia.org\/wiki\/http:\/\/en.wikipedia.org\/wiki\/Iphone",
+					"rank": 1,
+					"uid": "475721704021065728",
+					"status": 1,
+					"tests": {
+						"661": {
+							"id": "13654271",
+							"partner": "1",
+							"score": 80,
+							"percentile": 91,
+							"takenOn": "2016-01-07T00:00:00.000Z",
+							"name": "iPhone Programming OS 2.1 Test"
+						}
+					},
+					"skillUrl": "\/o\/profiles\/browse\/skill\/iphone-app-development\/"
+				},
+				{
+					"skill": {
+						"name": "ios-development",
+						"prettyName": "iOS Development",
+						"hlPrettyName": "iOS Development"
+					},
+					"link": "http:\/\/en.wikipedia.org\/wiki\/IPhone_OS",
+					"rank": 2,
+					"uid": "475721704398553089",
+					"status": 1,
+					"tests": {
+						"990": {
+							"id": "15080804",
+							"partner": "2",
+							"score": 89,
+							"percentile": 89,
+							"takenOn": "2016-09-16T00:00:00.000Z",
+							"name": "iOS Programming Test"
+						},
+						"661": {
+							"id": "13654271",
+							"partner": "1",
+							"score": 80,
+							"percentile": 91,
+							"takenOn": "2016-01-07T00:00:00.000Z",
+							"name": "iPhone Programming OS 2.1 Test"
+						}
+					},
+					"skillUrl": "\/o\/profiles\/browse\/skill\/ios-development\/"
+				},
+				{
+					"skill": {
+						"name": "objective-c",
+						"prettyName": "Objective-C"
+					},
+					"link": "http:\/\/en.wikipedia.org\/wiki\/Objective-C",
+					"rank": 3,
+					"uid": "475721704096563203",
+					"status": 1,
+					"tests": {
+						"1018": {
+							"id": "13195204",
+							"partner": "2",
+							"score": 87,
+							"percentile": 87,
+							"takenOn": "2015-10-17T00:00:00.000Z",
+							"name": "Objective-C Test"
+						}
+					},
+					"skillUrl": "\/o\/profiles\/browse\/skill\/objective-c\/"
+				},
+				{
+					"skill": {
+						"name": "cocoa",
+						"prettyName": "Cocoa"
+					},
+					"link": "http:\/\/en.wikipedia.org\/wiki\/Cocoa_(API)",
+					"rank": 4,
+					"uid": "475721703794573315",
+					"status": 1,
+					"tests": {
+						"684": {
+							"id": "15128897",
+							"partner": "1",
+							"score": 100,
+							"percentile": 63,
+							"takenOn": "2016-09-26T00:00:00.000Z",
+							"name": "Cocoa programming for Mac OS X 10.5 Test"
+						}
+					},
+					"skillUrl": "\/o\/profiles\/browse\/skill\/cocoa\/"
+				},
+				{
+					"skill": {
+						"name": "english",
+						"prettyName": "English"
+					},
+					"link": "http:\/\/en.wikipedia.org\/wiki\/English_language",
+					"rank": 5,
+					"uid": "481584275176030208",
+					"status": 1,
+					"tests": {
+						"511": {
+							"id": "13192804",
+							"partner": "1",
+							"score": 98,
+							"percentile": 99,
+							"takenOn": "2015-10-17T00:00:00.000Z",
+							"name": "U.S. English Basic Skills Test"
+						}
+					},
+					"skillUrl": "\/o\/profiles\/browse\/skill\/english\/"
+				},
+				{
+					"skill": {
+						"name": "mobile-app-development",
+						"prettyName": "Mobile App Development",
+						"hlPrettyName": "<em>Mobile<\/em> App Development"
+					},
+					"link": "http:\/\/en.wikipedia.org\/wiki\/Mobile_application_development",
+					"rank": 6,
+					"uid": "475721703899430915",
+					"status": -1,
+					"tests": null,
+					"skillUrl": "\/o\/profiles\/browse\/skill\/mobile-app-development\/"
+				},
+				{
+					"skill": {
+						"name": "android-app-development",
+						"prettyName": "Android App Development",
+						"hlPrettyName": "Android App Development"
+					},
+					"link": "http:\/\/en.wikipedia.org\/wiki\/Android_SDK",
+					"rank": 7,
+					"uid": "475721704297889804",
+					"status": 0,
+					"tests": null,
+					"skillUrl": "\/o\/profiles\/browse\/skill\/android-app-development\/"
+				},
+				{
+					"skill": {
+						"name": "ipad-app-development",
+						"prettyName": "iPad App Development",
+						"hlPrettyName": "iPad App Development"
+					},
+					"link": "http:\/\/en.wikipedia.org\/wiki\/Apple_Tablet",
+					"rank": 8,
+					"uid": "475721704302084107",
+					"status": -1,
+					"tests": null,
+					"skillUrl": "\/o\/profiles\/browse\/skill\/ipad-app-development\/"
+				},
+				{
+					"skill": {
+						"name": "apple-xcode",
+						"prettyName": "Apple Xcode",
+						"hlPrettyName": "Apple Xcode"
+					},
+					"link": "http:\/\/en.wikipedia.org\/wiki\/Xcode",
+					"rank": 9,
+					"uid": "475721704486633474",
+					"status": -1,
+					"tests": null,
+					"skillUrl": "\/o\/profiles\/browse\/skill\/apple-xcode\/"
+				},
+				{
+					"skill": {
+						"name": "swift",
+						"prettyName": "Swift"
+					},
+					"link": "https:\/\/developer.apple.com\/swift\/",
+					"rank": 10,
+					"uid": "514995632627445760",
+					"status": 0,
+					"tests": null,
+					"skillUrl": "\/o\/profiles\/browse\/skill\/swift\/"
+				}
+			],
+			"groups": [],
+			"agencies": [],
+			"nss100": 0.88,
+			"highlighting": {
+				"shortName": null,
+				"title": [
+					"<em>Mobile<\/em> Development"
+				],
+				"blurb": [
+					"I am a <em>Mobile<\/em> Development expert (iOS &amp; android app developer) on <em>Web<\/em>, <em>Mobile<\/em> &amp; <em>Software<\/em> <em>Dev<\/em> - 5 minutes <em>Mobile<\/em> Development (iOS&#x2F;iPhone&#x2F;iPad&#x2F;Android) interview with me leads you to the incredible future about your innovative <em>mobile<\/em> app idea than you were expecting in the drawing board.\n\nIn the <em>Mobile<\/em> Development (iOS&#x2F;iPhone&#x2F;iPad&#x2F;Android), and the <em>Web<\/em>, <em>Mobile<\/em> &amp; <em>Software<\/em> <em>Dev<\/em> field, I have 7 years experience. I developed 50+ <em>Mobile<\/em> Development and <em>Web<\/em> projects of social networking, music, service booking, and extra diverse categories of <em>mobile<\/em> apps (iPhone &amp; Android apps) working with the promising start-ups, teams, and individuals during the last 7 years. \n\nMy key skills are <em>Mobile<\/em> User Interface Designing (UX&#x2F;UI Design Skills), <em>Mobile<\/em> Modern Programming Languages, Agile Methodologies Experience, Backend Computing in <em>Mobile<\/em> App Development (iPhone &amp; android), and Business Expertise. \n\nWorking category:\n\u2714 <em>Web<\/em>, <em>Mobile<\/em> &amp; <em>Software<\/em> <em>Dev<\/em> : <em>Web<\/em> Development\n\u2714 <em>Web<\/em>, <em>Mobile<\/em> &amp; <em>Software<\/em> <em>Dev<\/em> : <em>Mobile<\/em> Development\n\u2714 <em>Web<\/em> &amp; <em>Mobile<\/em> Design\n\u2714 Game Development\n\u2714 <em>Mobile<\/em> Development\n\u2714 <em>Web<\/em> Development\n\u2714 Other - <em>Software<\/em> Development\n\u2714 IT &amp; Networking\n\u2714 Other - IT &amp; Networking\n\nMy core skill set on <em>Web<\/em>, <em>Mobile<\/em> &amp; <em>Software<\/em> <em>Dev<\/em>:  \n\u2714 Native <em>Mobile<\/em> Development: iOS and Android  \n\u2714 <em>Web<\/em> service: XML&#x2F;JSON, REST&#x2F;SOAP  \n\u2714 Cloud backend: Parse.com, AWS, Firebase, Foodie, remoteStorage, Twilio \n\u2714 Chat &amp; Messaging Engine: XMPP, Jabber, OpenFire, OpenTok WebRTC  \n\u2714 Video&#x2F;audio&#x2F;image processing: OpenCV, GPU Image, CoreAudio, AVFoundation  \n\u2714 MySQL, SQLite, Oracle, SQL Server, ODBC  \n\u2714 Facebook, Twitter, Linkedin, Instagram, Youtube, Pinterest, Vimeo  \n\u2714 Google Map, Foursquare, Geolocation, GPS, Open Street Maps  \n\u2714 iAd, Adwirl, Revmob, Admob, Chartboost, Tapjoy, Flurry, Testflight  \n\u2714 Source Control: Mantis, JIRA, Redmine, BaseCamp, Github, BitBucket, SVN  \n\u2714 Online Payment Gateway: PayPal, Authorize.net, Stripe\n\nProgram Languages: \n\u2714 <em>Mobile<\/em> Development - iOS (Objective-C, Swift)\n\u2714 <em>Web<\/em>, <em>Mobile<\/em> &amp; <em>Software<\/em> <em>Dev<\/em> - Java, Python\n\u2714 <em>Web<\/em> Development - PHP, HTML5, JavaScript, CSS, MySQL\n\u2714 <em>Web<\/em>, <em>Mobile<\/em> &amp; <em>Software<\/em> <em>Dev<\/em> - C, C++, C#"
+				],
+				"skills": {
+					"ios-development": "iOS (formerly iPhone OS) is Apple Inc.&#x27;s <em>mobile<\/em> operating system. Originally developed for the iPhone, it has since been extended to support other Apple, Inc. devices such as the iPod Touch, iPad, and Apple TV.",
+					"apple-xcode": "Xcode is a suite of tools developed by Apple for developing <em>software<\/em> for Mac OS X and iOS, first released in 2003.",
+					"<em>mobile<\/em>-app-development": "<em>Mobile<\/em> application development is the process by which application <em>software<\/em> is developed for low-power handheld devices, such as personal digital assistants, enterprise digital assistants or <em>mobile<\/em> phones.",
+					"android-app-development": "Android <em>software<\/em> development is the process by which new applications are created for the Android operating system. Applications are usually developed in the Java programming language using the Android <em>Software<\/em> Development Kit, but other development tools are available.",
+					"iphone-app-development": "An iPhone App is an application <em>software<\/em> developed with the iOS SDK for use with Apple, Inc.&#x27;s iPhone line of smartphones. Apps have diverse functions, including games, reference, GPS navigation, social networking, security, and advertising for television shows, films, and celebrities.",
+					"ipad-app-development": "The iPad is a line of tablet computers designed, developed and marketed by Apple Inc., primarily as a platform for audio-visual media including books, periodicals, movies, music, games, and <em>web<\/em> content."
+				},
+				"agencyName": null,
+				"agencySummary": null,
+				"agencyDescription": null
+			},
+			"rankInfo": {
+				"iv": "L9ggrHrVOqoDQU4qfAVSMA==",
+				"d": "kyriDXJ6HSkEMpWDP72Pw+2mYLmmZoJHDYSl2H\/jS\/r9g868TK9k7kXD7+mRMGulnF6TRYVRZj5sNW41c77JHMwnYtfuL17W4Tr6+4e8sBZT5uVm\/GtKIUGd3tDUCY6DXEkRCMUcRyVQ+rONwAhCiOPSoFRRq2XQS7HPxW4sQnSlCvPaMSCHpBt602m46RU0lXAXmjSjJL6XIhaZhsHAcA=="
+			},
+			"topRatedStatus": "not_eligible",
+			"extendedAgencies": [],
+			"combinedTotalRevenue": 0,
+			"descriptionSanitized": "I am a Mobile Development expert (iOS &amp; android app developer) on Web, Mobile &amp; Software Dev - 5 minutes Mobile Development (iOS\/iPhone\/iPad\/Android) interview with me leads you to the incredible future about your innovative mobile app idea than you were expecting in the drawing board.\n\nIn the Mobile Development (iOS\/iPhone\/iPad\/Android), and the Web, Mobile &amp; Software Dev field, I have 7 years experience. I developed 50+ Mobile Development and Web projects of social networking, music, service booking, and extra diverse categories of mobile apps (iPhone &amp; Android apps) working with the promising start-ups, teams, and individuals during the last 7 years. \n\nMy key skills are Mobile User Interface Designing (UX\/UI Design Skills), Mobile Modern Programming Languages, Agile Methodologies Experience, Backend Computing in Mobile App Development (iPhone &amp; android), and Business Expertise. \n\nWorking category:\n\u2714 Web, Mobile &amp; Software Dev : Web Development\n\u2714 Web, Mobile &amp; Software Dev : Mobile Development\n\u2714 Web &amp; Mobile Design\n\u2714 Game Development\n\u2714 Mobile Development\n\u2714 Web Development\n\u2714 Other - Software Development\n\u2714 IT &amp; Networking\n\u2714 Other - IT &amp; Networking\n\nMy core skill set on Web, Mobile &amp; Software Dev:  \n\u2714 Native Mobile Development: iOS and Android  \n\u2714 Web service: XML\/JSON, REST\/SOAP  \n\u2714 Cloud backend: Parse.com, AWS, Firebase, Foodie, remoteStorage, Twilio \n\u2714 Chat &amp; Messaging Engine: XMPP, Jabber, OpenFire, OpenTok WebRTC  \n\u2714 Video\/audio\/image processing: OpenCV, GPU Image, CoreAudio, AVFoundation  \n\u2714 MySQL, SQLite, Oracle, SQL Server, ODBC  \n\u2714 Facebook, Twitter, Linkedin, Instagram, Youtube, Pinterest, Vimeo  \n\u2714 Google Map, Foursquare, Geolocation, GPS, Open Street Maps  \n\u2714 iAd, Adwirl, Revmob, Admob, Chartboost, Tapjoy, Flurry, Testflight  \n\u2714 Source Control: Mantis, JIRA, Redmine, BaseCamp, Github, BitBucket, SVN  \n\u2714 Online Payment Gateway: PayPal, Authorize.net, Stripe\n\nProgram Languages: \n\u2714 Mobile Development - iOS (Objective-C, Swift)\n\u2714 Web, Mobile &amp; Software Dev - Java, Python\n\u2714 Web Development - PHP, HTML5, JavaScript, CSS, MySQL\n\u2714 Web, Mobile &amp; Software Dev - C, C++, C#",
+			"shortNameSanitized": "Dany Iliev",
+			"titleSanitized": "Mobile Development",
+			"url": "\/freelancers\/_~01f67c826792b20dec\/"
+		},
+		{
+			"recno": 4957617,
+			"ciphertext": "~01af86bce9c94a9c94",
+			"shortName": "Yonathan Morales",
+			"title": "Software Engineer - Project Manager - CEO",
+			"description": "Personal Skills: Proactive, Creative, Responsible, Autodidact\n\nProfessional Skills: Project Manager, Software Analyst, Network Manager, Server Manager, Software Developer, Software Designer, Software Architecture, Database Modeler.\n\nDev-Technologies:\nWeb:\nJSP, ASP, Yii\n\n    FrontEnd:\n    Polymer, AngularJS, HTML5, SASS, LESS\n\n    BackEnd:\n    NodeJS - ioJS, Loopback, Sails\n\nMobile:\niOS, Android, Phonegap, libGDX\n\nProgramming Languages:\nJava, Objetive-C, C#, JavaScript, C\/C++, PHP\n\nDev Methodologies:\nSCRUM, CRUD, FDD, TDD, RUP.\n\nDev Paradigms:\nMVC, OOP, Declarative, Logic, Secuential\n\nOS Servers Administration:\nDebian Based Linux Platforms, Windows Server - (2003, 2008, 2012)\n\nServer Resources:\nDHCP, DNS, Firewall, Proxy, Apache, Smb, Multimedia Services.\n\nDatabases:\n   SQL\n       MySql, Oracle, Postgres\n   No-SQL\n       MongoDB, CouchDB.",
+			"portrait": "https:\/\/odesk-prod-portraits.s3.amazonaws.com\/Users:yonathan9669:PortraitUrl_100?AWSAccessKeyId=1XVAX3FNQZAFC9GJCFR2&Expires=2147483647&Signature=dirQkUXIFIR%2FirLg%2FiTxEOG4D%2Bc%3D&1433731709512029",
+			"location": {
+				"country": "Venezuela",
+				"city": "San Cristobal",
+				"state": null,
+				"countryTimezone": null,
+				"worldRegion": null
+			},
+			"hourlyRate": {
+				"currencyCode": "USD",
+				"amount": 44.44
+			},
+			"lastActivity": "2016-11-02T00:00:00.000Z",
+			"totalHoursBilled": 1071.99999996,
+			"totalPortfolioItems": 2,
+			"totalPassedTests": 0,
+			"skills": [
+				{
+					"skill": {
+						"name": "java",
+						"prettyName": "Java"
+					},
+					"link": "http:\/\/en.wikipedia.org\/wiki\/Java_(programming)",
+					"rank": 1,
+					"uid": "475721704021065736",
+					"status": 0,
+					"tests": null,
+					"skillUrl": "\/o\/profiles\/browse\/skill\/java\/"
+				},
+				{
+					"skill": {
+						"name": "c#",
+						"prettyName": "C#"
+					},
+					"link": "http:\/\/en.wikipedia.org\/wiki\/C_Sharp_(programming_language)",
+					"rank": 2,
+					"uid": "475721703752630276",
+					"status": 0,
+					"tests": null,
+					"skillUrl": "\/o\/profiles\/browse\/skill\/c-sharp\/"
+				},
+				{
+					"skill": {
+						"name": "c++",
+						"prettyName": "C++"
+					},
+					"link": "http:\/\/en.wikipedia.org\/wiki\/C++",
+					"rank": 3,
+					"uid": "475721703756824577",
+					"status": 0,
+					"tests": null,
+					"skillUrl": "\/o\/profiles\/browse\/skill\/c-\/"
+				},
+				{
+					"skill": {
+						"name": "linux-system-administration",
+						"prettyName": "Linux System Administration",
+						"hlPrettyName": "Linux System Administration"
+					},
+					"link": "http:\/\/en.wikipedia.org\/wiki\/Linux",
+					"rank": 4,
+					"uid": "475721704381775872",
+					"status": 0,
+					"tests": null,
+					"skillUrl": "\/o\/profiles\/browse\/skill\/linux-system-administration\/"
+				},
+				{
+					"skill": {
+						"name": "php",
+						"prettyName": "PHP",
+						"hlPrettyName": "PHP"
+					},
+					"link": "http:\/\/en.wikipedia.org\/wiki\/PHP",
+					"rank": 5,
+					"uid": "475721704125923333",
+					"status": 0,
+					"tests": null,
+					"skillUrl": "\/o\/profiles\/browse\/skill\/php\/"
+				},
+				{
+					"skill": {
+						"name": "javascript",
+						"prettyName": "JavaScript"
+					},
+					"link": "http:\/\/en.wikipedia.org\/wiki\/JavaScript",
+					"rank": 6,
+					"uid": "475721704021065738",
+					"status": 0,
+					"tests": null,
+					"skillUrl": "\/o\/profiles\/browse\/skill\/javascript\/"
+				},
+				{
+					"skill": {
+						"name": "node.js",
+						"prettyName": "Node.js",
+						"hlPrettyName": "Node.js"
+					},
+					"link": "http:\/\/en.wikipedia.org\/wiki\/Node.js",
+					"rank": 7,
+					"uid": "475721704092368897",
+					"status": 0,
+					"tests": null,
+					"skillUrl": "\/o\/profiles\/browse\/skill\/node-js\/"
+				},
+				{
+					"skill": {
+						"name": "html5",
+						"prettyName": "HTML5",
+						"hlPrettyName": "HTML5"
+					},
+					"link": "http:\/\/en.wikipedia.org\/wiki\/HTML_5",
+					"rank": 8,
+					"uid": "475721704390164481",
+					"status": 0,
+					"tests": null,
+					"skillUrl": "\/o\/profiles\/browse\/skill\/html5\/"
+				},
+				{
+					"skill": {
+						"name": "angularjs",
+						"prettyName": "AngularJS",
+						"hlPrettyName": "AngularJS"
+					},
+					"link": "http:\/\/en.wikipedia.org\/wiki\/AngularJS",
+					"rank": 9,
+					"uid": "514995524179521536",
+					"status": -1,
+					"tests": null,
+					"skillUrl": "\/o\/profiles\/browse\/skill\/angularjs\/"
+				},
+				{
+					"skill": {
+						"name": "sass",
+						"prettyName": "Sass"
+					},
+					"link": "http:\/\/en.wikipedia.org\/wiki\/Sass_(markup_language)",
+					"rank": 10,
+					"uid": "475721704167866374",
+					"status": -1,
+					"tests": null,
+					"skillUrl": "\/o\/profiles\/browse\/skill\/sass\/"
+				}
+			],
+			"groups": [],
+			"agencies": [],
+			"nss100": 1,
+			"highlighting": {
+				"shortName": null,
+				"title": [
+					"<em>Software<\/em> Engineer - Project Manager - CEO"
+				],
+				"blurb": [
+					"Personal Skills: Proactive, Creative, Responsible, Autodidact\n\nProfessional Skills: Project Manager, <em>Software<\/em> Analyst, Network Manager, Server Manager, <em>Software<\/em> Developer, <em>Software<\/em> Designer, <em>Software<\/em> Architecture, Database Modeler.\n\n<em>Dev<\/em>-Technologies:\n<em>Web<\/em>:\nJSP, ASP, Yii\n\n    FrontEnd:\n    Polymer, AngularJS, HTML5, SASS, LESS\n\n    BackEnd:\n    NodeJS - ioJS, Loopback, Sails\n\n<em>Mobile<\/em>:\niOS, Android, Phonegap, libGDX\n\nProgramming Languages:\nJava, Objetive-C, C#, JavaScript, C&#x2F;C++, PHP\n\n<em>Dev<\/em> Methodologies:\nSCRUM, CRUD, FDD, TDD, RUP.\n\n<em>Dev<\/em> Paradigms:\nMVC, OOP, Declarative, Logic, Secuential\n\nOS Servers Administration:\nDebian Based Linux Platforms, Windows Server - (2003, 2008, 2012)\n\nServer Resources:\nDHCP, DNS, Firewall, Proxy, Apache, Smb, Multimedia Services.\n\nDatabases:\n   SQL\n       MySql, Oracle, Postgres\n   No-SQL\n       MongoDB, CouchDB."
+				],
+				"skills": {
+					"linux-system-administration": "Linux is a Unix-like computer operating system assembled under the model of free and open source <em>software<\/em> development and distribution.",
+					"node.js": "Node.js is a <em>software<\/em> system designed for writing highly-scalable internet applications, notably <em>web<\/em> servers. Programs are written in JavaScript, using event-driven, asynchronous I&#x2F;O to minimize overhead and maximize scalability.",
+					"html5": "HTML5 is a language for structuring and presenting content for the World Wide <em>Web<\/em>, and is a core technology of the Internet originally proposed by Opera <em>Software<\/em>. It is the fifth revision of the HTML standard.",
+					"php": "PHP is a general-purpose server-side scripting language originally designed for <em>web<\/em> development to produce dynamic <em>web<\/em> pages.",
+					"angularjs": "AngularJS is an open-source <em>web<\/em> application framework, maintained by Google and community, that assists with creating single-page applications, one-page <em>web<\/em> applications that only require HTML, CSS, and JavaScript on the client side. "
+				},
+				"agencyName": null,
+				"agencySummary": null,
+				"agencyDescription": null
+			},
+			"rankInfo": {
+				"iv": "hg0x1p+S2dWKyj2hZl4zZA==",
+				"d": "qbnutEnwKwAymenCI3lbNTSfOFBEwcLVqBb5flo1kT4xbE4EkUvo50w60Wka22q0oQuRECcSipm7aOOM7KLdyT4TdqpteWiUfkNLtlZ7I\/p0e9l2J8XknHADMDqw27COs7RO66pLTQML+KvRsw6cii7ttSZf5pj2c1DasOeN6Luq+I6DTgwZ06iRE6lajVZ5lQLCWJ3pG9yUGBRhfIa3bg=="
+			},
+			"topRatedStatus": "eligible",
+			"extendedAgencies": [],
+			"combinedTotalRevenue": 0,
+			"descriptionSanitized": "Personal Skills: Proactive, Creative, Responsible, Autodidact\n\nProfessional Skills: Project Manager, Software Analyst, Network Manager, Server Manager, Software Developer, Software Designer, Software Architecture, Database Modeler.\n\nDev-Technologies:\nWeb:\nJSP, ASP, Yii\n\n    FrontEnd:\n    Polymer, AngularJS, HTML5, SASS, LESS\n\n    BackEnd:\n    NodeJS - ioJS, Loopback, Sails\n\nMobile:\niOS, Android, Phonegap, libGDX\n\nProgramming Languages:\nJava, Objetive-C, C#, JavaScript, C\/C++, PHP\n\nDev Methodologies:\nSCRUM, CRUD, FDD, TDD, RUP.\n\nDev Paradigms:\nMVC, OOP, Declarative, Logic, Secuential\n\nOS Servers Administration:\nDebian Based Linux Platforms, Windows Server - (2003, 2008, 2012)\n\nServer Resources:\nDHCP, DNS, Firewall, Proxy, Apache, Smb, Multimedia Services.\n\nDatabases:\n   SQL\n       MySql, Oracle, Postgres\n   No-SQL\n       MongoDB, CouchDB.",
+			"shortNameSanitized": "Yonathan Morales",
+			"titleSanitized": "Software Engineer - Project Manager - CEO",
+			"url": "\/freelancers\/_~01af86bce9c94a9c94\/"
+		},
+		{
+			"recno": 3046351,
+			"ciphertext": "~01c57f8380e1afb4a9",
+			"shortName": "Nikita T.",
+			"title": "Upwork Pro: iPhone\/iPad\/iOs Lead Dev and Adviser",
+			"description": "I'm a Upwork Pro Mobile iOS & Top Rated developer.\n\nHi, My name is Nikita.\nDuring my career as iOs developer I've done more than 10 projects: from small one to really huge. You can see some of them in my portfolio. \n\nI am client-oriented developer and I really like to provide high-quality service. My #1 goal is to work to strict deadlines to ensure that projects are delivered on time and to budget.  At the beginning of a new project, I like to speak with the client, so that I can have a clear understanding of his\/her needs and vision of the project.\n\nI have a Master in Computer Science and Software Engineering (Ufa State Aviational Technical University).\n\nSince 2011, I'm programmer in Bank field (Oracle pl\/sql) where I was dealing with large amount of important data (big data & high load). I was taking part in all stages of software's lifecycle, \u2028including analysis, developing, testing and deploying. Also I was responsible for mentoring, code review, writing detailed technical specification, test scenarios, controlling strict deadlines to ensure project delivery on time and to budget.\n\nSince 2013, I've been developing iOs applications as a fulltime developer. Please take a look at my work history for comments from other clients. \n\nThank you in advance for your time and consideration. I look forward to working with you soon.\n\nHere is list of my skills (technologies I worked with):\n\u2014 iOs (6, 7, 8, 9): Core Data (Magical Record), Autolayout, Multithreading (with GCD and NSOperationQueue), Push notifications (via Parse.com), Social network integration (VK, Facebook. Odnoklassniki), Sockets, REST API, Parse.com backend;\n\u2014 Objective C \/ Swift\n\u2014 Unit testing with OCMock\n\u2014 Dependency injection (Typhoon framework)\n\u2014 Frameworks: AFNetworking, MagicalRecord, SDWebImage, SWRevealController, AFIncrementalStorage;\n\u2014 Core web: XML, JSON, HTML\/CSS, JavaScript;\n\u2014 IDE: XCode;\n\u2014 OS: Windows, Mac OS X;\n\u2014 VCS: Git;\n\u2014 Bug\/Issue trackers: Jira, Assembla, Redmine, Trello;\n\u2014 SQL;\n\u2014 UML.",
+			"portrait": "https:\/\/odesk-prod-portraits.s3.amazonaws.com\/Users:tuknd:PortraitUrl_100?AWSAccessKeyId=1XVAX3FNQZAFC9GJCFR2&Expires=2147483647&Signature=kNAed3cMBeN0NsCVaQajhecZ3wI%3D&1444251739625268",
+			"location": {
+				"country": "Russia",
+				"city": "Ufa",
+				"state": null,
+				"countryTimezone": null,
+				"worldRegion": null
+			},
+			"hourlyRate": {
+				"currencyCode": "USD",
+				"amount": 49.99
+			},
+			"lastActivity": "2016-09-26T00:00:00.000Z",
+			"totalHoursBilled": 216.13333336,
+			"totalPortfolioItems": 9,
+			"totalPassedTests": 7,
+			"skills": [
+				{
+					"skill": {
+						"name": "ios-development",
+						"prettyName": "iOS Development",
+						"hlPrettyName": "iOS Development"
+					},
+					"link": "http:\/\/en.wikipedia.org\/wiki\/IPhone_OS",
+					"rank": 1,
+					"uid": "475721704398553089",
+					"status": 1,
+					"tests": {
+						"990": {
+							"id": "10900399",
+							"partner": "2",
+							"score": 78,
+							"percentile": 78,
+							"takenOn": "2014-09-26T00:00:00.000Z",
+							"name": "iOS Programming Test"
+						}
+					},
+					"skillUrl": "\/o\/profiles\/browse\/skill\/ios-development\/"
+				},
+				{
+					"skill": {
+						"name": "iphone-app-development",
+						"prettyName": "iPhone App Development",
+						"hlPrettyName": "iPhone App Development"
+					},
+					"link": "http:\/\/en.wikipedia.org\/wiki\/http:\/\/en.wikipedia.org\/wiki\/Iphone",
+					"rank": 2,
+					"uid": "475721704021065728",
+					"status": 0,
+					"tests": null,
+					"skillUrl": "\/o\/profiles\/browse\/skill\/iphone-app-development\/"
+				},
+				{
+					"skill": {
+						"name": "ipad-app-development",
+						"prettyName": "iPad App Development",
+						"hlPrettyName": "iPad App Development"
+					},
+					"link": "http:\/\/en.wikipedia.org\/wiki\/Apple_Tablet",
+					"rank": 3,
+					"uid": "475721704302084107",
+					"status": -1,
+					"tests": null,
+					"skillUrl": "\/o\/profiles\/browse\/skill\/ipad-app-development\/"
+				},
+				{
+					"skill": {
+						"name": "apple-xcode",
+						"prettyName": "Apple Xcode",
+						"hlPrettyName": "Apple Xcode"
+					},
+					"link": "http:\/\/en.wikipedia.org\/wiki\/Xcode",
+					"rank": 4,
+					"uid": "475721704486633474",
+					"status": -1,
+					"tests": null,
+					"skillUrl": "\/o\/profiles\/browse\/skill\/apple-xcode\/"
+				},
+				{
+					"skill": {
+						"name": "multithreaded-programming",
+						"prettyName": "Multithreaded Programming"
+					},
+					"link": "http:\/\/en.wikipedia.org\/wiki\/Thread_(computing)",
+					"rank": 5,
+					"uid": "475721703899430921",
+					"status": -1,
+					"tests": null,
+					"skillUrl": "\/o\/profiles\/browse\/skill\/multithreaded-programming\/"
+				},
+				{
+					"skill": {
+						"name": "agile-software-development",
+						"prettyName": "Agile software development",
+						"hlPrettyName": "Agile <em>software<\/em> development"
+					},
+					"link": "http:\/\/en.wikipedia.org\/wiki\/Agile_software_development",
+					"rank": 6,
+					"uid": "475721703853293568",
+					"status": -1,
+					"tests": null,
+					"skillUrl": "\/o\/profiles\/browse\/skill\/agile-software-development\/"
+				},
+				{
+					"skill": {
+						"name": "git",
+						"prettyName": "Git"
+					},
+					"link": "http:\/\/en.wikipedia.org\/wiki\/Git_(software)",
+					"rank": 7,
+					"uid": "475721703983316998",
+					"status": -1,
+					"tests": null,
+					"skillUrl": "\/o\/profiles\/browse\/skill\/git\/"
+				},
+				{
+					"skill": {
+						"name": "github",
+						"prettyName": "GitHub",
+						"hlPrettyName": "GitHub"
+					},
+					"link": "http:\/\/en.wikipedia.org\/wiki\/Github",
+					"rank": 8,
+					"uid": "475721703983316999",
+					"status": -1,
+					"tests": null,
+					"skillUrl": "\/o\/profiles\/browse\/skill\/github\/"
+				}
+			],
+			"groups": [],
+			"agencies": [],
+			"nss100": 1,
+			"highlighting": {
+				"shortName": null,
+				"title": [
+					"Upwork Pro: iPhone&#x2F;iPad&#x2F;iOs Lead <em>Dev<\/em> and Adviser"
+				],
+				"blurb": [
+					"I&#x27;m a Upwork Pro <em>Mobile<\/em> iOS &amp; Top Rated developer.\n\nHi, My name is Nikita.\nDuring my career as iOs developer I&#x27;ve done more than 10 projects: from small one to really huge. You can see some of them in my portfolio. \n\nI am client-oriented developer and I really like to provide high-quality service. My #1 goal is to work to strict deadlines to ensure that projects are delivered on time and to budget.  At the beginning of a new project, I like to speak with the client, so that I can have a clear understanding of his&#x2F;her needs and vision of the project.\n\nI have a Master in Computer Science and <em>Software<\/em> Engineering (Ufa State Aviational Technical University).\n\nSince 2011, I&#x27;m programmer in Bank field (Oracle pl&#x2F;sql) where I was dealing with large amount of important data (big data &amp; high load). I was taking part in all stages of software&#x27;s lifecycle, \u2028including analysis, developing, testing and deploying. Also I was responsible for mentoring, code review, writing detailed technical specification, test scenarios, controlling strict deadlines to ensure project delivery on time and to budget.\n\nSince 2013, I&#x27;ve been developing iOs applications as a fulltime developer. Please take a look at my work history for comments from other clients. \n\nThank you in advance for your time and consideration. I look forward to working with you soon.\n\nHere is list of my skills (technologies I worked with):\n\u2014 iOs (6, 7, 8, 9): Core Data (Magical Record), Autolayout, Multithreading (with GCD and NSOperationQueue), Push notifications (via Parse.com), Social network integration (VK, Facebook. Odnoklassniki), Sockets, REST API, Parse.com backend;\n\u2014 Objective C &#x2F; Swift\n\u2014 Unit testing with OCMock\n\u2014 Dependency injection (Typhoon framework)\n\u2014 Frameworks: AFNetworking, MagicalRecord, SDWebImage, SWRevealController, AFIncrementalStorage;\n\u2014 Core <em>web<\/em>: XML, JSON, HTML&#x2F;CSS, JavaScript;\n\u2014 IDE: XCode;\n\u2014 OS: Windows, Mac OS X;\n\u2014 VCS: Git;\n\u2014 Bug&#x2F;Issue trackers: Jira, Assembla, Redmine, Trello;\n\u2014 SQL;\n\u2014 UML."
+				],
+				"skills": {
+					"github": "GitHub is a <em>web<\/em>-based hosting service for <em>software<\/em> development projects that use the Git revision control system. GitHub offers both commercial plans and free accounts for open source projects. According to the Git User&#x27;s Survey in 2009, GitHub is the most popular Git hosting site.",
+					"ios-development": "iOS (formerly iPhone OS) is Apple Inc.&#x27;s <em>mobile<\/em> operating system. Originally developed for the iPhone, it has since been extended to support other Apple, Inc. devices such as the iPod Touch, iPad, and Apple TV.",
+					"apple-xcode": "Xcode is a suite of tools developed by Apple for developing <em>software<\/em> for Mac OS X and iOS, first released in 2003.",
+					"iphone-app-development": "An iPhone App is an application <em>software<\/em> developed with the iOS SDK for use with Apple, Inc.&#x27;s iPhone line of smartphones. Apps have diverse functions, including games, reference, GPS navigation, social networking, security, and advertising for television shows, films, and celebrities.",
+					"agile-<em>software<\/em>-development": "Agile <em>software<\/em> development is a group of <em>software<\/em> development methods based on iterative and incremental development, where requirements and solutions evolve through collaboration between self-organizing, cross-functional teams.",
+					"ipad-app-development": "The iPad is a line of tablet computers designed, developed and marketed by Apple Inc., primarily as a platform for audio-visual media including books, periodicals, movies, music, games, and <em>web<\/em> content."
+				},
+				"agencyName": null,
+				"agencySummary": null,
+				"agencyDescription": null
+			},
+			"rankInfo": {
+				"iv": "mLzG\/XFcwAYOs6+6YZQMiQ==",
+				"d": "2aUt1GNxcLeXVR+q9yLAk6h+jp2zoZSqhxq99hA7QJNHarCsGHKub5K4PcvMZjzFzPLmlpcu1P9a7vCNeurytIQxHcYeYBqTR\/hWhpNQvujE5B5Lvdy7\/YQhu3KL3q30Y7MWuQPP68\/1YB+SKHZBnSjubQQDMnTPA4kzHrkr6Mm7x9Cbg7EN5M3GW42WzgTf+C31q+vkOpgUP2GUZe5lhwBzeniAnexHaL8HGpEfh\/c="
+			},
+			"topRatedStatus": "top_rated",
+			"extendedAgencies": [],
+			"combinedTotalRevenue": 0,
+			"descriptionSanitized": "I&#039;m a Upwork Pro Mobile iOS &amp; Top Rated developer.\n\nHi, My name is Nikita.\nDuring my career as iOs developer I&#039;ve done more than 10 projects: from small one to really huge. You can see some of them in my portfolio. \n\nI am client-oriented developer and I really like to provide high-quality service. My #1 goal is to work to strict deadlines to ensure that projects are delivered on time and to budget.  At the beginning of a new project, I like to speak with the client, so that I can have a clear understanding of his\/her needs and vision of the project.\n\nI have a Master in Computer Science and Software Engineering (Ufa State Aviational Technical University).\n\nSince 2011, I&#039;m programmer in Bank field (Oracle pl\/sql) where I was dealing with large amount of important data (big data &amp; high load). I was taking part in all stages of software&#039;s lifecycle, \u2028including analysis, developing, testing and deploying. Also I was responsible for mentoring, code review, writing detailed technical specification, test scenarios, controlling strict deadlines to ensure project delivery on time and to budget.\n\nSince 2013, I&#039;ve been developing iOs applications as a fulltime developer. Please take a look at my work history for comments from other clients. \n\nThank you in advance for your time and consideration. I look forward to working with you soon.\n\nHere is list of my skills (technologies I worked with):\n\u2014 iOs (6, 7, 8, 9): Core Data (Magical Record), Autolayout, Multithreading (with GCD and NSOperationQueue), Push notifications (via Parse.com), Social network integration (VK, Facebook. Odnoklassniki), Sockets, REST API, Parse.com backend;\n\u2014 Objective C \/ Swift\n\u2014 Unit testing with OCMock\n\u2014 Dependency injection (Typhoon framework)\n\u2014 Frameworks: AFNetworking, MagicalRecord, SDWebImage, SWRevealController, AFIncrementalStorage;\n\u2014 Core web: XML, JSON, HTML\/CSS, JavaScript;\n\u2014 IDE: XCode;\n\u2014 OS: Windows, Mac OS X;\n\u2014 VCS: Git;\n\u2014 Bug\/Issue trackers: Jira, Assembla, Redmine, Trello;\n\u2014 SQL;\n\u2014 UML.",
+			"shortNameSanitized": "Nikita T.",
+			"titleSanitized": "Upwork Pro: iPhone\/iPad\/iOs Lead Dev and Adviser",
+			"url": "\/freelancers\/_~01c57f8380e1afb4a9\/"
+		},
+		{
+			"recno": 3418838,
+			"ciphertext": "~010b517e28d229ba49",
+			"shortName": "Alla B.",
+			"title": "UX \/ UI \/ Web and Mobile Apps Design + Code",
+			"description": "Clients: Google Ventures, 99designs.com, 150+ small businesses. \nExperience: 14 years\n\nStrong skills: \n - design & user experience - Axure, Photoshop, Chrome dev tools...\n - software \/ product growth and management - A\/B tests, content marketing...\n\nAdditional skills:\n - project management, SEO, drawing, mobile gaming, \n\n\nI'm looking for long-term contracts and small projects:\n + responsive web design and development\n + mobile apps, games UI design - desktop or mobile",
+			"portrait": "https:\/\/odesk-prod-portraits.s3.amazonaws.com\/Users:aloe84:PortraitUrl_100?AWSAccessKeyId=1XVAX3FNQZAFC9GJCFR2&Expires=2147483647&Signature=yItQSJNhUJFEqroSkZT6N0zK7P4%3D",
+			"location": {
+				"country": "Ukraine",
+				"city": "Odessa",
+				"state": null,
+				"countryTimezone": null,
+				"worldRegion": null
+			},
+			"hourlyRate": {
+				"currencyCode": "USD",
+				"amount": 33.33
+			},
+			"lastActivity": "2016-11-03T00:00:00.000Z",
+			"totalHoursBilled": 3624.50000003,
+			"totalPortfolioItems": 18,
+			"totalPassedTests": 2,
+			"skills": [
+				{
+					"skill": {
+						"name": "adobe-photoshop",
+						"prettyName": "Adobe Photoshop"
+					},
+					"link": "http:\/\/en.wikipedia.org\/wiki\/Adobe_Photoshop",
+					"rank": 1,
+					"uid": "475721703643578372",
+					"status": 1,
+					"tests": {
+						"928": {
+							"id": "7170467",
+							"partner": "1",
+							"score": 72,
+							"percentile": 81,
+							"takenOn": "2013-05-15T00:00:00.000Z",
+							"name": "Adobe Photoshop CS5 Extended Test"
+						}
+					},
+					"skillUrl": "\/o\/profiles\/browse\/skill\/adobe-photoshop\/"
+				},
+				{
+					"skill": {
+						"name": "html5",
+						"prettyName": "HTML5",
+						"hlPrettyName": "HTML5"
+					},
+					"link": "http:\/\/en.wikipedia.org\/wiki\/HTML_5",
+					"rank": 2,
+					"uid": "475721704390164481",
+					"status": 0,
+					"tests": null,
+					"skillUrl": "\/o\/profiles\/browse\/skill\/html5\/"
+				},
+				{
+					"skill": {
+						"name": "responsive-web-design",
+						"prettyName": "Responsive Web Design",
+						"hlPrettyName": "Responsive <em>Web<\/em> Design"
+					},
+					"link": "http:\/\/en.wikipedia.org\/wiki\/Responsive_web_design",
+					"rank": 3,
+					"uid": "545011041518387201",
+					"status": -1,
+					"tests": null,
+					"skillUrl": "\/o\/profiles\/browse\/skill\/responsive-web-design\/"
+				},
+				{
+					"skill": {
+						"name": "ui-design",
+						"prettyName": "User interface design",
+						"hlPrettyName": "User interface design"
+					},
+					"link": "http:\/\/en.wikipedia.org\/wiki\/User_interface_design",
+					"rank": 4,
+					"uid": "475721704264335362",
+					"status": -1,
+					"tests": null,
+					"skillUrl": "\/o\/profiles\/browse\/skill\/ui-design\/"
+				},
+				{
+					"skill": {
+						"name": "project-management",
+						"prettyName": "Project management"
+					},
+					"link": "http:\/\/en.wikipedia.org\/wiki\/Project_management",
+					"rank": 5,
+					"uid": "475721704142700544",
+					"status": 0,
+					"tests": null,
+					"skillUrl": "\/o\/profiles\/browse\/skill\/project-management\/"
+				},
+				{
+					"skill": {
+						"name": "axure",
+						"prettyName": "Axure RP",
+						"hlPrettyName": "Axure RP"
+					},
+					"link": "http:\/\/en.wikipedia.org\/wiki\/Axure_RP",
+					"rank": 6,
+					"uid": "475721704323055622",
+					"status": -1,
+					"tests": null,
+					"skillUrl": "\/o\/profiles\/browse\/skill\/axure\/"
+				},
+				{
+					"skill": {
+						"name": "psd-to-wordpress",
+						"prettyName": "PSD to Wordpress"
+					},
+					"link": "",
+					"rank": 7,
+					"uid": "545011041526775818",
+					"status": -1,
+					"tests": null,
+					"skillUrl": "\/o\/profiles\/browse\/skill\/psd-to-wordpress\/"
+				},
+				{
+					"skill": {
+						"name": "user-experience-design",
+						"prettyName": "User Experience Design"
+					},
+					"link": "http:\/\/en.wikipedia.org\/wiki\/User_Experience_Design",
+					"rank": 8,
+					"uid": "481584277055078400",
+					"status": -1,
+					"tests": null,
+					"skillUrl": "\/o\/profiles\/browse\/skill\/user-experience-design\/"
+				},
+				{
+					"skill": {
+						"name": "mobile-ui-design",
+						"prettyName": "Mobile UI Design",
+						"hlPrettyName": "<em>Mobile<\/em> UI Design"
+					},
+					"link": "",
+					"rank": 9,
+					"uid": "545011041526775814",
+					"status": -1,
+					"tests": null,
+					"skillUrl": "\/o\/profiles\/browse\/skill\/mobile-ui-design\/"
+				},
+				{
+					"skill": {
+						"name": "html",
+						"prettyName": "HTML",
+						"hlPrettyName": "HTML"
+					},
+					"link": "http:\/\/en.wikipedia.org\/wiki\/HTML",
+					"rank": 10,
+					"uid": "475721704000094212",
+					"status": 0,
+					"tests": null,
+					"skillUrl": "\/o\/profiles\/browse\/skill\/html\/"
+				}
+			],
+			"groups": [],
+			"agencies": [],
+			"nss100": 0.9,
+			"highlighting": {
+				"shortName": null,
+				"title": [
+					"UX &#x2F; UI &#x2F; <em>Web<\/em> and <em>Mobile<\/em> Apps Design + Code"
+				],
+				"blurb": [
+					"Clients: Google Ventures, 99designs.com, 150+ small businesses. \nExperience: 14 years\n\nStrong skills: \n - design &amp; user experience - Axure, Photoshop, Chrome <em>dev<\/em> tools...\n - <em>software<\/em> &#x2F; product growth and management - A&#x2F;B tests, content marketing...\n\nAdditional skills:\n - project management, SEO, drawing, <em>mobile<\/em> gaming, \n\n\nI&#x27;m looking for long-term contracts and small projects:\n + responsive <em>web<\/em> design and development\n + <em>mobile<\/em> apps, games UI design - desktop or <em>mobile<\/em>"
+				],
+				"skills": {
+					"ui-design": "User interface design or user interface engineering is the design of computers, appliances, machines, <em>mobile<\/em> communication devices, <em>software<\/em> applications, and websites with the focus on the user&#x27;s experience and interaction.",
+					"html5": "HTML5 is a language for structuring and presenting content for the World Wide <em>Web<\/em>, and is a core technology of the Internet originally proposed by Opera <em>Software<\/em>. It is the fifth revision of the HTML standard.",
+					"responsive-<em>web<\/em>-design": "",
+					"html": "HyperText Markup Language (HTML) is the main markup language for <em>web<\/em> pages. HTML elements are the basic building-blocks of webpages.",
+					"<em>mobile<\/em>-ui-design": "",
+					"axure": "Axure RP Pro is a wireframing, rapid prototyping, and specification <em>software<\/em> tool aimed at <em>web<\/em> and desktop applications. It offers capabilities typically found in diagramming tools like drag and drop placement, resizing, and formatting of widgets."
+				},
+				"agencyName": null,
+				"agencySummary": null,
+				"agencyDescription": null
+			},
+			"rankInfo": {
+				"iv": "CEvD7gryWSbpYWQonbymOg==",
+				"d": "8w\/i3uknzmHXaiQLbagZiV6\/eTAMI2oaU7\/7MhDCEpt++9eB93dwbkv+b5nwtWpkEqq15xkHtHMRtL4+C44hwXgK9pWt1C9\/jbyvfSAKLmxZaj5DGwHCYAboaB2UWlZDYeLq5JeMky9n4tP\/8cAQD+Gt1tc1IlXMsBCj142AJHM4kMOEBGG4Gn+zhYf+QXacq\/xNsL0yL1McPkSpRFJIRQ=="
+			},
+			"topRatedStatus": "top_rated",
+			"extendedAgencies": [],
+			"combinedTotalRevenue": 0,
+			"descriptionSanitized": "Clients: Google Ventures, 99designs.com, 150+ small businesses. \nExperience: 14 years\n\nStrong skills: \n - design &amp; user experience - Axure, Photoshop, Chrome dev tools...\n - software \/ product growth and management - A\/B tests, content marketing...\n\nAdditional skills:\n - project management, SEO, drawing, mobile gaming, \n\n\nI&#039;m looking for long-term contracts and small projects:\n + responsive web design and development\n + mobile apps, games UI design - desktop or mobile",
+			"shortNameSanitized": "Alla B.",
+			"titleSanitized": "UX \/ UI \/ Web and Mobile Apps Design + Code",
+			"url": "\/freelancers\/_~010b517e28d229ba49\/"
+		},
+		{
+			"recno": 8142129,
+			"ciphertext": "~01db8f676aa2d4d8de",
+			"shortName": "Anushka K Rajasingha",
+			"title": "Professional Wordpress Developer, Full-stack Developer",
+			"description": "More than 8 year experience with web development, Web & Mobile Design, Mobile Development, Desktop Software Development using Scripts & Utilities. finally I also do  QA & Testing.\nSo I'm good at C# , ASP.NET,PHP, CSS,Java Scripting, JQuery ,ExtJS , GWT, ,AJAX,MVC,Wordpress,MSSQL,MYSQL,Oracle,Informix, Crystal Reports,\n, IIS, Apache, VSS, SVN,CVS\n\n\u2714 Upwork Top Verified Web Developer\n                  \n------------- WHY ME ---------------   \n+ WordPress Theme and Plugin Expert \n+ 1800+ hours on Up-work. \n+ 150+ jobs on Up-work. \n+ 5.0 Rating \n+ Experience more than 8 year in \"Web \/ Windows Application Development\" \n+ Creative mind. \n+ Huge portfolio. \n+ Time is money and i don't want to waste your and also mine. \n+ Full availability.\n+ Free of charge consultation.\n\n------------------- I'm good at ------------------------------\nAll Web, Mobile & Software Dev\nDesktop Software Development\nEcommerce Development\nGame Development\nMobile Development\nProduct Management\nQA & Testing\nScripts & Utilities\nWeb Development\nWeb & Mobile Design\nOther - Software Development",
+			"portrait": "https:\/\/odesk-prod-portraits.s3.amazonaws.com\/Users:anushkaraja:PortraitUrl_100?AWSAccessKeyId=1XVAX3FNQZAFC9GJCFR2&Expires=2147483647&Signature=s%2F0VFJJ2Z6l7yUbdK5TpYu7g5pY%3D&1436165861610020",
+			"location": {
+				"country": "Sri Lanka",
+				"city": "Kalutara",
+				"state": null,
+				"countryTimezone": null,
+				"worldRegion": null
+			},
+			"hourlyRate": {
+				"currencyCode": "USD",
+				"amount": 40
+			},
+			"lastActivity": "2016-11-03T00:00:00.000Z",
+			"totalHoursBilled": 1863.63333333,
+			"totalPortfolioItems": 87,
+			"totalPassedTests": 6,
+			"skills": [
+				{
+					"skill": {
+						"name": "wordpress",
+						"prettyName": "WordPress"
+					},
+					"link": "http:\/\/en.wikipedia.org\/wiki\/WordPress",
+					"rank": 1,
+					"uid": "475721704281112587",
+					"status": 1,
+					"tests": {
+						"988": {
+							"id": "14453054",
+							"partner": "2",
+							"score": 97,
+							"percentile": 97,
+							"takenOn": "2016-05-24T00:00:00.000Z",
+							"name": "WordPress Test"
+						}
+					},
+					"skillUrl": "\/o\/profiles\/browse\/skill\/wordpress\/"
+				},
+				{
+					"skill": {
+						"name": "css",
+						"prettyName": "CSS"
+					},
+					"link": "http:\/\/en.wikipedia.org\/wiki\/Cascading_Style_Sheets",
+					"rank": 2,
+					"uid": "475721704335638539",
+					"status": 1,
+					"tests": {
+						"983": {
+							"id": "14463758",
+							"partner": "2",
+							"score": 93,
+							"percentile": 93,
+							"takenOn": "2016-05-26T00:00:00.000Z",
+							"name": "CSS Test"
+						}
+					},
+					"skillUrl": "\/o\/profiles\/browse\/skill\/css\/"
+				},
+				{
+					"skill": {
+						"name": "php",
+						"prettyName": "PHP",
+						"hlPrettyName": "PHP"
+					},
+					"link": "http:\/\/en.wikipedia.org\/wiki\/PHP",
+					"rank": 3,
+					"uid": "475721704125923333",
+					"status": 1,
+					"tests": {
+						"987": {
+							"id": "14452966",
+							"partner": "2",
+							"score": 60,
+							"percentile": 60,
+							"takenOn": "2016-05-24T00:00:00.000Z",
+							"name": "PHP Test"
+						}
+					},
+					"skillUrl": "\/o\/profiles\/browse\/skill\/php\/"
+				},
+				{
+					"skill": {
+						"name": "html5",
+						"prettyName": "HTML5",
+						"hlPrettyName": "HTML5"
+					},
+					"link": "http:\/\/en.wikipedia.org\/wiki\/HTML_5",
+					"rank": 4,
+					"uid": "475721704390164481",
+					"status": 1,
+					"tests": {
+						"984": {
+							"id": "14514651",
+							"partner": "2",
+							"score": 75,
+							"percentile": 75,
+							"takenOn": "2016-06-05T00:00:00.000Z",
+							"name": "HTML5 Test"
+						}
+					},
+					"skillUrl": "\/o\/profiles\/browse\/skill\/html5\/"
+				},
+				{
+					"skill": {
+						"name": "jquery",
+						"prettyName": "jQuery"
+					},
+					"link": "http:\/\/en.wikipedia.org\/wiki\/JQuery",
+					"rank": 5,
+					"uid": "475721704025260038",
+					"status": 0,
+					"tests": null,
+					"skillUrl": "\/o\/profiles\/browse\/skill\/jquery\/"
+				},
+				{
+					"skill": {
+						"name": "wordpress-plugin",
+						"prettyName": "Wordpress Plugin"
+					},
+					"link": "http:\/\/en.wikipedia.org\/wiki\/WordPress",
+					"rank": 6,
+					"uid": "545011041526775816",
+					"status": -1,
+					"tests": null,
+					"skillUrl": "\/o\/profiles\/browse\/skill\/wordpress-plugin\/"
+				},
+				{
+					"skill": {
+						"name": "woocommerce",
+						"prettyName": "Woocommerce"
+					},
+					"link": "http:\/\/en.wikipedia.org\/wiki\/WooCommerce",
+					"rank": 7,
+					"uid": "481584278229483520",
+					"status": -1,
+					"tests": null,
+					"skillUrl": "\/o\/profiles\/browse\/skill\/woocommerce\/"
+				},
+				{
+					"skill": {
+						"name": "web-design",
+						"prettyName": "Web design",
+						"hlPrettyName": "<em>Web<\/em> design"
+					},
+					"link": "http:\/\/en.wikipedia.org\/wiki\/Web_design",
+					"rank": 8,
+					"uid": "475721704276918276",
+					"status": -1,
+					"tests": null,
+					"skillUrl": "\/o\/profiles\/browse\/skill\/web-design\/"
+				},
+				{
+					"skill": {
+						"name": "website-development",
+						"prettyName": "Website Development",
+						"hlPrettyName": "Website Development"
+					},
+					"link": "http:\/\/en.wikipedia.org\/wiki\/Web_development",
+					"rank": 9,
+					"uid": "475721704478244876",
+					"status": -1,
+					"tests": null,
+					"skillUrl": "\/o\/profiles\/browse\/skill\/website-development\/"
+				},
+				{
+					"skill": {
+						"name": "wordpress-multisite",
+						"prettyName": "Wordpress Multisite"
+					},
+					"link": "http:\/\/codex.wordpress.org\/Create_A_Network",
+					"rank": 10,
+					"uid": "741009419519692800",
+					"status": -1,
+					"tests": null,
+					"skillUrl": "\/o\/profiles\/browse\/skill\/wordpress-multisite\/"
+				}
+			],
+			"groups": [],
+			"agencies": [],
+			"nss100": 0.92,
+			"highlighting": {
+				"shortName": null,
+				"title": null,
+				"blurb": [
+					"More than 8 year experience with <em>web<\/em> development, <em>Web<\/em> &amp; <em>Mobile<\/em> Design, <em>Mobile<\/em> Development, Desktop <em>Software<\/em> Development using Scripts &amp; Utilities. finally I also do  QA &amp; Testing.\nSo I&#x27;m good at C# , ASP.NET,PHP, CSS,Java Scripting, JQuery ,ExtJS , GWT, ,AJAX,MVC,Wordpress,MSSQL,MYSQL,Oracle,Informix, Crystal Reports,\n, IIS, Apache, VSS, SVN,CVS\n\n\u2714 Upwork Top Verified <em>Web<\/em> Developer\n                  \n------------- WHY ME ---------------   \n+ WordPress Theme and Plugin Expert \n+ 1800+ hours on Up-work. \n+ 150+ jobs on Up-work. \n+ 5.0 Rating \n+ Experience more than 8 year in &quot;<em>Web<\/em> &#x2F; Windows Application Development&quot; \n+ Creative mind. \n+ Huge portfolio. \n+ Time is money and i don&#x27;t want to waste your and also mine. \n+ Full availability.\n+ Free of charge consultation.\n\n------------------- I&#x27;m good at ------------------------------\nAll <em>Web<\/em>, <em>Mobile<\/em> &amp; <em>Software<\/em> <em>Dev<\/em>\nDesktop <em>Software<\/em> Development\nEcommerce Development\nGame Development\n<em>Mobile<\/em> Development\nProduct Management\nQA &amp; Testing\nScripts &amp; Utilities\n<em>Web<\/em> Development\n<em>Web<\/em> &amp; <em>Mobile<\/em> Design\nOther - <em>Software<\/em> Development"
+				],
+				"skills": {
+					"php": "PHP is a general-purpose server-side scripting language originally designed for <em>web<\/em> development to produce dynamic <em>web<\/em> pages.",
+					"<em>web<\/em>-design": "<em>Web<\/em> design is the process of planning and creating a website. Text, images, digital media and interactive elements are used by <em>web<\/em> designers to produce the page seen on the <em>web<\/em> browser.",
+					"website-development": "<em>Web<\/em> development is a broad term for the work involved in developing a <em>web<\/em> site for the Internet (World Wide <em>Web<\/em>) or an intranet (a private network). This can include <em>web<\/em> design, <em>web<\/em> content development, client liaison, client-side&#x2F;server-side scripting, <em>web<\/em> server and network security",
+					"html5": "HTML5 is a language for structuring and presenting content for the World Wide <em>Web<\/em>, and is a core technology of the Internet originally proposed by Opera <em>Software<\/em>. It is the fifth revision of the HTML standard."
+				},
+				"agencyName": null,
+				"agencySummary": null,
+				"agencyDescription": null
+			},
+			"rankInfo": {
+				"iv": "tY4HmDAjAZ6hpgHDCjfXCg==",
+				"d": "My3kMLGAsJeKTA3GKFdw0lhPn7l9hcdxOwfG7RIzAdYqd60uVz4q5DBb2k7JQBQmvXUNXN9hZjSIa0aHM9aTXwTuAVvMZgLemo\/s7shXRnCoZuUe4CBI9Wtd41camM8N0DRbQuJEUSvwsHiDI9mZ4VpS2Ah70R3qntWxQJUBJLWt1jhfElaPyPDxOJohFEo1CaP78IJYMdP+IZH3k6gK1IoZdG5rxlaa0B9hS9cTOg4="
+			},
+			"topRatedStatus": "top_rated",
+			"extendedAgencies": [],
+			"combinedTotalRevenue": 0,
+			"descriptionSanitized": "More than 8 year experience with web development, Web &amp; Mobile Design, Mobile Development, Desktop Software Development using Scripts &amp; Utilities. finally I also do  QA &amp; Testing.\nSo I&#039;m good at C# , ASP.NET,PHP, CSS,Java Scripting, JQuery ,ExtJS , GWT, ,AJAX,MVC,Wordpress,MSSQL,MYSQL,Oracle,Informix, Crystal Reports,\n, IIS, Apache, VSS, SVN,CVS\n\n\u2714 Upwork Top Verified Web Developer\n                  \n------------- WHY ME ---------------   \n+ WordPress Theme and Plugin Expert \n+ 1800+ hours on Up-work. \n+ 150+ jobs on Up-work. \n+ 5.0 Rating \n+ Experience more than 8 year in &quot;Web \/ Windows Application Development&quot; \n+ Creative mind. \n+ Huge portfolio. \n+ Time is money and i don&#039;t want to waste your and also mine. \n+ Full availability.\n+ Free of charge consultation.\n\n------------------- I&#039;m good at ------------------------------\nAll Web, Mobile &amp; Software Dev\nDesktop Software Development\nEcommerce Development\nGame Development\nMobile Development\nProduct Management\nQA &amp; Testing\nScripts &amp; Utilities\nWeb Development\nWeb &amp; Mobile Design\nOther - Software Development",
+			"shortNameSanitized": "Anushka K Rajasingha",
+			"titleSanitized": "Professional Wordpress Developer, Full-stack Developer",
+			"url": "\/freelancers\/_~01db8f676aa2d4d8de\/"
+		},
+		{
+			"recno": 274004,
+			"ciphertext": "~013f74d9e5377aef38",
+			"shortName": "Romul Y",
+			"title": "Generalist Mobile Dev, MEAN stack dev, WebGL at ideainTech",
+			"description": "I'm in Software development for over 10 years. I mastered several key web technologies and can use any of them in development of Web resource for you. I also specialize in creating complex distributed systems which contain several parts: Web, Desktop and Mobile. \n\nMy Skills Inlcude:\nWindows Mobile(C++, QT), iPhone(Objective-C, Cocoa Touch), Blackberry, Symbian and PalmOS\n\nASP.NET, LINQ, NHibernate\nMS SQL Server, PosgtreSQL, MySQL\nHTML, CSS, XML, JavaScript, AJAX",
+			"portrait": "https:\/\/odesk-prod-portraits.s3.amazonaws.com\/Users:romuly:PortraitUrl_100?AWSAccessKeyId=1XVAX3FNQZAFC9GJCFR2&Expires=2147483647&Signature=gAfOnF5JOf9PgiQeZo18lDM52Pw%3D&1449485609777840",
+			"location": {
+				"country": "Ukraine",
+				"city": "Kharkiv",
+				"state": null,
+				"countryTimezone": null,
+				"worldRegion": null
+			},
+			"hourlyRate": {
+				"currencyCode": "USD",
+				"amount": 31.25
+			},
+			"lastActivity": "2016-11-03T00:00:00.000Z",
+			"totalHoursBilled": 4626.75,
+			"totalPortfolioItems": 8,
+			"totalPassedTests": 6,
+			"skills": [
+				{
+					"skill": {
+						"name": "ios-development",
+						"prettyName": "iOS Development",
+						"hlPrettyName": "iOS Development"
+					},
+					"link": "http:\/\/en.wikipedia.org\/wiki\/IPhone_OS",
+					"rank": 1,
+					"uid": "475721704398553089",
+					"status": 1,
+					"tests": {
+						"990": {
+							"id": "13513355",
+							"partner": "2",
+							"score": 73,
+							"percentile": 73,
+							"takenOn": "2015-12-11T00:00:00.000Z",
+							"name": "iOS Programming Test"
+						},
+						"661": {
+							"id": "6716610",
+							"partner": "1",
+							"score": 68,
+							"percentile": 79,
+							"takenOn": "2013-03-14T00:00:00.000Z",
+							"name": "iPhone Programming OS 2.1 Test"
+						}
+					},
+					"skillUrl": "\/o\/profiles\/browse\/skill\/ios-development\/"
+				},
+				{
+					"skill": {
+						"name": "android",
+						"prettyName": "Android",
+						"hlPrettyName": "Android"
+					},
+					"link": "http:\/\/en.wikipedia.org\/wiki\/Android_(operating_system)",
+					"rank": 2,
+					"uid": "514995523617918976",
+					"status": -1,
+					"tests": null,
+					"skillUrl": "\/o\/profiles\/browse\/skill\/android\/"
+				},
+				{
+					"skill": {
+						"name": "html5",
+						"prettyName": "HTML5",
+						"hlPrettyName": "HTML5"
+					},
+					"link": "http:\/\/en.wikipedia.org\/wiki\/HTML_5",
+					"rank": 3,
+					"uid": "475721704390164481",
+					"status": 0,
+					"tests": null,
+					"skillUrl": "\/o\/profiles\/browse\/skill\/html5\/"
+				},
+				{
+					"skill": {
+						"name": "css3",
+						"prettyName": "CSS3"
+					},
+					"link": "http:\/\/en.wikipedia.org\/wiki\/Cascading_Style_Sheets",
+					"rank": 4,
+					"uid": "475721704339832832",
+					"status": 0,
+					"tests": null,
+					"skillUrl": "\/o\/profiles\/browse\/skill\/css3\/"
+				},
+				{
+					"skill": {
+						"name": "asp.net",
+						"prettyName": "ASP.NET",
+						"hlPrettyName": "ASP.NET"
+					},
+					"link": "http:\/\/en.wikipedia.org\/wiki\/ASP.NET",
+					"rank": 5,
+					"uid": "475721703689715712",
+					"status": 0,
+					"tests": null,
+					"skillUrl": "\/o\/profiles\/browse\/skill\/asp-net\/"
+				},
+				{
+					"skill": {
+						"name": "python",
+						"prettyName": "Python"
+					},
+					"link": "http:\/\/en.wikipedia.org\/wiki\/Python_(programming_language)",
+					"rank": 6,
+					"uid": "475721704146894851",
+					"status": 0,
+					"tests": null,
+					"skillUrl": "\/o\/profiles\/browse\/skill\/python\/"
+				},
+				{
+					"skill": {
+						"name": "javascript",
+						"prettyName": "JavaScript"
+					},
+					"link": "http:\/\/en.wikipedia.org\/wiki\/JavaScript",
+					"rank": 7,
+					"uid": "475721704021065738",
+					"status": 0,
+					"tests": null,
+					"skillUrl": "\/o\/profiles\/browse\/skill\/javascript\/"
+				},
+				{
+					"skill": {
+						"name": "node.js",
+						"prettyName": "Node.js",
+						"hlPrettyName": "Node.js"
+					},
+					"link": "http:\/\/en.wikipedia.org\/wiki\/Node.js",
+					"rank": 8,
+					"uid": "475721704092368897",
+					"status": 0,
+					"tests": null,
+					"skillUrl": "\/o\/profiles\/browse\/skill\/node-js\/"
+				},
+				{
+					"skill": {
+						"name": "angularjs",
+						"prettyName": "AngularJS",
+						"hlPrettyName": "AngularJS"
+					},
+					"link": "http:\/\/en.wikipedia.org\/wiki\/AngularJS",
+					"rank": 9,
+					"uid": "514995524179521536",
+					"status": -1,
+					"tests": null,
+					"skillUrl": "\/o\/profiles\/browse\/skill\/angularjs\/"
+				},
+				{
+					"skill": {
+						"name": "webgl",
+						"prettyName": "WebGL",
+						"hlPrettyName": "WebGL"
+					},
+					"link": "http:\/\/en.wikipedia.org\/wiki\/WebGL",
+					"rank": 10,
+					"uid": "578335905051426817",
+					"status": -1,
+					"tests": null,
+					"skillUrl": "\/o\/profiles\/browse\/skill\/webgl\/"
+				}
+			],
+			"groups": [],
+			"agencies": [
+				{
+					"recno": 152787,
+					"ciphertext": "~012a1bd2cbdc1c8ed1",
+					"name": "ideainTech"
+				}
+			],
+			"nss100": 1,
+			"highlighting": {
+				"shortName": null,
+				"title": [
+					"Generalist <em>Mobile<\/em> <em>Dev<\/em>, MEAN stack <em>dev<\/em>, WebGL at ideainTech"
+				],
+				"blurb": [
+					"I&#x27;m in <em>Software<\/em> development for over 10 years. I mastered several key <em>web<\/em> technologies and can use any of them in development of <em>Web<\/em> resource for you. I also specialize in creating complex distributed systems which contain several parts: <em>Web<\/em>, Desktop and <em>Mobile<\/em>. \n\nMy Skills Inlcude:\nWindows <em>Mobile<\/em>(C++, QT), iPhone(Objective-C, Cocoa Touch), Blackberry, Symbian and PalmOS\n\nASP.NET, LINQ, NHibernate\nMS SQL Server, PosgtreSQL, MySQL\nHTML, CSS, XML, JavaScript, AJAX"
+				],
+				"skills": {
+					"node.js": "Node.js is a <em>software<\/em> system designed for writing highly-scalable internet applications, notably <em>web<\/em> servers. Programs are written in JavaScript, using event-driven, asynchronous I&#x2F;O to minimize overhead and maximize scalability.",
+					"ios-development": "iOS (formerly iPhone OS) is Apple Inc.&#x27;s <em>mobile<\/em> operating system. Originally developed for the iPhone, it has since been extended to support other Apple, Inc. devices such as the iPod Touch, iPad, and Apple TV.",
+					"html5": "HTML5 is a language for structuring and presenting content for the World Wide <em>Web<\/em>, and is a core technology of the Internet originally proposed by Opera <em>Software<\/em>. It is the fifth revision of the HTML standard.",
+					"webgl": "WebGL (<em>Web<\/em> Graphics Library) is a JavaScript API for rendering interactive 3D graphics and 2D graphics within any compatible <em>web<\/em> browser without the use of plug-ins.",
+					"android": "Android is an operating system based on the Linux kernel with a user interface based on direct manipulation, designed primarily for touchscreen <em>mobile<\/em> devices such as smartphones and tablet computers.",
+					"asp.net": "ASP.NET is a <em>Web<\/em> application framework developed and marketed by Microsoft to allow programmers to build dynamic <em>Web<\/em> sites, <em>Web<\/em> applications and <em>Web<\/em> services.",
+					"angularjs": "AngularJS is an open-source <em>web<\/em> application framework, maintained by Google and community, that assists with creating single-page applications, one-page <em>web<\/em> applications that only require HTML, CSS, and JavaScript on the client side. "
+				},
+				"agencyName": null,
+				"agencySummary": null,
+				"agencyDescription": null
+			},
+			"rankInfo": {
+				"iv": "MQ5J8Bz4pHlceYWMgjHxXg==",
+				"d": "ixHiY1xYMZl0zih0fVE0um2tCEsNYVJC+j0MuiyDvm40RHHmzkDpscgGWzfRIYhmJ2VjfHzwfuxtVG5QkGppDB0GpvcmPjBw2DF5zbD0Ts5CAwVqdv560ZxpdLZ\/7lZFRm6czZhPEHGcZcIRyh8KxUStU64oq2j1YQuzbvRty2BP0o4F5kR+ENDabY03yhDuNUmJpWNQs98WPVMoy0FZ1g=="
+			},
+			"topRatedStatus": "top_rated",
+			"extendedAgencies": [],
+			"combinedTotalRevenue": 0,
+			"descriptionSanitized": "I&#039;m in Software development for over 10 years. I mastered several key web technologies and can use any of them in development of Web resource for you. I also specialize in creating complex distributed systems which contain several parts: Web, Desktop and Mobile. \n\nMy Skills Inlcude:\nWindows Mobile(C++, QT), iPhone(Objective-C, Cocoa Touch), Blackberry, Symbian and PalmOS\n\nASP.NET, LINQ, NHibernate\nMS SQL Server, PosgtreSQL, MySQL\nHTML, CSS, XML, JavaScript, AJAX",
+			"shortNameSanitized": "Romul Y",
+			"titleSanitized": "Generalist Mobile Dev, MEAN stack dev, WebGL at ideainTech",
+			"url": "\/freelancers\/_~013f74d9e5377aef38\/"
+		},
+		{
+			"recno": 1933481,
+			"ciphertext": "~010f4d4f59e421971a",
+			"shortName": "Basit Munir",
+			"title": "Expert .Net Developer. Windows, Mobile, Web",
+			"description": "Upwork Top Rated, software developer with 12,000+ engineering\/design work hours & excellent client feedback. \n\n\u25ba SUMMARIZED EXPERIENCE:\n5+ years of experience working with technologies such as ASP.Net MVC\/Web Forms, Web APIs, XAF, cross-platform mobile apps (Xamarin, Cordova) and web services, WPF, WCF, Silver-light and Windows Forms  with strong knowledge and deep understanding of software design patterns (IoC, DI, NInject, Unity) and best practices.\n\n\u25ba HOW CAN I HELP YOUR DEV NEEDS?\nIf you are looking for a highly efficient, responsive and experienced FULL STACK software developer for a long term relationship, to take care of all your development needs, I am your guy. \n\n\u25ba PROFICIENT software dev\/design areas:\n\u2605 .Net (C#, VB.Net), ASP.net MVC 3,4,5 (Unity, NInject), T-SQL, MVC Web\/Odata APIs, Owin Oauth, JWT, Web Forms,  Java, WPF, Silverlight, DI. TDD\n\n\u2605 Kendo UI, Framework7, Angular.js, Knockout.js, ChartJS, DevExtreme, Prototype.js, JQuery, Javascript, HTML5, CSS3, Telerik Platform, Telerik App Builder\n\n\u2605 Dapper, Entity Framework (Code-First, Database First), XPO\n\n\u2605 Express Application Framework (XAF) and Express Persistent Objects (XPO) Expert, Business Objects design, UI customization, Reporting, Scheduler & Dashboards.\n\n\u2605 Telerik, DevExpress, Infragistics, Fluent (Reporting,Win,Web, WPF) 3rd party dev tools\n\n\u2605 MSSQL, MySQL, SQLLite, SQL Compact, MS Access.\n\n\u2605 Xamarin, Xamarin.Forms. Android, DevExtreme, PhoneJS, ChartJS, PhoneGap\/Cordova\n\nAdditionally I am an expert on : \n \n\u2605 Inversions of Control\/Dependency Injection, TDD, MVVM, multi-layered architecture.\n\n\u2605 Source Control (Git) (Github, Bitbucket), Microsoft TFS, Tortoise SVN\n\n\u2605 XPath, JSON, XML, VBA, Office\/Outlook APIs, Sharepoint API, Power BI API, PInvoke\n\nI take pride in strong debugging, re-factoring, problem solving skills with passion to solve complex business problems and delivering best & optimized solution for clients. \n\nFeel free to contact to know more about my work and how I can help you.\n",
+			"portrait": "https:\/\/odesk-prod-portraits.s3.amazonaws.com\/Users:basitmunir:PortraitUrl_100?AWSAccessKeyId=1XVAX3FNQZAFC9GJCFR2&Expires=2147483647&Signature=QZWVZzqeiz6zjFHuOXIxr3TfAkI%3D",
+			"location": {
+				"country": "Pakistan",
+				"city": "Wah Cantt",
+				"state": null,
+				"countryTimezone": null,
+				"worldRegion": null
+			},
+			"hourlyRate": {
+				"currencyCode": "USD",
+				"amount": 35
+			},
+			"lastActivity": "2016-11-03T00:00:00.000Z",
+			"totalHoursBilled": 12907.66666668,
+			"totalPortfolioItems": 27,
+			"totalPassedTests": 10,
+			"skills": [
+				{
+					"skill": {
+						"name": "c#",
+						"prettyName": "C#"
+					},
+					"link": "http:\/\/en.wikipedia.org\/wiki\/C_Sharp_(programming_language)",
+					"rank": 1,
+					"uid": "475721703752630276",
+					"status": 1,
+					"tests": {
+						"986": {
+							"id": "10742149",
+							"partner": "2",
+							"score": 83,
+							"percentile": 83,
+							"takenOn": "2014-09-07T00:00:00.000Z",
+							"name": "C# Test"
+						},
+						"560": {
+							"id": "4264000",
+							"partner": "1",
+							"score": 62,
+							"percentile": 74,
+							"takenOn": "2012-04-14T00:00:00.000Z",
+							"name": "Programming with C# Test"
+						}
+					},
+					"skillUrl": "\/o\/profiles\/browse\/skill\/c-sharp\/"
+				},
+				{
+					"skill": {
+						"name": "asp.net-mvc",
+						"prettyName": "ASP.NET MVC",
+						"hlPrettyName": "ASP.NET MVC"
+					},
+					"link": "http:\/\/en.wikipedia.org\/wiki\/ASP.NET_MVC_Framework",
+					"rank": 2,
+					"uid": "475721703857487873",
+					"status": 0,
+					"tests": null,
+					"skillUrl": "\/o\/profiles\/browse\/skill\/mvc\/"
+				},
+				{
+					"skill": {
+						"name": "java",
+						"prettyName": "Java"
+					},
+					"link": "http:\/\/en.wikipedia.org\/wiki\/Java_(programming)",
+					"rank": 3,
+					"uid": "475721704021065736",
+					"status": 1,
+					"tests": {
+						"519": {
+							"id": "3517717",
+							"partner": "1",
+							"score": 75,
+							"percentile": 91,
+							"takenOn": "2011-12-14T00:00:00.000Z",
+							"name": "Java Test"
+						}
+					},
+					"skillUrl": "\/o\/profiles\/browse\/skill\/java\/"
+				},
+				{
+					"skill": {
+						"name": "html",
+						"prettyName": "HTML",
+						"hlPrettyName": "HTML"
+					},
+					"link": "http:\/\/en.wikipedia.org\/wiki\/HTML",
+					"rank": 4,
+					"uid": "475721704000094212",
+					"status": 1,
+					"tests": {
+						"518": {
+							"id": "5476940",
+							"partner": "1",
+							"score": 75,
+							"percentile": 81,
+							"takenOn": "2012-09-16T00:00:00.000Z",
+							"name": "HTML 4.01 Test"
+						}
+					},
+					"skillUrl": "\/o\/profiles\/browse\/skill\/html\/"
+				},
+				{
+					"skill": {
+						"name": "javascript",
+						"prettyName": "JavaScript"
+					},
+					"link": "http:\/\/en.wikipedia.org\/wiki\/JavaScript",
+					"rank": 5,
+					"uid": "475721704021065738",
+					"status": 1,
+					"tests": {
+						"520": {
+							"id": "4390213",
+							"partner": "1",
+							"score": 75,
+							"percentile": 76,
+							"takenOn": "2012-05-01T00:00:00.000Z",
+							"name": "JavaScript 1.3 Test"
+						}
+					},
+					"skillUrl": "\/o\/profiles\/browse\/skill\/javascript\/"
+				},
+				{
+					"skill": {
+						"name": "ajax",
+						"prettyName": "AJAX",
+						"hlPrettyName": "AJAX"
+					},
+					"link": "http:\/\/en.wikipedia.org\/wiki\/Ajax_(programming)",
+					"rank": 6,
+					"uid": "475721704310472706",
+					"status": 1,
+					"tests": {
+						"478": {
+							"id": "10741209",
+							"partner": "1",
+							"score": 75,
+							"percentile": 80,
+							"takenOn": "2014-09-07T00:00:00.000Z",
+							"name": "AJAX Test"
+						}
+					},
+					"skillUrl": "\/o\/profiles\/browse\/skill\/ajax\/"
+				},
+				{
+					"skill": {
+						"name": "wpf",
+						"prettyName": "Windows Presentation Foundation (WPF)",
+						"hlPrettyName": "Windows Presentation Foundation (WPF)"
+					},
+					"link": "http:\/\/en.wikipedia.org\/wiki\/Windows_Presentation_Foundation",
+					"rank": 7,
+					"uid": "475721704482439177",
+					"status": -1,
+					"tests": null,
+					"skillUrl": "\/o\/profiles\/browse\/skill\/wpf\/"
+				},
+				{
+					"skill": {
+						"name": "t-sql",
+						"prettyName": "Transact-SQL"
+					},
+					"link": "http:\/\/en.wikipedia.org\/wiki\/Transact-SQL",
+					"rank": 8,
+					"uid": "475721704214003715",
+					"status": -1,
+					"tests": null,
+					"skillUrl": "\/o\/profiles\/browse\/skill\/t-sql\/"
+				},
+				{
+					"skill": {
+						"name": "devexpress",
+						"prettyName": "DevExpress"
+					},
+					"link": "http:\/\/stackoverflow.com\/tags\/devexpress\/info",
+					"rank": 9,
+					"uid": "475721704352415753",
+					"status": -1,
+					"tests": null,
+					"skillUrl": "\/o\/profiles\/browse\/skill\/devexpress\/"
+				},
+				{
+					"skill": {
+						"name": "telerik",
+						"prettyName": "Telerik",
+						"hlPrettyName": "Telerik"
+					},
+					"link": "http:\/\/en.wikipedia.org\/wiki\/Telerik_Reporting",
+					"rank": 10,
+					"uid": "475721704159477761",
+					"status": -1,
+					"tests": null,
+					"skillUrl": "\/o\/profiles\/browse\/skill\/telerik\/"
+				}
+			],
+			"groups": [
+				{
+					"id": "application-developers-alliance",
+					"name": "Application Developers Alliance"
+				},
+				{
+					"id": "corona",
+					"name": "Corona Labs"
+				},
+				{
+					"id": "crossrider",
+					"name": "Crossrider"
+				}
+			],
+			"agencies": [
+				{
+					"recno": 1145444,
+					"ciphertext": "~0162bf8e12752b0373",
+					"name": "Basit M Company (Basit Munir)"
+				}
+			],
+			"nss100": 1,
+			"highlighting": {
+				"shortName": null,
+				"title": [
+					"Expert .Net Developer. Windows, <em>Mobile<\/em>, <em>Web<\/em>"
+				],
+				"blurb": [
+					"Upwork Top Rated, <em>software<\/em> developer with 12,000+ engineering&#x2F;design work hours &amp; excellent client feedback. \n\n\u25ba SUMMARIZED EXPERIENCE:\n5+ years of experience working with technologies such as ASP.Net MVC&#x2F;<em>Web<\/em> Forms, <em>Web<\/em> APIs, XAF, cross-platform <em>mobile<\/em> apps (Xamarin, Cordova) and <em>web<\/em> services, WPF, WCF, Silver-light and Windows Forms  with strong knowledge and deep understanding of <em>software<\/em> design patterns (IoC, DI, NInject, Unity) and best practices.\n\n\u25ba HOW CAN I HELP YOUR <em>DEV<\/em> NEEDS?\nIf you are looking for a highly efficient, responsive and experienced FULL STACK <em>software<\/em> developer for a long term relationship, to take care of all your development needs, I am your guy. \n\n\u25ba PROFICIENT <em>software<\/em> <em>dev<\/em>&#x2F;design areas:\n\u2605 .Net (C#, VB.Net), ASP.net MVC 3,4,5 (Unity, NInject), T-SQL, MVC <em>Web<\/em>&#x2F;Odata APIs, Owin Oauth, JWT, <em>Web<\/em> Forms,  Java, WPF, Silverlight, DI. TDD\n\n\u2605 Kendo UI, Framework7, Angular.js, Knockout.js, ChartJS, DevExtreme, Prototype.js, JQuery, Javascript, HTML5, CSS3, Telerik Platform, Telerik App Builder\n\n\u2605 Dapper, Entity Framework (Code-First, Database First), XPO\n\n\u2605 Express Application Framework (XAF) and Express Persistent Objects (XPO) Expert, Business Objects design, UI customization, Reporting, Scheduler &amp; Dashboards.\n\n\u2605 Telerik, DevExpress, Infragistics, Fluent (Reporting,Win,<em>Web<\/em>, WPF) 3rd party <em>dev<\/em> tools\n\n\u2605 MSSQL, MySQL, SQLLite, SQL Compact, MS Access.\n\n\u2605 Xamarin, Xamarin.Forms. Android, DevExtreme, PhoneJS, ChartJS, PhoneGap&#x2F;Cordova\n\nAdditionally I am an expert on : \n \n\u2605 Inversions of Control&#x2F;Dependency Injection, TDD, MVVM, multi-layered architecture.\n\n\u2605 Source Control (Git) (Github, Bitbucket), Microsoft TFS, Tortoise SVN\n\n\u2605 XPath, JSON, XML, VBA, Office&#x2F;Outlook APIs, Sharepoint API, Power BI API, PInvoke\n\nI take pride in strong debugging, re-factoring, problem solving skills with passion to solve complex business problems and delivering best &amp; optimized solution for clients. \n\nFeel free to contact to know more about my work and how I can help you.\n"
+				],
+				"skills": {
+					"asp.net-mvc": "The ASP.NET MVC Framework is a <em>web<\/em> application framework that implements the model-view-controller (MVC) pattern.",
+					"telerik": "Telerik Reporting is a .NET reporting <em>software<\/em> for Microsoft Visual Studio 2010. The product is developed and sold by the .NET solutions provider Telerik and launched in 2008.",
+					"html": "HyperText Markup Language (HTML) is the main markup language for <em>web<\/em> pages. HTML elements are the basic building-blocks of webpages.",
+					"wpf": "Windows Presentation Foundation (or WPF) is a computer-<em>software<\/em> graphical subsystem for rendering user interfaces in Windows-based applications.",
+					"ajax": "Ajax is a group of interrelated <em>web<\/em> development methods used on the client-side to create asynchronous <em>web<\/em> applications."
+				},
+				"agencyName": null,
+				"agencySummary": null,
+				"agencyDescription": null
+			},
+			"rankInfo": {
+				"iv": "ZeBWdCulDSzFqJLe8\/IVQg==",
+				"d": "g+f72JiXuHbP\/L3WwUKfa8llznlATOgHoAl\/gZa9FtWeghkUYiv\/QMGozRedwEIaZGTOnL6aCkAp3bg4MFlZExgtn2+uIw+BXYKsaezwmgF1RhWuGPika6724X6qUHNfC96z8GN1CC+dORqfcO9QZXqeMDNE+flM+jkoPstDokRLT6+Bp5jSC2kn3E9gABvgwlNWQ9CQRYXqTSGLyNXTuw=="
+			},
+			"topRatedStatus": "top_rated",
+			"extendedAgencies": [],
+			"combinedTotalRevenue": 0,
+			"descriptionSanitized": "Upwork Top Rated, software developer with 12,000+ engineering\/design work hours &amp; excellent client feedback. \n\n\u25ba SUMMARIZED EXPERIENCE:\n5+ years of experience working with technologies such as ASP.Net MVC\/Web Forms, Web APIs, XAF, cross-platform mobile apps (Xamarin, Cordova) and web services, WPF, WCF, Silver-light and Windows Forms  with strong knowledge and deep understanding of software design patterns (IoC, DI, NInject, Unity) and best practices.\n\n\u25ba HOW CAN I HELP YOUR DEV NEEDS?\nIf you are looking for a highly efficient, responsive and experienced FULL STACK software developer for a long term relationship, to take care of all your development needs, I am your guy. \n\n\u25ba PROFICIENT software dev\/design areas:\n\u2605 .Net (C#, VB.Net), ASP.net MVC 3,4,5 (Unity, NInject), T-SQL, MVC Web\/Odata APIs, Owin Oauth, JWT, Web Forms,  Java, WPF, Silverlight, DI. TDD\n\n\u2605 Kendo UI, Framework7, Angular.js, Knockout.js, ChartJS, DevExtreme, Prototype.js, JQuery, Javascript, HTML5, CSS3, Telerik Platform, Telerik App Builder\n\n\u2605 Dapper, Entity Framework (Code-First, Database First), XPO\n\n\u2605 Express Application Framework (XAF) and Express Persistent Objects (XPO) Expert, Business Objects design, UI customization, Reporting, Scheduler &amp; Dashboards.\n\n\u2605 Telerik, DevExpress, Infragistics, Fluent (Reporting,Win,Web, WPF) 3rd party dev tools\n\n\u2605 MSSQL, MySQL, SQLLite, SQL Compact, MS Access.\n\n\u2605 Xamarin, Xamarin.Forms. Android, DevExtreme, PhoneJS, ChartJS, PhoneGap\/Cordova\n\nAdditionally I am an expert on : \n \n\u2605 Inversions of Control\/Dependency Injection, TDD, MVVM, multi-layered architecture.\n\n\u2605 Source Control (Git) (Github, Bitbucket), Microsoft TFS, Tortoise SVN\n\n\u2605 XPath, JSON, XML, VBA, Office\/Outlook APIs, Sharepoint API, Power BI API, PInvoke\n\nI take pride in strong debugging, re-factoring, problem solving skills with passion to solve complex business problems and delivering best &amp; optimized solution for clients. \n\nFeel free to contact to know more about my work and how I can help you.\n",
+			"shortNameSanitized": "Basit Munir",
+			"titleSanitized": "Expert .Net Developer. Windows, Mobile, Web",
+			"url": "\/freelancers\/_~010f4d4f59e421971a\/"
+		},
+		{
+			"recno": 9675722,
+			"ciphertext": "~017f40b7eabbb24973",
+			"shortName": "Max G.",
+			"title": "Mobile and Web development, native iOS & Android.",
+			"description": "Hello,  \n\nI'm happy to represent interests of the Erminesoft LLC agency. \n\nErminesoft LLC is the full stack software outsource company since 2012. We provide quality mobile and web development services (Native iOS and Android, ReactJS, PHP, HTML5, CSS, Javascript, AJAX, MySQL, Prototype, jQuery) as well as the design, project management, BA and QA.\n\nWelcome to our dev center:\n\n- Full-cycle development (from graphic design in layers to app submission)\n- 30 days free support for projects with timeline 2-3 months\n- Fluent English (both written and voice communications) \n- Strong background for the following industries: Real Estate, Games, chatting apps, e-learning and social networking as well as e-commerce on mobile.\n- Strong ReactJS development team\n\n\nService Description\n\n\u2022 Mobile - iOS (iPhone\/iPad), Android), including Swift SDK\n\u2022 Web - ReactJS, HTML5, CSS, Javascript\n\u2022 Testing and QA\n\u2022 Project management and requirements analysis\n\nServices Description:\n\nMobile apps\n1. Social app - iOS, Android\n2. RealEstate apps - iOS, Android\n3. Listing apps - iOS, Android\n4. Delivery service - iOS, Android\n5. Internal companies communication app - iOS, Android\n6. GPS tracking app - iOS, Android\n7. Business app - iOS, Android\n8. Catalogue\/Shopping cart app: iOS, Android\n9. Barcodes reading Apps: iOS, Android\n10. iBeacon apps\n11. 2d games: iOS, Android\n\nOther:\nAPI REST, SOAP, Facebook, Twitter, Instagram, Google APIs, connection with SNs\nAd networks integrated: Mopub, Playhaven, Applovin, Vungle, Tapjoy, Mdotm",
+			"portrait": "https:\/\/odesk-prod-portraits.s3.amazonaws.com\/Users:maxweb4u:PortraitUrl_100?AWSAccessKeyId=1XVAX3FNQZAFC9GJCFR2&Expires=2147483647&Signature=JJg6fhPvVoxOZ00eviiB0iHQVXg%3D&1460543630033053",
+			"location": {
+				"country": "Ukraine",
+				"city": " ",
+				"state": null,
+				"countryTimezone": null,
+				"worldRegion": null
+			},
+			"hourlyRate": {
+				"currencyCode": "USD",
+				"amount": 35
+			},
+			"lastActivity": "2016-11-03T00:00:00.000Z",
+			"totalHoursBilled": 2020.06666664,
+			"totalPortfolioItems": 7,
+			"totalPassedTests": 7,
+			"skills": [
+				{
+					"skill": {
+						"name": "objective-c",
+						"prettyName": "Objective-C"
+					},
+					"link": "http:\/\/en.wikipedia.org\/wiki\/Objective-C",
+					"rank": 1,
+					"uid": "475721704096563203",
+					"status": 0,
+					"tests": null,
+					"skillUrl": "\/o\/profiles\/browse\/skill\/objective-c\/"
+				},
+				{
+					"skill": {
+						"name": "iphone-app-development",
+						"prettyName": "iPhone App Development",
+						"hlPrettyName": "iPhone App Development"
+					},
+					"link": "http:\/\/en.wikipedia.org\/wiki\/http:\/\/en.wikipedia.org\/wiki\/Iphone",
+					"rank": 2,
+					"uid": "475721704021065728",
+					"status": 0,
+					"tests": null,
+					"skillUrl": "\/o\/profiles\/browse\/skill\/iphone-app-development\/"
+				},
+				{
+					"skill": {
+						"name": "android",
+						"prettyName": "Android",
+						"hlPrettyName": "Android"
+					},
+					"link": "http:\/\/en.wikipedia.org\/wiki\/Android_(operating_system)",
+					"rank": 3,
+					"uid": "514995523617918976",
+					"status": -1,
+					"tests": null,
+					"skillUrl": "\/o\/profiles\/browse\/skill\/android\/"
+				},
+				{
+					"skill": {
+						"name": "php",
+						"prettyName": "PHP",
+						"hlPrettyName": "PHP"
+					},
+					"link": "http:\/\/en.wikipedia.org\/wiki\/PHP",
+					"rank": 4,
+					"uid": "475721704125923333",
+					"status": 0,
+					"tests": null,
+					"skillUrl": "\/o\/profiles\/browse\/skill\/php\/"
+				},
+				{
+					"skill": {
+						"name": "adobe-photoshop",
+						"prettyName": "Adobe Photoshop"
+					},
+					"link": "http:\/\/en.wikipedia.org\/wiki\/Adobe_Photoshop",
+					"rank": 5,
+					"uid": "475721703643578372",
+					"status": 1,
+					"tests": {
+						"1030": {
+							"id": "14155228",
+							"partner": "1",
+							"score": 82,
+							"percentile": 94,
+							"takenOn": "2016-03-29T00:00:00.000Z",
+							"name": "Adobe Photoshop CS6 Test"
+						}
+					},
+					"skillUrl": "\/o\/profiles\/browse\/skill\/adobe-photoshop\/"
+				},
+				{
+					"skill": {
+						"name": "web-design",
+						"prettyName": "Web design",
+						"hlPrettyName": "<em>Web<\/em> design"
+					},
+					"link": "http:\/\/en.wikipedia.org\/wiki\/Web_design",
+					"rank": 6,
+					"uid": "475721704276918276",
+					"status": -1,
+					"tests": null,
+					"skillUrl": "\/o\/profiles\/browse\/skill\/web-design\/"
+				},
+				{
+					"skill": {
+						"name": "responsive-web-design",
+						"prettyName": "Responsive Web Design",
+						"hlPrettyName": "Responsive <em>Web<\/em> Design"
+					},
+					"link": "http:\/\/en.wikipedia.org\/wiki\/Responsive_web_design",
+					"rank": 7,
+					"uid": "545011041518387201",
+					"status": -1,
+					"tests": null,
+					"skillUrl": "\/o\/profiles\/browse\/skill\/responsive-web-design\/"
+				},
+				{
+					"skill": {
+						"name": "swift",
+						"prettyName": "Swift"
+					},
+					"link": "https:\/\/developer.apple.com\/swift\/",
+					"rank": 8,
+					"uid": "514995632627445760",
+					"status": 1,
+					"tests": {
+						"1022": {
+							"id": "14154835",
+							"partner": "2",
+							"score": 98,
+							"percentile": 98,
+							"takenOn": "2016-03-29T00:00:00.000Z",
+							"name": "Swift Test"
+						}
+					},
+					"skillUrl": "\/o\/profiles\/browse\/skill\/swift\/"
+				},
+				{
+					"skill": {
+						"name": "python",
+						"prettyName": "Python"
+					},
+					"link": "http:\/\/en.wikipedia.org\/wiki\/Python_(programming_language)",
+					"rank": 9,
+					"uid": "475721704146894851",
+					"status": 0,
+					"tests": null,
+					"skillUrl": "\/o\/profiles\/browse\/skill\/python\/"
+				},
+				{
+					"skill": {
+						"name": "java",
+						"prettyName": "Java"
+					},
+					"link": "http:\/\/en.wikipedia.org\/wiki\/Java_(programming)",
+					"rank": 10,
+					"uid": "475721704021065736",
+					"status": 1,
+					"tests": {
+						"980": {
+							"id": "14163416",
+							"partner": "2",
+							"score": 83,
+							"percentile": 83,
+							"takenOn": "2016-03-30T00:00:00.000Z",
+							"name": "Java Test v3"
+						}
+					},
+					"skillUrl": "\/o\/profiles\/browse\/skill\/java\/"
+				}
+			],
+			"groups": [],
+			"agencies": [
+				{
+					"recno": 2481898,
+					"ciphertext": "~014b7a2bdf384535b1",
+					"name": "Erminesoft"
+				}
+			],
+			"nss100": 0.88,
+			"highlighting": {
+				"shortName": null,
+				"title": [
+					"<em>Mobile<\/em> and <em>Web<\/em> development, native iOS &amp; Android."
+				],
+				"blurb": [
+					"Hello,  \n\nI&#x27;m happy to represent interests of the Erminesoft LLC agency. \n\nErminesoft LLC is the full stack <em>software<\/em> outsource company since 2012. We provide quality <em>mobile<\/em> and <em>web<\/em> development services (Native iOS and Android, ReactJS, PHP, HTML5, CSS, Javascript, AJAX, MySQL, Prototype, jQuery) as well as the design, project management, BA and QA.\n\nWelcome to our <em>dev<\/em> center:\n\n- Full-cycle development (from graphic design in layers to app submission)\n- 30 days free support for projects with timeline 2-3 months\n- Fluent English (both written and voice communications) \n- Strong background for the following industries: Real Estate, Games, chatting apps, e-learning and social networking as well as e-commerce on <em>mobile<\/em>.\n- Strong ReactJS development team\n\n\nService Description\n\n\u2022 <em>Mobile<\/em> - iOS (iPhone&#x2F;iPad), Android), including Swift SDK\n\u2022 <em>Web<\/em> - ReactJS, HTML5, CSS, Javascript\n\u2022 Testing and QA\n\u2022 Project management and requirements analysis\n\nServices Description:\n\n<em>Mobile<\/em> apps\n1. Social app - iOS, Android\n2. RealEstate apps - iOS, Android\n3. Listing apps - iOS, Android\n4. Delivery service - iOS, Android\n5. Internal companies communication app - iOS, Android\n6. GPS tracking app - iOS, Android\n7. Business app - iOS, Android\n8. Catalogue&#x2F;Shopping cart app: iOS, Android\n9. Barcodes reading Apps: iOS, Android\n10. iBeacon apps\n11. 2d games: iOS, Android\n\nOther:\nAPI REST, SOAP, Facebook, Twitter, Instagram, Google APIs, connection with SNs\nAd networks integrated: Mopub, Playhaven, Applovin, Vungle, Tapjoy, Mdotm"
+				],
+				"skills": {
+					"<em>web<\/em>-design": "<em>Web<\/em> design is the process of planning and creating a website. Text, images, digital media and interactive elements are used by <em>web<\/em> designers to produce the page seen on the <em>web<\/em> browser.",
+					"android": "Android is an operating system based on the Linux kernel with a user interface based on direct manipulation, designed primarily for touchscreen <em>mobile<\/em> devices such as smartphones and tablet computers.",
+					"responsive-<em>web<\/em>-design": "",
+					"iphone-app-development": "An iPhone App is an application <em>software<\/em> developed with the iOS SDK for use with Apple, Inc.&#x27;s iPhone line of smartphones. Apps have diverse functions, including games, reference, GPS navigation, social networking, security, and advertising for television shows, films, and celebrities.",
+					"php": "PHP is a general-purpose server-side scripting language originally designed for <em>web<\/em> development to produce dynamic <em>web<\/em> pages."
+				},
+				"agencyName": null,
+				"agencySummary": [
+					"Native <em>Mobile<\/em> and <em>Web<\/em> Development, UI&#x2F;UX design for start-ups and businesses"
+				],
+				"agencyDescription": [
+					"Erminesoft delivers <em>Mobile<\/em> and <em>Web<\/em> solutions for startups and businesses. Proven expertise in native <em>mobile<\/em> development, <em>web<\/em> projects and UI&#x2F;UX design from scratch with over 60 000 worked hours. There are available dedicated teams to extend your in-house development.\r\nYou benefit from:\r\n\u00b7         projects are done right and on time\r\n\u00b7         extra miles and proactivity\r\n\u00b7         flexible terms for early-stage startups\r\n\u00b7         contributing and partnering\r\nTurn your idea into the live app now! \r\n\r\nClients\r\n\r\nWe partner successfully with clients from the US, UK, Australia and Western Europe since 2012. \r\n\r\nServices\r\n\r\n1) Requirements review and Project Planning \r\n2) UI&#x2F;UX design and Prototyping\r\n3) Native <em>mobile<\/em> development \r\n4) Backend development \r\n5) Integration \r\n6) Testing and submitting to Appstore &#x2F; GooglePlay\r\n\r\nCases and industries\r\n\r\nThe <em>Web<\/em> and <em>Mobile<\/em> Apps:\r\n- E-commerce: restaurants, pharmacy;\r\n- Real-estate &amp; Booking: for agencies or world travellers;\r\n- <em>Mobile<\/em> Chatting &amp; Dating services;\r\n- Wedding &amp; Flower delivery;\r\n- <em>Mobile<\/em> Games - for kids and adults (e.g. casino time slot machines, bubble shooter or puzzles)\r\n- and your great app!\r\n\r\nOur expertise\r\n\r\nWe focus on native <em>mobile<\/em> and <em>web<\/em> apps development benefiting for your business needs. At your welcome:\r\n- UI&#x2F;UX design and prototyping \r\n- Objective-C, Swift, Java (Android) \r\n- PHP&#x2F;mySQL, Python\r\n- Symfony 2, Wordpress"
+				]
+			},
+			"rankInfo": {
+				"iv": "IcEKCAAvdCtBETGwU71yVQ==",
+				"d": "vJXFnvTvxJmsBNM8XbzcVEyEtLW4xzmVk1b4Q6AdC6BtmyEeuelc2LZrVlqJxvv44o8OJhzfCiqc04BCpBdF1nwDq3OZBwFSaRK0\/2uibhi5sFGKergL1QQCGQ9WH19zOUTShVGkaGyK0OinVPOBTbatGXMvrxRUngDJ5\/A5CALSP2VrDkvAL2oz6hjq1aU9+T26BuvDb5aBUGKnVhyX9w=="
+			},
+			"topRatedStatus": "not_eligible",
+			"extendedAgencies": [
+				{
+					"ciphertext": "~014b7a2bdf384535b1",
+					"description": "Erminesoft delivers Mobile and Web solutions for startups and businesses. Proven expertise in native mobile development, web projects and UI\/UX design from scratch with over 60 000 worked hours. There are available dedicated teams to extend your in-house development.\r\nYou benefit from:\r\n\u00b7         projects are done right and on time\r\n\u00b7         extra miles and proactivity\r\n\u00b7         flexible terms for early-stage startups\r\n\u00b7         contributing and partnering\r\nTurn your idea into the live app now! \r\n\r\nClients\r\n\r\nWe partner successfully with clients from the US, UK, Australia and Western Europe since 2012. \r\n\r\nServices\r\n\r\n1) Requirements review and Project Planning \r\n2) UI\/UX design and Prototyping\r\n3) Native mobile development \r\n4) Backend development \r\n5) Integration \r\n6) Testing and submitting to Appstore \/ GooglePlay\r\n\r\nCases and industries\r\n\r\nThe Web and Mobile Apps:\r\n- E-commerce: restaurants, pharmacy;\r\n- Real-estate & Booking: for agencies or world travellers;\r\n- Mobile Chatting & Dating services;\r\n- Wedding & Flower delivery;\r\n- Mobile Games - for kids and adults (e.g. casino time slot machines, bubble shooter or puzzles)\r\n- and your great app!\r\n\r\nOur expertise\r\n\r\nWe focus on native mobile and web apps development benefiting for your business needs. At your welcome:\r\n- UI\/UX design and prototyping \r\n- Objective-C, Swift, Java (Android) \r\n- PHP\/mySQL, Python\r\n- Symfony 2, Wordpress",
+					"actualTotalHours": 4184.66666667,
+					"totalHours": 4184.66666667,
+					"recno": "2481898",
+					"name": "Erminesoft",
+					"summary": "Native Mobile and Web Development, UI\/UX design for start-ups and businesses",
+					"managerRecno": "9675722",
+					"nss100bw": "0.876425",
+					"logo": "https:\/\/odesk-prod-portraits.s3.amazonaws.com\/Companies:2483066:CompanyLogoURL?AWSAccessKeyId=1XVAX3FNQZAFC9GJCFR2&Expires=2147483647&Signature=L0kXkS86SZZD31cESEwz1ySNyGY%3D",
+					"minRate": {
+						"currencyCode": "usd",
+						"amount": 22
+					},
+					"maxRate": {
+						"currencyCode": "usd",
+						"amount": 35
+					},
+					"agencyTopRatedStatus": "not_eligible",
+					"nameSanitized": "Erminesoft",
+					"summarySanitized": "Native Mobile and Web Development, UI\/UX design for start-ups and businesses",
+					"descriptionSanitized": "Erminesoft delivers Mobile and Web solutions for startups and businesses. Proven expertise in native mobile development, web projects and UI\/UX design from scratch with over 60 000 worked hours. There are available dedicated teams to extend your in-house development.\r\nYou benefit from:\r\n\u00b7         projects are done right and on time\r\n\u00b7         extra miles and proactivity\r\n\u00b7         flexible terms for early-stage startups\r\n\u00b7         contributing and partnering\r\nTurn your idea into the live app now! \r\n\r\nClients\r\n\r\nWe partner successfully with clients from the US, UK, Australia and Western Europe since 2012. \r\n\r\nServices\r\n\r\n1) Requirements review and Project Planning \r\n2) UI\/UX design and Prototyping\r\n3) Native mobile development \r\n4) Backend development \r\n5) Integration \r\n6) Testing and submitting to Appstore \/ GooglePlay\r\n\r\nCases and industries\r\n\r\nThe Web and Mobile Apps:\r\n- E-commerce: restaurants, pharmacy;\r\n- Real-estate &amp; Booking: for agencies or world travellers;\r\n- Mobile Chatting &amp; Dating services;\r\n- Wedding &amp; Flower delivery;\r\n- Mobile Games - for kids and adults (e.g. casino time slot machines, bubble shooter or puzzles)\r\n- and your great app!\r\n\r\nOur expertise\r\n\r\nWe focus on native mobile and web apps development benefiting for your business needs. At your welcome:\r\n- UI\/UX design and prototyping \r\n- Objective-C, Swift, Java (Android) \r\n- PHP\/mySQL, Python\r\n- Symfony 2, Wordpress",
+					"url": "\/companies\/~014b7a2bdf384535b1"
+				}
+			],
+			"combinedTotalRevenue": 0,
+			"descriptionSanitized": "Hello,  \n\nI&#039;m happy to represent interests of the Erminesoft LLC agency. \n\nErminesoft LLC is the full stack software outsource company since 2012. We provide quality mobile and web development services (Native iOS and Android, ReactJS, PHP, HTML5, CSS, Javascript, AJAX, MySQL, Prototype, jQuery) as well as the design, project management, BA and QA.\n\nWelcome to our dev center:\n\n- Full-cycle development (from graphic design in layers to app submission)\n- 30 days free support for projects with timeline 2-3 months\n- Fluent English (both written and voice communications) \n- Strong background for the following industries: Real Estate, Games, chatting apps, e-learning and social networking as well as e-commerce on mobile.\n- Strong ReactJS development team\n\n\nService Description\n\n\u2022 Mobile - iOS (iPhone\/iPad), Android), including Swift SDK\n\u2022 Web - ReactJS, HTML5, CSS, Javascript\n\u2022 Testing and QA\n\u2022 Project management and requirements analysis\n\nServices Description:\n\nMobile apps\n1. Social app - iOS, Android\n2. RealEstate apps - iOS, Android\n3. Listing apps - iOS, Android\n4. Delivery service - iOS, Android\n5. Internal companies communication app - iOS, Android\n6. GPS tracking app - iOS, Android\n7. Business app - iOS, Android\n8. Catalogue\/Shopping cart app: iOS, Android\n9. Barcodes reading Apps: iOS, Android\n10. iBeacon apps\n11. 2d games: iOS, Android\n\nOther:\nAPI REST, SOAP, Facebook, Twitter, Instagram, Google APIs, connection with SNs\nAd networks integrated: Mopub, Playhaven, Applovin, Vungle, Tapjoy, Mdotm",
+			"shortNameSanitized": "Max G.",
+			"titleSanitized": "Mobile and Web development, native iOS &amp; Android.",
+			"url": "\/freelancers\/_~017f40b7eabbb24973\/"
+		},
+		{
+			"recno": 2881263,
+			"ciphertext": "~015988a049092a3f30",
+			"shortName": "Sergey V.",
+			"title": "Top Rated Mobile Developer: Android, iOS (Swift), Java, Angular, React",
+			"description": "\u2705 Top-Rated Web & Mobile Dev \n\u2705 Oracle certified \n\u2705 Trial job - 2 weeks\n\u2705 Software architect with 10 years of experience\n\u2705 Top UK and Belarus mobile development agency by clutch.co\n\u2705 70+ completed projects. \n\u2705 100% job success rate on Upwork.\n\u2705 Technical partnership: can solve all technical issues for startups. \n\nI\u2019m Oracle Certified Professional and oDesk Verified Mobile Developer.  \nI\u2019ve 10 years of development experience in Java Enterprise and Android development. For now, I\u2019m technical lead & solution architect at Smartum Pro. We are focused on native mobile apps and full-stack startup development.  The current team has been working together for 4 years and  has strong experience in:\n - Mobile development for iOS and Android\n - Java\/Oracle enterprise solutions \n - PHP (Symfony, Laravel, Yii) web development\n\nRates (It can be reduced in case of long term full-time allocation):\n - Senior-level engineer (5+ years) - $35;\n - Middle-level engineer (2+ years) - $20\n\nWe can offer risk-free period (trial job) for project and process setup. It means if you will not satisfied with a quality of our work you can terminate the contract without payment during the first 2 weeks of our collaboration.\n\nA few more points to work with us:\n - Focus on quality of technical solution\n - Transparent process.\n - Reasonable rates\n - Available during US working hours  (overlap at least 4h per day)\n\nHere you can find a list of delivered projects by the link smartum.pro\/upwork. A big part of projects are covered by NDA, we can share a bit more information during the voice call.\nLet\u2019s talk! \n\nHow can I contact you?\n\nLook forward to productive collaboration,\nSergey V. \nCTO at Smartum Pro",
+			"portrait": "https:\/\/odesk-prod-portraits.s3.amazonaws.com\/Users:walter_sv:PortraitUrl_100?AWSAccessKeyId=1XVAX3FNQZAFC9GJCFR2&Expires=2147483647&Signature=hUh5mj9D%2B4BrJ8BOSNsTehVFwjs%3D&1477233685502028",
+			"location": {
+				"country": "Belarus",
+				"city": "Minsk",
+				"state": null,
+				"countryTimezone": null,
+				"worldRegion": null
+			},
+			"hourlyRate": {
+				"currencyCode": "USD",
+				"amount": 45
+			},
+			"lastActivity": "2016-11-02T00:00:00.000Z",
+			"totalHoursBilled": 2886.5,
+			"totalPortfolioItems": 6,
+			"totalPassedTests": 5,
+			"skills": [
+				{
+					"skill": {
+						"name": "android-app-development",
+						"prettyName": "Android App Development",
+						"hlPrettyName": "Android App Development"
+					},
+					"link": "http:\/\/en.wikipedia.org\/wiki\/Android_SDK",
+					"rank": 1,
+					"uid": "475721704297889804",
+					"status": 1,
+					"tests": {
+						"649": {
+							"id": "5639735",
+							"partner": "1",
+							"score": 70,
+							"percentile": 79,
+							"takenOn": "2012-10-06T00:00:00.000Z",
+							"name": "Google Android Programming Test"
+						}
+					},
+					"skillUrl": "\/o\/profiles\/browse\/skill\/android-app-development\/"
+				},
+				{
+					"skill": {
+						"name": "mobile-app-development",
+						"prettyName": "Mobile App Development",
+						"hlPrettyName": "<em>Mobile<\/em> App Development"
+					},
+					"link": "http:\/\/en.wikipedia.org\/wiki\/Mobile_application_development",
+					"rank": 2,
+					"uid": "475721703899430915",
+					"status": -1,
+					"tests": null,
+					"skillUrl": "\/o\/profiles\/browse\/skill\/mobile-app-development\/"
+				},
+				{
+					"skill": {
+						"name": "java",
+						"prettyName": "Java"
+					},
+					"link": "http:\/\/en.wikipedia.org\/wiki\/Java_(programming)",
+					"rank": 3,
+					"uid": "475721704021065736",
+					"status": 1,
+					"tests": {
+						"476": {
+							"id": "5384821",
+							"partner": "1",
+							"score": 55,
+							"percentile": 68,
+							"takenOn": "2012-09-04T00:00:00.000Z",
+							"name": "Advanced Java Test"
+						},
+						"913": {
+							"id": "5805757",
+							"partner": "1",
+							"score": 81,
+							"percentile": 79,
+							"takenOn": "2012-10-29T00:00:00.000Z",
+							"name": "JAVA Programming Skills Test (Hands-on programming skills)"
+						},
+						"519": {
+							"id": "5383801",
+							"partner": "1",
+							"score": 65,
+							"percentile": 80,
+							"takenOn": "2012-09-04T00:00:00.000Z",
+							"name": "Java Test"
+						}
+					},
+					"skillUrl": "\/o\/profiles\/browse\/skill\/java\/"
+				},
+				{
+					"skill": {
+						"name": "rest",
+						"prettyName": "REST",
+						"hlPrettyName": "REST"
+					},
+					"link": "http:\/\/en.wikipedia.org\/wiki\/Representational_State_Transfer",
+					"rank": 4,
+					"uid": "475721704448884739",
+					"status": -1,
+					"tests": null,
+					"skillUrl": "\/o\/profiles\/browse\/skill\/rest\/"
+				},
+				{
+					"skill": {
+						"name": "oracle-java-ee",
+						"prettyName": "Oracle Java EE",
+						"hlPrettyName": "Oracle Java EE"
+					},
+					"link": "http:\/\/en.wikipedia.org\/wiki\/Java_Platform,_Enterprise_Edition",
+					"rank": 5,
+					"uid": "475721704109146124",
+					"status": -1,
+					"tests": null,
+					"skillUrl": "\/o\/profiles\/browse\/skill\/oracle-java-ee\/"
+				},
+				{
+					"skill": {
+						"name": "agile-software-development",
+						"prettyName": "Agile software development",
+						"hlPrettyName": "Agile <em>software<\/em> development"
+					},
+					"link": "http:\/\/en.wikipedia.org\/wiki\/Agile_software_development",
+					"rank": 6,
+					"uid": "475721703853293568",
+					"status": -1,
+					"tests": null,
+					"skillUrl": "\/o\/profiles\/browse\/skill\/agile-software-development\/"
+				},
+				{
+					"skill": {
+						"name": "swift",
+						"prettyName": "Swift"
+					},
+					"link": "https:\/\/developer.apple.com\/swift\/",
+					"rank": 7,
+					"uid": "514995632627445760",
+					"status": 0,
+					"tests": null,
+					"skillUrl": "\/o\/profiles\/browse\/skill\/swift\/"
+				},
+				{
+					"skill": {
+						"name": "ios-development",
+						"prettyName": "iOS Development",
+						"hlPrettyName": "iOS Development"
+					},
+					"link": "http:\/\/en.wikipedia.org\/wiki\/IPhone_OS",
+					"rank": 8,
+					"uid": "475721704398553089",
+					"status": 0,
+					"tests": null,
+					"skillUrl": "\/o\/profiles\/browse\/skill\/ios-development\/"
+				},
+				{
+					"skill": {
+						"name": "startup-consulting",
+						"prettyName": "Startup Consulting"
+					},
+					"link": "http:\/\/en.wikipedia.org\/wiki\/Startup_company",
+					"rank": 9,
+					"uid": "475721704465661955",
+					"status": -1,
+					"tests": null,
+					"skillUrl": "\/o\/profiles\/browse\/skill\/startup-consulting\/"
+				},
+				{
+					"skill": {
+						"name": "angularjs",
+						"prettyName": "AngularJS",
+						"hlPrettyName": "AngularJS"
+					},
+					"link": "http:\/\/en.wikipedia.org\/wiki\/AngularJS",
+					"rank": 10,
+					"uid": "514995524179521536",
+					"status": -1,
+					"tests": null,
+					"skillUrl": "\/o\/profiles\/browse\/skill\/angularjs\/"
+				}
+			],
+			"groups": [
+				{
+					"id": "application-developers-alliance",
+					"name": "Application Developers Alliance"
+				}
+			],
+			"agencies": [
+				{
+					"recno": 691420,
+					"ciphertext": "~01895bfe1a4acc88f5",
+					"name": "Smartum Pro"
+				}
+			],
+			"nss100": 1,
+			"highlighting": {
+				"shortName": null,
+				"title": [
+					"Top Rated <em>Mobile<\/em> Developer: Android, iOS (Swift), Java, Angular, React"
+				],
+				"blurb": [
+					"\u2705 Top-Rated <em>Web<\/em> &amp; <em>Mobile<\/em> <em>Dev<\/em> \n\u2705 Oracle certified \n\u2705 Trial job - 2 weeks\n\u2705 <em>Software<\/em> architect with 10 years of experience\n\u2705 Top UK and Belarus <em>mobile<\/em> development agency by clutch.co\n\u2705 70+ completed projects. \n\u2705 100% job success rate on Upwork.\n\u2705 Technical partnership: can solve all technical issues for startups. \n\nI\u2019m Oracle Certified Professional and oDesk Verified <em>Mobile<\/em> Developer.  \nI\u2019ve 10 years of development experience in Java Enterprise and Android development. For now, I\u2019m technical lead &amp; solution architect at Smartum Pro. We are focused on native <em>mobile<\/em> apps and full-stack startup development.  The current team has been working together for 4 years and  has strong experience in:\n - <em>Mobile<\/em> development for iOS and Android\n - Java&#x2F;Oracle enterprise solutions \n - PHP (Symfony, Laravel, Yii) <em>web<\/em> development\n\nRates (It can be reduced in case of long term full-time allocation):\n - Senior-level engineer (5+ years) - $35;\n - Middle-level engineer (2+ years) - $20\n\nWe can offer risk-free period (trial job) for project and process setup. It means if you will not satisfied with a quality of our work you can terminate the contract without payment during the first 2 weeks of our collaboration.\n\nA few more points to work with us:\n - Focus on quality of technical solution\n - Transparent process.\n - Reasonable rates\n - Available during US working hours  (overlap at least 4h per day)\n\nHere you can find a list of delivered projects by the link smartum.pro&#x2F;upwork. A big part of projects are covered by NDA, we can share a bit more information during the voice call.\nLet\u2019s talk! \n\nHow can I contact you?\n\nLook forward to productive collaboration,\nSergey V. \nCTO at Smartum Pro"
+				],
+				"skills": {
+					"rest": "Representational state transfer (REST) is a style of <em>software<\/em> architecture for distributed hypermedia systems such as the World Wide <em>Web<\/em>.",
+					"ios-development": "iOS (formerly iPhone OS) is Apple Inc.&#x27;s <em>mobile<\/em> operating system. Originally developed for the iPhone, it has since been extended to support other Apple, Inc. devices such as the iPod Touch, iPad, and Apple TV.",
+					"oracle-java-ee": "Java Platform, Enterprise Edition or Java EE is Oracle&#x27;s enterprise java computing platform. The platform provides an API and runtime environment for developing and running enterprise <em>software<\/em>, including network and <em>web<\/em> services, and other large-scale, multi-tiered, scalable, reliable, and...",
+					"android-app-development": "Android <em>software<\/em> development is the process by which new applications are created for the Android operating system. Applications are usually developed in the Java programming language using the Android <em>Software<\/em> Development Kit, but other development tools are available.",
+					"<em>mobile<\/em>-app-development": "<em>Mobile<\/em> application development is the process by which application <em>software<\/em> is developed for low-power handheld devices, such as personal digital assistants, enterprise digital assistants or <em>mobile<\/em> phones.",
+					"agile-<em>software<\/em>-development": "Agile <em>software<\/em> development is a group of <em>software<\/em> development methods based on iterative and incremental development, where requirements and solutions evolve through collaboration between self-organizing, cross-functional teams.",
+					"angularjs": "AngularJS is an open-source <em>web<\/em> application framework, maintained by Google and community, that assists with creating single-page applications, one-page <em>web<\/em> applications that only require HTML, CSS, and JavaScript on the client side. "
+				},
+				"agencyName": null,
+				"agencySummary": null,
+				"agencyDescription": null
+			},
+			"rankInfo": {
+				"iv": "HsBNkyYBhVwDIGuruDrqsQ==",
+				"d": "QMyWg3MZRZpn\/+wVPhp+XiTr69KIvuxMhiUI+fHakEQ09h938Bc+Q+Ki3FTJ9Lf\/2KuUvu52yCByqD+0Djp5sI0a\/q6elb3JVebqZFLlz4czuI9PK22Mk\/tjgrduvALQO6AouXWJFvGmlTJm8wE6m2sIzNjJ9E2M3vuXDyEF++X7ikp4iKU\/9CFYqbpfcoGNcwAHF\/6gJyOUYeZB0yXgEA=="
+			},
+			"topRatedStatus": "top_rated",
+			"extendedAgencies": [],
+			"combinedTotalRevenue": 0,
+			"descriptionSanitized": "\u2705 Top-Rated Web &amp; Mobile Dev \n\u2705 Oracle certified \n\u2705 Trial job - 2 weeks\n\u2705 Software architect with 10 years of experience\n\u2705 Top UK and Belarus mobile development agency by clutch.co\n\u2705 70+ completed projects. \n\u2705 100% job success rate on Upwork.\n\u2705 Technical partnership: can solve all technical issues for startups. \n\nI\u2019m Oracle Certified Professional and oDesk Verified Mobile Developer.  \nI\u2019ve 10 years of development experience in Java Enterprise and Android development. For now, I\u2019m technical lead &amp; solution architect at Smartum Pro. We are focused on native mobile apps and full-stack startup development.  The current team has been working together for 4 years and  has strong experience in:\n - Mobile development for iOS and Android\n - Java\/Oracle enterprise solutions \n - PHP (Symfony, Laravel, Yii) web development\n\nRates (It can be reduced in case of long term full-time allocation):\n - Senior-level engineer (5+ years) - $35;\n - Middle-level engineer (2+ years) - $20\n\nWe can offer risk-free period (trial job) for project and process setup. It means if you will not satisfied with a quality of our work you can terminate the contract without payment during the first 2 weeks of our collaboration.\n\nA few more points to work with us:\n - Focus on quality of technical solution\n - Transparent process.\n - Reasonable rates\n - Available during US working hours  (overlap at least 4h per day)\n\nHere you can find a list of delivered projects by the link smartum.pro\/upwork. A big part of projects are covered by NDA, we can share a bit more information during the voice call.\nLet\u2019s talk! \n\nHow can I contact you?\n\nLook forward to productive collaboration,\nSergey V. \nCTO at Smartum Pro",
+			"shortNameSanitized": "Sergey V.",
+			"titleSanitized": "Top Rated Mobile Developer: Android, iOS (Swift), Java, Angular, React",
+			"url": "\/freelancers\/_~015988a049092a3f30\/"
+		}
+	],
+	"totalFreelancers": 656426,
+	"currentPage": "1",
+	"facets": {
+		"c": [
+			"web-mobile-software-dev"
+		]
+	},
+	"facetCounters": {
+		"category2": {
+			"data-science-analytics": 89092,
+			"customer-service": 310573,
+			"translation": 276162,
+			"legal": 19341,
+			"web-mobile-software-dev": 656426,
+			"accounting-consulting": 190955,
+			"design-creative": 539474,
+			"engineering-architecture": 137149,
+			"writing": 638138,
+			"sales-marketing": 353251,
+			"it-networking": 183723,
+			"admin-support": 659401
+		},
+		"subcategory2": {
+			"marketing-strategy": 13478,
+			"other-admin-support": 42361,
+			"video-production": 18954,
+			"customer-service": 35087,
+			"product-management": 116393,
+			"a-b-testing": 2622,
+			"other-sales-marketing": 9343,
+			"public-relations": 5276,
+			"illustration": 41430,
+			"other-data-science-analytics": 5685,
+			"contract-manufacturing": 284,
+			"information-security": 6726,
+			"contract-law": 170,
+			"ecommerce-development": 162857,
+			"display-advertising": 23422,
+			"criminal-law": 86,
+			"civil-structural-engineering": 638,
+			"grant-writing": 517,
+			"paralegal-services": 162,
+			"presentations": 33557,
+			"seo-search-engine-optimization": 52443,
+			"personal-virtual-assistant": 37754,
+			"erp-crm-software": 24905,
+			"web-research": 61870,
+			"lead-generation": 9774,
+			"other-accounting-consulting": 8280,
+			"article-blog-writing": 50091,
+			"management-consulting": 10130,
+			"other-it-networking": 38600,
+			"technical-support": 37646,
+			"web-content": 54741,
+			"other-design-creative": 44044,
+			"audio-production": 8946,
+			"electrical-engineering": 3057,
+			"logo-design-branding": 97619,
+			"architecture": 1465,
+			"market-customer-research": 11228,
+			"telemarketing-telesales": 4283,
+			"data-entry": 105990,
+			"corporate-law": 121,
+			"technical-writing": 35224,
+			"academic-writing-research": 5656,
+			"other-software-development": 217373,
+			"data-mining-management": 7671,
+			"smm-social-media-marketing": 24881,
+			"family-law": 101,
+			"voice-talent": 7540,
+			"copywriting": 30591,
+			"technical-translation": 3840,
+			"database-administration": 50136,
+			"email-marketing-automation": 26353,
+			"transcription": 13030,
+			"accounting": 11173,
+			"chemical-engineering": 276,
+			"machine-learning": 3439,
+			"3d-modeling-cad": 16778,
+			"editing-proofreading": 9635,
+			"quantitative-analysis": 8521,
+			"qa-testing": 120363,
+			"network-system-administration": 41970,
+			"other-engineering-architecture": 2056,
+			"other-legal": 976,
+			"mechanical-engineering": 1314,
+			"sem-search-engine-marketing": 20185,
+			"web-development": 397586,
+			"data-extraction-etl": 6777,
+			"desktop-software-development": 178310,
+			"other-writing": 21237,
+			"mobile-development": 164089,
+			"product-design": 13118,
+			"other-customer-service": 22711,
+			"human-resources": 8705,
+			"medical-translation": 1128,
+			"legal-translation": 862,
+			"photography": 11691,
+			"scripts-utilities": 111824,
+			"resumes-cover-letters": 4554,
+			"creative-writing": 28392,
+			"project-management": 26718,
+			"intellectual-property-law": 119,
+			"animation": 19718,
+			"data-visualization": 5515,
+			"financial-planning": 4138,
+			"interior-design": 1432,
+			"web-mobile-design": 331913,
+			"game-development": 51835,
+			"graphic-design": 108719,
+			"general-translation": 34208
+		},
+		"hours": {
+			"1 Hour": 100717,
+			"Any Hours": 656426,
+			"1000  Hours": 18787,
+			"100  Hours": 52423
+		},
+		"recentHours": {
+			"1 Hour": 38390,
+			"Any Hours": 656426,
+			"1000  Hours": 1603,
+			"100  Hours": 17174
+		},
+		"rate": {
+			"0": 253670,
+			"60": 30831,
+			"30": 82505,
+			"10": 289420,
+			"Any": 656426
+		},
+		"last": {
+			"31 - 60 Days": 133202,
+			"0 - 15 Days": 75509,
+			"More than 60 Days": 523193,
+			"16 - 30 Days": 99000,
+			"Any": 656395
+		},
+		"pt": {
+			"Independent": 614184,
+			"Agency": 42242,
+			"Any": 656426
+		},
+		"nss": {
+			"Any Score": 656426,
+			"80% & Above": 39957,
+			"90% & Above or Rising Talents": 47231,
+			"90% & Above": 32177,
+			"80% & Above or Rising Talents": 55011
+		}
+	},
+	"qt": {
+		"MAT2288_RoleBuilder_Treatment": false,
+		"ProfileSearchOverlay_EnableOverlay": false,
+		"MAT_ProfilesSearchTilesV2_New": false,
+		"MAT1814_PresenceInSearch_Presence": false
+	}
+}
