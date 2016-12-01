@@ -1,4 +1,3 @@
-null
 https://www.bokadirekt.se/giftcards/buy?icn=ugc&ici=search&e_category=Search&e_action=Click%20ugc%20item
 https://www.bokadirekt.se/places/fris%C3%B6rsalong-7307?cid=7307
 https://www.bokadirekt.se/places/salong-blondino-9448?cid=9448
@@ -100,7 +99,6 @@ https://www.bokadirekt.se/places/cross-fris%C3%B6rer-15627
 https://www.bokadirekt.se/places/citysalongen-16644
 https://www.bokadirekt.se/places/znygg-lule%C3%A5-1899
 https://www.bokadirekt.se/places/institut-harmoni--5752
-null
 https://www.bokadirekt.se/giftcards/buy?icn=ugc&ici=search&e_category=Search&e_action=Click%20ugc%20item
 https://www.bokadirekt.se/places/salong-vita-knutar-12505
 https://www.bokadirekt.se/places/fris%C3%B6r-ida-eriksson-klippoteket-17357
@@ -128,7 +126,6 @@ https://www.bokadirekt.se/places/hud-%26-diatermi-kliniken-ce-ab-barkarby-15441
 https://www.bokadirekt.se/places/sandras-h%C3%A5rstudio--15834
 https://www.bokadirekt.se/places/sk%C3%B6nhetsbaren-lilla-edet-17217
 https://www.bokadirekt.se/places/hud-%26-diatermi-kliniken-ce-ab-barkarby-15441
-null
 https://www.bokadirekt.se/giftcards/buy?icn=ugc&ici=search&e_category=Search&e_action=Click%20ugc%20item
 https://www.bokadirekt.se/places/h%C3%A5r-och-s%C3%A5nt-4572
 https://www.bokadirekt.se/places/brunettenblondinen-city-9039
@@ -230,7 +227,6 @@ https://www.bokadirekt.se/places/parfymeri-och-hudv%C3%A5rdssalong-viola--9274
 https://www.bokadirekt.se/places/s%C3%B6derala-salongen-12691
 https://www.bokadirekt.se/places/h%C3%A5rfixarna-tr%C3%A4sl%C3%B6vsl%C3%A4ge-6972
 https://www.bokadirekt.se/places/care-of-h%C3%A5r-%26-hud-9547
-null
 https://www.bokadirekt.se/giftcards/buy?icn=ugc&ici=search&e_category=Search&e_action=Click%20ugc%20item
 https://www.bokadirekt.se/places/ahead-hair-design-team--14802
 https://www.bokadirekt.se/places/salongen-landsv%C3%A4gen-41-5942
@@ -332,7 +328,6 @@ https://www.bokadirekt.se/places/hairways-fris%C3%B6rsalong-7176
 https://www.bokadirekt.se/places/smiths-beauty-11159
 https://www.bokadirekt.se/places/h%C3%A5rboden-14616
 https://www.bokadirekt.se/places/frisscarro-%26-co-15195
-null
 https://www.bokadirekt.se/giftcards/buy?icn=ugc&ici=search&e_category=Search&e_action=Click%20ugc%20item
 https://www.bokadirekt.se/places/tyres%C3%B6s-klippotek-12245
 https://www.bokadirekt.se/places/salong-u-zone-1327
@@ -434,7 +429,6 @@ https://www.bokadirekt.se/places/salong-h%C3%A5rkaparn-blentarp-7816
 https://www.bokadirekt.se/places/hairmoment-16738
 https://www.bokadirekt.se/places/marielles-huvudverk-ab-7252
 https://www.bokadirekt.se/places/cayenne-the-art-of-hair-%26-color-9246
-null
 https://www.bokadirekt.se/giftcards/buy?icn=ugc&ici=search&e_category=Search&e_action=Click%20ugc%20item
 https://www.bokadirekt.se/places/visonsbutik-8712
 https://www.bokadirekt.se/places/salong-klipp-%26-lock-6248
@@ -536,7 +530,6 @@ https://www.bokadirekt.se/places/salong-beautech-2186
 https://www.bokadirekt.se/places/salong-plaza-di-laura-10058
 https://www.bokadirekt.se/places/salong-honey-11678
 https://www.bokadirekt.se/places/art-uppsala-5538
-null
 https://www.bokadirekt.se/giftcards/buy?icn=ugc&ici=search&e_category=Search&e_action=Click%20ugc%20item
 https://www.bokadirekt.se/places/art-uppsala-5538
 https://www.bokadirekt.se/places/hairart-10371
@@ -638,7 +631,6 @@ https://www.bokadirekt.se/places/cayenne-the-art-of-hair-%26-color-9246
 https://www.bokadirekt.se/places/reckcreation-11968
 https://www.bokadirekt.se/places/inga-lills-perukmakeri-6043
 https://www.bokadirekt.se/places/visonsbutik-8712
-null
 https://www.bokadirekt.se/giftcards/buy?icn=ugc&ici=search&e_category=Search&e_action=Click%20ugc%20item
 https://www.bokadirekt.se/places/health-%26-beauty-planet-7546
 https://www.bokadirekt.se/places/blissiz-16583
@@ -740,7 +732,6 @@ https://www.bokadirekt.se/places/b%C3%A4cklunds-fris%C3%B6rer-17250
 https://www.bokadirekt.se/places/ida-hairdesign-8248
 https://www.bokadirekt.se/places/fris%C3%B6r-helen-ab-12454
 https://www.bokadirekt.se/places/klippoteket-saloon-13431
-null
 https://www.bokadirekt.se/giftcards/buy?icn=ugc&ici=search&e_category=Search&e_action=Click%20ugc%20item
 https://www.bokadirekt.se/places/sm%C3%B6genklippet-10503
 https://www.bokadirekt.se/places/arnalids-fris%C3%B6rer-birkastan-8946
@@ -842,7 +833,6 @@ https://www.bokadirekt.se/places/salong-u-zone-1327
 https://www.bokadirekt.se/places/health-%26-beauty-planet-7546
 https://www.bokadirekt.se/places/blissiz-16583
 https://www.bokadirekt.se/places/crelou-14725
-null
 https://www.bokadirekt.se/giftcards/buy?icn=ugc&ici=search&e_category=Search&e_action=Click%20ugc%20item
 https://www.bokadirekt.se/places/salong-gazellen-11835
 https://www.bokadirekt.se/places/sax-%26-vax-10665
@@ -944,7 +934,6 @@ https://www.bokadirekt.se/places/klipp-it-14167
 https://www.bokadirekt.se/places/salong-honey-11678
 https://www.bokadirekt.se/places/urban-studio-16433
 https://www.bokadirekt.se/places/sm%C3%B6genklippet-10503
-null
 https://www.bokadirekt.se/giftcards/buy?icn=ugc&ici=search&e_category=Search&e_action=Click%20ugc%20item
 https://www.bokadirekt.se/places/g%C3%A5rda-h%C3%A5r-%26-hud-9868
 https://www.bokadirekt.se/places/salong-maloue-15405
@@ -1046,7 +1035,6 @@ https://www.bokadirekt.se/places/hudsalongen-873
 https://www.bokadirekt.se/places/hair-ink-15429
 https://www.bokadirekt.se/places/meg-audrey-magica-de-sax-16742
 https://www.bokadirekt.se/places/salong-style-12210
-null
 https://www.bokadirekt.se/giftcards/buy?icn=ugc&ici=search&e_category=Search&e_action=Click%20ugc%20item
 https://www.bokadirekt.se/places/cut-8137
 https://www.bokadirekt.se/places/oss-h%C3%A5r-och-sk%C3%B6nhetssalong-14323
